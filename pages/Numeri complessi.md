@@ -5,6 +5,8 @@ tags:: complanalisi
 		- $$C = \{z = x + iy : x, y \in \mathbb{R}\}$$
 		- $x \in \R$ parte reale
 		- $y \in \R$ parte immaginaria
+		- $C = \R^2$ insiemisticamente
+		-
 - # Operazioni #card
 	- Siano:
 		- $z_1 = x_1 + iy_1$
