@@ -8,15 +8,15 @@ icon:: ∫
 - # Flashcard
 	- {{cards (and (page-tags complanalisi) [[card]])}}
 - # Materiale
-	- ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf)
+	- ![GasquetWitomski.pdf](../assets/GasquetWitomski.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
 		- Lezione 2: tutto eccetto par. 2.5
-	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/Gabor_1664892872374_0.pdf)
+	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/Gabor.pdf)
 		- tutto (facoltative le appendici)
-	- ![Trasformata di Gabor](../assets/Trasformata_di_Gabor_1665499607193_0.pdf)
+	- ![Trasformata di Gabor](../assets/Trasformata_di_Gabor.pdf)
 		- tutto
-	- ![Numeri complessi - libro](../assets/Numeri_Complessi_1665042836303_0.pdf)
-	- ![Numeri complessi - appunti](../assets/appunti_num_complessi_1665042866346_0.pdf)
+	- ![Numeri complessi - libro](../assets/Numeri_Complessi.pdf)
+	- ![Numeri complessi - appunti](../assets/appunti_num_complessi.pdf)
 	- ## ![Appunti](../assets/complanalisi-appunti_1674042355786_0.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
