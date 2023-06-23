@@ -16,6 +16,9 @@ tags:: complanalisi
 		  z_1 + z_2 &= (x_1 + iy_1) + (x_2 + iy_2) \\
 		  &= (x_1 + x_2) + i(y_1 + y_2)
 		  \end{aligned}$$
+		- Corrisponde alla somma di vettori in $\R^2$
+	- ## Moltiplicazione per una costante
+		- $$$$
 	- ## Moltiplicazione
 		- $$\begin{aligned}
 		  z_1 z_2 &= (x_1 + iy_1) (x_2 + iy_2) \\
