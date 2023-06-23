@@ -3,6 +3,8 @@ tags:: complanalisi
 - # Definizione #card
 	- coppia ordinata $(x, y)$ di numeri reali $x$ e $y$, usualmente rappresentato nella forma $z = x + iy$. Nell'insieme dei numeri complessi:
 		- $$C = \{z = x + iy : x, y \in \mathbb{R}\}$$
+		- $x \in \mathbb{R}$ parte reale
+		- $y \in \mathbb
 - # Operazioni #card
 	- Siano:
 		- $z_1 = x_1 + iy_1$
