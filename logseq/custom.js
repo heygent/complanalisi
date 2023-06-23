@@ -5,7 +5,7 @@ function whenAvailable(name, callback) {
     } else {
       whenAvailable(name, callback);
     }
-  }, 10);
+  }, 100);
 }
 
 const macros = {
