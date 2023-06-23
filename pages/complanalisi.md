@@ -17,7 +17,7 @@ icon:: ∫
 		- tutto
 	- ![Numeri complessi - libro](../assets/Numeri_Complessi.pdf)
 	- ![Numeri complessi - appunti](../assets/appunti_num_complessi.pdf)
-	- ## ![Appunti](../assets/complanalisi-appunti_1674042355786_0.pdf)
+	- ## ![Appunti](../assets/complanalisi-appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
 	- [[Trasformata di Fourier]]
