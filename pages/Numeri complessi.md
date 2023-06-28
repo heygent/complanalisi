@@ -65,10 +65,11 @@ tags:: complanalisi
 	  \Theta &\in [0, 2\pi) \\
 	  \rho &\in [0, + \infty)
 	  \end{aligned}
-	- \begin{aligned}
-	  z &= \rho \cos \Theta + i \rho \sin \Theta \\
-	  &= \rho (\cos \Theta + i \sin \Theta) \\
-	  &= \rho e^{i \Theta}
-	  \end{aligned}
+	- Questo permette di riscrivere $z$ come:
+		- \begin{aligned}
+		  z &= \rho \cos \Theta + i \rho \sin \Theta \\
+		  &= \rho (\cos \Theta + i \sin \Theta) \\
+		  &= \rho e^{i \Theta}
+		  \end{aligned}
 	- Formula di Eulero
 		- $$cos \Theta + i \sin \Theta \triangleq e ^{i \Theta}$$
