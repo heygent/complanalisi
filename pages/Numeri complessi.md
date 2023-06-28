@@ -84,7 +84,7 @@ tags:: complanalisi
 	- ## Coniugato
 		- \begin{aligned}
 		  \bar{z} &\in \C \\
-		  \bar{x} &= x - iy
+		  \bar{z} &= x - iy
 		  \end{aligned}
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-49-10}}
-		-
+		- $$z \bar{z} = (x + iy)(z - iy)$$
