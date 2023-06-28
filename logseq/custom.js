@@ -10,6 +10,7 @@ function whenAvailable(name, callback) {
 
 const macros = {
   "\\R": "\\mathbb{R}",
+  "\\C": "\\mathbb{C}",
 }
 
 
