@@ -40,8 +40,7 @@ tags:: complanalisi
 	- Per teorema di Pitagora:
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-03-44}}
 - ## Distanza
-	- distanza tra $z$ e $w$ appartenenti a $\C$:
-		- $|z - w|$
-			- $z = z_1 + iz_2$
-			- $w = w_1 + iw_2$
-			-
+	-
+		- $z = z_1 + iz_2$
+		- $w = w_1 + iw_2$
+		-
