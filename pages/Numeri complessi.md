@@ -73,6 +73,7 @@ tags:: complanalisi
 		  &= \rho (\cos \Theta + i \sin \Theta) \\
 		  &= \rho e^{i \Theta}
 		  \end{aligned}
+		- Più
 		- Notazione conveniente, perché permette di usare le operazioni che solitamente verrebbero usate su esponenziali.
 			- \begin{aligned}
 			  z \cdot w &= \rho_z e^{i \Theta_z} \cdot \rho_w e^{i \Theta_w} \\
