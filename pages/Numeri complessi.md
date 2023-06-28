@@ -77,6 +77,6 @@ tags:: complanalisi
 			- $\rho e^{i(\Theta + 2k \pi)}$
 		- Notazione conveniente, perché permette di usare le operazioni che solitamente verrebbero usate su esponenziali.
 			- \begin{aligned}
-			  z \cdot w &=\underbrace{\rho_1 e^{i \Theta_1}}_z  \cdot \underbrace{\rho_w e^{i \Theta_w}}_w \\
-			  &= \rho_w \rho_z e^{i(\Theta_z + \Theta_w)}
+			  z \cdot w &=\underbrace{\rho_1 e^{i \Theta_1}}_z  \cdot \underbrace{\rho_2 e^{i \Theta_2}}_w \\
+			  &= \rho_1 \rho_2 e^{i(\Theta_1 + \Theta_2)}
 			  \end{aligned}
