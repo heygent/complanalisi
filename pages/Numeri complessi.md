@@ -29,4 +29,4 @@ tags:: complanalisi
 - # Immersione di $\R$ in $\C$
 	- $x \in \R \longrightarrow (x, 0) \in \C$
 	- {{renderer excalidraw, excalidraw-2023-06-28-11-28-29}}
--
+	- $x + iy = (x, 0) + y(1
