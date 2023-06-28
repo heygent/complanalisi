@@ -36,4 +36,8 @@ tags:: complanalisi
 	  &= (x, y) \\
 	  \end{aligned}
 - # Distanza
-	- distanza tra $z$ e
+	- distanza tra $z$ e $w$ appartenenti a $\C$:
+		- $|z - w|$
+			- $z = z_1 + iz_2$
+			- $w = w_1 + iw_2$
+			-
