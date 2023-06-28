@@ -104,6 +104,6 @@ tags:: complanalisi
 		- \begin{aligned}
 		  e^{it} &= \underbrace{\cos t}_{f_1(t)} + i \underbrace{\sin t}_{f_2(t)} \\
 		  f'(t) &\triangleq f'_1(t) + i f'_2(t) \\
-		  \int^b_a f(t)\,dt = \int_
+		  \int^b_a f(t)\,dt &= \int_a^b f_1(t)\,dt + i \int_a^b f_2(t)\,dt \\
 		  \end{aligned}
--
+	-
