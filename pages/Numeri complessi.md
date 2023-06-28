@@ -62,6 +62,7 @@ tags:: complanalisi
 	  \end{cases}
 	  $$
 	- \begin{aligned}
-	  \Theta \in [0, 2\pi) \\
-	  \rho \in [0, \+]
+	  \Theta &\in [0, 2\pi) \\
+	  \rho &\in [0, + \infty)
+	  \end{aligned}
 	-
