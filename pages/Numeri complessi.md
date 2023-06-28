@@ -35,4 +35,5 @@ tags:: complanalisi
 	  &= (x, 0) + (0 \cdot y - 1 \cdot 0, 0 \cdot 0 + y) \\
 	  &= (x, y) \\
 	  \end{aligned}
-	-
+- # Distanza
+	- distanza tra $z$ e
