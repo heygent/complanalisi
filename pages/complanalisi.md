@@ -13,10 +13,10 @@ icon:: ∫
 		- Lezione 2: tutto eccetto par. 2.5
 	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/trasf_fourier_filtri.pdf)
 		- tutto (facoltative le appendici)
-	- ![Trasformata di Gabor](../assets/Trasformata_di_Gabor.pdf)
+	- ![Trasformata di Gabor](../assets/trasf_gabor.pdf)
 		- tutto
-	- ![Numeri complessi - libro](../assets/Numeri_Complessi.pdf)
-	- ![Numeri complessi - appunti](../assets/appunti_num_complessi.pdf)
+	- ![Numeri complessi - dispense](../assets/num_complessi_dispense.pdf)
+	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
 	- ## ![Appunti](../assets/complanalisi-appunti.pdf)
 	-
 - # Parti #.ol
