@@ -11,7 +11,7 @@ icon:: ∫
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
 		- Lezione 2: tutto eccetto par. 2.5
-	-
+	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/trasf_fourier_filtri.pdf)
 		- tutto (facoltative le appendici)
 	- ![Trasformata di Gabor](../assets/Trasformata_di_Gabor.pdf)
 		- tutto
