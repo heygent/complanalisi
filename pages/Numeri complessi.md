@@ -96,6 +96,8 @@ tags:: complanalisi
 		- Quindi $|z| = \sqrt{z \bar{z}}$
 - Si considerano in genere:
 	- $f: t \in \R \longrightarrow f(t) \in \C$
+		- Ovvero funzioni con immagine complessa.
 	- Frequenza pura:
 		- $\cos \omega t + i \sin \omega t$
-		-
+	- Nel caso si vogliano fare derivate occorre considerare che:
+		- $f(t) = f_1(t) + f_2(t)
