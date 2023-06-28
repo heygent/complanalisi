@@ -44,6 +44,9 @@ tags:: complanalisi
 		- $z = z_1 + iz_2$
 		- $w = w_1 + iw_2$
 	- \begin{aligned}
-	  \t{distanza}(z, w) \triangleq |z - w| = |(z_1 - w_1) + i (z_2 - w_2)|$$
+	  \t{distanza}(z, w) &\triangleq |z - w| \\
+	  &= |(z_1 - w_1) + i (z_2 - w_2)| \\
+	  &= \sqrt{(z_1 - w_1)^2 + (z_2 - w_2)^2}
+	  \end{aligned}
 		-
 		-
