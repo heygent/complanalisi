@@ -100,8 +100,8 @@ tags:: complanalisi
 	- Frequenza pura:
 		- $\cos \omega t + i \sin \omega t$
 	- Nel caso si vogliano fare derivate occorre considerare che:
-		- $f(t) = f_1(t) + if_2(t)$
 		- \begin{aligned}
+		  f(t) &= f_1(t) + if_2(t) \\
 		  e^{it} &= \underbrace{\cos t}_{f_1(t)} + i \underbrace{\sin t}_{f_2(t)} \\
 		  f'(t) &\triangleq f'_1(t) + i f'_2(t) \\
 		  \int^b_a f(t)\,dt &= \int_a^b f_1(t)\,dt + i \int_a^b f_2(t)\,dt \\
