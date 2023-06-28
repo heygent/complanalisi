@@ -18,6 +18,8 @@ icon:: ∫
 	- ![Numeri complessi - libro](../assets/Numeri_Complessi.pdf)
 	- ![Numeri complessi - appunti](../assets/appunti_num_complessi.pdf)
 	- ## ![Appunti](../assets/complanalisi-appunti.pdf)
+	- [[draws/2023-06-28-11-34-51.excalidraw]]
+	-
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
 	- [[Trasformata di Fourier]]
