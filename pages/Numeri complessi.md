@@ -61,5 +61,7 @@ tags:: complanalisi
 	  y = \rho \sin \Theta
 	  \end{cases}
 	  $$
-	-
+	- \begin{aligned}
+	  \Theta \in [0, 2\pi) \\
+	  \rho \in [0, \+]
 	-
