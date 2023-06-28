@@ -73,7 +73,8 @@ tags:: complanalisi
 		  &= \rho (\cos \Theta + i \sin \Theta) \\
 		  &= \rho e^{i \Theta}
 		  \end{aligned}
-		- Più
+		- Più generalmente, se voglio permettere che l'angolo faccia "più giri":
+			- $\rho e^{i(\Theta + 2k \pi)}$
 		- Notazione conveniente, perché permette di usare le operazioni che solitamente verrebbero usate su esponenziali.
 			- \begin{aligned}
 			  z \cdot w &= \rho_z e^{i \Theta_z} \cdot \rho_w e^{i \Theta_w} \\
