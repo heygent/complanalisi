@@ -100,4 +100,5 @@ tags:: complanalisi
 	- Frequenza pura:
 		- $\cos \omega t + i \sin \omega t$
 	- Nel caso si vogliano fare derivate occorre considerare che:
-		- $f(t) = f_1(t) + f_2(t)
+		- $f(t) = f_1(t) + if_2(t)$
+		- $e^{it} = \underbrace{\cos t}_{f_1(t)} + i \sin t
