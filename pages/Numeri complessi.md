@@ -1,10 +1,10 @@
 tags:: complanalisi
 
 - # Definizione #card
-	- coppia ordinata $(x, y)$ di numeri reali $x$ e $y$, usualmente rappresentato nella forma $z = x + iy$. Nell'insieme dei numeri complessi:
-		- $$C = \{z = x + iy : x, y \in \mathbb{R}\}$$
+	- coppia ordinata $(x, y)$ di numeri reali $x$ e $y$, usualmente rappresentato nella forma $z = x + iy$.
 		- $x \in \R$ parte reale
 		- $y \in \R$ parte immaginaria
+	- $$C = \{z = x + iy : x, y \in \mathbb{R}\}$$
 		- $C = \R^2$ insiemisticamente
 		- $C \neq \R^2$ algebricamente
 - # Operazioni #card
