@@ -30,6 +30,6 @@ tags:: complanalisi
 	- $x \in \R \longrightarrow (x, 0) \in \C$
 	- {{renderer excalidraw, excalidraw-2023-06-28-11-28-29}}
 	- \begin{aligned}
-	  x + iy &= (x, 0) + y(0, 1) \\
-	  &= 
+	  x + iy &= (x, 0) + (0, 1)(y, 0) \\
+	  &= (x, 0) + (0 )
 	  \end{aligned}
