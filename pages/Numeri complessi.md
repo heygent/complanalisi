@@ -103,6 +103,7 @@ tags:: complanalisi
 		- $f(t) = f_1(t) + if_2(t)$
 		- \begin{aligned}
 		  e^{it} &= \underbrace{\cos t}_{f_1(t)} + i \underbrace{\sin t}_{f_2(t)} \\
-		  &\triangleq f'_1(t) + i f'_2(t)
+		  f'(t) &\triangleq f'_1(t) + i f'_2(t) \\
+		  \int^b_a f(t)\,dt = \int_
 		  \end{aligned}
 -
