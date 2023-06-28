@@ -21,7 +21,7 @@ tags:: complanalisi
 		- \begin{aligned}\lambda z &= (\lambda x, \lambda y) \\
 		  &= \lambda x + i \lambda y
 		  \end{aligned}
-	- ## Moltiplicazione
+	- ## Prodotto
 		- $$\begin{aligned}
 		  z_1 z_2 &= (x_1 + iy_1) (x_2 + iy_2) \\
 		  &= (x_1 x_2 - y_1 y_2) + i(x_1 y_2 + y_1 x_2)
