@@ -17,7 +17,6 @@ icon:: ∫
 		- tutto
 	- ![Numeri complessi - dispense](../assets/num_complessi_dispense.pdf)
 	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
-	- ## ![Appunti](../assets/complanalisi-appunti.pdf)
 	-
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
