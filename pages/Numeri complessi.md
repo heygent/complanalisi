@@ -70,4 +70,5 @@ tags:: complanalisi
 	  &= \rho (\cos \Theta + i \sin \Theta) \\
 	  &= \rho e^{i \Theta}
 	  \end{aligned}
-	-
+	- Formula di Eulero
+		- $$cos \Theta + i \sin \Theta \triangleq e ^{i \Theta}$$
