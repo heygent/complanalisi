@@ -89,5 +89,5 @@ tags:: complanalisi
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-49-10}}
 		- \begin{aligned}
 		  z \bar{z} &= (x + iy)(z - iy) \\
-		  &= x^2 \cancel{-ixy} + \cancel{ixy} - i^2y^2
+		  &= x^2 \cancel{-ixy + ixy} - i^2y^2
 		  \end{aligned}
