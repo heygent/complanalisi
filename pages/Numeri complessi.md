@@ -65,4 +65,7 @@ tags:: complanalisi
 	  \Theta &\in [0, 2\pi) \\
 	  \rho &\in [0, + \infty)
 	  \end{aligned}
-	-
+	- \begin{aligned}
+	  z &= \rho \cos \Theta + i \rho \sin \Theta \\
+	  &= \rho (\cos)
+	  \end{aligned}
