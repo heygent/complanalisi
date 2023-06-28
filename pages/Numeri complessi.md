@@ -35,7 +35,9 @@ tags:: complanalisi
 	  &= (x, 0) + (0 \cdot y - 1 \cdot 0, 0 \cdot 0 + y) \\
 	  &= (x, y) \\
 	  \end{aligned}
-- # Distanza
+- ## Modulo
+	- $|z|
+- ## Distanza
 	- distanza tra $z$ e $w$ appartenenti a $\C$:
 		- $|z - w|$
 			- $z = z_1 + iz_2$
