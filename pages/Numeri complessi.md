@@ -31,5 +31,5 @@ tags:: complanalisi
 	- {{renderer excalidraw, excalidraw-2023-06-28-11-28-29}}
 	- \begin{aligned}
 	  x + iy &= (x, 0) + (0, 1)(y, 0) \\
-	  &= (x, 0) + (0 \cdot y - 1 \cdot c)
+	  &= (x, 0) + (0 \cdot y - 1 \cdot 0) + (0, 1)(
 	  \end{aligned}
