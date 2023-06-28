@@ -18,7 +18,7 @@ tags:: complanalisi
 		  \end{aligned}$$
 		- Corrisponde alla somma di vettori in $\R^2$
 	- ## Moltiplicazione per una costante
-		- $$$$
+		- $$\lambda z = (\lambda x, \lambda y)$$
 	- ## Moltiplicazione
 		- $$\begin{aligned}
 		  z_1 z_2 &= (x_1 + iy_1) (x_2 + iy_2) \\
