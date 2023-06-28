@@ -74,4 +74,7 @@ tags:: complanalisi
 		  &= \rho e^{i \Theta}
 		  \end{aligned}
 		- Notazione conveniente, perché permette di usare le operazioni che solitamente verrebbero usate su esponenziali.
-			- $$z \cdot w = \rho_z e^{i \Theta_z} \cdot \rho_w e^{i \Theta_w} $$
+			- \begin{aligned}
+			  z \cdot w &= \rho_z e^{i \Theta_z} \cdot \rho_w e^{i \Theta_w} \\
+			  &= \rho_w \rho_z e^{i(\Theta_z }
+			  \end{aligned}
