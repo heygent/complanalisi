@@ -52,4 +52,7 @@ tags:: complanalisi
 - ## Coordinate polari
 	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
 	- \begin{cases}
-	  \rho = \sqrt{x^2 + y^2} = |z
+	  \rho = \sqrt{x^2 + y^2} = |z| \\
+	  \Theta = \arctg \frac{y}{x}
+	  \end{cases}
+	-
