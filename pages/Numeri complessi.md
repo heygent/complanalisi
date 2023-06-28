@@ -40,7 +40,8 @@ tags:: complanalisi
 	- Per teorema di Pitagora:
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-03-44}}
 - ## Distanza
-	-
+	- Siano:
 		- $z = z_1 + iz_2$
 		- $w = w_1 + iw_2$
+	-
 		-
