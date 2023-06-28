@@ -43,5 +43,6 @@ tags:: complanalisi
 	- Siano:
 		- $z = z_1 + iz_2$
 		- $w = w_1 + iw_2$
-	-
+	- $$\t{distanza}(z, w) = \triangleq $$
+		-
 		-
