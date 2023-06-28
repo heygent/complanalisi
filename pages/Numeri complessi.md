@@ -96,3 +96,6 @@ tags:: complanalisi
 		- Quindi $|z| = \sqrt{z \bar{z}}$
 - Si considerano in genere:
 	- $f: t \in \R \longrightarrow f(t) \in \C$
+	- Frequenza pura:
+		- $\cos \omega t + i \sin \omega t$
+		-
