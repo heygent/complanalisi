@@ -87,4 +87,7 @@ tags:: complanalisi
 		  \bar{z} &= x - iy
 		  \end{aligned}
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-49-10}}
-		- $$z \bar{z} = (x + iy)(z - iy)$$
+		- \begin{aligned}
+		  z \bar{z} &= (x + iy)(z - iy) \\
+		  &= x^2 - ixy + ixy - i^2y^2
+		  \end{aligned}
