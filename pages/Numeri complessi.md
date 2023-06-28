@@ -67,5 +67,7 @@ tags:: complanalisi
 	  \end{aligned}
 	- \begin{aligned}
 	  z &= \rho \cos \Theta + i \rho \sin \Theta \\
-	  &= \rho (\cos)
+	  &= \rho (\cos \Theta + i \sin \Theta) \\
+	  &= \rho e^{i \Theta}
 	  \end{aligned}
+	-
