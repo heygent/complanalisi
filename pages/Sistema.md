@@ -87,7 +87,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					  &\rightarrow Ax_1(t) - Ax_2(t) = 0 & \\
 					  &\rightarrow Ax_1(t) = Ax_2(t) &\forall \,t < t_0
 					  \end{aligned}$$
-	- ## Invarianza
+	- ## Invarianza per traslazione
 		- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 		- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
 		- Nessun sistema rispetta in assoluto questa proprietà.
