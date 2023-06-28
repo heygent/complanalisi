@@ -36,7 +36,8 @@ tags:: complanalisi
 	  &= (x, y) \\
 	  \end{aligned}
 - ## Modulo
-	- $|z|
+	- $|z| \triangleq \sqrt{x^2 + y^2}$
+	-
 - ## Distanza
 	- distanza tra $z$ e $w$ appartenenti a $\C$:
 		- $|z - w|$
