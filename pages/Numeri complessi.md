@@ -82,4 +82,8 @@ tags:: complanalisi
 			  \end{aligned}
 		- $$z^n = (\rho e^{i\Theta})^n = \rho^n e^{i\Theta n}$$
 	- ## Coniugato
-		- $$\line{z}$$
+		- \begin{aligned}
+		  \bar{z} &\in \C \\
+		  \bar{x} = x - iy
+		  \end{aligned}
+		-
