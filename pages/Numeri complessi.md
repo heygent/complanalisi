@@ -80,3 +80,4 @@ tags:: complanalisi
 			  z \cdot w &=\underbrace{\rho_1 e^{i \Theta_1}}_z  \cdot \underbrace{\rho_2 e^{i \Theta_2}}_w \\
 			  &= \rho_1 \rho_2 e^{i(\Theta_1 + \Theta_2)}
 			  \end{aligned}
+		- $$z^n = (\rho e^{i\Theta})^n = \rho^n e^{i }$$
