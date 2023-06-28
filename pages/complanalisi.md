@@ -8,10 +8,10 @@ icon:: ∫
 - # Flashcard
 	- {{cards (and (page-tags complanalisi) [[card]])}}
 - # Materiale
-	- ![GasquetWitomski.pdf](../assets/GasquetWitomski.pdf)
+	-
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
 		- Lezione 2: tutto eccetto par. 2.5
-	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/Gabor.pdf)
+	-
 		- tutto (facoltative le appendici)
 	- ![Trasformata di Gabor](../assets/Trasformata_di_Gabor.pdf)
 		- tutto
