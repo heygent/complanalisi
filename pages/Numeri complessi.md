@@ -48,5 +48,5 @@ tags:: complanalisi
 	  &= |(z_1 - w_1) + i (z_2 - w_2)| \\
 	  &= \sqrt{(z_1 - w_1)^2 + (z_2 - w_2)^2}
 	  \end{aligned}
-		-
-		-
+	- $\C = \R^2$ topologicamente
+-
