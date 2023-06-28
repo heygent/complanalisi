@@ -50,4 +50,4 @@ tags:: complanalisi
 	  \end{aligned}
 	- $\C = \R^2$ topologicamente
 - ## Coordinate polari
--
+	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
