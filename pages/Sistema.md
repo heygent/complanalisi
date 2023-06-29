@@ -67,24 +67,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Ovvero $y_1 = Ax_1$ e $y_2 = Ax_2$
 			- Allora quando $\lambda x_1 + \mu x_2 \xrightarrow{A} \lambda y_1 + \mu y_2$ dico che il sistema è lineare.
 		- Dal punto di vista fisico si ha una sovrapposizione degli effetti.
-	- ## Causalità
-		- Si vuole formalizzare il fatto che non anticipa i tempi e risponde al principio di causa-effetto.
-		- Realizzabile in pratica
-		- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
-			- Se le due funzioni sono uguali fino a un certo punto, l'output del sistema deve essere uguale fino a quel punto.
-		- Equivalentemente:
-			- $$x(t) = 0 \;\forall\, t < t_0 \quad \Rightarrow \quad Ax(t) = 0 \;\forall\, t < t_0 \tag{b}$$
-		- $\text{a} \leftrightarrow \text{b}$
-			- $\text{b}$ è un caso speciale di $\text{a}$ dove la funzione equazione è nulla.
-			- $\text{b} \rightarrow \text{a}$
-				- Dimostrazione (si supponga $A$ lineare):
-					- $$\begin{aligned}
-					  &\phantom{\rightarrow} z(t) = x_1(t) - x_2(t) = 0 &\forall\, t < t_0 \\
-					  &\rightarrow Az(t) = 0 & \\
-					  &\rightarrow A(x_1(t) - x_2(t)) = 0 & \\
-					  &\rightarrow Ax_1(t) - Ax_2(t) = 0 & \\
-					  &\rightarrow Ax_1(t) = Ax_2(t) &\forall \,t < t_0
-					  \end{aligned}$$
 	- ## Invarianza per traslazione
 		- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 		- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
@@ -103,7 +85,21 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per funzioni.🫰
 			- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
 			- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
--
-	-
-	-
--
+	- ## Causalità
+		- Si vuole formalizzare il fatto che non anticipa i tempi e risponde al principio di causa-effetto.
+		- Non è
+		- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
+			- Se le due funzioni sono uguali fino a un certo punto, l'output del sistema deve essere uguale fino a quel punto.
+		- Equivalentemente:
+			- $$x(t) = 0 \;\forall\, t < t_0 \quad \Rightarrow \quad Ax(t) = 0 \;\forall\, t < t_0 \tag{b}$$
+		- $\text{a} \leftrightarrow \text{b}$
+			- $\text{b}$ è un caso speciale di $\text{a}$ dove la funzione equazione è nulla.
+			- $\text{b} \rightarrow \text{a}$
+				- Dimostrazione (si supponga $A$ lineare):
+					- $$\begin{aligned}
+					  &\phantom{\rightarrow} z(t) = x_1(t) - x_2(t) = 0 &\forall\, t < t_0 \\
+					  &\rightarrow Az(t) = 0 & \\
+					  &\rightarrow A(x_1(t) - x_2(t)) = 0 & \\
+					  &\rightarrow Ax_1(t) - Ax_2(t) = 0 & \\
+					  &\rightarrow Ax_1(t) = Ax_2(t) &\forall \,t < t_0
+					  \end{aligned}$$
