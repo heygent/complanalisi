@@ -57,9 +57,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		-
 - # Proprietà algebriche dei sistemi
 	- $A : X \rightarrow Y$
-	  collapsed:: true
 		- Alternativamente:
-		  collapsed:: true
 			- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 			- $A : x \rightarrow y$
 	- ## Linearità
@@ -98,13 +96,13 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $$A(\tau_a x) = \tau_a (Ax) \quad \forall\,x \in X, a \in \mathbb{R}$$
 			- $$A \tau_a = \tau_a A$$
 				- Che significa che $A$ si commuta con le traslazioni.
-- # Continuità
-	- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$.
-		- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
-	- $$\lim_{n\rightarrow \infty} x_n = x \rightarrow \lim_{n \rightarrow \infty} y_n = y$$
-		- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per funzioni.🫰
-		- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
-		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
+	- ## Continuità
+		- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$.
+			- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
+		- $$\lim_{n\rightarrow \infty} x_n = x \rightarrow \lim_{n \rightarrow \infty} y_n = y$$
+			- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per funzioni.🫰
+			- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
+			- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
 -
 	-
 	-
