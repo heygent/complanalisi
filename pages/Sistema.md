@@ -4,7 +4,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 - # Definizione
 	- Una qualunque entità o apparato dove possono essere distinti [segnali]([[Segnale]]) di input e di output.
 		- I segnali di input e output non sono necessariamente dello stesso tipo
-	- ((63453036-5b17-4133-8a26-750be2d24465))
 		- Quando ci sono più segnali di input o output, le funzioni $x(t)$ e $y(t)$ sono vettori.
 	- In teoria dei segnali non ci si interessa dei componenti di un sistema, ma piuttosto del modo in cui trasforma il segnale di input nel segnale di output ("scatola nera").
 	- Il sistema è modellato come un operatore che agisce su funzioni, per cui si scrive:
@@ -52,7 +51,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $I = (a, +\infty)$
 			- ...
 - # Filtro
-	- S$A : X \rightarrow Y$
+	- Sia $A : X \rightarrow Y$
 		- Alternativamente:
 			- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 			- $A : x \rightarrow y$
