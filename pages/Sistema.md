@@ -51,8 +51,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $I = (a, b)$
 			- $I = (a, +\infty)$
 			- ...
-- # Proprietà algebriche dei sistemi
-	- $A : X \rightarrow Y$
+- # Filtro
+	- S$A : X \rightarrow Y$
 		- Alternativamente:
 			- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 			- $A : x \rightarrow y$
