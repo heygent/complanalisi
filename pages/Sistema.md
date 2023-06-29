@@ -46,15 +46,11 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- prodotto per uno scalare
 				- $(k x_1)(t) = kx_1(t) \quad \forall\, k \in \mathbb{R} \text{ oppure } \mathbb{C}$
 	- $X : I \subseteq \mathbb{R} \rightarrow \mathbb{R} \text{ oppure } \mathbb{C}$
-	  collapsed:: true
 		- Ad esempio $I$ può essere:
 			- $I = \mathbb{R}$
 			- $I = (a, b)$
 			- $I = (a, +\infty)$
 			- ...
-		-
-			-
-		-
 - # Proprietà algebriche dei sistemi
 	- $A : X \rightarrow Y$
 		- Alternativamente:
@@ -87,7 +83,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
 	- ## Causalità
 		- Si vuole formalizzare il fatto che non anticipa i tempi e risponde al principio di causa-effetto.
-		- Non è
+		- Non è una proprietà obbligatoria di un filtro, ma lo rende realizzabile.
 		- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
 			- Se le due funzioni sono uguali fino a un certo punto, l'output del sistema deve essere uguale fino a quel punto.
 		- Equivalentemente:
