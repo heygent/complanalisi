@@ -56,6 +56,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- Alternativamente:
 			- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 			- $A : x \rightarrow y$
+	- Un filtro è un sistema che gode delle seguenti proprietà.
 	- ## Linearità
 		- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
 			- $\forall\,x_1, x_2 \in X, \forall\, \lambda, \mu \in \mathbb{C}$
