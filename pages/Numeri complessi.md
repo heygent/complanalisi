@@ -28,7 +28,7 @@ tags:: complanalisi
 		  &= (x_1 x_2 - y_1 y_2,\,x_1 y_2 + y_1 x_2) \\
 		  \end{aligned}$$
 		- $$
-		  (x_1 + iy_1) \cdot (x_2 + iy_2) 
+		  \underbracket{(x_1 + iy_1) \cdot (x_2} + iy_2) 
 		  $$
 - # Immersione di $\R$ in $\C$
 	- $x \in \R \longrightarrow (x, 0) \in \C$
