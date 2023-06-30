@@ -61,6 +61,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- ((6495cd82-0669-47e2-b342-fad23ec4818e)) (non necessaria, se presente rende il filtro realizzabile)
 		- ((6495cd82-783c-40b8-b59a-0668eb7f5b7c))
 		- ((6495cd82-a9f1-4f4d-b03d-607629923f63))
+	-
 	- ## Linearità
 	  id:: 6495cd82-7d09-45ed-bb57-0becdb7682d1
 		- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
