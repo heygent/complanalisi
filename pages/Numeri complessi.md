@@ -50,7 +50,7 @@ tags:: complanalisi
 	  &= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
 	  \end{aligned}
 	- $\C = \R^2$ topologicamente
-- ## Coordinate polari
+- ## Coordinate polari #card
 	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
 	- $$\begin{cases}
 	  \rho = \sqrt{x^2 + y^2} = |z| \\
