@@ -42,8 +42,9 @@ tags:: complanalisi
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-03-44}}
 - ## Distanza
 	- Siano:
-		- $z = z_1 + iz_2$
-		- $w = w_1 + iw_2$
+	  collapsed:: true
+		- $z_1 = x_1 + iy_2$
+		- $z_2 = x_2 + iy_2$
 	- \begin{aligned}
 	  \t{distanza}(z, w) &\triangleq |z - w| \\
 	  &= |(z_1 - w_1) + i (z_2 - w_2)| \\
