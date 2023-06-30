@@ -42,7 +42,7 @@ tags:: complanalisi
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-03-44}}
 - ## Distanza
 	- Siano:
-		- $z_1 = x_1 + iy_2$
+		- $z_1 = x_1 + iy_1$
 		- $z_2 = x_2 + iy_2$
 	- \begin{aligned}
 	  \t{distanza}(z_1, z_2) &\triangleq |z_1 - z_2| \\
