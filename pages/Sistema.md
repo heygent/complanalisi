@@ -1,7 +1,7 @@
 tags:: complanalisi
 material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf)
 
-- # Definizione
+- # Sistema
 	- Una qualunque entità o apparato dove possono essere distinti [segnali]([[Segnale]]) di input e di output.
 		- I segnali di input e output non sono necessariamente dello stesso tipo
 	- ((649d49b9-23c9-40b0-87be-2b307806b067))
