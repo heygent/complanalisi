@@ -46,8 +46,8 @@ tags:: complanalisi
 		- $z_2 = x_2 + iy_2$
 	- \begin{aligned}
 	  \t{distanza}(z_1, z_2) &\triangleq |z_1 - z_2| \\
-	  &= |(x_1 - x_2) + i (y_2 - y_2)| \\
-	  &= \sqrt{(z_1 - w_1)^2 + (z_2 - w_2)^2}
+	  &= |(x_1 - x_2) + i (y_1 - y_2)| \\
+	  &= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
 	  \end{aligned}
 	- $\C = \R^2$ topologicamente
 - ## Coordinate polari
