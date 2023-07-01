@@ -10,6 +10,6 @@ tags:: complanalisi
 	- ## Norma 2
 		- In un intorno $I$
 		- $$\|x\|_2 = \sqrt{\int_I |x(t) |^2} dt$$
-		- Rappresenta l-
+		- Rappresenta l'energia del [[segnale]]
 		- Rappresenta la radice del prodotto scalare $(x, x)$
 			- $$(x,x) = \int_I x(t) \cdot \bar{x}(t) \,dt$$
