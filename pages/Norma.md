@@ -6,4 +6,7 @@ tags:: complanalisi
 		- $$\|x\|_\infty = \sup|x(t)|$$
 	- ## Norma 1
 		- In un intorno $I$
-		- $$$$
+		- $$\|x\|_1 = \int_I |x(t)| dt$$
+	- ## Norma 2
+		- In un intorno $I$
+		- $$$
