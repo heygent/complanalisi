@@ -10,4 +10,6 @@ tags:: complanalisi
 	- ## Norma 2
 		- In un intorno $I$
 		- $$\|x\|_2 = \sqrt{\int_I |x(t) |^2} dt$$
-		- Rappresenta la radice del prodotto scalare $x
+		- Rappresenta l-
+		- Rappresenta la radice del prodotto scalare $(x, x)$
+			- $$(x,x) = \int_I x(t) \cdot \bar{x}(t) \,dt$$
