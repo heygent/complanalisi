@@ -62,7 +62,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- $$x(t) = \alpha \cos(\omega t + \varphi) + c$$
 			- Il termine sinusoide descrive qualunque onda con le caratteristiche di un onda seno.
 				- Anche l'onda coseno è detta sinusoidale, dato che $\cos(x)=\sin(x+\pi/2)$
-			- <iframe src="https://www.desmos.com/calculator/noownxuxth?embed" width="300" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+			- <iframe src="https://www.desmos.com/calculator/noownxuxth?embed" width="300" height="400" style="border: 1px solid #ccc" frameborder=0></iframe>
 			- ### Parametri
 				- #### Ampiezza
 					- $|\alpha| = \max | x(t) |$
