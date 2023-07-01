@@ -94,3 +94,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				  \end{aligned}$$
 				- Molto comoda in molte situazioni (es. elettronica)
 				- Più difficile da rappresentare
+		- The term [sinusoid](https://en.wiktionary.org/wiki/sinusoid) describes any wave with characteristics of a sine wave. Thus, a [cosine](https://en.wikipedia.org/wiki/Cosine) wave is also said to be *sinusoidal*, because 
+		    
+		      
+		        
+		        
+		      
+		      
+		    
+		  ![{\displaystyle \cos(x)=\sin(x+\pi /2)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e8ededc7e5b7f6486fb42d760a547bb9e6e19e25), which is also a sine wave with a phase-shift of *π*/2 [radians](https://en.wikipedia.org/wiki/Radian). Because of this [head start](https://en.wikipedia.org/wiki/Head_start_(positioning)), it is often said that the cosine function *leads* the sine function or the sine *lags* the cosine. The term *sinusoidal* thereby collectively refers to both sine waves and cosine waves with any phase offset.
