@@ -110,5 +110,5 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per funzioni.🫰
 				- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
 				- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
-				- $\forall x \in X \exists c > 0 | $
+				- $\forall x \in X \exists c > 0 | \|A_x\|$
 				-
