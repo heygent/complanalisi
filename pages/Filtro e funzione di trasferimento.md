@@ -4,4 +4,4 @@
 - deve convergere in $\|\ldots\|_X$
 - cioè:
 	- $$\lim_{n \rightarrow +\infty} \left\lVert \sum_{n = -N}^N c_n e^{2\pi i n \lambda t} - x(t) \right\rVert_X = 0$$
-- $$A\(\lim_{N\rightarrow + \infty}\sum_{-N}^N$$
+- $$A\(\lim_{N\rightarrow + \infty}\sum_{-N}^N c_n A \left(e_\lambda^n)(t)$$
