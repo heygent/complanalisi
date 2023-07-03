@@ -1,4 +1,5 @@
 - $e_\lambda^n(t) = e^{i2\pi\lambda n t}$
 - $x \in X$ suppongo
 - $$x(t) = \sum^{+\infty}_{n=-\infty} c_n e^{2\pi i n \lambda t}$$
-- deve convergere in $\|\ldots\|
+- deve convergere in $\|\ldots\|_X$
+- cioè $\lim_{n \rightarrow +\infty} \sum_{n = -N}^N c_n e^{e}
