@@ -1,0 +1,3 @@
+- $e_\lambda^n(t) = e^{i2\pi\lambda n t}$
+- $x \in X$ suppongo
+- $$x(t) = \sum^\+$$
