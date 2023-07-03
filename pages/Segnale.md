@@ -97,5 +97,4 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				  \end{aligned}$$
 				- Molto comoda in molte situazioni (es. elettronica)
 				- Più difficile da rappresentare
-				- $e_\lambda^n(t) = e^{i2\pi\lambda n t}$
 			-
