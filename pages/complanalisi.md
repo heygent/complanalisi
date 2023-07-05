@@ -9,7 +9,7 @@ icon:: ∫
 	- {{cards (and (page-tags complanalisi) [[card]])}}
 - ![image.png](../assets/image_1688498520498_0.png)
 - ![image.png](../assets/image_1688499834986_0.png){:height 737, :width 302}
--
+- ((64a504ea-8996-48b7-8ff6-2ff957969c4d))
 - # Materiale
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
