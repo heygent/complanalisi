@@ -122,7 +122,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- ### Continuità #card
 		  id:: 6495cd82-a9f1-4f4d-b03d-607629923f63
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
-			- $x_n \rightarrow x$
+			- ((64a4b94d-0070-4a2d-af85-c19e2a770d3c))
 			- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$.
 			  collapsed:: true
 				- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
