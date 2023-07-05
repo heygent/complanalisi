@@ -8,7 +8,7 @@ icon:: ∫
 - # Flashcard
 	- {{cards (and (page-tags complanalisi) [[card]])}}
 - ![image.png](../assets/image_1688498520498_0.png)
-- ![image.png](../assets/image_1688499834986_0.png){:height 285, :width 207}
+- ![image.png](../assets/image_1688499834986_0.png){:height 737, :width 562}
 - # Materiale
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
