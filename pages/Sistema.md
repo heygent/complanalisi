@@ -122,7 +122,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		  id:: 6495cd82-a9f1-4f4d-b03d-607629923f63
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 			- ((64a4b94d-0070-4a2d-af85-c19e2a770d3c))
-			-
+				-
+				- $\forall x \in X$
+			- $\exists c \ge 0$
+				- $\|A_x\|_Y \le c \|x\|_X$
 			- ((64a4b989-67f4-48b4-b67b-66bd259e071b))
 			- BS
 			  collapsed:: true
