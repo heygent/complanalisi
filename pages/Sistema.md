@@ -68,7 +68,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $A : x \rightarrow y$
 		- ### Linearità #card
 		  id:: 6495cd82-7d09-45ed-bb57-0becdb7682d1
-		  collapsed:: true
 			- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
 			  collapsed:: true
 				- $\forall\,x_1, x_2 \in X, \forall\, \lambda, \mu \in \mathbb{C}$
