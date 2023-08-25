@@ -125,7 +125,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $\|Ax\|_Y \le c \|x\|_X$
 			- ((64a4b989-67f4-48b4-b67b-66bd259e071b))
 			- BS
-			  collapsed:: true
 				- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$.
 				  collapsed:: true
 					- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
