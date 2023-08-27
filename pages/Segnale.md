@@ -51,6 +51,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		  0 & \text{se } x \notin A
 		  \end{cases}$$
 	- ## Finestra rettangolare #card
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-08-27T22:00:00.000Z
+	  card-last-reviewed:: 2023-08-27T08:36:02.588Z
+	  card-last-score:: 1
 		- $$r(t) = \begin{cases}
 		  1 & \text{se } |t| < a \\
 		  0 & \text{se } |t| > a

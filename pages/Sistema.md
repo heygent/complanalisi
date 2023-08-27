@@ -78,6 +78,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Dal punto di vista fisico si ha una sovrapposizione degli effetti.
 		- ### Causalità #card
 		  id:: 6495cd82-0669-47e2-b342-fad23ec4818e
+		  card-last-interval:: -1
+		  card-repeats:: 1
+		  card-ease-factor:: 2.5
+		  card-next-schedule:: 2023-08-27T22:00:00.000Z
+		  card-last-reviewed:: 2023-08-27T08:35:58.860Z
+		  card-last-score:: 1
 			- Si vuole formalizzare il fatto che non anticipa i tempi e risponde al principio di causa-effetto.
 			- Non è una proprietà obbligatoria di un filtro, ma lo rende realizzabile.
 			- collapsed:: true
