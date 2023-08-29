@@ -10,13 +10,4 @@
 
 .block-ref .tag {
   display: none;
-  white-space-collapse: collapse;
-  margin: 0;
-  padding: 0;
-}
-
-.block-ref {
-  white-space: nowrap;
-  overflow: hidden;
-  color: red;
 }
