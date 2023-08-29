@@ -22,3 +22,10 @@ file-path:: ../assets/gasquet-witomski_annotato.pdf
   id:: 64a4b989-67f4-48b4-b67b-66bd259e071b
   hl-type:: area
   hl-stamp:: 1688517000287
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64ee5717-cb9b-40d9-9b66-a586754311c9
+  hl-type:: area
+  hl-stamp:: 1693341462010
