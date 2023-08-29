@@ -23,6 +23,10 @@ icon:: ∫
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
-		- Siano $x = x(t) \in X$ e $y
+		- Siano
+			- $x = x(t) \in X$
+			- $y = y(t) \in Y$
+		- funzioni in spazi vettoriali di funzione normati.
+		- Un sistema è un operatore $A: x(t) \
 	- [[Trasformata di Fourier]]
 	-
