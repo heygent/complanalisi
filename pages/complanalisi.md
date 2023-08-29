@@ -34,7 +34,9 @@ icon:: ∫
 			- Causalità
 			- Continuità
 		- ((64eaeffe-89d2-49f4-a49f-e0d3264f40d1))
-			- Sistema lineare, contin
+			- Sistema lineare, continuo, invariante per traslazioni
+			- Siano $e_\lambda \in X$, $A$ filtro, allora
+				- Funzione di transizione: $Ae_\lambda = H(
 		-
 		-
 	- [[Trasformata di Fourier]]
