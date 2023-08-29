@@ -26,4 +26,6 @@
 					- ((64ee366b-1c8e-4248-a232-59016644c8ff))
 					- $Q' = V'C$
 			- $V$ e $X$ sono funzioni, $C$ è una costante
+	- Modello di filtro passa-basso
+		- Muovendo lentamente la $x$ nel tempo, ovvero aumentando e diminuendo il voltaggio,
 		-
