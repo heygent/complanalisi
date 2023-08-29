@@ -94,7 +94,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 						  &\rightarrow Ax_1(t) - Ax_2(t) = 0 & \\
 						  &\rightarrow Ax_1(t) = Ax_2(t) &\forall \,t < t_0
 						  \end{aligned}$$
-							- Supporre che $z(t) = x_1(t) - x_2(t) = 0\,\forall\, t < t_0$ equivale a supporre che $x_1 = x_2
+							- Supporre che $z(t) = x_1(t) - x_2(t) = 0\,\forall\, t < t_0$ equivale a supporre che $x_1 = x_2\,\forall\,t < t_o$
 		- ### Invarianza per traslazione #card
 		  id:: 6495cd82-783c-40b8-b59a-0668eb7f5b7c
 			- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
