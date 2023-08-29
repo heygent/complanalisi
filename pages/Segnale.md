@@ -70,24 +70,20 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Anche l'onda coseno è detta sinusoidale, dato che $\cos(x)=\sin(x+\pi/2)$
 			- <iframe src="https://www.desmos.com/calculator/tzthsgrryt?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 			- ### Parametri
-				- #### Ampiezza
+				- #### Ampiezza #card
 					- $|\alpha| = \max | x(t) |$
 					- amplifica o smorza le oscillazioni verticali
 					- la funzione oscillerà tra $-\alpha$ e $\alpha$
 					- quanto è alto il **volume** del suono
-				- #### Frequenza
+				- #### Frequenza #card
 					- $\omega$
 					- legato alla velocità con cui il segnale oscilla
 					- inverso del periodo
-						- $\cos(t)$
-							- periodo $2\pi$
-							- frequenza $\frac{1}{2\pi}$
-						- $\cos(\omega t)$
-							- periodo $\frac{2\pi}{\omega}$
-							- frequenza $\frac{\omega}{2\pi}$
-						- $\cos(\lambda 2 \pi t)$
-							- periodo $\frac{\cancel{2\pi}}{\cancel{2\pi}\lambda} = \frac{1}{\lambda}$
-							- frequenza $\lambda$
+					- | Funzione | Periodo | Frequenza |
+					  |:---:|:---:|:---:|
+					  | $\cos(t)$ | $2\pi$ | $\frac{1}{2\pi}$ |
+					  | $\cos(\omega t)$ | $\frac{2\pi}{\omega}$ | $\frac{\omega}{2\pi}$ |
+					  | $\cos(\lambda 2\pi t)$ | $\frac{\cancel{2\pi}}{\cancel{2\pi}\lambda} = \frac{1}{\lambda}$ | $\lambda$ |
 				- #### Fase iniziale
 					- $\varphi$
 					- indica come inizia la curva del coseno
