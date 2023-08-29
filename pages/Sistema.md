@@ -72,7 +72,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Se $x_1 \xrightarrow{A} y_1$ e $x_2 \xrightarrow{A} y_2$
 				- Ovvero $y_1 = Ax_1$ e $y_2 = Ax_2$
 				- Allora quando $A(\lambda x_1 + \mu x_2) = \lambda y_1 + \mu y_2$ dico che il sistema è lineare.
-			- Dal punto di vista fisico si ha una sovrapposizione degli effetti.
+			- Dal punto di vista fisico corrisponde alla sovrapposizione degli effetti.
 		- ### Causalità #card
 		  id:: 6495cd82-0669-47e2-b342-fad23ec4818e
 		  card-last-interval:: -1
