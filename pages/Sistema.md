@@ -39,6 +39,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- $$y(t) = x'(t)$$
 			- Dove $x'$ è la derivata di $x$.
 - # Spazi di funzioni
+  id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 	- $x \in X$ dove $X$ è uno spazio vettoriale di funzioni
 	- $X$ è uno spazio vettoriale di funzioni
 		- Date due funzioni $x_1(t) \in X$ e $x_2(t) \in X$ sono definite
