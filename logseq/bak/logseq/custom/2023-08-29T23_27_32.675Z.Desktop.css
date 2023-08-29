@@ -9,5 +9,12 @@
 /* } */
 
 .block-ref .tag {
-  font-size: 0px;
+  display: none;
+  white-space-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+
+.block-ref {
+  white-space-collapse: discard;
 }
