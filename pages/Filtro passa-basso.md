@@ -12,3 +12,4 @@
 		- $I = \frac{V}{R}$
 		- $C = \frac{Q}{V}$
 	- $A: x \rightarrow V$
+		-
