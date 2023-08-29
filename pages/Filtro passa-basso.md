@@ -1,5 +1,8 @@
-- $i$ corrente
-- $q$ carica
-- $v$ voltaggio/tensione
-- $C$ costante del condensatore
-- $R$
+- Grandezze fisiche di interesse
+	- $i$ corrente
+	- $q$ carica
+	- $v$ voltaggio/tensione
+	- $C$ costante del condensatore
+	- $R$ resistenza
+- $i = q'$
+	- derivata prima
