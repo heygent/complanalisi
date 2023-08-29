@@ -18,6 +18,7 @@
 			- \begin{aligned}
 			  V &= x - IR \\
 			  &= x - Q'R \\
-			  &= x - CV'R \\
+			  &= x - CV'R \\ 
+			  RCV' + V &= x
 			  \end{aligned}
 		-
