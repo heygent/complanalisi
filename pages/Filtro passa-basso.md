@@ -8,6 +8,5 @@
 	- derivata prima della carica rispetto al tempo
 - legge di Ohm
 	- $I = \frac{V}{R}$
-- $C = \frac{Q}{V}$
+	- $C = \frac{Q}{V}$
 - $A: x \rightarrow V$
-- Se non
