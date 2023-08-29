@@ -9,7 +9,8 @@
 /* } */
 
 .block-ref .tag {
-  display: none;
+  /* display: none; */
+  color: red;
   white-space-collapse: collapse;
   margin: 0;
   padding: 0;

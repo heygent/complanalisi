@@ -9,8 +9,8 @@
 /* } */
 
 .block-ref .tag {
-  display: none;
-  white-space-collapse: collapse;
+  /* display: none; */
+  white-space-collapse: discard;
   margin: 0;
   padding: 0;
 }
