@@ -38,7 +38,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Differenziatore
 		- $$y(t) = x'(t)$$
 			- Dove $x'$ è la derivata di $x$.
-- # Spazi di funzioni
+- # Spazi di funzioni #card
   id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 	- $x \in X$ dove $X$ è uno spazio vettoriale di funzioni
 	- $X$ è uno spazio vettoriale di funzioni
