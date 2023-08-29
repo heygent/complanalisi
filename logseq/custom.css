@@ -18,4 +18,5 @@
 .block-ref {
   white-space: nowrap;
   overflow: hidden;
+  color: red;
 }
