@@ -60,6 +60,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- ((6495cd82-783c-40b8-b59a-0668eb7f5b7c))
 			- ((6495cd82-a9f1-4f4d-b03d-607629923f63))
 	- ## Proprietà
+	  id:: 64eaeffe-3d5c-41b6-a650-fb9050dc94a9
 		- Sia $A : X \rightarrow Y$
 		  collapsed:: true
 			- Alternativamente:
@@ -108,7 +109,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 						  \end{aligned}$$
 		- ### Invarianza per traslazione #card
 		  id:: 6495cd82-783c-40b8-b59a-0668eb7f5b7c
-		  collapsed:: true
 			- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 			- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
 			- Nessun sistema rispetta in assoluto questa proprietà.

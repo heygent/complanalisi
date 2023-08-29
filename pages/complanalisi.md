@@ -27,6 +27,8 @@ icon:: ∫
 			- $x = x(t) \in X$
 			- $y = y(t) \in Y$
 		- funzioni in spazi vettoriali di funzione normati.
-		- Un sistema è un operatore $A: x(t) \
+		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
+		- ((64eaeffe-3d5c-41b6-a650-fb9050dc94a9))
+			-
 	- [[Trasformata di Fourier]]
 	-
