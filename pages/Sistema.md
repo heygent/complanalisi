@@ -53,11 +53,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- ## Definizione #card
 	  id:: 64eaeffe-be90-4e20-990f-712c87481e4a
-		- Un filtro è un sistema che gode delle proprietà di:
-			- ((6495cd82-7d09-45ed-bb57-0becdb7682d1))
-			-
-			- ((6495cd82-783c-40b8-b59a-0668eb7f5b7c))
-			- ((6495cd82-a9f1-4f4d-b03d-607629923f63))
+		- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c))
 	- ## Proprietà
 	  id:: 64eaeffe-3d5c-41b6-a650-fb9050dc94a9
 		- Sia $A : X \rightarrow Y$
