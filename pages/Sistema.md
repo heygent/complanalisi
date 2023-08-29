@@ -115,16 +115,11 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- ### Continuità #card
 		  id:: 6495cd82-a9f1-4f4d-b03d-607629923f63
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
-			- ((64a4b94d-0070-4a2d-af85-c19e2a770d3c))
-				- $\forall x \in X\,\,\exists\, c \ge 0$
-				- $\|Ax\|_Y \le c \|x\|_X$
-			- ((64a4b989-67f4-48b4-b67b-66bd259e071b))
-			- BS
-				- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$.
-					- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
-				- $$\lim_{n\rightarrow \infty} x_n = x \rightarrow \lim_{n \rightarrow \infty} y_n = y$$
-					- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per funzioni.🫰
-					- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
-					- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
-					- $\forall\,x \in X \,\exists\, c > 0 \mid \|Ax\|_Y \le c \|x\|_X$
-					-
+			- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$.
+				- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
+			- $$\lim_{n\rightarrow \infty} x_n = x \rightarrow \lim_{n \rightarrow \infty} y_n = y$$
+				- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per funzioni.🫰
+				- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
+				- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
+				- $\forall\,x \in X \,\exists\, c > 0 \mid \|Ax\|_Y \le c \|x\|_X$
+				-
