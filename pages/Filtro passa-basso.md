@@ -1,7 +1,7 @@
-- Grandezze fisiche di interesse
-	- $i$ corrente
+- Grandezze fisiche di interesse:
+	- $I$ corrente
 	- $q$ carica
-	- $v$ voltaggio/tensione
+	- $V$ voltaggio/tensione
 	- $C$ costante del condensatore
 	- $R$ resistenza
 - $i = q'$
