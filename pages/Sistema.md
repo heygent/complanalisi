@@ -63,7 +63,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Definisce la convergenza media
 			- ### Norma 2
 				- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
-		-
+		- La distanza può variare molto in base alla norma usata.
+			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
