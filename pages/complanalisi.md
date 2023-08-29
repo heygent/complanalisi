@@ -29,6 +29,10 @@ icon:: ∫
 		- funzioni in spazi vettoriali di funzione normati.
 		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
 		- ((64eaeffe-3d5c-41b6-a650-fb9050dc94a9))
-			-
+			- Linearità
+			- Invarianza per traslazione
+			- Causalità
+			- Continuità
+		-
 	- [[Trasformata di Fourier]]
 	-

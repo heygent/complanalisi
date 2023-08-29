@@ -54,6 +54,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- ...
 - # Filtro
 	- ## Definizione #card
+	  id:: 64eaeffe-be90-4e20-990f-712c87481e4a
 		- Un filtro è un sistema che gode delle proprietà di:
 			- ((6495cd82-7d09-45ed-bb57-0becdb7682d1))
 			- ((6495cd82-0669-47e2-b342-fad23ec4818e)) (non necessaria, se presente rende il filtro realizzabile)
