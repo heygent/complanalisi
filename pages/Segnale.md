@@ -44,19 +44,19 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		  collapsed:: true
 			- O funzione segno indefinita su 0.
 			- ((63d5363e-8dac-4d54-bc67-604c40523300))
-	- ## Funzione caratteristica #card
+	- ## Funzione caratteristica #definition #card
 	  id:: 63d5783c-0a5a-4449-9f80-6e80c87edbfe
 		- $$\chi_A(x) = \begin{cases}
 		  1 & \text{se } x \in A \\
 		  0 & \text{se } x \notin A
 		  \end{cases}$$
-	- ## Finestra rettangolare #card
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-08-27T22:00:00.000Z
-	  card-last-reviewed:: 2023-08-27T08:36:02.588Z
+	- ## Finestra rettangolare #definition #card
 	  card-last-score:: 1
+	  card-repeats:: 1
+	  card-next-schedule:: 2023-08-27T22:00:00.000Z
+	  card-last-interval:: -1
+	  card-ease-factor:: 2.5
+	  card-last-reviewed:: 2023-08-27T08:36:02.588Z
 		- $$r(t) = \begin{cases}
 		  1 & \text{se } |t| < a \\
 		  0 & \text{se } |t| > a
