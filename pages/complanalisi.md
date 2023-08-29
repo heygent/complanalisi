@@ -20,7 +20,7 @@ icon:: ∫
 		- tutto
 	- ![Numeri complessi - dispense](../assets/num_complessi_dispense.pdf)
 	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
-	- ![[]]
+	- ![Appunti 28/09/22](../assets/Appunti220928.pdf)
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
