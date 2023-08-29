@@ -28,7 +28,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			  collapsed:: true
 				- ((63d532ce-4cf8-423d-881c-7fde7486debd))
 - # Esempi di sistemi
-	- ## Amplificatore ideale
+	- ## Amplificatore ideale #card
 		- $$y(t) = kx(t)$$
 		- Per $k > 1$ amplifica, per $0 < k < 1$ smorza.
 	- ## Delay line
