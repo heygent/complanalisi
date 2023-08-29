@@ -52,11 +52,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Norma
 		- In uno spazio di funzioni il concetto di limite è spesso definito in termini di una norma $\|\cdot\|$ definita su ognuno degli spazi vettoriali.
 		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
-		- Ci sono tre norme principalmente usate: #.ol
+		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
 				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
 				- Definisce la convergenza uniforme
-			- La norma della
+			- ### Norma 1
+				- $$\|x\|_1 = \int_I |x(t)| dt$$
 		-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
