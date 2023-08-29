@@ -1,0 +1,9 @@
+.tag[data-ref="card"]{
+  font-size: 0px;
+}
+.tag[data-ref="card"]::after{
+  content: "🃏";
+  margin-left: .25em;
+  marign-right: .25em;
+  font-size: large;
+}
