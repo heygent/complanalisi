@@ -66,7 +66,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $A : x \rightarrow y$
 		- ### Linearità #card
 		  id:: 6495cd82-7d09-45ed-bb57-0becdb7682d1
-			-
+			- Siano $x_1, x_2 \in X$
+			- Siano $\lambda, \mu \in \C$
 			- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
 				- $\forall\,x_1, x_2 \in X, \forall\, \lambda, \mu \in \mathbb{C}$
 			- Se $x_1 \xrightarrow{A} y_1$ e $x_2 \xrightarrow{A} y_2$
