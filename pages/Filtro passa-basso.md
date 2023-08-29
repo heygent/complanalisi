@@ -21,5 +21,5 @@
 			  &= x - CV'R \\ 
 			  RCV' + V &= x
 			  \end{aligned}
-			-
+			- $V$ e $X$ sono funzioni, $C$ è una costante
 		-
