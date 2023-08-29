@@ -11,6 +11,7 @@
 	- legge di Ohm
 		- $I = \frac{V}{R}$
 		- $C = \frac{Q}{V}$
+		  id:: 64ee366b-1c8e-4248-a232-59016644c8ff
 	- $A: x \rightarrow V$
 		- $x$ è il voltaggio che inserisco, e V(t) è il voltaggio che si crea in $C$
 		- Se non ci fosse resistenza, $V = x$
@@ -21,5 +22,8 @@
 			  &= x - CV'R \\ 
 			  RCV' + V &= x
 			  \end{aligned}
+				- Questo dato che:
+					- ((64ee366b-1c8e-4248-a232-59016644c8ff))
+					-
 			- $V$ e $X$ sono funzioni, $C$ è una costante
 		-
