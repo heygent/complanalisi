@@ -38,7 +38,7 @@ icon:: ∫
 			- Causalità
 			- Continuità
 		- ((64eaeffe-89d2-49f4-a49f-e0d3264f40d1))
-			- Sistema lineare, continuo, invariante per traslazioni
+			- {{embed ((64eaeffe-be90-4e20-990f-712c87481e4a))}}
 			- Siano $e_\lambda \in X$, $A$ filtro, allora
 				- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
 		- Filtro passa-basso
