@@ -53,6 +53,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $I = (a, +\infty)$
 			- ...
 - # Filtro
+  id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- ## Definizione #card
 	  id:: 64eaeffe-be90-4e20-990f-712c87481e4a
 		- Un filtro è un sistema che gode delle proprietà di:

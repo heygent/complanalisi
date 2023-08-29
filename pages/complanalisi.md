@@ -33,6 +33,9 @@ icon:: ∫
 			- Invarianza per traslazione
 			- Causalità
 			- Continuità
+		- ((64eaeffe-89d2-49f4-a49f-e0d3264f40d1))
+			- Sistema lineare, contin
+		-
 		-
 	- [[Trasformata di Fourier]]
 	-
