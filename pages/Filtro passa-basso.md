@@ -1,4 +1,5 @@
 # Circuito RC
+	- ((64ee5717-cb9b-40d9-9b66-a586754311c9))
 	- Grandezze fisiche di interesse:
 		- $I$ corrente
 		- $Q$ carica
@@ -10,4 +11,4 @@
 	- legge di Ohm
 		- $I = \frac{V}{R}$
 		- $C = \frac{Q}{V}$
-- $A: x \rightarrow V$
+	- $A: x \rightarrow V$
