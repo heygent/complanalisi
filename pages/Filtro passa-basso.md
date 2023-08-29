@@ -21,4 +21,5 @@
 			  &= x - CV'R \\ 
 			  RCV' + V &= x
 			  \end{aligned}
+			-
 		-
