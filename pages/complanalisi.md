@@ -23,5 +23,6 @@ icon:: ∫
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
+		- Siano $x = x(t) \in X$ e $y
 	- [[Trasformata di Fourier]]
 	-
