@@ -67,8 +67,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- ### Linearità #card
 		  id:: 6495cd82-7d09-45ed-bb57-0becdb7682d1
 			- $\forall\,x_1, x_2 \in X$
-			- $\forall\,\lambda, \mu \in \C$
-			- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
+			- $\forall\,\lambda_1, \lambda_2 \in \C$
+			- $(\lambda_1 x_1 + \lambda_2 x_2)(t) = \lambda_1 x_1(t) + \mu x_2(t) \in X$
 				-
 			- Se $x_1 \xrightarrow{A} y_1$ e $x_2 \xrightarrow{A} y_2$
 				- Ovvero $y_1 = Ax_1$ e $y_2 = Ax_2$
