@@ -52,6 +52,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Norma
 		- In uno spazio di funzioni il concetto di limite è spesso definito in termini di una norma $\|\cdot\|$ definita su ognuno degli spazi vettoriali.
 		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
+		- Utile per definire la distanza tra due funzioni:
+			- $$\text{dist}(x_, x_2) = \|x_1 - x_2$$
 		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
 				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
