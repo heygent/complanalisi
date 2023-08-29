@@ -50,7 +50,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- $X : I \subseteq \mathbb{R} \rightarrow \mathbb{R} \text{ oppure } \mathbb{C}$
 		- Ad esempio $I$ può essere $\mathbb{R}, (a, b), (a, +\infty), \ldots$
 	- ## Norma
-		- In uno spazio di funzioni il concetto di limite è spesso definito in termini di una norma $\|\cdot\|$ definita su
+		- In uno spazio di funzioni il concetto di limite è spesso definito in termini di una norma $\|\cdot\|$ definita su ognuno degli spazi vettoriali.
+		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
+		- Ci sono tre norme principalmente usate:
+		-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
@@ -116,6 +119,5 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $$\lim_{n\rightarrow \infty} x_n = x \rightarrow \lim_{n \rightarrow \infty} y_n = y$$
 				- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per le funzioni.
 				- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
-				- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
 				- $\forall\,x \in X \,\exists\, c > 0 \mid \|Ax\|_Y \le c \|x\|_X$
 				-
