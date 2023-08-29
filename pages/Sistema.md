@@ -48,8 +48,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- prodotto per uno scalare
 				- $(k x_1)(t) = kx_1(t) \quad \forall\, k \in \mathbb{R} \text{ oppure } \mathbb{C}$
 	- $X : I \subseteq \mathbb{R} \rightarrow \mathbb{R} \text{ oppure } \mathbb{C}$
-		- Ad esempio $I$ può essere:
-			- $I = \mathbb{R}, (a, b), (a, +\infty), \ldots$
+		- Ad esempio $I$ può essere $\mathbb{R}, (a, b), (a, +\infty), \ldots$
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- ## Definizione #card
