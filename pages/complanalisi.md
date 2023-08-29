@@ -22,7 +22,8 @@ icon:: ∫
 	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
 	- ![Appunti 28/09/22](../assets/Appunti220928.pdf)
 	- ![Appunti 11/10/22](../assets/Appunti221011.pdf)
-	- ![]
+	- ![Appunti 13/10/22](../assets/Appunti221013.pdf)
+	- ![Appunti]
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
