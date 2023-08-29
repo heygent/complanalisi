@@ -9,8 +9,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- In teoria dei segnali non ci si interessa dei componenti di un sistema, ma piuttosto del modo in cui trasforma il segnale di input nel segnale di output ("scatola nera").
 	- Il sistema è modellato come un operatore che agisce su funzioni, per cui si scrive:
 		- $$y = Ax$$
-			- $x \in X$ insieme dei segnali di input
-			- $y \in Y$ insieme dei segnali di output
+			- $x \in X$ spazio di funzioni di input
+			- $y \in Y$ spazio di funzioni di output
 	- Si distinguono:
 		- **sistema analogico**
 		  id:: 63453640-009e-4108-8bb3-a9e24234568a
