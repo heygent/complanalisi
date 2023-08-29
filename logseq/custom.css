@@ -16,5 +16,6 @@
 }
 
 .block-ref {
-  white-space-collapse: collapse;
+  white-space: nowrap;
+  overflow: hidden;
 }
