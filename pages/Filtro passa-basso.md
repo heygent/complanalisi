@@ -12,4 +12,5 @@
 		- $I = \frac{V}{R}$
 		- $C = \frac{Q}{V}$
 	- $A: x \rightarrow V$
-		-
+		- $x$ è il voltaggio che inserisco, e V(t) è il voltaggio che si crea in $C$
+		- Se non ci fosse
