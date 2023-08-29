@@ -1,12 +1,13 @@
-- Grandezze fisiche di interesse:
-	- $I$ corrente
-	- $Q$ carica
-	- $V$ voltaggio/tensione
-	- $C$ costante del condensatore
-	- $R$ resistenza
-- $I = Q'$
-	- derivata prima della carica rispetto al tempo
-- legge di Ohm
-	- $I = \frac{V}{R}$
-	- $C = \frac{Q}{V}$
+# Circuito RC
+	- Grandezze fisiche di interesse:
+		- $I$ corrente
+		- $Q$ carica
+		- $V$ voltaggio/tensione
+		- $C$ costante del condensatore
+		- $R$ resistenza
+	- $I = Q'$
+		- derivata prima della carica rispetto al tempo
+	- legge di Ohm
+		- $I = \frac{V}{R}$
+		- $C = \frac{Q}{V}$
 - $A: x \rightarrow V$
