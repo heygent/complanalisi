@@ -1,13 +1,13 @@
 - Grandezze fisiche di interesse:
 	- $I$ corrente
-	- $q$ carica
+	- $Q$ carica
 	- $V$ voltaggio/tensione
 	- $C$ costante del condensatore
 	- $R$ resistenza
-- $i = q'$
+- $I = Q'$
 	- derivata prima della carica rispetto al tempo
 - legge di Ohm
-	- $i = \frac{V}{R}$
-- $C = \frac{q}{V}$
-- $A: x \rightarrow v$
+	- $I = \frac{V}{R}$
+- $C = \frac{Q}{V}$
+- $A: x \rightarrow V$
 - Se non
