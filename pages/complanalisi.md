@@ -37,6 +37,5 @@ icon:: ∫
 			- Sistema lineare, continuo, invariante per traslazioni
 			- Siano $e_\lambda \in X$, $A$ filtro, allora
 				- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
-		-
 	- [[Trasformata di Fourier]]
 	-

@@ -64,9 +64,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Proprietà
 	  id:: 64eaeffe-3d5c-41b6-a650-fb9050dc94a9
 		- Sia $A : X \rightarrow Y$
-		  collapsed:: true
 			- Alternativamente:
-			  collapsed:: true
 				- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 				- $A : x \rightarrow y$
 		- ### Linearità #card
