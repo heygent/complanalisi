@@ -1,1 +1,5 @@
-- $i
+- $i$ corrente
+- $q$ carica
+- $v$ voltaggio/tensione
+- $C$ costante del condensatore
+- $R$
