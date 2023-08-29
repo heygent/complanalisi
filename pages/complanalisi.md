@@ -23,7 +23,7 @@ icon:: ∫
 	- ![Appunti 28/09/22](../assets/Appunti220928.pdf)
 	- ![Appunti 11/10/22](../assets/Appunti221011.pdf)
 	- ![Appunti 13/10/22](../assets/Appunti221013.pdf)
-	- ![Appunti]
+	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
