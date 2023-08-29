@@ -60,7 +60,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $$\|x\|_1 = \int_I |x(t)|\,dt$$
 				- Definisce la convergenza media
 			- ### Norma 2
-				- $$\|x\|_2 = \left( \int_I |x(t$$
+				- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
 		-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
