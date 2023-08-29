@@ -16,5 +16,7 @@
 		- Se non ci fosse resistenza, $V = x$
 		- Con resistenza:
 			- \begin{aligned}
+			  V &= x - IR \\
+			  &= x - Q'R \\
 			  \end{aligned}
 		-
