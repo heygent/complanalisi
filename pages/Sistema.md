@@ -57,7 +57,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
 				- Definisce la convergenza uniforme
 			- ### Norma 1
-				- $$\|x\|_1 = \int_I |x(t)| dt$$
+				- $$\|x\|_1 = \int_I |x(t)|\,dt$$
+				- Definisce la convergenza media
+			- ### Norma 2
+				- $$\|x\|_2 = \left( \int_I |x(t$$
 		-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
