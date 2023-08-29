@@ -5,4 +5,8 @@
 	- $C$ costante del condensatore
 	- $R$ resistenza
 - $i = q'$
-	- derivata prima
+	- derivata prima della carica rispetto al tempo
+	- legge di Ohm
+		- $i = \frac{V}{R}$
+		- $C = \frac{q}{V}$
+- $A: x \rightarrow $
