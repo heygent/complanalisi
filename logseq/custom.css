@@ -26,3 +26,7 @@
 .bg-white {
   background-color: white;
 }
+
+.invert {
+  filter: invert(100%);
+}

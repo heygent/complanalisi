@@ -13,11 +13,20 @@
 }
 
 /* canary */
+
 /* .inline { */
 /*   color: red; */
 /* } */
 
 .image-resize:has(.center), .asset-container:has(.center) {
-  display: none;
-  float: right;
+  display: block;
+  margin: 0 auto;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.invert {
+  invert: 100%;
 }
