@@ -69,7 +69,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 						- $\bar{y}(t)$ è il complesso coniugato di $y(t)$
 						- Generalizza il prodotto scalare
 					- \begin{aligned}
-					  (x, x) &= \int_I x(t) \bar{x}(t) 
+					  (x, x) &= \int_I x(t) \bar{x}(t) \\
+					  &= \int_I \|x(t)\|^2
 					  \end{aligned}
 					-
 		- La distanza può variare molto in base alla norma usata.
