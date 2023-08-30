@@ -174,4 +174,5 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- da norma infinito a norma infinito
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
 					- <iframe src="https://www.desmos.com/calculator/bxx1byb34v" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+					-
 				-
