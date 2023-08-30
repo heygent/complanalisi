@@ -57,8 +57,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- è necessario specificare rispetto a quale norma
 		- |       | Norma infinito | Norma 1 | Norma 2 |
 		  |----|----|----|----|
+		  |**Continuo**|
 		  |**Discreto**|
-		  |**C
 		-
 		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
