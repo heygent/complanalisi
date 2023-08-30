@@ -10,7 +10,7 @@
 		- derivata prima della carica rispetto al tempo
 	- legge di Ohm
 		- $V = IR$
-		- $C = \frac{Q}{V}$
+		- $Q = VC$
 		  id:: 64ee366b-1c8e-4248-a232-59016644c8ff
 	- $A: x \rightarrow V$
 		- $x$ è il voltaggio che inserisco, e $V(t)$ è il voltaggio che si crea in $C$
