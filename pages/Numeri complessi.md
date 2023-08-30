@@ -50,7 +50,7 @@ tags:: complanalisi
 	  \end{aligned}
 	- Corrisponde con la distanza euclidea.
 	- $\C = \R^2$ topologicamente
-- # Formula di Eulero
+- # Formula di Eulero #card
 	-
 	- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
