@@ -85,7 +85,9 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Quando il segnale è discreto, si possono usare le norme analoghe
 			- ((64ee91dc-fea6-4d55-a816-25a91ba9ba46))
 			- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
-				- $\|x^{(n)} - x\|
+				- $\|x^{(n)} - x\| \rightarrow 0$
+				- $\sup_{k \in \Z} |x_k^{(n)} - x_k|$
+				-
 			-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
