@@ -44,7 +44,7 @@ tags:: complanalisi
 		- $z_1 = x_1 + iy_1$
 		- $z_2 = x_2 + iy_2$
 	- \begin{aligned}
-	  \t{distanza}(z_1, z_2) &\triangleq |z_1 - z_2| \\
+	  \t{distanza}(z_1, z_2) &= |z_1 - z_2| \\
 	  &= |(x_1 - x_2) + i (y_1 - y_2)| \\
 	  &= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
 	  \end{aligned}
@@ -65,8 +65,8 @@ tags:: complanalisi
 	  \Theta &\in [0, 2\pi) \\
 	  \rho &\in [0, + \infty)
 	  \end{aligned}
-	- Formula di Eulero
-		- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
+- # Formula di Eulero
+	- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
 		- \begin{aligned}
 		  z &= \rho \cos \Theta + i \rho \sin \Theta \\
