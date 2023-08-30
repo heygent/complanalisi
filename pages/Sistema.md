@@ -68,7 +68,9 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					- $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
 						- $\bar{y}(t)$ è il complesso coniugato di $y(t)$
 						- Generalizza il prodotto scalare
-					- $$(x, x) = \int_I x(t) \bar{x}(t)$$
+					- \begin{aligned}
+					  (x, x) &= \int_I x(t) \bar{x}(t) 
+					  \end{aligned}
 					-
 		- La distanza può variare molto in base alla norma usata.
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
