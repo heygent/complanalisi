@@ -48,6 +48,7 @@ tags:: complanalisi
 	  &= |(x_1 - x_2) + i (y_1 - y_2)| \\
 	  &= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
 	  \end{aligned}
+	- Corrisponde con la distanza euclidea.
 	- $\C = \R^2$ topologicamente
 - # Formula di Eulero
 	-
