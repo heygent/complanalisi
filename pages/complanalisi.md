@@ -17,9 +17,9 @@ icon:: ∫
 		- tutto
 	- ![Numeri complessi - dispense](../assets/num_complessi_dispense.pdf)
 	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
-	- ![Appunti 28/09/22 - Filtro RC](../assets/Appunti220928.pdf)
-	- ![Appunti 11/10/22 - Principio di Indeterminazione di Heisenberg](../assets/Appunti221011.pdf)
-	- ![Appunti 13/10/22 - Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
+	- ![Appunti Filtro RC](../assets/Appunti220928.pdf)
+	- ![Appunti Principio di Indeterminazione di Heisenberg](../assets/Appunti221011.pdf)
+	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
 	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
