@@ -65,6 +65,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Definisce la convergenza media
 			- ### Norma 2
 				- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
+				- Rappresenta l'energia del segnale
 				- Deriva da un prodotto scalare tra funzioni:
 					- $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
 						- $\bar{y}(t)$ è il complesso coniugato di $y(t)$
