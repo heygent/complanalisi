@@ -57,7 +57,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- è necessario specificare rispetto a quale norma
 		- |       | Norma infinito | Norma 1 | Norma 2 |
 		  |----|:----:|:----:|:----:|
-		  | **Continuo** |  $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$  | ((64ee83d8-fbfc-489a-8e4b-641a5c80cd58)) | ((64ee8414-006b-4ef4-8db5-bd9ff5c961f8)) |
+		  | **Continuo** | $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$ | .  | . |
 		  |**Discreto**|
 		-
 		-
