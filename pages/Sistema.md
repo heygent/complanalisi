@@ -56,9 +56,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
 			- è necessario specificare rispetto a quale norma
 		- |       | Norma infinito | Norma 1 | Norma 2 |
-		  |----|----|----|----|
-		  |**Continuo**|
+		  |----|:----:|:----:|:----:|
+		  |**Continuo**|((64ee834f-4c1c-4038-9db4-557425915680))|
 		  |**Discreto**|
+		-
 		-
 		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
@@ -67,6 +68,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				  $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
 				- Definisce la convergenza uniforme
 			- ### Norma 1
+			  id:: 64ee8373-4033-47ed-a6b4-0cca8ea5fc11
 				- $$\|x\|_1 = \int_I |x(t)|\,dt$$
 				- Definisce la convergenza media
 			- ### Norma 2
