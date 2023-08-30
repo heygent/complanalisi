@@ -50,7 +50,7 @@ tags:: complanalisi
 	  \end{aligned}
 	- $\C = \R^2$ topologicamente
 - # Formula di Eulero
-	- ![unit-circle-sin-cos-tan.svg](../assets/unit-circle-sin-cos-tan_1688136458775_0.svg){:height 230, :width 310, :class "center bg-white"}
+	-
 	- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
 		- \begin{aligned}
