@@ -77,7 +77,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 						- $\|x\|_1 = \sqrt{(x, x)}$
 			- ### Convergenza puntuale
 				- Si dice che $x_n \rightarrow x$ puntualmente se
-				- $\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall t \in I$
+					- $\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$
 				-
 		- La distanza può variare molto in base alla norma usata.
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
