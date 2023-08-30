@@ -9,7 +9,7 @@
 	- $I = Q'$
 		- derivata prima della carica rispetto al tempo
 	- legge di Ohm
-		- $I = \frac{V}{R}$
+		- $V = IR$
 		- $C = \frac{Q}{V}$
 		  id:: 64ee366b-1c8e-4248-a232-59016644c8ff
 	- $A: x \rightarrow V$
