@@ -18,5 +18,9 @@
 /* } */
 
 .image-resize:has(.center), .asset-container:has(.center) {
-  float: right;
+  margin: auto;
+}
+
+img {
+  margin: auto;
 }

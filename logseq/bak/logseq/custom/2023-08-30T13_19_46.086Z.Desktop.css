@@ -10,11 +10,13 @@
 
 .block-ref .tag {
   display: none;
-  white-space-collapse: collapse;
-  margin: 0;
-  padding: 0;
 }
 
-.block-ref {
-  white-space-collapse: collapse;
+/* canary */
+/* .inline { */
+/*   color: red; */
+/* } */
+
+.image-resize:has(.center), .asset-container:has(.center) {
+  float: right;
 }
