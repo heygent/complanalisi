@@ -75,13 +75,13 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					  \end{aligned}
 						- che è il quadrato della norma.
 						- $\|x\|_1 = \sqrt{(x, x)}$
-			- ### Convergenza puntuale
-				- Si dice che $x_n \rightarrow x$ puntualmente se
-					- $\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$
-				-
 		- La distanza può variare molto in base alla norma usata.
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
 				- In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
+		- ### Convergenza puntuale
+			- Si dice che $x_n \rightarrow x$ puntualmente se
+				- $\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$
+			-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
