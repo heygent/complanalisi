@@ -68,7 +68,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Deriva da un prodotto scalare tra funzioni:
 					- $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
 						- $\bar{y}(t)$ è il complesso coniugato di $y(t)$
-						- Generalizza il prodotto scalare
 					- \begin{aligned}
 					  (x, x) &= \int_I x(t) \bar{x}(t)\,dt \\
 					  &= \int_I |x(t)|^2\,dt
