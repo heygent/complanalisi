@@ -56,6 +56,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
 		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
+			  id:: 64ee8341-d445-4da3-b2e1-0ba6d6bc2967
 				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
 				- Definisce la convergenza uniforme
 			- ### Norma 1
@@ -65,7 +66,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
 		- La distanza può variare molto in base alla norma usata.
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
-				-
+				- In questo caso, la
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
