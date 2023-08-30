@@ -36,7 +36,7 @@ tags:: complanalisi
 	  &= (x, y) \\
 	  \end{aligned}
 - ## Modulo
-	- $|z| \triangleq \sqrt{x^2 + y^2}$
+	- $|z| = \sqrt{x^2 + y^2}$
 	- Per teorema di Pitagora:
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-03-44}}
 - ## Distanza
@@ -66,7 +66,7 @@ tags:: complanalisi
 	  \rho &\in [0, + \infty)
 	  \end{aligned}
 	- Formula di Eulero
-		- $$e ^{i \Theta}  \triangleq cos \Theta + i \sin \Theta $$
+		- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
 		- \begin{aligned}
 		  z &= \rho \cos \Theta + i \rho \sin \Theta \\
