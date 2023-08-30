@@ -12,5 +12,7 @@
   display: none;
 }
 
-.image-resize:has(.center) {float: center;}
-.asset-container:has(.center) {float: center;} 
+.image-resize:has(.center), .asset-container:has(.center) {
+  display: none;
+  float: right;
+}

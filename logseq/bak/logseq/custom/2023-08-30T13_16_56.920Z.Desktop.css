@@ -9,8 +9,10 @@
 /* } */
 
 .block-ref .tag {
-  /* display: none; */
-  white-space-collapse: discard;
-  margin: 0;
-  padding: 0;
+  display: none;
+}
+
+.image-resize:has(.center), .asset-container:has(.center) {
+  margin-left: auto;
+  margin-right: auto;
 }

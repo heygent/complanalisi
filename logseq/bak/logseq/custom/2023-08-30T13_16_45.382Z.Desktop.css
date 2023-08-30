@@ -10,7 +10,7 @@
 
 .block-ref .tag {
   display: none;
-  white-space-collapse: discard;
-  margin: 0;
-  padding: 0;
 }
+
+.image-resize:has(.center) {float: center;}
+.asset-container:has(.center) {float: center;} 
