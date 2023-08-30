@@ -38,7 +38,7 @@ icon:: ∫
 			- ((64eaeffe-d35a-4300-a311-a8092c3b0304))
 			- Siano $e_\lambda \in X$, $A$ filtro, allora
 				- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
-		- Filtro passa-basso
+		- Filtro passa-basso e [[Circuito RC]]
 	- [[Trasformata di Fourier]]
 	-
 - Screenshot

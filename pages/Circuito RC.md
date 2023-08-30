@@ -1,4 +1,5 @@
-# Circuito RC #card
+-
+- # Circuito RC #card
 	- ((64ee5717-cb9b-40d9-9b66-a586754311c9))
 	- ## Grandezze fisiche di interesse
 		- $I$ corrente
