@@ -1,7 +1,7 @@
 tags:: complanalisi
 
 - # Definizione #card
-	- coppia ordinata $(x, y)$ di numeri reali $x$ e $y$, usualmente rappresentato nella forma $z = x + iy$.
+	- Coppia ordinata $(x, y)$ di numeri reali $x$ e $y$, usualmente rappresentato nella forma $z = x + iy$.
 		- $x \in \R$ parte reale
 		- $y \in \R$ parte immaginaria
 	- $$C = \{z = x + iy : x, y \in \mathbb{R}\}$$
@@ -30,7 +30,6 @@ tags:: complanalisi
 		- {{renderer excalidraw, excalidraw-2023-06-30-09-58-06}}
 - # Immersione di $\R$ in $\C$
 	- $x \in \R \longrightarrow (x, 0) \in \C$
-	- {{renderer excalidraw, excalidraw-2023-06-28-11-28-29}}
 	- \begin{aligned}
 	  x + iy &= (x, 0) + (0, 1)(y, 0) \\
 	  &= (x, 0) + (0 \cdot y - 1 \cdot 0, 0 \cdot 0 + y) \\
