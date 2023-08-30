@@ -25,7 +25,7 @@ tags:: complanalisi
 		- $$\begin{aligned}
 		  z_1 z_2 &= (x_1 + iy_1) (x_2 + iy_2) \\
 		  &= (x_1 x_2 - y_1 y_2) + i(x_1 y_2 + y_1 x_2) \\
-		  &= (x_1 x_2 - y_1 y_2,\,x_1 y_2 + y_1 x_2) \\
+		  &= (x_1 x_2 - y_1 y_2,\,\,x_1 y_2 + y_1 x_2) \\
 		  \end{aligned}$$
 		- {{renderer excalidraw, excalidraw-2023-06-30-09-58-06}}
 - # Immersione di $\R$ in $\C$
