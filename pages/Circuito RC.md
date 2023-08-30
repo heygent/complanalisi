@@ -26,10 +26,10 @@ tags:: complanalisi
 			  &= x - CV'R \\ 
 			  RCV' + V &= x
 			  \end{aligned}
-				- Questo dato che:
-					- ((64ee366b-1c8e-4248-a232-59016644c8ff))
-					- $Q' = V'C$
-					- $V$ e $x$ sono funzioni, $C$ è una costante
+			- Questo dato che:
+				- ((64ee366b-1c8e-4248-a232-59016644c8ff))
+				- $Q' = V'C$
+				- $V$ e $x$ sono funzioni, $C$ è una costante
 	- Modello di filtro passa-basso
 		- Muovendo lentamente la $x$ nel tempo, ovvero aumentando e diminuendo il voltaggio, la resistenza può essere d'intralcio ma nel complesso l'uscita $V$ segue abbastanza bene la $x$.
 		- Muovendo la $x$ velocemente, la $R$ smorza le oscillazioni.
