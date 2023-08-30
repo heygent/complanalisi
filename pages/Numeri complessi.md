@@ -66,7 +66,7 @@ tags:: complanalisi
 	  \rho &\in [0, + \infty)
 	  \end{aligned}
 	- Formula di Eulero
-		- $$cos \Theta + i \sin \Theta \triangleq e ^{i \Theta}$$
+		- $$e ^{i \Theta}  \triangleq cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
 		- \begin{aligned}
 		  z &= \rho \cos \Theta + i \rho \sin \Theta \\
