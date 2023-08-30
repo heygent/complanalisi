@@ -12,5 +12,18 @@
   display: none;
 }
 
-.image-resize:has(.center) {float: center;}
-.asset-container:has(.center) {float: center;} 
+/* canary */
+
+/* .inline { */
+/*   color: red; */
+/* } */
+
+.image-resize:has(.center), .asset-container:has(.center) {
+  box-shadow: 0px 10px 20px #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  margin: auto;
+}

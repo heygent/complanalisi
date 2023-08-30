@@ -12,7 +12,17 @@
   display: none;
 }
 
+/* canary */
+
+/* .inline { */
+/*   color: red; */
+/* } */
+
 .image-resize:has(.center), .asset-container:has(.center) {
-  margin-left: auto;
-  margin-right: auto;
+  /* display: block; */
+  margin: 0 auto;
+}
+
+img {
+  margin: auto;
 }
