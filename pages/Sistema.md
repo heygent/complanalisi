@@ -57,7 +57,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- è necessario specificare rispetto a quale norma
 		- |       | Norma infinito | Norma 1 | Norma 2 |
 		  |----|:----:|:----:|:----:|
-		  | **Continuo** | ((64ee834f-4c1c-4038-9db4-557425915680)) | ((64ee83d8-fbfc-489a-8e4b-641a5c80cd58)) |
+		  | **Continuo** |  $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$  | ((64ee83d8-fbfc-489a-8e4b-641a5c80cd58)) | ((64ee8414-006b-4ef4-8db5-bd9ff5c961f8)) |
 		  |**Discreto**|
 		-
 		-
@@ -74,7 +74,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				  $$\|x\|_1 = \int_I |x(t)|\,dt$$
 				- Definisce la convergenza media
 			- ### Norma 2
-				- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
+				- id:: 64ee8414-006b-4ef4-8db5-bd9ff5c961f8
+				  $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
 				- Rappresenta l'energia del segnale
 				- Deriva da un prodotto scalare tra funzioni:
 					- $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
