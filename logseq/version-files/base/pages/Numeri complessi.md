@@ -49,22 +49,6 @@ tags:: complanalisi
 	  &= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
 	  \end{aligned}
 	- $\C = \R^2$ topologicamente
-- ## Coordinate polari #card
-	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
-	- $$\begin{cases}
-	  \rho = \sqrt{x^2 + y^2} = |z| \\
-	  \Theta = \arctg \frac{y}{x}
-	  \end{cases}
-	  \quad\longleftrightarrow\quad
-	  \begin{cases}
-	  x = \rho \cos \Theta \\
-	  y = \rho \sin \Theta
-	  \end{cases}
-	  $$
-	- \begin{aligned}
-	  \Theta &\in [0, 2\pi) \\
-	  \rho &\in [0, + \infty)
-	  \end{aligned}
 - # Formula di Eulero
 	- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
@@ -81,19 +65,35 @@ tags:: complanalisi
 			  &= \rho_1 \rho_2 e^{i(\Theta_1 + \Theta_2)}
 			  \end{aligned}
 		- $$z^n = (\rho e^{i\Theta})^n = \rho^n e^{i\Theta n}$$
-	- ## Coniugato
-		- \begin{aligned}
-		  \bar{z} &\in \C \\
-		  \bar{z} &= x - iy
-		  \end{aligned}
-		- {{renderer excalidraw, excalidraw-2023-06-28-12-49-10}}
-		- \begin{aligned}
-		  z \bar{z} &= (x + iy)(x - iy) \\
-		  &= x^2 \cancel{-ixy + ixy} - i^2y^2 \\
-		  &= x^2 + y^2 \\
-		  &= |z|^2
-		  \end{aligned}
-		- Quindi $|z| = \sqrt{z \bar{z}}$
+- ## Coordinate polari #card
+	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
+	- $$\begin{cases}
+	  \rho = \sqrt{x^2 + y^2} = |z| \\
+	  \Theta = \arctg \frac{y}{x}
+	  \end{cases}
+	  \quad\longleftrightarrow\quad
+	  \begin{cases}
+	  x = \rho \cos \Theta \\
+	  y = \rho \sin \Theta
+	  \end{cases}
+	  $$
+	- \begin{aligned}
+	  \Theta &\in [0, 2\pi) \\
+	  \rho &\in [0, + \infty)
+	  \end{aligned}
+- ## Coniugato
+	- \begin{aligned}
+	  \bar{z} &\in \C \\
+	  \bar{z} &= x - iy
+	  \end{aligned}
+	- {{renderer excalidraw, excalidraw-2023-06-28-12-49-10}}
+	- \begin{aligned}
+	  z \bar{z} &= (x + iy)(x - iy) \\
+	  &= x^2 \cancel{-ixy + ixy} - i^2y^2 \\
+	  &= x^2 + y^2 \\
+	  &= |z|^2
+	  \end{aligned}
+	- Quindi $|z| = \sqrt{z \bar{z}}$
 - Si considerano in genere:
 	- $f: t \in \R \longrightarrow f(t) \in \C$
 		- Ovvero funzioni con immagine complessa.
