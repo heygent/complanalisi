@@ -11,3 +11,6 @@
 .block-ref .tag {
   display: none;
 }
+
+.image-resize:has(.center) {float: center;}
+.asset-container:has(.center) {float: center;} 
