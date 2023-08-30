@@ -9,9 +9,15 @@
 /* } */
 
 .block-ref .tag {
-  /* display: none; */
-  color: red;
-  white-space-collapse: collapse;
-  margin: 0;
-  padding: 0;
+  display: none;
+}
+
+/* canary */
+/* .inline { */
+/*   color: red; */
+/* } */
+
+.image-resize:has(.center), .asset-container:has(.center) {
+  display: none;
+  float: right;
 }
