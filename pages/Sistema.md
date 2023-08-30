@@ -65,9 +65,9 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- ### Norma 2
 				- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
 				- Deriva da un prodotto scalare tra funzioni:
-					- $(x_1, x_2)_2 = \int_I x(t)\bar{y}(t)\,dt$
+					- $(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$
 						- $\bar{y}(t)$ è il complesso coniugato di $y(t)$
-						- Generalizza il prodotto
+						- Generalizza il prodotto scalare
 		- La distanza può variare molto in base alla norma usata.
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
 				- In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
