@@ -21,9 +21,8 @@
 .image-resize:has(.center), .asset-container:has(.center) {
   display: block;
   margin: 0 auto;
-  background-color: white;
 }
 
-img {
-  margin: auto;
+.bg-white {
+  background-color: white;
 }
