@@ -166,7 +166,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Per dare questo concetto, si usa l'idea di norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
 				- $\forall\,x \in X \,\exists\, c > 0 \mid \|Ax\|_Y \le c \|x\|_X$
 			- #### Proprietà
-				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
-				- Per ogni $x \in X
-				- $$\forall\,x \in X\,\exists\,c > 0 | \|A_x\|_Y \le c \|x\|_X$$
+				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se per ogni $x \in X$ esiste $c > 0$ tale che:
+				- $$ \|A_x\|_Y \le c \|x\|_X$$
 				-
