@@ -172,4 +172,5 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Esempio: il differenziatore non è continuo rispetto a $\|.\|_\infty$
 				- $x(t) \rightarrow x'(t)$
 				- da norma infinito a norma infinito
+				- si prenda $x_n(t) = \frac1n \sin(nt)$
 				-
