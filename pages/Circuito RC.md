@@ -6,6 +6,7 @@
 		- $V$ voltaggio/tensione
 		- $C$ costante del condensatore
 		- $R$ resistenza
+	-
 	- $I = Q'$
 		- derivata prima della carica rispetto al tempo
 	- legge di Ohm
@@ -25,7 +26,7 @@
 				- Questo dato che:
 					- ((64ee366b-1c8e-4248-a232-59016644c8ff))
 					- $Q' = V'C$
-			- $V$ e $X$ sono funzioni, $C$ è una costante
+			- $V$ e $x$ sono funzioni, $C$ è una costante
 	- Modello di filtro passa-basso
 		- Muovendo lentamente la $x$ nel tempo, ovvero aumentando e diminuendo il voltaggio, la resistenza può essere d'intralcio ma nel complesso l'uscita $V$ segue abbastanza bene la $x$.
 		- Muovendo la $x$ velocemente, la $R$ smorza le oscillazioni.
