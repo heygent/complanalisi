@@ -82,7 +82,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Si dice che $x_n \rightarrow x$ puntualmente se
 				- $\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$
 		- ## Caso discreto
-			- Quando il segnale è discreto, si possono usare le norme analoghe
+			- Quando il segnale è discreto, si possono usare le norme analoghe:
+				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
 			- ((64ee91dc-fea6-4d55-a816-25a91ba9ba46))
 			- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
 				- $\|x^{(n)} - x\| \rightarrow 0$
