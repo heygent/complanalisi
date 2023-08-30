@@ -167,5 +167,5 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $\forall\,x \in X \,\exists\, c > 0 \mid \|Ax\|_Y \le c \|x\|_X$
 			- #### Proprietà
 				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
-				- $$\exists\,c > 0 | \,\forall\,x \$$
+				- $$\,\forall\,x \in X\,\exists\,c > 0 | $$
 				-
