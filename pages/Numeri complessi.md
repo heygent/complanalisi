@@ -89,7 +89,7 @@ tags:: complanalisi
 		  \end{aligned}
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-49-10}}
 		- \begin{aligned}
-		  z \bar{z} &= (x + iy)(z - iy) \\
+		  z \bar{z} &= (x + iy)(x - iy) \\
 		  &= x^2 \cancel{-ixy + ixy} - i^2y^2 \\
 		  &= x^2 + y^2 \\
 		  &= |z|^2
@@ -99,7 +99,7 @@ tags:: complanalisi
 	- $f: t \in \R \longrightarrow f(t) \in \C$
 		- Ovvero funzioni con immagine complessa.
 	- Frequenza pura:
-		- $\cos \omega t + i \sin \omega t$
+		- $\cos(\omega t + i \sin \omega t$
 	- Nel caso si vogliano fare derivate occorre considerare che:
 		- \begin{aligned}
 		  f(t) &= f_1(t) + if_2(t) \\
