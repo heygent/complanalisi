@@ -8,6 +8,10 @@
 /*   font-size: large; */
 /* } */
 
+body {
+  background-color: red;
+}
+
 .block-ref .tag {
   display: none;
 }
