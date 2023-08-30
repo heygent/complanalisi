@@ -60,7 +60,7 @@ tags:: complanalisi
 		  &= \rho e^{i \Theta}
 		  \end{aligned}
 		- Più generalmente, se voglio permettere che l'angolo faccia "più giri":
-			- $\rho e^{i(\Theta + 2k \pi)}$
+			- $\rho e^{i(\Theta + k2 \pi)}$ con $k \in \Z$
 		- Notazione conveniente, perché permette di usare le operazioni che solitamente verrebbero usate su esponenziali.
 			- \begin{aligned}
 			  z_1 \cdot z_2 &=\underbrace{\rho_1 e^{i \Theta_1}}_{z_1}  \cdot \underbrace{\rho_2 e^{i \Theta_2}}_{z_2} \\
