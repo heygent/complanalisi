@@ -63,7 +63,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
 			  id:: 64ee8341-d445-4da3-b2e1-0ba6d6bc2967
-				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
+				- id:: 64ee834f-4c1c-4038-9db4-557425915680
+				  $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
 				- Definisce la convergenza uniforme
 			- ### Norma 1
 				- $$\|x\|_1 = \int_I |x(t)|\,dt$$
