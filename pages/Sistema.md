@@ -55,6 +55,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $$\text{dist}(x_, x_2) = \|x_1 - x_2 \|$$
 		- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
 			- è necessario specificare rispetto a quale norma
+			-
 		- Ci sono tre norme principalmente usate:
 			- ### Norma infinito
 			  id:: 64ee8341-d445-4da3-b2e1-0ba6d6bc2967
