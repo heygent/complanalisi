@@ -169,4 +169,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
 					- per ogni $x \in X$ esiste $c > 0$ tale che:
 					- $$ \|A_x\|_Y \le c \|x\|_X$$
-			- Esempio: il differenziatore non è continuo rispetto a $\|.
+			- Esempio: il differenziatore non è continuo rispetto a $\|.\|_\infty$
+				- $x(t) \rightarrow x'(t)$
+				- da norma infinito a norma infinito
+				-
