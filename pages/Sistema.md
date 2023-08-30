@@ -89,8 +89,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
 				- $\|x^{(n)} - x\| \rightarrow 0$
 				- $\|x^{(n)} - x\| = \sup_{k \in \Z} |x_k^{(n)} - x_k|$
-				-
-			-
 - # Filtro
   id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
