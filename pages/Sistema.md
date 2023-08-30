@@ -84,6 +84,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- ## Caso discreto
 			- Quando il segnale è discreto, si possono usare le norme analoghe:
 				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
+				- $$\|x\|_2 = \left( \sum_{} |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
 			- ((64ee91dc-fea6-4d55-a816-25a91ba9ba46))
 			- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
 				- $\|x^{(n)} - x\| \rightarrow 0$
