@@ -149,6 +149,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- ### Continuità #card
 		  id:: 6495cd82-a9f1-4f4d-b03d-607629923f63
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
+			-
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
 				- $x_n \rightarrow x \text{ in }(X, \|\ldots\|) \Rightarrow y_n \rightarrow y \text{ in }(Y, \|\ldots\|)$
 				-
