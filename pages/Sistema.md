@@ -73,7 +73,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					  &= \int_I |x(t)|^2\,dt
 					  \end{aligned}
 						- che è il quadrato della norma.
-						- \|
+						- $\|x\|_1 = \sqrt{(x, x)}$
 					-
 		- La distanza può variare molto in base alla norma usata.
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
