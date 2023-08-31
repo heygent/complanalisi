@@ -1,15 +1,11 @@
 # Filtro
-id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
-	  id:: 64eaeffe-d35a-4300-a311-a8092c3b0304
 	- ## Proprietà
-	  id:: 64eaeffe-3d5c-41b6-a650-fb9050dc94a9
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
 				- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 				- $A : x \rightarrow y$
 		- ### Linearità #card
-		  id:: 6495cd82-7d09-45ed-bb57-0becdb7682d1
 			- $\forall\,x_1, x_2 \in X$
 			- $\forall\,\lambda, \mu \in \C$
 			- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
@@ -18,7 +14,6 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				- Allora quando $A(\lambda x_1 + \mu x_2) = \lambda y_1 + \mu y_2$ dico che il sistema è lineare.
 			- Dal punto di vista fisico corrisponde alla sovrapposizione degli effetti.
 		- ### Causalità #card
-		  id:: 6495cd82-0669-47e2-b342-fad23ec4818e
 		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.5
@@ -44,7 +39,6 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 						  \end{aligned}$$
 							- Supporre che $z(t) = x_1(t) - x_2(t) = 0\,\forall\, t < t_0$ equivale a supporre che $x_1 = x_2\,\forall\,t < t_o$
 		- ### Invarianza per traslazione #card
-		  id:: 6495cd82-783c-40b8-b59a-0668eb7f5b7c
 			- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 			- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
 			- Nessun sistema rispetta in assoluto questa proprietà.
@@ -56,7 +50,6 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				- $$A \tau_a = \tau_a A$$
 					- Che significa che $A$ si commuta con le traslazioni.
 		- ### Continuità #card
-		  id:: 6495cd82-a9f1-4f4d-b03d-607629923f63
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 			-
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
