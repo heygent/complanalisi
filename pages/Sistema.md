@@ -158,7 +158,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 			-
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
-				- $$\underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)}_{\lim_{x\rightarrow \infty} \|x_n - x\|_X = 0} \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)}_{\lim_{x\rightarrow \infty} \|x_n - x\|_X = 0}$$
+				- $$\underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|x_n - x\|_X = 0} \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0}$$
 				- Ogni volta che ho una successione $x_n$ che tende a $x$ in $X$ rispetto alla norma fissata su $x$, $y_n$ tende a $y$ in $Y$ rispetto alla norma fissata su $Y$.
 			- Un sistema $A : X \rightarrow Y$ è detto continuo se $Ax_n = y_n$ tende ad $A_x = y$ quando la sequenza $x_n$ tende a $x$
 				- Se $x_n$ si avvicina ad $x$ nello spazio di partenza, allora $y_n$ si avvicina ad $y$ nello spazio di arrivo.
