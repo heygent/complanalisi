@@ -177,7 +177,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					  id:: 64efc145-8c7c-44e7-88ca-f891c421a14d
 					- \begin{aligned}
 					  y_n &= Ax_n = x'_n \\
-					  &= \cos
+					  &= \cancel{\frac{1}{n}} \cos(nt) \cdot \cancel{n}
+					  &= \cos(nt)
 					  \end{aligned}
 					-
 				-
