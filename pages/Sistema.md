@@ -181,6 +181,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					  &= \cos(nt)
 					  \end{aligned}
 					- Per cui $y_n \xcancel{\longrightarrow} 0$ da $\|\ldots\|_\infty$
-					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1\,\, \forall n$$
+					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1 \xcancel{\longrightarrow} 0\,\, \forall n$$
 					-
 				-
