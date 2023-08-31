@@ -172,6 +172,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $x(t) \rightarrow x'(t)$
 				- da norma infinito a norma infinito
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
-					- <iframe src="https://www.desmos.com/calculator/isvdu0n7ec?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+					- <iframe src="https://www.desmos.com/calculator/ekhnvteybl?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 					-
 				-
