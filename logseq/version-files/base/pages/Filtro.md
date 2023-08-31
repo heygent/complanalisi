@@ -77,7 +77,7 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 					- <iframe src="https://www.desmos.com/calculator/bp0vfonqsp?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 				- \begin{aligned}
 				  \|x_n - x\|_\infty &= \sup_{t \in \R}|x_n(t) - 0| \\
-				  &= \sup_{t \in \R} | \frac{1}{n} \sin(nt) | \\
+				  &= \sup_{t \in \R} \left| \frac{1}{n} \sin(nt) \right| \\
 				  &= \frac{1}{n} \,\underbrace{\sup_{t \in \R} | \sin(nt)}_1 | \\
 				  &= \frac{1}{n} \rightarrow 0 \text{ per } n \rightarrow \infty
 				  \end{aligned}
