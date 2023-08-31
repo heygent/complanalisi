@@ -171,12 +171,14 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $x(t) \rightarrow x'(t)$
 				- da norma infinito a norma infinito
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
+				  collapsed:: true
 					- <iframe src="https://www.desmos.com/calculator/bp0vfonqsp?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-					- \begin{aligned}
-					  y_n &= Ax_n = x'_n \\
-					  &= \cancel{\frac{1}{n}} \cos(nt) \cdot \cancel{n} \\
-					  &= \cos(nt)
-					  \end{aligned}
+				- \|x_n
+				- \begin{aligned}
+				  y_n &= Ax_n = x'_n \\
+				  &= \cancel{\frac{1}{n}} \cos(nt) \cdot \cancel{n} \\
+				  &= \cos(nt)
+				  \end{aligned}
 					- Per cui $y_n \xcancel{\longrightarrow} 0$ da $\|\ldots\|_\infty$
 					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1 \xcancel{\longrightarrow} 0\,\, \forall n$$
 					-
