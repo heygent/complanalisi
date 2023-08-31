@@ -83,7 +83,7 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				  \end{aligned}
 				- $\frac{1}{n} \rightarrow 0$ per $n \rightarrow \infty$
 				- {{renderer :mathlive_cvpddjkk}}[:div {:is "mathlive-cvpddjkk"}]
-				  output:: x=\frac{1}{2}+
+				  output::
 				- Per cui, $x_n \rightarrow 0$ in $\|\ldots\|_\infty$
 				- \begin{aligned}
 				  y_n &= Ax_n = x'_n \\
