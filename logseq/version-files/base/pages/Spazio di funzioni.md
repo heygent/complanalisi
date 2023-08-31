@@ -10,6 +10,7 @@ id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 	- $X : I \subseteq \mathbb{R} \rightarrow \mathbb{R} \text{ oppure } \mathbb{C}$
 		- Ad esempio $I$ può essere $\mathbb{R}, (a, b), (a, +\infty), \ldots$
 	- ## Norma
+	  id:: 64ef30fb-b59c-4905-8565-25f72859cd0f
 		- In uno spazio di funzioni il concetto di limite è spesso definito in termini di una norma $\|\cdot\|$ definita su ognuno degli spazi vettoriali.
 		- Utile per definire la distanza tra due funzioni:
 			- $$\text{dist}(x_, x_2) = \|x_1 - x_2 \|$$
