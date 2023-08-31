@@ -82,8 +82,6 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				  &= \frac{1}{n}
 				  \end{aligned}
 				- $\frac{1}{n} \rightarrow 0$ per $n \rightarrow \infty$
-				- {{renderer :mathlive_cvpddjkk}}[:div {:is "mathlive-cvpddjkk"}]
-				  output::
 				- Per cui, $x_n \rightarrow 0$ in $\|\ldots\|_\infty$
 				- \begin{aligned}
 				  y_n &= Ax_n = x'_n \\
@@ -92,5 +90,6 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				  \end{aligned}
 					- Per cui $y_n \xcancel{\longrightarrow} 0$ da $\|\ldots\|_\infty$
 					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1 \xcancel{\longrightarrow} 0\,\, \forall n$$
+					-
 					-
 				-
