@@ -69,7 +69,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- Il termine sinusoide descrive qualunque onda con le caratteristiche di un onda seno.
 				- Anche l'onda coseno è detta sinusoidale, dato che $\cos(x)=\sin(x+\pi/2)$
 			- <iframe src="https://www.desmos.com/calculator/iq4zfz9r3i?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-			- <iframe src="https://www.desmos.com/calculator/tzthsgrryt?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 			- ### Parametri
 				- #### Ampiezz
 					- $|\alpha| = \max | x(t) |$
