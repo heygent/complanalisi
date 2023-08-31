@@ -175,5 +175,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
 					- <iframe src="https://www.desmos.com/calculator/p3y29koimv?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 					  id:: 64efc145-8c7c-44e7-88ca-f891c421a14d
+					- \begin{aligned}
+					  y_n &= A_{x_n} = x'_n
+					  \end{aligned}
 					-
 				-
