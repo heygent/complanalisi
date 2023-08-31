@@ -34,7 +34,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Delay line
 		- $$y(t) = x(t - a)$$
 		- Per $a > 0$ ritarda, per $a < 0$ anticipa
-		- <iframe src="https://www.desmos.com/calculator/9ztklgo63a?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+		- <iframe src="https://www.desmos.com/calculator/u4vvlkcjpp?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
 	- ## Differenziatore
 		- $$y(t) = x'(t)$$
 			- Dove $x'$ è la derivata di $x$.
