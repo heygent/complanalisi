@@ -31,6 +31,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Amplificatore ideale #card
 		- $$y(t) = kx(t)$$
 		- Per $k > 1$ amplifica, per $0 < k < 1$ smorza.
+		-
 	- ## Delay line
 		- $$y(t) = x(t - a)$$
 		- Per $a > 0$ ritarda, per $a < 0$ anticipa
@@ -38,6 +39,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Differenziatore
 		- $$y(t) = x'(t)$$
 			- Dove $x'$ è la derivata di $x$.
+		- ((64efc145-8c7c-44e7-88ca-f891c421a14d))
 - # Spazi di funzioni #card
   id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 	- $x \in X$ dove $X$ è uno spazio vettoriale di funzioni
