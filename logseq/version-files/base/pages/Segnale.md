@@ -41,9 +41,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		  \end{cases}
 		  $$
 		- ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)) della semiretta positiva, con la differenza che resta indefinita su 0.
-		  collapsed:: true
 			- O funzione segno indefinita su 0.
-			- ((63d5363e-8dac-4d54-bc67-604c40523300))
+			-
 	- ## Funzione caratteristica #card
 	  id:: 63d5783c-0a5a-4449-9f80-6e80c87edbfe
 		- $$\chi_A(x) = \begin{cases}
