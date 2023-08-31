@@ -76,7 +76,8 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				  collapsed:: true
 					- <iframe src="https://www.desmos.com/calculator/bp0vfonqsp?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 				- \begin{aligned}
-				  \|x_n - x\|_\infty &= \sup_{t \in \R}|x_
+				  \|x_n - x\|_\infty &= \sup_{t \in \R}|x_n(t) - 0| \\
+				  &= \sup_{t \in \R} | \frac{1}{n} \sin(nt) |
 				  \end{aligned}
 				- \begin{aligned}
 				  y_n &= Ax_n = x'_n \\
