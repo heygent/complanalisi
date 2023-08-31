@@ -166,7 +166,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
 					- per ogni $x \in X$ esiste $c > 0$ tale che:
 					- $$ \|A_x\|_Y \le c \|x\|_X$$
-					- Riesco a controllare la grandezza dell'output tramite la grandezza dell'input.
+					- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
 			- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
 				- $x(t) \rightarrow x'(t)$
 				- da norma infinito a norma infinito
