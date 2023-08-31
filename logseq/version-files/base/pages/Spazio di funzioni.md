@@ -31,7 +31,6 @@ id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 				  $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
 				- Rappresenta l'energia del segnale
 				- Deriva da un prodotto scalare tra funzioni.
-				  collapsed:: true
 					- $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
 						- $\bar{y}(t)$ è il complesso coniugato di $y(t)$
 					- \begin{aligned}
@@ -41,7 +40,6 @@ id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 						- che è il quadrato della norma.
 						- $\|x\|_1 = \sqrt{(x, x)}$
 		- La distanza può variare molto in base alla norma usata.
-		  collapsed:: true
 			- {{renderer excalidraw, excalidraw-2023-08-30-01-57-41}}
 				- In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
 		- ### Convergenza puntuale
