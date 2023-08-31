@@ -75,7 +75,9 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
 				  collapsed:: true
 					- <iframe src="https://www.desmos.com/calculator/bp0vfonqsp?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-				- \|x_n
+				- \begin{aligned}
+				  \|x_n - x\|_\infty &= \sup_{t \in \R}|x_
+				  \end{aligned}
 				- \begin{aligned}
 				  y_n &= Ax_n = x'_n \\
 				  &= \cancel{\frac{1}{n}} \cos(nt) \cdot \cancel{n} \\
