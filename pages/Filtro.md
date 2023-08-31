@@ -79,8 +79,7 @@ id:: 64eaeffe-89d2-49f4-a49f-e0d3264f40d1
 				  \|x_n - x\|_\infty &= \sup_{t \in \R}|x_n(t) - 0| \\
 				  &= \sup_{t \in \R} | \frac{1}{n} \sin(nt) | \\
 				  &= \frac{1}{n} \sup_{t \in \R} | \sin(nt) | \\
-				  &= \frac{1}{n} \\
-				  \frac{1}{n} &\rightarrow 0 
+				  &= \frac{1}{n} \rightarrow 0 \text{ per } n \rightarrow \infty
 				  \end{aligned}
 				- \begin{aligned}
 				  y_n &= Ax_n = x'_n \\
