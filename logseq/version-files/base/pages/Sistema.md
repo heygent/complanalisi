@@ -180,6 +180,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					  &= \cancel{\frac{1}{n}} \cos(nt) \cdot \cancel{n} \\
 					  &= \cos(nt)
 					  \end{aligned}
-					- Per cui $y_n \
+					- Per cui $y_n \xcancel{\longrightarrow} 0$
 					-
 				-
