@@ -70,7 +70,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Anche l'onda coseno è detta sinusoidale, dato che $\cos(x)=\sin(x+\pi/2)$
 			- <iframe src="https://www.desmos.com/calculator/iq4zfz9r3i?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 			- ### Parametri
-				- #### Ampiezz
+				- #### Ampiezza
 					- $|\alpha| = \max | x(t) |$
 					- amplifica o smorza le oscillazioni verticali
 					- la funzione oscillerà tra $-\alpha$ e $\alpha$
