@@ -151,6 +151,7 @@
 				- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
 					- Soluzione
 						- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
+						- $$\forall\, x \in X\, \exists\, c > 0 \text{ t.c. } \|Ax\|_\infty \le c \|x\|_\infty?$$
 						-
 		-
 			-
