@@ -9,7 +9,7 @@
 	-
 	- Se $x \in X$ suppongo che:
 		- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
-			- Posso riscrivere il segnale com
+			- Posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti
 		- Con convergenza della serie in $\|\ldots\|_X$
 		- Cioè:
 			- $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
