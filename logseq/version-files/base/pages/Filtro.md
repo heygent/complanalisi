@@ -161,7 +161,8 @@
 						  &\le \|x\|_\infty \sup_t e^{-t} \int_{-\infty}^t e^s \,ds \\
 						  &= \|x\|_\infty \sup_t  e^{-t}\biggl[e^s \biggr]_{-\infty}^t \\
 						  &= \|x\|_\infty \sup_t  e^{-t}(e^t - \underbrace{e^{-\infty}}_{=0}) \\
-						  &= \|x\|_\infty \sup_t 1
+						  &= \|x\|_\infty \sup_t 1 \\
+						  &= \|x\|_\infty
 						  \end{aligned}
 		-
 			-
