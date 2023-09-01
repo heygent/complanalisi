@@ -96,5 +96,6 @@
 			  :LOGBOOK:
 			  CLOCK: [2023-09-01 Fri 06:10:27]--[2023-09-01 Fri 06:10:27] =>  00:00:00
 			  :END:
-				- Dimostrare che $$A: x(t) \Rightarrow y(t) = \int_{-\infty}^t e^-(t-s)x(s)\,ds$$
+				- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
+				-
 				-
