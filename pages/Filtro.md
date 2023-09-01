@@ -46,8 +46,9 @@
 		  \end{aligned}
 		- Per $u = 0$
 			- \begin{aligned}
-			  f_\lambda(t) = e_\lambda(t) f_\lambda(0) \quad forall t \in R
+			  f_\lambda(t) = e_\lambda(t) f_\lambda(0) \quad \forall t \in R
 			  \end{aligned}
+			- La risposta del sistema $f_\lambda(t
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
