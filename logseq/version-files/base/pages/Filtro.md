@@ -41,7 +41,7 @@
 	  \end{aligned}
 		- Si consideri $u$ variabile e $t$ parametro
 		- \begin{aligned}
-		  f_\lambda(t + u) &= A(e_\lambda(t) \cdot e_\lambda(u))
+		  A(e_\lambda(t) \cdot e_\lambda(u)) &= e_\lambda(t) A(e_\lambda) \\
 		  \end{aligned}
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
