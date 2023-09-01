@@ -8,7 +8,8 @@
 	- Si supponga che le $e_\lambda^n(t) \in X$
 	-
 	- Se $x \in X$ suppongo che:
-		- $$x(t)$$
+		- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
+		-
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
