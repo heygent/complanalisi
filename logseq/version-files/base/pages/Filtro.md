@@ -11,7 +11,7 @@
 		- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
 		- Con convergenza della serie in $\|\ldots\|_X$
 		- Cioè:
-			- $$\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\|_X$$
+			- $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
