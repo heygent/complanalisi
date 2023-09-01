@@ -52,7 +52,7 @@
 				- $f_\lambda(0)$ sono autovalori di $A$
 				- $e_\lambda$ sono autofunzioni
 	- Funzione di trasferimento del sistema A:
-		- \l
+		- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
