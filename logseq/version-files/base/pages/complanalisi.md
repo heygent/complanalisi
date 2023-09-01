@@ -36,6 +36,7 @@ icon:: ∫
 	- [[Trasformata di Fourier]]
 	-
 - Screenshot
+  collapsed:: true
 	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
 	- ![image.png](../assets/image_1688499834986_0.png){:height 737, :width 302}
 	- ((64a504ea-8996-48b7-8ff6-2ff957969c4d))
