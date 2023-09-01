@@ -13,6 +13,8 @@
 		- Con convergenza della serie in $\|\ldots\|_X$
 		- Cioè:
 			- $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
+	- \begin{aligned}
+	  \end{aligned}
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
