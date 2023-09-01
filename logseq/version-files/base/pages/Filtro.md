@@ -96,5 +96,6 @@
 			  :LOGBOOK:
 			  CLOCK: [2023-09-01 Fri 06:10:27]--[2023-09-01 Fri 06:10:27] =>  00:00:00
 			  :END:
-				- Sia $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
+				- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
+				- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
 				-
