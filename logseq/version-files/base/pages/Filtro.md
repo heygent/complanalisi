@@ -39,6 +39,10 @@
 	  \tau_{-t} f_\lambda &= f_\lambda(t + u) \\
 	  f_\lambda(t + u) &= A(e_\lambda(t) \cdot e_\lambda(u))
 	  \end{aligned}
+		- Si consideri $u$ variabile e $t$ parametro
+		- \begin{aligned}
+		  f_\lambda(t + u) &= A(e_\lambda(t) \cdot e_\lambda(u))
+		  \end{aligned}
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
