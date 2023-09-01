@@ -21,7 +21,7 @@
 	  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n f_\lambda^{(n)}(t) \\
 	  &= \sum_{n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
 	  \end{aligned}
-	- Si supponga quindi di avere $e_\lambda(t) \xrightarrow{A} f_y(t)$:
+	- Si supponga quindi di avere $e_\lambda(t) \xrightarrow{A} f_\lambda(t)$:
 	- \begin{aligned}
 	  e_\lambda(t + u) &= \tau_{-t} e(u) \\
 	  &= e^{2\pi i \lambda(t + u)} \\
