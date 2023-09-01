@@ -24,7 +24,8 @@
 	- Si supponga quindi di avere $e_\lambda(t) \rightarrow f_y(t)$:
 	- \begin{aligned}
 	  e_\lambda(t + u) &= \tau_{-t} e(u) \\
-	  &= e^{2\pi i \lambda(t + u)}
+	  &= e^{2\pi i \lambda(t + u)} \\
+	  &= e^{2\pi i \lambda t} e^{2\pi i \lambda u} \\
 	  \end{aligned}
 	-
 	- ## Proprietà
