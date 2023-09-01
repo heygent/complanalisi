@@ -42,15 +42,15 @@
 		   &= e_\lambda(t) A(e_\lambda(u)) \\
 		   &= e_\lambda(t) f_\lambda(u)
 		  \end{aligned}
-			- Per $u = 0$
-				- \begin{aligned}
-				  f_\lambda(t) = e_\lambda(t) f_\lambda(0) \quad \forall t \in R
-				  \end{aligned}
-				- La risposta del sistema $f_\lambda(t) = A(e_\lambda)(t)$ agli input $e_\lambda$ è $e_\lambda(t)$ moltiplicato per una costante che dipende solo da $\lambda$ (non da $t$)
-					- $f_\lambda(0)$ sono autovalori di $A$
-					- $e_\lambda$ sono autofunzioni
-			- Funzione di trasferimento del sistema $A$:
-				- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
+		- Per $u = 0$
+			- \begin{aligned}
+			  f_\lambda(t) = e_\lambda(t) f_\lambda(0) \quad \forall t \in R
+			  \end{aligned}
+		- La risposta del sistema $f_\lambda(t) = A(e_\lambda)(t)$ agli input $e_\lambda$ è $e_\lambda(t)$ moltiplicato per una costante che dipende solo da $\lambda$ (non da $t$)
+			- $f_\lambda(0)$ sono autovalori di $A$
+			- $e_\lambda$ sono autofunzioni
+		- Funzione di trasferimento del sistema $A$:
+			- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
