@@ -28,7 +28,7 @@ icon:: ∫
 			- $x = x(t) \in X$
 			- $y = y(t) \in Y$
 		- funzioni in ((64eaeffe-3968-42cb-9047-566bc2b5b37b)) normati.
-		- LATER Un sistema è un operatore $A: x(t) \rightarrow y(t)$
+		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
 		- ((64eaeffe-3d5c-41b6-a650-fb9050dc94a9))
 			- Linearità
 			- Invarianza per traslazione
