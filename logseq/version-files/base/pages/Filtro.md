@@ -41,8 +41,8 @@
 	  \end{aligned}
 		- Si consideri $u$ variabile e $t$ parametro
 		- \begin{aligned}
-		  &= e_\lambda(t) A(e_\lambda(u)) \\
-		  f_\lambda(t + u) &= e_\lambda(t) f_\lambda(u)
+		  f_\lambda(t + u) &= e_\lambda(t) A(e_\lambda(u)) \\
+		   &= e_\lambda(t) f_\lambda(u)
 		  \end{aligned}
 		- Per $u = 0$
 			- \begin{aligned}
