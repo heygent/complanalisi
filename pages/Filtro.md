@@ -17,8 +17,7 @@
 	  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
 	  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n e_\lambda^n(t)  \right) \\
 	  &= \underbrace{\lim_{N \rightarrow +\infty}}_\text{per A continuo} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) \\
-	  &= \lim_{N \rightarrow +\infty} c_n A \left( \sum_{-N}^N e_\lambda^n(t)\right) \\
-	  &= \lim_{N \rightarrow +\infty} c_n A \left( \sum_{-N}^N e_\lambda^n(t)\right) \\
+	  &= \lim_{N \rightarrow +\infty} c_n  \sum_{-N}^N A(e_\lambda^n)(t) \\
 	  \end{aligned}
 	-
 	- ## Proprietà
