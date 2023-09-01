@@ -41,7 +41,7 @@
 	  \end{aligned}
 		- Si consideri $u$ variabile e $t$ parametro
 		- \begin{aligned}
-		  A(e_\lambda(t) \cdot e_\lambda(u)) &= e_\lambda(t) A(e_\lambda(u)) \\
+		  &= e_\lambda(t) A(e_\lambda(u)) \\
 		  f_\lambda(t + u) &= e_\lambda(t) f_\lambda(u)
 		  \end{aligned}
 	- ## Proprietà
