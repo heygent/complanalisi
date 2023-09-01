@@ -57,7 +57,10 @@
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 			-
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
-				- $$\underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|x_n - x\|_X = 0} \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0}$$
+				- $$
+				  \begin{array}
+				  \underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|x_n - x\|_X = 0} \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0}
+				  \end{array}$$
 				- Ogni volta che ho una successione $x_n$ che tende a $x$ in $X$ rispetto alla norma fissata su $x$, $y_n$ tende a $y$ in $Y$ rispetto alla norma fissata su $Y$.
 			- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per le funzioni.
 			- Per dare questo concetto, si usa l'idea di ((64ef30fb-b59c-4905-8565-25f72859cd0f)), definita su ognuno degli spazi vettoriali $X$ e $Y$.
