@@ -28,6 +28,12 @@
 	  &= e^{2\pi i \lambda t} e^{2\pi i \lambda u} \\
 	  &= e_\lambda(t) \cdot e_\lambda(u)
 	  \end{aligned}
+	- $$
+	  \begin{aligned}
+	  e_\lambda \xrightarrow{A} f_\lambda \\
+	  
+	  \end{aligned}
+	  $$
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
