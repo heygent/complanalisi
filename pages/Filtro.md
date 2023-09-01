@@ -30,9 +30,10 @@
 	  \end{aligned}
 	- $$
 	  \begin{aligned}
-	  e_\lambda \xrightarrow{A} f_\lambda \\
-	  
+	  e_\lambda &\xrightarrow{A} f_\lambda \\
+	  \tau_{-t}e_\lambda &\xrightarrow{A} \tau_{-t} f_\lambda
 	  \end{aligned}
+	  \text{}
 	  $$
 	-
 	- ## Proprietà
