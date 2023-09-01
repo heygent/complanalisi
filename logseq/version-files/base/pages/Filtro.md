@@ -153,8 +153,8 @@
 						- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
 						- $$\forall\, x \in X\, \exists\, c > 0 \text{ t.c. } \|Ax\|_\infty \le c \|x\|_\infty?$$
 						- \begin{aligned}
-						  \sup_{t\in\R}|Ax(t)| &= \sup
-						  
+						  \sup_{t\in\R}|Ax(t)| &= \sup_t \left|\int_{-\infty}^t e^{-(t-s)}x(s)\,ds \right|\\
+						  &\le \sup_t \int_{-\infty}^t \left| e^{-(t-s)}x(s)\, \right| ds \\
 						  \end{aligned}
 		-
 			-
