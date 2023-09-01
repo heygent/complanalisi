@@ -1,11 +1,12 @@
 # Filtro
 	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2)) #card
 	  id:: 64f0ed21-afb3-44dd-aee4-c6ee06624e52
-	- Sia $\exp(2\pi i \lambda n t)$ la frequenza pura $\lambda n$
+	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
-		- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$
+		- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
 		- Si aggiunge $n$ perché si è interessati a tutti i multipli della frequenza
 	- Si supponga che le $e_\lambda^n(t) \in X$
+	-
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
