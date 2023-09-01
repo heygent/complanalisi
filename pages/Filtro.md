@@ -7,6 +7,8 @@
 		- Si aggiunge $n$ perché si è interessati a tutti i multipli della frequenza
 	- Si supponga che le $e_\lambda^n(t) \in X$
 	-
+	- Se $x \in X$ suppongo che:
+		- $$x(t)$$
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
