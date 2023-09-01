@@ -9,6 +9,7 @@
 	-
 	- Se $x \in X$ suppongo che:
 		- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
+		-
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
