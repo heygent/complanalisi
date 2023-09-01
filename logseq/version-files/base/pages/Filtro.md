@@ -9,7 +9,9 @@
 	-
 	- Se $x \in X$ suppongo che:
 		- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
-		-
+		- Con convergenza della serie in $\|\ldots\|_X$
+		- Cioè:
+			- $$\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\|_X$$
 	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
