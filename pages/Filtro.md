@@ -15,8 +15,10 @@
 			- $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
 	- \begin{aligned}
 	  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
-	  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N e_\lambda^n(t)  \right) \\
-	  &= \underbrace{\lim_{N \rightarrow +\infty}}_\text{per A continuo} A \left( \sum_{-N}^N e_\lambda^n(t)\right)
+	  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n e_\lambda^n(t)  \right) \\
+	  &= \underbrace{\lim_{N \rightarrow +\infty}}_\text{per A continuo} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) \\
+	  &= \lim_{N \rightarrow +\infty} c_n A \left( \sum_{-N}^N e_\lambda^n(t)\right) \\
+	  &= \lim_{N \rightarrow +\infty} c_n A \left( \sum_{-N}^N e_\lambda^n(t)\right) \\
 	  \end{aligned}
 	-
 	- ## Proprietà
