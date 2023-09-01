@@ -1,6 +1,7 @@
 # Filtro
 	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2)) #card
 	  id:: 64f0ed21-afb3-44dd-aee4-c6ee06624e52
+	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
@@ -98,4 +99,5 @@
 			  :END:
 				- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
 				- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
-				-
+		-
+			-
