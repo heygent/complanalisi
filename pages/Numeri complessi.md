@@ -96,6 +96,7 @@ tags:: complanalisi
 	  &= |z|^2
 	  \end{aligned}
 	- Quindi $|z| = \sqrt{z \bar{z}}$
+-
 - Si considerano in genere:
 	- $f: t \in \R \longrightarrow f(t) \in \C$
 		- Ovvero funzioni con immagine complessa.
