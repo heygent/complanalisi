@@ -16,7 +16,7 @@
 	- \begin{aligned}
 	  Ax(t) &= A\left(\sum_{-\infty}^\infty \ldots \right) \\
 	  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N \ldots \right) \\
-	  &= \lim_{N \rightarrow +\infty} A \left( \sum_{-N}^N \ldots \right)
+	  &= \underbrace{\lim_{N \rightarrow +\infty}}_\text{per A continuo} A \left( \sum_{-N}^N \ldots \right)
 	  \end{aligned}
 	-
 	- ## Proprietà
