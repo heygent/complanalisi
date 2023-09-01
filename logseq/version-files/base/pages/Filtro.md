@@ -85,7 +85,7 @@
 				  &= \cancel{\frac{1}{n}} \cos(nt) \cdot \cancel{n} \\
 				  &= \cos(nt)
 				  \end{aligned}
-					- Per cui $y_n \xcancel{\longrightarrow} 0$ da $\|\ldots\|_\infty$
+					- Per cui $y_n \xcancel{\longrightarrow} 0$ in $\|\ldots\|_\infty$
 					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1 \xcancel{\longrightarrow} 0\,\, \forall n$$
 					-
 					-
