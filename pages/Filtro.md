@@ -159,7 +159,7 @@
 						  &= \sup_t \int_{-\infty}^t e^s e^{-t} |x(s)|\, ds \\
 						  &= \sup_t e^{-t} \int_{-\infty}^t e^s \underbrace{|x(s)|}_{\le \|x\|_\infty}\, ds \\
 						  &\le \|x\|_\infty \sup_t e^{-t} \int_{-\infty}^t e^s \,ds \\
-						  &= \|x\|_\infty \sup_t e^{-\infty} \
+						  &= \|x\|_\infty \sup_t e^{-\infty} \biggr]_{-\infty}^t
 						  \end{aligned}
 		-
 			-
