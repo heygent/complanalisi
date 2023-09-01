@@ -58,10 +58,10 @@
 			-
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
 				- $$
-				  \begin{array}{ccc}
-				  \underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)} & \Rightarrow & \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)} \\
-				  \lim_{n \rightarrow \infty} \|x_n - x\|_X = 0 & & {\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0} \\
-				  \end{array}$$
+				  \begin{alignedat}{2}
+				  \underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)} & \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)} \\
+				  \lim_{n \rightarrow \infty} \|x_n - x\|_X = 0 & \pg {\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0} \\
+				  \end{alignedat}$$
 				- $$
 				  \begin{array}{ccc}
 				  \underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|x_n - x\|_X = 0} \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)}_{\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0}
