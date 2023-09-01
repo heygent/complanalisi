@@ -72,7 +72,7 @@
 		  card-next-schedule:: 2023-08-27T22:00:00.000Z
 		  card-last-reviewed:: 2023-08-27T08:35:58.860Z
 		  card-last-score:: 1
-			- Si vuole formalizzare il fatto che non anticipa i tempi e risponde al principio di causa-effetto.
+			- Si vuole formalizzare il fatto che il sistema non anticipa i tempi e risponde al principio di causa-effetto.
 			- Non è una proprietà obbligatoria di un filtro, ma lo rende realizzabile.
 			- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
 				- Se le due funzioni sono uguali fino a un certo punto, l'output del sistema deve essere uguale fino a quel punto.
