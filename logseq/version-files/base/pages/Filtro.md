@@ -13,14 +13,15 @@
 				- Posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti.
 				- La serie converge in $\|\ldots\|_X$
 					- $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
-		- \begin{aligned}
-		  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
-		  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n e_\lambda^n(t)  \right) \\
-		  &= \lim_{N \rightarrow +\infty} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) &\text{per A continuo} \\
-		  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n A(e_\lambda^n)(t) &\text{per A lineare} \\
-		  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n f_\lambda^{(n)}(t) \\
-		  &= \sum_{n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
-		  \end{aligned}
+		- Allora:
+			- \begin{aligned}
+			  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
+			  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n e_\lambda^n(t)  \right) \\
+			  &= \lim_{N \rightarrow +\infty} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) &\text{per A continuo} \\
+			  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n A(e_\lambda^n)(t) &\text{per A lineare} \\
+			  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n f_\lambda^{(n)}(t) \\
+			  &= \sum_{n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
+			  \end{aligned}
 		- Si supponga quindi di avere $e_\lambda(t) \xrightarrow{A} f_\lambda(t)$:
 		- \begin{aligned}
 		  e_\lambda(t + u) &= \tau_{-t} e(u) \\
