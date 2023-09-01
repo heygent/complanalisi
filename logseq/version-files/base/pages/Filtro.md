@@ -5,7 +5,7 @@
 		- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$
 			- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
 			- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
-			- Si aggiunge $n$ perché si è interessati a tutti i multipli della frequenza
+			- Si aggiunge l'esponente $n$ perché si è interessati a tutti i multipli della frequenza
 		- Si supponga che le $e_\lambda^n(t) \in X$
 		-
 		- Se $x \in X$ suppongo che:
