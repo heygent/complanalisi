@@ -1,11 +1,12 @@
 # Filtro
-	- Un filtro è un sistema che gode delle proprietà di ((6495cd82-7d09-45ed-bb57-0becdb7682d1)), ((6495cd82-a9f1-4f4d-b03d-607629923f63)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
+	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((6495cd82-783c-40b8-b59a-0668eb7f5b7c)) #card
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
 				- $A : x = x(t) \in X \rightarrow y = y(t) \in Y$
 				- $A : x \rightarrow y$
 		- ### Linearità #card
+		  id:: 64f0ed21-ef2f-4428-80d4-1a61c9c2fc60
 			- $\forall\,x_1, x_2 \in X$
 			- $\forall\,\lambda, \mu \in \C$
 			- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
@@ -39,6 +40,7 @@
 						  \end{aligned}$$
 							- Supporre che $z(t) = x_1(t) - x_2(t) = 0\,\forall\, t < t_0$ equivale a supporre che $x_1 = x_2\,\forall\,t < t_o$
 		- ### Invarianza per traslazione #card
+		  id:: 64f0ed21-ca43-460c-bd64-fcf998a8edf2
 			- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 			- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
 			- Nessun sistema rispetta in assoluto questa proprietà.
@@ -50,6 +52,7 @@
 				- $$A \tau_a = \tau_a A$$
 					- Che significa che $A$ si commuta con le traslazioni.
 		- ### Continuità #card
+		  id:: 64f0ed21-4164-4b05-9568-8d7d172e248b
 			- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 			-
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
