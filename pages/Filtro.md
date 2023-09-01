@@ -60,7 +60,7 @@
 				- $$
 				  \begin{alignedat}{2}
 				  \underbrace{x_n \rightarrow x \text{ in }(X, \|\ldots\|)} & \Rightarrow \underbrace{y_n \rightarrow y \text{ in }(Y, \|\ldots\|)} \\
-				  \lim_{n \rightarrow \infty} \|x_n - x\|_X = 0 & \pg {\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0} \\
+				  \lim_{n \rightarrow \infty} \|x_n - x\|_X = 0 & \phantom{\Rightarrow} {\lim_{n \rightarrow \infty} \|y_n - y\|_Y = 0} \\
 				  \end{alignedat}$$
 				- $$
 				  \begin{array}{ccc}
