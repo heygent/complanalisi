@@ -26,6 +26,7 @@
 	  e_\lambda(t + u) &= \tau_{-t} e(u) \\
 	  &= e^{2\pi i \lambda(t + u)} \\
 	  &= e^{2\pi i \lambda t} e^{2\pi i \lambda u} \\
+	  &= e_\lambda(t) \cdot e_\lambda(u)
 	  \end{aligned}
 	-
 	- ## Proprietà
