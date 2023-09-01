@@ -19,7 +19,7 @@
 	  &= \underbrace{\lim_{N \rightarrow +\infty}}_\text{per A continuo} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) \\
 	  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n A(e_\lambda^n)(t) \\
 	  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n f_\lambda^{(n)}(t) \\
-	  &= \sum_{-n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
+	  &= \sum_{n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
 	  \end{aligned}
 	-
 	- ## Proprietà
