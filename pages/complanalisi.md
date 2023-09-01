@@ -30,10 +30,8 @@ icon:: ∫
 		- funzioni in ((64eaeffe-3968-42cb-9047-566bc2b5b37b)) normati.
 		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
 		- ((64f0ed21-afb3-44dd-aee4-c6ee06624e52))
-		- ((64eaeffe-89d2-49f4-a49f-e0d3264f40d1))
-			- ((64eaeffe-d35a-4300-a311-a8092c3b0304))
-			- Siano $e_\lambda \in X$, $A$ filtro, allora
-				- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
+		- Siano $e_\lambda \in X$, $A$ filtro, allora
+			- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
 		- Filtro passa-basso e [[Circuito RC]]
 	- [[Trasformata di Fourier]]
 	-
