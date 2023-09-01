@@ -150,6 +150,7 @@
 				- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
 				- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
 					- Soluzione
-						- ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))
+						- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
+						-
 		-
 			-
