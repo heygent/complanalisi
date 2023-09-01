@@ -33,9 +33,8 @@
 	  e_\lambda &\xrightarrow{A} f_\lambda \\
 	  \tau_{-t}e_\lambda &\xrightarrow{A} \tau_{-t} f_\lambda
 	  \end{aligned}
-	  \text{}
 	  $$
-	-
+		- Per ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
