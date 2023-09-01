@@ -116,6 +116,7 @@
 			- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per le funzioni.
 			- Per dare questo concetto, si usa l'idea di ((64ef30fb-b59c-4905-8565-25f72859cd0f)), definita su ognuno degli spazi vettoriali $X$ e $Y$.
 			- #### Proprietà
+			  id:: 64f0ed21-2f59-46c4-983c-ccb41c8f7ae1
 				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
 					- per ogni $x \in X$ esiste $c > 0$ tale che:
 					- $$ \|A_x\|_Y \le c \|x\|_X$$
@@ -149,6 +150,7 @@
 				- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
 				- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
 					- Soluzione
+						- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
 						-
 		-
 			-
