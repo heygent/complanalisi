@@ -155,6 +155,9 @@
 						- \begin{aligned}
 						  \sup_{t\in\R}|Ax(t)| &= \sup_t \left|\int_{-\infty}^t e^{-(t-s)}x(s)\,ds \right|\\
 						  &\le \sup_t \int_{-\infty}^t \left| e^{-(t-s)}x(s)\, \right| ds \\
+						  &= \sup_t \int_{-\infty}^t e^{-(t-s)}|x(s)|\, ds \\
+						  &= \sup_t \int_{-\infty}^t e^s e^{-t} |x(s)|\, ds \\
+						  &= \sup_t e^{-t} \int_{-\infty}^t e^s \underbrace{|x(s)|}_{\le \|x\|_\infty}\, ds \\
 						  \end{aligned}
 		-
 			-
