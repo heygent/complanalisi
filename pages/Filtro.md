@@ -35,6 +35,7 @@
 	  \end{aligned}
 	  $$
 		- Per ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
+	-
 	- ## Proprietà
 		- Sia $A : X \rightarrow Y$
 			- Alternativamente:
