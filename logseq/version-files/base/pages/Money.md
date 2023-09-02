@@ -17,4 +17,6 @@
 		- duck saw
 	- {{youtube-timestamp 559}} weird animal?
 	- {{youtube-timestamp 576}} duck lawnmower (sharpy spinny)
+	- {{youtube-timestamp 640}}
+		- duck hammer
 	-
