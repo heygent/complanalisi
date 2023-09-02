@@ -25,3 +25,5 @@
 		- duck ??
 	- {{youtube-timestamp 875}}
 		- duck cage
+	- {{youtube-timestamp 1066}}
+		- duck money
