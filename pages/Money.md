@@ -47,12 +47,12 @@
 	- hammer
 	- egg
 	- egg
-	- bag
-	- lamp
-	- apple
-	- clamp
 	- saw
-	- lawnmower
-	- hammer
 	- ?
+	- bag
+	- apple
+	- lawnmower
+	- lamp
+	- clamp
+	- hammer
 	-
