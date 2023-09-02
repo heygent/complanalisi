@@ -71,17 +71,17 @@
 	- hammer
 	- ?
 -
-	- bag
 	- cup
 	- hammer
-	- lamp
-	- apple
-	- egg
 	- egg
 	- egg
 	- saw
+	- egg
+	- bag
+	- apple
+	- lamp
 	- lawnmower
-	- hammer
 	- ?
 	- cage
 	- money
+	- hammer
