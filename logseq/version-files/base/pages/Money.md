@@ -55,4 +55,4 @@
 	- lamp
 	- clamp
 	- hammer
-	-
+	- money
