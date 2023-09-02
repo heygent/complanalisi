@@ -3,5 +3,6 @@
 		- 5x1900
 	- {{youtube-timestamp 293}}
 		- stats
-	- duck apple
+	- {{youtube-timestamp 334}}
+		- duck apple
 	- duck egg
