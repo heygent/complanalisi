@@ -61,12 +61,12 @@
 	- hammer
 	- apple
 	- lawnmower
+	- lamp
 	- egg
 	- egg
 	- saw
 	- egg
 	- bag
-	- lamp
 	- money
 	- hammer
 	- ?
