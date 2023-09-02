@@ -5,5 +5,5 @@
 		- stats
 	- {{youtube-timestamp 334}}
 		- duck apple
-	-
-	- duck egg
+	- {{youtube-timestamp 342}}
+		- duck egg
