@@ -48,11 +48,11 @@
 	- egg
 	- egg
 	- saw
-	- ?
+	- egg
 	- bag
 	- apple
 	- lawnmower
 	- lamp
-	- clamp
-	- hammer
 	- money
+	- hammer
+	- ?

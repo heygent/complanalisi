@@ -49,10 +49,10 @@
 	- egg
 	- saw
 	- egg
-	- ?
 	- bag
 	- apple
 	- lawnmower
 	- lamp
-	- hammer
 	- money
+	- hammer
+	- ?
