@@ -15,3 +15,6 @@
 		- duck egg
 	- {{youtube-timestamp 542}}
 		- duck saw
+	- {{youtube-timestamp 559}} weird animal?
+	- {{youtube-timestamp 576}} duck lawnmower
+	-
