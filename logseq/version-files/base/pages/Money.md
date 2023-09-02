@@ -42,3 +42,12 @@
   [10:39](https://www.youtube.com/watch?v=Jf4GBKmU8Ww&t=639s) behind the black head of the hammer behind the blue car
   [14:24](https://www.youtube.com/watch?v=Jf4GBKmU8Ww&t=864s) sideways on the right hand side of the gaping hole in the underwear
   [14:35](https://www.youtube.com/watch?v=Jf4GBKmU8Ww&t=875s)  upside-down inside the pink and white cage on the right hand side  of of I.DA.T whilst he tries and induces diarrhea.
+-
+	- bag
+	- hammer
+	- lamp
+	- apple
+	- clamp
+	- egg
+	- egg
+	-
