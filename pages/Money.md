@@ -70,17 +70,18 @@
 	- money
 	- hammer
 	- ?
+-
 	- bag
-	  cup
-	  hammer
-	  lamp
-	  apple
-	  egg
-	  egg
-	  egg
-	  saw
-	  lawnmower
-	  hammer
-	  ?
-	  cage
-	  money
+	- cup
+	- hammer
+	- lamp
+	- apple
+	- egg
+	- egg
+	- egg
+	- saw
+	- lawnmower
+	- hammer
+	- ?
+	- cage
+	- money
