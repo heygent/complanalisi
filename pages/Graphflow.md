@@ -1,0 +1,1 @@
+- Traverse the graph. Assign value of previous node -1 to
