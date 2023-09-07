@@ -35,8 +35,6 @@ icon:: ∫
 		- Filtro passa-basso e [[Circuito RC]]
 	- [[Trasformata di Fourier]]
 -
-	-
--
 - Screenshot
   collapsed:: true
 	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
