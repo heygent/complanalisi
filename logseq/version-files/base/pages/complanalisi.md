@@ -34,7 +34,10 @@ icon:: ∫
 			- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
 		- Filtro passa-basso e [[Circuito RC]]
 	- [[Trasformata di Fourier]]
-	-
+-
+- #+BEGIN_IMPORTANT
+  dadfafd
+  #+END_IMPORTANT
 - Screenshot
   collapsed:: true
 	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
