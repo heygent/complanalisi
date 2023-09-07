@@ -48,8 +48,8 @@ id:: 64eaeffe-3968-42cb-9047-566bc2b5b37b
 		- ## Caso discreto
 			- Quando il segnale è discreto, si possono usare le norme analoghe:
 				- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
+					- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
+						- $\|x^{(n)} - x\| \rightarrow 0$
+						- $\|x^{(n)} - x\| = \sup_{k \in \Z} |x_k^{(n)} - x_k|$
 				- $$\|x\|_1 = \sum_{n = -\infty}^{+\infty} |x_n|$$
 				- $$\|x\|_2 = \left( \sum_{n = -\infty}^{+\infty} |x_n|^2 \right)^{\frac{1}{2}}$$
-			- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
-				- $\|x^{(n)} - x\| \rightarrow 0$
-				- $\|x^{(n)} - x\| = \sup_{k \in \Z} |x_k^{(n)} - x_k|$
