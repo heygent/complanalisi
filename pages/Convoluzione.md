@@ -1,9 +1,9 @@
-# Definizione
-
-Siano $f, g: \R \rightarrow \R$ oppure $\C$. Definisco la convoluzione di $f$ e $g$ come:
-
-$$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
-purché l'integrale esista e sia finito (come integrale nel senso di Lebesgue).
+- $$$$
+- # Definizione
+- Siano $f, g: \R \rightarrow \R$ oppure $\C$. Definisco la convoluzione di $f$ e $g$ come:
+  
+  $$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
+  purché l'integrale esista e sia finito (come integrale nel senso di Lebesgue).
 - ## Proprietà
 	- 1. Proprietà commutativa: $$(f * g)(x) = (g * f)(x)$$
 	- 2. Se $f, g \in L^1(\R)$, allora $f * g$ esiste ed appartiene a $L^1(\R)$. Inoltre: $$\norm[f*g]{L^1(\R)} \le \norm[f]{L^2(\R)} \norm[g]_{L^1(\R)}$$
