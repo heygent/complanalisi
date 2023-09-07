@@ -125,7 +125,6 @@
 				- $x(t) \rightarrow x'(t)$
 				- da norma infinito a norma infinito
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
-				  collapsed:: true
 					- <iframe src="https://www.desmos.com/calculator/bp0vfonqsp?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 				- \begin{aligned}
 				  \|x_n - x\|_\infty &= \sup_{t \in \R}|x_n(t) - 0| \\
