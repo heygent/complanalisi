@@ -24,7 +24,6 @@ icon:: ∫
 	- ![Appunti](../assets/appunti.pdf)
 - # Parti #.ol
 	- [[Segnale]] e [[Sistema]]
-	  logseq.order-list-type:: number
 		- Siano
 			- $x = x(t) \in X$
 			- $y = y(t) \in Y$
