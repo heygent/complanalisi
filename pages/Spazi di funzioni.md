@@ -17,7 +17,7 @@ tags:: complanalisi
 		- $$
 		  \begin{aligned}
 		  \|f\|_\Li &=  \esssup |f|\\
-		  &= \inf\{C\ge 0: C \ge |f(t)| \text{ quasi ovunque su }I\}
+		  &= \inf\{C: C \ge |f(t)| \text{ quasi ovunque su }I\}
 		  \end{aligned}
 		  $$
 		- > Gli integrali qua sono intesi come integrali di Lebegue.
@@ -30,8 +30,7 @@ tags:: complanalisi
 		  Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
 		  
 		  Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$, ovvero considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
-		  
-		  "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
+		- "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
 		  Tutti gli insiemi finiti e numerabili hanno misura di Lebesgue nulla.
 		  
 		  Ad esempio:

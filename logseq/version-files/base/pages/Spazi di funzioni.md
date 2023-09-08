@@ -17,7 +17,7 @@ tags:: complanalisi
 		- $$
 		  \begin{aligned}
 		  \|f\|_\Li &=  \esssup |f|\\
-		  &= \inf\{C\ge 0: |f(t)| \le C \text{ quasi ovunque su }I\}
+		  &= \inf\{C: C \ge |f(t)| \text{ quasi ovunque su }I\}
 		  \end{aligned}
 		  $$
 		- > Gli integrali qua sono intesi come integrali di Lebegue.
