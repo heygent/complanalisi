@@ -69,8 +69,11 @@ tags:: complanalisi
 		- Questa proprietà e la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) permettono di calcolare facilmente la trasformata di Fourier delle funzioni $\sin(2πat)$ e $\cos(2πat)$
 		- > Questa proprietà mostra che la trasformata di Fourier "individua" la frequenza pura $a \in \R$ del segnale $e^{2πiat}$ associando a tale segnale una Delta di Dirac $δ_a$ centrata nel punto $ω = a$
 	- ### Conseguenza
-		- Per la linearità di $\F$, la trasformata di Fourier di un segnale:
-			- $$f(t) = \sum^N_{k=1} c_k e^{eπiλkt}$$
-			- che contiene le frequenze $λ_1, …, λ_n$, sarà:
-			- $$\hat f(ω) = \sum_{k=1}^N c_k δ_{λ_k}$$
-				- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
+		- Per la linearità di $\F$, la trasformata di Fourier di un segnale che contiene le frequenze $λ_1, …, λ_n$, sarà:
+			- $$
+			  \begin{aligned}
+			  f(t) &= \sum^N_{k=1} c_k e^{eπiλkt} \\
+			  \hat f(ω) &= \sum_{k=1}^N c_k δ_{λ_k}
+			  \end{aligned}
+			  $$
+			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
