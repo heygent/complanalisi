@@ -47,14 +47,13 @@ tags:: complanalisi
 	- La risposta del sistema $f_\lambda(t) = A(e_\lambda)(t)$ agli input $e_\lambda$ è $e_\lambda(t)$ moltiplicato per una costante che dipende solo da $\lambda$ (non da $t$ )
 		- $f_\lambda(0)$ sono autovalori di $A$
 		- $e_\lambda$ sono autofunzioni
-	- Funzione di trasferimento del sistema $A$ :
-	  background-color:: red
+	- **Funzione di trasferimento del sistema** $A$:
 		- background-color:: green
 		  $$\lambda \rightarrow f_\lambda(0) = H(\lambda)$$
 		- $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
-- Se $H(\lambda)$ ed $e_\lambda(t)$ sono a valori complessi si ha che:
-  Siano $H(\lambda), e_\lambda(t) = z_{1}, z_2$:
-- ![[Numeri complessi#^complex-exp-product]]
-- $\rho_2$ è 1, dato che è l'ampiezza della frequenza pura, mentre $\rho_1$ è il fattore per cui la frequenza viene smorzata o amplificata.
-- $\rho_{1}=|z_1|=|H(\lambda)|$
-- $\Theta_{2}$ va a influire sulla fase iniziale del segnale, che è impercettibile dal punto di vista sonoro (e non interessante).
+	- Se $H(\lambda)$ ed $e_\lambda(t)$ sono a valori complessi si ha che:
+		- Siano $H(\lambda), e_\lambda(t) = z_{1}, z_2$:
+		- ![[Numeri complessi#^complex-exp-product]]
+	- $\rho_2$ è 1, dato che è l'ampiezza della frequenza pura, mentre $\rho_1$ è il fattore per cui la frequenza viene smorzata o amplificata.
+	- $\rho_{1}=|z_1|=|H(\lambda)|$
+	- $\Theta_{2}$ va a influire sulla fase iniziale del segnale, che è impercettibile dal punto di vista sonoro (e non interessante).

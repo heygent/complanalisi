@@ -47,8 +47,7 @@ tags:: complanalisi
 	- La risposta del sistema $f_\lambda(t) = A(e_\lambda)(t)$ agli input $e_\lambda$ è $e_\lambda(t)$ moltiplicato per una costante che dipende solo da $\lambda$ (non da $t$ )
 		- $f_\lambda(0)$ sono autovalori di $A$
 		- $e_\lambda$ sono autofunzioni
-	- Funzione di trasferimento del sistema $A$ :
-	  background-color:: red
+	- **Funzione di trasferimento del sistema** $A$:
 		- background-color:: green
 		  $$\lambda \rightarrow f_\lambda(0) = H(\lambda)$$
 		- $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
