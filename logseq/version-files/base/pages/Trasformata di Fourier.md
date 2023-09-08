@@ -18,11 +18,11 @@ tags:: complanalisi
 		  $$
 	- Quindi:
 	  $$
-    \begin{aligned}
-    \|\hat f \|_{L^∞(\R)} &= \esssup_{ω \in \R} |\hat f(ω)| \\
-    &\le \esssup_{ω \in \R} \|f\|_{L^1(\R)} \\
-    &= \|f\|_{L^1(\R)}
-    \end{aligned}
+	   \begin{aligned}
+	   \|\hat f \|_{L^∞(\R)} &= \esssup_{ω \in \R} |\hat f(ω)| \\
+	   &\le \esssup_{ω \in \R} \|f\|_{L^1(\R)} \\
+	   &= \|f\|_{L^1(\R)}
+	   \end{aligned}
 	  $$
 		- La norma ∞ è <= della norma L1 di f.
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
@@ -33,7 +33,7 @@ tags:: complanalisi
 		  \F[\lambda f_1 + \mu f_2](ω) &= \fint e^{-2πiωt}(λf_1(t) + \mu f_2(t))\,dt \\
 		  &=
 		  \lambda \fint e^{-2πiωt}f_1(t) + \mu\fint e^{-2πiωt}f_2(t)\,dt \\
-		  &=\lambda\F[f_1](ω) + \mu\F[f_2(ω)]
+		  &=\lambda\F[f_1](ω) + \mu\F[f_2](ω)
 		  \end{aligned}
 		  $$
 	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
