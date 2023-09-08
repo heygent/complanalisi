@@ -46,25 +46,26 @@ tags:: complanalisi
 			- in funzione delle frequenze da $\hat f(t)$
 		- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale
-	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
-		- $\hat 1 = δ$ e $\hat δ = 1$
-			- La trasformata della funzione 1 costante è un delta di Dirac, e viceversa
-		- $∀ϕ\in S'(\R)$:
-			- logseq.order-list-type:: number
-			  $$\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$$
-				- $$
-				  \begin{aligned}
-				  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
-				  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
-				  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
-				  &= (\mu_{-a} \hatϕ)(ω)
-				  \end{aligned}
-				  $$
-			- $\F[\mu_a ϕ] = τ_a \hat ϕ$
-			  logseq.order-list-type:: number
-				- Analogo al caso uno con $ϕ \in L'(\R)$
-		- $\F[e^{2πiat}] = δ_a$
-			- La frequenza pura $e_a$ è uguale al Delta di Dirac centrato in $a$
-		- $\F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
-			- Questa proprietà e la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) permettono di calcolare facilmente la trasformata di Fourier delle funzioni $\sin(2πat)$ e $\cos(2πat)$
-			- Questa proprietà mostra che la trasformata di Fourier "individua" la frequenza pura $a \in \R$ del segnale $e^{2πiat}$ associando a tale segnale una Delta di Dirac $δ_a$ centrata nel punto $ω = a$
+	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà.
+	- $\hat 1 = δ$ e $\hat δ = 1$
+		- La trasformata della funzione 1 costante è un delta di Dirac, e viceversa
+	- $∀ϕ\in S'(\R)$:
+		- $\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$
+		  logseq.order-list-type:: number
+			- $$
+			  \begin{aligned}
+			  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
+			  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
+			  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
+			  &= (\mu_{-a} \hatϕ)(ω)
+			  \end{aligned}
+			  $$
+		- $\F[\mu_a ϕ] = τ_a \hat ϕ$
+		  logseq.order-list-type:: number
+			- Analogo al caso uno con $ϕ \in L'(\R)$
+	- $\F[e^{2πiat}] = δ_a$
+		- La frequenza pura $e_a$ è uguale al Delta di Dirac centrato in $a$
+	- $\F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
+		- Questa proprietà e la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) permettono di calcolare facilmente la trasformata di Fourier delle funzioni $\sin(2πat)$ e $\cos(2πat)$
+		- Questa proprietà mostra che la trasformata di Fourier "individua" la frequenza pura $a \in \R$ del segnale $e^{2πiat}$ associando a tale segnale una Delta di Dirac $δ_a$ centrata nel punto $ω = a$
+		-
