@@ -217,6 +217,12 @@ tags:: complanalisi
 					- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita
 					- I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
 		- ### Base "trigonometrica" di $L^2(0,a)$ #card
+		  card-last-interval:: -1
+		  card-repeats:: 1
+		  card-ease-factor:: 2.5
+		  card-next-schedule:: 2023-09-09T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-08T22:19:52.300Z
+		  card-last-score:: 1
 			- Posto $λ = \frac{1}{a}$ si ha che:
 				- $$\{\sqrt{λ}\} \cup \{\sqrt{2λ}\cos(2πnλt)\}_{n = 1}^{+\infty} \cup \{\sqrt{2λ}\sin(2πnλt)\}_{n = 1}^{+\infty}$$
 					- è una base ortonormale di $L^2(0, a)$
