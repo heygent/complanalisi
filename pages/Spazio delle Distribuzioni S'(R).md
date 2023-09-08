@@ -22,11 +22,11 @@ card-last-score:: 1
 		  \end{cases}
 		  $$
 	- Ma anche, in senso opportuno, $\int_{-∞}^{+∞}ϕ(t)\,dt = 1$, e quindi $δ(t)$ non rappresenta la distribuzione nulla di carica $ϕ(t) = 0$.
-- # Spazio delle distribuzioni $S'(\R)$ #card
 	- $δ(t)$ differisce dalla funzione nulla solo in $t=0$, insieme di misura nulla, per cui se fosse una funzione di $L^1(\R)$,  $L^2(\R)$ o $L^∞(\R)$ dovrebbe essere identificata con $ϕ(t) = 0$.
 	- Ciò mostra, intuitivamente, che lo strumento matematico usato per una distribuzione di carica $δ(t)$ concentrata in $t=0$ non può essere una funzione.
 	- Rappresentiamo graficamente la distribuzione $δ(t)$ con una "freccia" centrata in $t=0$:
 		- ((64fb296b-1892-4162-a79e-f4cb196b9be0))
+- # Spazio delle distribuzioni $S'(\R)$ #card
 	- Vengono definite le sue traslate $δ_a(t)$ di parametro $a \in \R$ come distribuzioni concentrate nei punti $a \in \R$, e rappresentate da "frecce" centrate in $a \in \R$.
 	- Si scrive anche $δ_a(t) = (τ_aδ)(t)$
 		- $τ_a$ operatore di traslazione già usato per funzioni.

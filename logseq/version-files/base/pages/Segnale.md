@@ -35,6 +35,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 - # Segnali elementari
 	- ## Funzione Heaviside #card
 	  id:: 64eaeffe-1615-4958-a30d-6caec1f624d9
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:27:40.092Z
+	  card-last-score:: 1
 		- $$
 		  u(t) = \begin{cases}
 		  0 & \text{se } t < 0 \\
