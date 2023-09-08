@@ -57,6 +57,12 @@ tags:: complanalisi
 				- Che significa che $A$ si commuta con le traslazioni.
 	- ### Continuità #card
 	  id:: 64f0ed21-4164-4b05-9568-8d7d172e248b
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:14:08.986Z
+	  card-last-score:: 1
 		- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 		-
 		- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se:
