@@ -176,6 +176,7 @@ tags:: complanalisi
 		- id:: 64fb9097-2231-41b3-8a63-a9dbcdaecce1
 		  $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
 - # Filtro passa-basso #card
+  id:: 64fb8e55-6062-41e7-83a4-953e54c1921e
 	- Un filtro che lascia passare solo frequenze basse.
 	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:
 	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/ta8g8wowpg?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
