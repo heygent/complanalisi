@@ -34,6 +34,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 		- variazione della pressione atmosferica al variare del tempo
 - # Segnali elementari
 	- ## Funzione Heaviside #card
+	  id:: 64eaeffe-1615-4958-a30d-6caec1f624d9
 		- $$
 		  u(t) = \begin{cases}
 		  0 & \text{se } t < 0 \\

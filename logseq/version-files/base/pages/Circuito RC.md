@@ -96,13 +96,13 @@ tags:: complanalisi
 			  $$
 	- ## Funzione di trasferimento
 		- ### Espressione in termini di [[Convoluzione]]
-	- Pongo:
-	- $$
-	  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
-	  $$
-	  ^hoft
-	- Con $u(t)$ uguale alla [[Segnale#Funzione Heaviside|Funzione Heaviside]].
-	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+			- Pongo:
+				- $$
+				  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
+				  $$
+				  ^hoft
+			- Con $u(t)$ uguale alla ((64eaeffe-1615-4958-a30d-6caec1f624d9)).
+		- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 	- $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
 	- $h(t-s) = 0$ se $t-s < 0$.
 	- Per cui posso integrare solo per gli $s < t$:
