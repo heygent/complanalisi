@@ -16,7 +16,7 @@
 			- $$L^p(I) = \left\{f: I \rightarrow \C \bigg| \int_I |f(t)|^p\,dt < +\infty\right\}$$
 			- In cui si intendono identificate funzioni che differiscono su insiemi di misura di Lebesgue nulla.
 			- Su $L^p(I)$ si definisce la norma:
-				- $$\|f\|_\L{p} = \left(\int_I |f(t)|^p\,dt\right)^\frac{1}{p}$$
+				- $$\|f\|_{L^p(I) = \left(\int_I |f(t)|^p\,dt\right)^\frac{1}{p}$$
 				- ottenendo spazi di Banach.
 				  
 				  Vale la seguente proprietà (di cui le tre proprietà precedenti sono casi particolari):
