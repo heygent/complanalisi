@@ -24,18 +24,14 @@ tags:: complanalisi
 		  &= \int_I |x(t)|^2\,dt
 		  \end{aligned}
 		  $$
-	- che è il quadrato della norma:
-	  
-	  $\|x\|_1 = \sqrt{(x, x)}$
-	  
-	  La distanza può variare molto in base alla norma usata.
-	  ![[Norma 2023-09-02 16.01.34.excalidraw]]
-	  In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
+		- che è il quadrato della norma:
+		- $\|x\|_1 = \sqrt{(x, x)}$
+	- La distanza può variare molto in base alla norma usata.
+	-
+	- In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
 - ### Convergenza puntuale
-  
-  Si dice che $x_n \rightarrow x$ puntualmente se
-  
-  $$\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$$
+- Si dice che $x_n \rightarrow x$ puntualmente se
+- $$\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$$
 - ## Caso discreto
   
   Quando il segnale è discreto, si possono usare le norme analoghe:
