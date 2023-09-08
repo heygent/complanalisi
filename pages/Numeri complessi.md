@@ -1,6 +1,12 @@
 tags:: complanalisi
 
 - # Definizione #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:26:53.542Z
+  card-last-score:: 1
 	- Coppia ordinata $(x, y)$ di numeri reali $x$ e $y$, usualmente rappresentato nella forma $z = x + iy$.
 		- $x \in \R$ parte reale
 		- $y \in \R$ parte immaginaria
