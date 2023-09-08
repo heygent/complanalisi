@@ -18,7 +18,7 @@ tags:: complanalisi
 		  $$
 	- Quindi:
 	  $$
-	  \|\hat f \|_{L^∞(\R)} = \operatorname{esssup}_{ω \in \R} |\hat f(ω)| \le \esssup_{ω \in \R} \|f\|_{L^1(\R)} = \|f\|_{L^1(\R)}
+	  \|\hat f \|_{L^∞(\R)} = \operatorname*{ess\,sup}_{ω \in \R} |\hat f(ω)| \le \esssup_{ω \in \R} \|f\|_{L^1(\R)} = \|f\|_{L^1(\R)}
 	  $$
 		- La norma ∞ è <= della norma L1 di f.
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
