@@ -4,6 +4,7 @@
 	- Se la carica totale è 1 avremo:
 		- $$1 = \int_{-∞}^{+∞}ϕ(t)\,dt$$
 	- Immaginiamo ora che la carica si distribuisca secondo densità $ϕ_n(t)$, con $n = 1,2,3,…$, che si accumulano sempre più nel punto $t = 0$, come da disegno:
+	  id:: 64fb2863-7a63-4366-8acf-7e3cb3b4cac1
 		- ((64fb2882-fd36-4d9d-935f-0b2b20bb3f73))
 	- Il fatto che la carica resta invariata si esprime con:
 		- $$∫_{-∞}^{+∞}ϕ_n(t)\,dt = 1\quad∀\,n\in \N$$
@@ -31,7 +32,7 @@
 		- tutte le distribuzioni $δ_a$ con $a \in \R$
 	- ((64fb2ac3-3a37-4c5f-8cc6-8b79facc4bde))
 	- Gli elementi di $S'(\R)$ si possono considerare come limiti in senso opportuno di successioni di funzioni.
-		- Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della successione $ϕ(n)$ descritta in precedenza.
+		- Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della [successione](((64fb2863-7a63-4366-8acf-7e3cb3b4cac1))) $ϕ(n)$ descritta in precedenza.
 	- Si possono estendere a $S'(\R)$ essenzialmente tutte le operazioni definite su funzioni, in particolare:
 		- somma di funzioni
 		- prodotto di funzioni per una costante
