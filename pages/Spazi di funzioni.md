@@ -111,7 +111,7 @@ tags:: complanalisi
 		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
 		  \end{gathered}
 		  $$
-- ### Uguaglianza di Parseval
+- ## Uguaglianza di Parseval
 	- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
 	- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
 	- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
@@ -133,8 +133,8 @@ tags:: complanalisi
 		  \phi_3 &= e_3 = (0, 0, 1) \\
 		  \end{aligned}
 		  $$
-		  $$x = x_1e_1 + x_2e_2 + x_3e_3$$
-		  $$
+		- $$x = x_1e_1 + x_2e_2 + x_3e_3$$
+		- $$
 		  \begin{aligned}
 		  x_1 &= (x, e_1) \\
 		  x_2 &= (x, e_2) \\

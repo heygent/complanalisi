@@ -142,7 +142,7 @@ tags:: complanalisi
 		  \end{aligned}
 		  $$
 		- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
-		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
+		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
 - ### Base esponenziale di $L^2(0,a)$
   
   Sia $I = (0,a)$ con $a > 0$ fissato.
