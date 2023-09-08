@@ -33,12 +33,13 @@
 	- ((64fb2ac3-3a37-4c5f-8cc6-8b79facc4bde))
 	- Gli elementi di $S'(\R)$ si possono considerare come limiti in senso opportuno di successioni di funzioni.
 		- Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della [successione](((64fb2863-7a63-4366-8acf-7e3cb3b4cac1))) $ϕ(n)$ descritta in precedenza.
-	- Si possono estendere a $S'(\R)$ essenzialmente tutte le operazioni definite su funzioni, in particolare:
-		- somma di funzioni
-		- prodotto di funzioni per una costante
-		- moltiplicazione puntuale di funzioni (sotto opportune ipotesi)
-		- traslazione $τ_a$ con $a \in \R$
-		- modulazione $\mu_b$ (ovvero prodotto per la funzione $e^{2πibt}$)
-			- $\mu_b = f(t) \rightarrow \mu_bf(t) = f(t) e^{2πibt}$
-		- riflessione, ovvero l'operatore che su funzioni agisce come $\tilde{f}(t) = f(-t)$
-			- in particolare vale la formula $\tildeδ_a = δ_{-a}$, e quindi $\tildeδ = δ$ per $a = 0$
+	- ## Operazioni
+		- Si possono estendere a $S'(\R)$ essenzialmente tutte le operazioni definite su [[Spazi di funzioni]], in particolare:
+			- somma di funzioni
+			- prodotto di funzioni per una costante
+			- moltiplicazione puntuale di funzioni (sotto opportune ipotesi)
+			- traslazione $τ_a$ con $a \in \R$
+			- modulazione $\mu_b$ (ovvero prodotto per la funzione $e^{2πibt}$)
+				- $\mu_b = f(t) \rightarrow \mu_bf(t) = f(t) e^{2πibt}$
+			- riflessione, ovvero l'operatore che su funzioni agisce come $\tilde{f}(t) = f(-t)$
+				- in particolare vale la formula $\tildeδ_a = δ_{-a}$, e quindi $\tildeδ = δ$ per $a = 0$
