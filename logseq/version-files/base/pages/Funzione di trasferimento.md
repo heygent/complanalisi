@@ -10,8 +10,6 @@ tags:: complanalisi
 	- Se $\forall\,x \in X$ suppongo che:
 	- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
 	- Ovvero posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti.
-	- > La serie converge in $\|\ldots\|_X$:
-	  $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
 	- Allora:
 		- $$\begin{aligned}
 		  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
@@ -46,12 +44,14 @@ tags:: complanalisi
 		  f_\lambda(t) = e_\lambda(t) f_\lambda(0) \quad \forall t \in R
 		  	  
 		  \end{aligned}$$
-- La risposta del sistema $f_\lambda(t) = A(e_\lambda)(t)$ agli input $e_\lambda$ è $e_\lambda(t)$ moltiplicato per una costante che dipende solo da $\lambda$ (non da $t$ )
-- $f_\lambda(0)$ sono autovalori di $A$
-- $e_\lambda$ sono autofunzioni
-- Funzione di trasferimento del sistema $A$ :
-- $$\lambda \rightarrow f_\lambda(0) = H(\lambda)$$
-- $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
+	- La risposta del sistema $f_\lambda(t) = A(e_\lambda)(t)$ agli input $e_\lambda$ è $e_\lambda(t)$ moltiplicato per una costante che dipende solo da $\lambda$ (non da $t$ )
+		- $f_\lambda(0)$ sono autovalori di $A$
+		- $e_\lambda$ sono autofunzioni
+	- Funzione di trasferimento del sistema $A$ :
+	  background-color:: red
+		- background-color:: green
+		  $$\lambda \rightarrow f_\lambda(0) = H(\lambda)$$
+		- $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
 - Se $H(\lambda)$ ed $e_\lambda(t)$ sono a valori complessi si ha che:
   Siano $H(\lambda), e_\lambda(t) = z_{1}, z_2$:
 - ![[Numeri complessi#^complex-exp-product]]
