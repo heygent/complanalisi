@@ -94,6 +94,7 @@ tags:: complanalisi
 		  1 & \text{per } n = m
 		  \end{cases}
 		  $$
+			- Le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|_{\L2} = 1$
 		- logseq.order-list-type:: number
 		  $$ 
 		  \begin{aligned}
@@ -102,6 +103,7 @@ tags:: complanalisi
 		  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
 		  \end{aligned}
 		  $$
+	- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
 		-
 	- #### Note
 		- Per definizione:
@@ -110,8 +112,6 @@ tags:: complanalisi
 		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
 		  \end{gathered}
 		  $$
-	- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
-	- La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|{\L2} = 1$
 - ### Uguaglianza di Parseval
   
   Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
