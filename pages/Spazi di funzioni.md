@@ -158,9 +158,10 @@ tags:: complanalisi
 				- la radice smorza le oscillazioni in modo tale da avere energia 1.
 		- Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$:
 			- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
-			- Dimostrazione
+		- ### Dimostrazione
 			- Bisogna provare le due condizioni:
 				- {{embed ((64fb54d4-0529-40b3-865d-11d7dd6b598c))}}
+				  collapsed:: true
 					- Se $n = m$:
 						- $$
 						  \begin{aligned}
@@ -191,10 +192,9 @@ tags:: complanalisi
 					- $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
 					- con
 					- $$a_n = ∫_0^\frac{1}{λ}f(t)e^{-2πinλt}$$
-					- dove la serie converge in norma $\norm_{L)0,a]2$.
-					- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita)
-					  
-					  I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
+					- dove la serie converge in norma $\norm_{L^2(0,a)}$.
+						- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita
+					- I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
 - ### Base "trigonometrica" di L2(0,a)
   
   Posto $λ = \frac{1}{a}$ si ha che:
