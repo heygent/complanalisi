@@ -3,9 +3,10 @@ tags:: complanalisi
 - # Spazio vettoriale di funzioni
 - Sia $I \subseteq \R$ un intervallo aperto.
 - Si consideri l'insieme $F(I)$ delle funzioni $f: I \rightarrow \C$.
-- Se nell'insieme $F(I)$ sono definite le operazioni:
+- Se nell'insieme $F(I)$ sono definite le operazioni: #.ol
 	- Somma puntuale #.ol
-		- $$(f + g)(t) = f(t) + g(t)$$
+		- logseq.order-list-type:: number
+		  $$(f + g)(t) = f(t) + g(t)$$
 	- Prodotto per una costante $\lambda \in \C$
 		- $$(\lambda f)(t) = \lambda f(t)$$
 - Allora $F(I)$ è uno spazio vettoriale.
