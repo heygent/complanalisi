@@ -3,24 +3,24 @@ tags:: complanalisi
 - # Spazio vettoriale di funzioni
 - Sia $I \subseteq \R$ un intervallo aperto.
 - Si consideri l'insieme $F(I)$ delle funzioni $f: I \rightarrow \C$.
-- Se nell'insieme $F(I)$ sono definite le operazioni: #.ol
-	- Somma puntuale #.ol
-		- logseq.order-list-type:: number
-		  $$(f + g)(t) = f(t) + g(t)$$
+- Se nell'insieme $F(I)$ sono definite le operazioni:
+	- Somma puntuale
+	  logseq.order-list-type:: number
+		- $$(f + g)(t) = f(t) + g(t)$$
 	- Prodotto per una costante $\lambda \in \C$
+	  logseq.order-list-type:: number
 		- $$(\lambda f)(t) = \lambda f(t)$$
 - Allora $F(I)$ è uno spazio vettoriale.
 	- Si definisce per $f \in F(I)$, quando ciò ha senso:
-	  $$\norm[f]_{L^1(I)} = \int_I |f(t)|\,dt$$
-	  $$\norm[f]_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
-	  $$
+	- $$\norm[f]_{L^1(I)} = \int_I |f(t)|\,dt$$
+	- $$\norm[f]_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
+	- $$
 	  \begin{aligned}
 	  \norm[f]_\Li &=  \esssup |f|\\
 	  &= \inf\{C\ge 0: |f(t)| \le C \text{ quasi ovunque su }I\}
 	  \end{aligned}
 	  $$
-	  
-	  > [!note]
+	- > [!note]
 	  Gli integrali qua sono intesi come integrali di Lebegue.
 	  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
 	  La definizione di $\|f\|_{L^\infty(I)}$ generalizza $\sup_{t \in I} |f(t)|$ e coincide con essa quando $f$ è continua.
