@@ -83,8 +83,8 @@ tags:: complanalisi
 		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
 		- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
-- ### Base ortonormale
-	- #### Definizione
+- ## Base ortonormale
+	- ### Definizione
 	- Siano $\phi_n \in \L2$ con $n \in \Z$.
 	  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
 		- logseq.order-list-type:: number
@@ -110,8 +110,8 @@ tags:: complanalisi
 		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
 		  \end{gathered}
 		  $$
-- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
-- La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|{\L2} = 1$
+	- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
+	- La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|{\L2} = 1$
 - ### Uguaglianza di Parseval
   
   Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
