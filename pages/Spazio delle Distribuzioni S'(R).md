@@ -27,6 +27,7 @@
 - $S'(\R)$ contiene:
 	- $L^1(\R)$, $L^2(\R)$, $L^∞(\R)$ (e quindi tutte le funzioni costanti)
 	- tutte le distribuzioni $δ_a$ con $a \in \R$
+- ((64fb2ac3-3a37-4c5f-8cc6-8b79facc4bde))
 - Gli elementi di $S'(\R)$ si possono considerare come limiti in senso opportuno di successioni di funzioni.
 - Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della successione $ϕ(n)$ descritta in precedenza.
 - Si possono estendere a $S'(\R)$ essenzialmente tutte le operazioni definite su funzioni, in particolare:
