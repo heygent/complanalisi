@@ -12,12 +12,8 @@ tags:: complanalisi
 		  logseq.order-list-type:: number
 			- $$(\lambda f)(t) = \lambda f(t)$$
 	- Si definisce per $f \in F(I)$, quando ciò ha senso:
-		- $$
-		  \begin{aligned}
-		  \|f\|_{L^1(I)} = \int_I |f(t)|\,dt
-		  \|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}
-		  \end{aligned}
-		  $$
+		- $$\|f\|_{L^1(I)} = \int_I |f(t)|\,dt$$
+		- $$\|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 		- $$
 		  \begin{aligned}
 		  \|f\|_\Li &=  \esssup |f|\\
@@ -59,11 +55,6 @@ tags:: complanalisi
 				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
-	- ## Disuguaglianza di Schwartz
-		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
-		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
-		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
-			- Ed è minorato da un numero ben definito.
 	- ## Energia
 		- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
 		  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
@@ -87,36 +78,40 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
+	- ### Disuguaglianza di Schwartz
+		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
+		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
+		- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
+			- Ed è minorato da un numero ben definito.
 - ## Base ortonormale
 	- ### Definizione
-		- Siano $\phi_n \in \L2$ con $n \in \Z$.
-		  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
-			- logseq.order-list-type:: number
-			  $$
-			  (\phi_n, \phi_m)_\L2 = \begin{cases}
-			  0 & \text{per } n \neq m \\
-			  1 & \text{per } n = m
-			  \end{cases}
-			  $$
-				- Le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|_{\L2} = 1$
-			- logseq.order-list-type:: number
-			  $$ 
-			  \begin{aligned}
-			  \forall\,f \in \L2: \\
-			  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
-			  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
-			  \end{aligned}
-			  $$
-		- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
-	- #### Nota
+	- Siano $\phi_n \in \L2$ con $n \in \Z$.
+	  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
+		- logseq.order-list-type:: number
+		  $$
+		  (\phi_n, \phi_m)_\L2 = \begin{cases}
+		  0 & \text{per } n \neq m \\
+		  1 & \text{per } n = m
+		  \end{cases}
+		  $$
+			- Le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|_{\L2} = 1$
+		- logseq.order-list-type:: number
+		  $$ 
+		  \begin{aligned}
+		  \forall\,f \in \L2: \\
+		  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
+		  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
+		  \end{aligned}
+		  $$
+	- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
+	- #### Note
 		- Per definizione:
 		- $$
 		  \begin{gathered}
 		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
 		  \end{gathered}
 		  $$
-		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
-- ## Uguaglianza di Parseval
+- ### Uguaglianza di Parseval
 	- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
 	- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
 	- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
@@ -147,6 +142,7 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 			- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
+			- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
 - ### Base esponenziale di $L^2(0,a)$
   
   Sia $I = (0,a)$ con $a > 0$ fissato.

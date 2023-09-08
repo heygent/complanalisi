@@ -12,12 +12,17 @@ tags:: complanalisi
 		  logseq.order-list-type:: number
 			- $$(\lambda f)(t) = \lambda f(t)$$
 	- Si definisce per $f \in F(I)$, quando ciò ha senso:
-		- $$\|f\|_{L^1(I)} = \int_I |f(t)|\,dt$$
-		- $$\|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 		- $$
 		  \begin{aligned}
+		  \|f\|_{L^1(I)} &= \int_I |f(t)|\,dt \\
+		  \|f\|_{L^2(I)} &= \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2} \\
 		  \|f\|_\Li &=  \esssup |f|\\
 		  &= \inf\{C: C \ge |f(t)| \text{ quasi ovunque su }I\}
+		  \end{aligned}
+		  $$
+		- $$
+		  \begin{aligned}
+		  
 		  \end{aligned}
 		  $$
 		- > Gli integrali qua sono intesi come integrali di Lebegue.
