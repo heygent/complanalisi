@@ -36,7 +36,7 @@ tags:: complanalisi
 		- Ad esempio:
 			- $$f(t) = \frac{\sin(t)}{t}\quad\quad g(t) = \begin{cases}\frac{\sin(t)}{t}&t \neq 0\\ 1 & t = 0\end{cases}$$
 			- sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
-	- ## Spazi di Banach
+	- ## Spazi di Banach #card
 		- Si pongono:
 			- $$
 			  \begin{aligned}
@@ -49,33 +49,42 @@ tags:: complanalisi
 		- $(\L1, \norm_\L1),  (\L2, \norm_\L2), (\Li,\norm_\Li)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
 		- Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - # Spazio L2
-	- ## Spazio di Hilbert
+	- ## Spazio di Hilbert #card
 		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm_{\L2}$ proviene da un prodotto interno. Precisamente:
+		  collapsed:: true
 			- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
 		- dove:
-			- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
+		  collapsed:: true
+			- collapsed:: true
+			  $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
 				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
+		  collapsed:: true
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
-	- ## Disuguaglianza di Schwartz
+	- ## Disuguaglianza di Schwartz #card
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
 		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
-		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
+		- collapsed:: true
+		  $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
 	- ## Energia
 	  collapsed:: true
 		- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
 		  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
 		- Siano:
+		  collapsed:: true
 			- $I$ corrente (costante)
 			- $V$ voltaggio (funzione del tempo)
 			- $R$ resistenza del circuito (funzione del tempo)
 		- Allora:
+		  collapsed:: true
 			- $RI = V$ (legge di Ohm)
 			- $IV = P$ (= potenza)
 		- Se $W$ è il lavoro compiuto, ovvero l'energia trasferita, la sua variazione nel tempo ci dà la potenza:
+		  collapsed:: true
 			- $$P = \frac{dW}{dt}$$
 		- L'energia totale sarà allora:
+		  collapsed:: true
 			- $$
 			  \begin{aligned}
 			  E &= W(+\infty) - W(-\infty)\\
@@ -122,7 +131,6 @@ tags:: complanalisi
 		- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
 		- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
 		- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
-		  collapsed:: true
 			- $$f: I = \{1,2,3\} \rightarrow \R$$
 			- $$
 			  \begin{aligned}
