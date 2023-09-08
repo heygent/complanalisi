@@ -7,24 +7,21 @@ tags:: complanalisi
 	- L'operatore che associa $\hat f$ a $f$ viene indicato con $\F$ , scrivendo quindi:
 		- $$\F: f \rightarrow \hat f$$
 		- $$\hat f(ω) = \F [f](ω)$$
-- La trasformata di Fourier è ben definita per $f \in L^1(\R)$, infatti:
-  
-  $$
-  \begin{aligned}
-  ∀ω\in\R:\left| \hat f(ω) \right| &= \l|\fint e^{-2πiωt} f(t)\,dt \r|\\
-  &\le \fint |e^{-2πiωt} f(t)|\,dt\\
-  &=\fint|f(t)|\,dt \\
-  &=\|f\|_{L^1(\R)}
-  \end{aligned}
-  $$
-  Quindi:
-  $$
-  \|\hat f \|_{L^∞(\R)} = \esssup_{ω \in \R} |\hat f(ω)| \le \esssup_{ω \in \R} \|f\|_{L^1(\R)} = \|f\|_{L^1(\R)}
-  $$
-  La norma ∞ è <= della norma L1 di f.
-  
-  >[!note]
-  Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
+	- La trasformata di Fourier è ben definita per $f \in L^1(\R)$:
+		- $$
+		  \begin{aligned}
+		  ∀ω\in\R:\left| \hat f(ω) \right| &= \l|\fint e^{-2πiωt} f(t)\,dt \r|\\
+		  &\le \fint |e^{-2πiωt} f(t)|\,dt\\
+		  &=\fint|f(t)|\,dt \\
+		  &=\|f\|_{L^1(\R)}
+		  \end{aligned}
+		  $$
+	- Quindi:
+	  $$
+	  \|\hat f \|_{L^∞(\R)} = \esssup_{ω \in \R} |\hat f(ω)| \le \esssup_{ω \in \R} \|f\|_{L^1(\R)} = \|f\|_{L^1(\R)}
+	  $$
+		- La norma ∞ è <= della norma L1 di f.
+	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 - ## Proprietà
   
   L'operatore $\F$ gode delle seguenti proprietà:
