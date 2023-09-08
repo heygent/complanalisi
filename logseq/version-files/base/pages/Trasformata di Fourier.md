@@ -47,8 +47,8 @@ tags:: complanalisi
 		- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale
 	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
-	- $\hat 1 = δ$; $δ = \hat 1$
-	  dato che è una biiezione, l'inverso è valido
+	- $\hat 1 = δ$ e $\hat δ = 1$
+		- La trasformata della funzione 1 costante è un delta di Dirac, e viceversa
 	- $∀ϕ\in S'(\R)$:
 		- logseq.order-list-type:: number
 		  $$\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$$
