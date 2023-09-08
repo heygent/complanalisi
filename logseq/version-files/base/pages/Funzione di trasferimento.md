@@ -1,6 +1,7 @@
 tags:: complanalisi
 
-- Sia $A : X \rightarrow Y$ un [[filtro]].
+- # Definizione
+- Sia$A : X \rightarrow Y$ un [[filtro]].
   Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$.
 - Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
 - $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
