@@ -24,6 +24,7 @@ tags:: complanalisi
 	  card-next-schedule:: 2023-08-27T22:00:00.000Z
 	  card-last-reviewed:: 2023-08-27T08:35:58.860Z
 	  card-last-score:: 1
+	  id:: 64f0ed21-ae48-441b-8daf-119dd7f5965d
 		- Si vuole formalizzare il fatto che il sistema non anticipa i tempi e risponde al principio di causa-effetto.
 		- Non è una proprietà obbligatoria di un filtro, ma lo rende realizzabile.
 		- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
@@ -175,5 +176,5 @@ tags:: complanalisi
 	- Un filtro che lascia passare solo frequenze basse.
 	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:
 	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/ta8g8wowpg?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
-- L'output delle frequenze $\lambda$ fino a $\lambda_C$ non viene cambiato, perché $|H(\lambda)| = 1$.
-  Un filtro con questa funzione di trasferimento non è realizzabile, perché non [[Filtro#Causalità|causale]]
+	- L'output delle frequenze $\lambda$ fino a $\lambda_C$ non viene cambiato, perché $|H(\lambda)| = 1$.
+	- Un filtro con questa funzione di trasferimento non è realizzabile, perché non rispetta la proprietà di ((64f0ed21-ae48-441b-8daf-119dd7f5965d))
