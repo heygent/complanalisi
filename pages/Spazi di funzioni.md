@@ -113,6 +113,7 @@ tags:: complanalisi
 				  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
 				  \end{aligned}
 				  $$
+					- con
 			- Dall'espressione di $f$ tramite la sua serie di Fourier si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. In seguito si identificano $\phi_n$ con le frequenze pure.
 			- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
 		- #### Nota
