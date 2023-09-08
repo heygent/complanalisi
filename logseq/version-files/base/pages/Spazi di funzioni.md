@@ -219,7 +219,7 @@ tags:: complanalisi
   Dimostrazione del punto 2 nell'appendice (facoltativo).
   
   Dunque $\forall f \in L^2(0, a)$:
-  $$f(t) = \lambda∑_\limits{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
+  $$f(t) = \lambda\sum_\limits{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
   con
   $$a_n = ∫_0^\frac{1}{λ}f(t)e^{-2πinλt}$$
   dove la serie converge in norma $\norm_\L[0,a]2$.
