@@ -58,49 +58,42 @@ tags:: complanalisi
   
   Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - ## Spazio L2
-	- Più in particolare per $L^2(I)$:
+	- ### Spazio di Hilbert
 		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
-		- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
+			- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
 		- dove:
-		- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
-			- $\forall\,f,g \in \L2$
+			- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
+				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
 - ### Energia
-  Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
-  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
-  
-  Siano:
-- $I$ corrente (costante)
-- $V$ voltaggio (funzione del tempo)
-- $R$ resistenza del circuito (funzione del tempo)
-  
-  Allora:
-- $RI = V$ (legge di Ohm)
-- $IV = P$ (= potenza)
-  
-  Se $W$ è il lavoro compiuto, ovvero l'energia trasferita, la sua variazione nel tempo ci dà la potenza:
-  
-  $$P = \frac{dW}{dt}$$
-  L'energia totale sarà allora:
-  
-  $$
-  \begin{aligned}
-  E &= W(+\infty) - W(-\infty)\\
-  &= \int_{-\infty}^{+\infty} \frac{dW}{dt}\,dt\\
-  &= \int_{-\infty}^{+\infty} P(t)\,dt\\
-  &= \frac{1}{R}\int_{-\infty}^{+\infty} V^2(t)\,dt\\
-  &= \frac{1}{R}\|V\|_\L[\R]2^2
-  \end{aligned}
-  $$
-  Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
-- ### Disuguaglianza di Schwartz
-  
-  $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|{\L2}$$
-  Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
-  
-  $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
-  Ed è minorato da un numero ben definito.
+	- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
+	  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
+	- Siano:
+		- $I$ corrente (costante)
+		- $V$ voltaggio (funzione del tempo)
+		- $R$ resistenza del circuito (funzione del tempo)
+	- Allora:
+		- $RI = V$ (legge di Ohm)
+		- $IV = P$ (= potenza)
+	- Se $W$ è il lavoro compiuto, ovvero l'energia trasferita, la sua variazione nel tempo ci dà la potenza:
+		- $$P = \frac{dW}{dt}$$
+	- L'energia totale sarà allora:
+		- $$
+		  \begin{aligned}
+		  E &= W(+\infty) - W(-\infty)\\
+		  &= \int_{-\infty}^{+\infty} \frac{dW}{dt}\,dt\\
+		  &= \int_{-\infty}^{+\infty} P(t)\,dt\\
+		  &= \frac{1}{R}\int_{-\infty}^{+\infty} V^2(t)\,dt\\
+		  &= \frac{1}{R}\|V\|_\L[\R]2^2
+		  \end{aligned}
+		  $$
+	- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
+	- ### Disuguaglianza di Schwartz
+		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|{\L2}$$
+		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
+		- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
+			- Ed è minorato da un numero ben definito.
 - ### Base ortonormale
 - #### Definizione
   
