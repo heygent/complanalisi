@@ -67,5 +67,5 @@ tags:: complanalisi
 		- La frequenza pura $e_a$ è uguale al Delta di Dirac centrato in $a$
 	- $\F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
 		- Questa proprietà e la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) permettono di calcolare facilmente la trasformata di Fourier delle funzioni $\sin(2πat)$ e $\cos(2πat)$
-		- Questa proprietà mostra che la trasformata di Fourier "individua" la frequenza pura $a \in \R$ del segnale $e^{2πiat}$ associando a tale segnale una Delta di Dirac $δ_a$ centrata nel punto $ω = a$
-		-
+		- > Questa proprietà mostra che la trasformata di Fourier "individua" la frequenza pura $a \in \R$ del segnale $e^{2πiat}$ associando a tale segnale una Delta di Dirac $δ_a$ centrata nel punto $ω = a$
+	-
