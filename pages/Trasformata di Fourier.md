@@ -27,6 +27,12 @@ tags:: complanalisi
 		- La norma ∞ è <= della norma L1 di f.
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 - ## Proprietà #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:05:11.650Z
+  card-last-score:: 1
 	- $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
 		- $$
 		  \begin{aligned}
