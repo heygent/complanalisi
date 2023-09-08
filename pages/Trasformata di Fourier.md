@@ -1,6 +1,12 @@
 tags:: complanalisi
 
 - # Definizione #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:24:12.441Z
+  card-last-score:: 1
 	- Sia $f: \R \rightarrow \C$, chiamiamo **trasformata di Fourier** di $f$ la funzione:
 		- $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
 		- dipendente dalla variabile $ω \in \R$ ogni volta che l'integrale ha senso (di Lebesgue).
