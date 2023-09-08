@@ -28,7 +28,8 @@ tags:: complanalisi
 		- Ad esempio se $I = \R$ e:
 			- $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
 		- Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
-		- Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$, ovvero considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
+		- Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$
+			- considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
 		- "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
 			- Tutti gli insiemi finiti e numerabili hanno misura di Lebesgue nulla.
 		- Ad esempio:
@@ -48,7 +49,7 @@ tags:: complanalisi
 		- Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - # Spazio L2
 	- ## Spazio di Hilbert
-		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
+		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm_{\L2}$ proviene da un prodotto interno. Precisamente:
 			- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
 		- dove:
 			- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
