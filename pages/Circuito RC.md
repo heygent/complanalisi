@@ -137,11 +137,10 @@ tags:: complanalisi
 			  H(\lambda) = \frac{1}{1 + 2 \pi i \lambda RC}
 			  \end{gathered}
 			  $$
-			- > [!note]
-			  Il fatto che la funzione sia a valori complessi può essere "fastidioso", ma fino a un certo punto dato che poi quello che interessa è il modulo della funzione, dato che è quello a influire sull'amplificazione o smorzamento delle frequenze.
+			- > Il fatto che la funzione sia a valori complessi può essere "fastidioso", ma fino a un certo punto dato che poi quello che interessa è il modulo della funzione, dato che è quello a influire sull'amplificazione o smorzamento delle frequenze.
 			- $$
 			  \begin{aligned}
-			  |H(\lambda)| &=  \frac{1}{| 1 + 2\pi i \lambda RC |}\\\\
+			  |H(\lambda)| &=  \frac{1}{| 1 + 2\pi i \lambda RC |}\\
 			  &= \frac{1}{\sqrt{1 + 4\pi^{2}R^{2}C^2\lambda^2}}
 			  \end{aligned}
 			  $$
