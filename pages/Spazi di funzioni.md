@@ -3,16 +3,15 @@ tags:: complanalisi
 - # Spazio vettoriale di funzioni
 	- Siano:
 		- $I \subseteq \R$ un intervallo aperto.
-		- $F(I)$ delle funzioni $f: I \rightarrow \C$.
-	- Se nell'insieme $F(I)$ sono definite le operazioni:
+		- $F(I)$ insieme delle funzioni $f: I \rightarrow \C$.
+	- $F(I)$ è uno spazio vettoriale se sono definite le operazioni:
 		- Somma puntuale
 		  logseq.order-list-type:: number
 			- $$(f + g)(t) = f(t) + g(t)$$
 		- Prodotto per una costante $\lambda \in \C$
 		  logseq.order-list-type:: number
 			- $$(\lambda f)(t) = \lambda f(t)$$
-	- Allora $F(I)$ è uno spazio vettoriale.
-		- Si definisce per $f \in F(I)$, quando ciò ha senso:
+	- Si definisce per $f \in F(I)$, quando ciò ha senso:
 		- $$\|f\|_{L^1(I)} = \int_I |f(t)|\,dt$$
 		- $$\|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 		- $$
