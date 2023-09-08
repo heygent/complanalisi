@@ -84,9 +84,11 @@ tags:: complanalisi
 		  $$
 			- con $a > 0$
 		- $$
+		  \begin{aligned}
 		  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
 		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
 		  &= \frac{\sin(2aπω)}{πω} \\
-		  *
+		  &= \operatorname_{2a}(ω)
+		  \end{aligned}
 		  $$
 		-
