@@ -91,6 +91,7 @@ tags:: complanalisi
 		  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
 		  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
 			- logseq.order-list-type:: number
+			  id:: 64fb54d4-0529-40b3-865d-11d7dd6b598c
 			  $$
 			  (\phi_n, \phi_m)_\L2 = \begin{cases}
 			  0 & \text{per } n \neq m \\
@@ -158,33 +159,32 @@ tags:: complanalisi
 			- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
 			- Dimostrazione
 			- Bisogna provare le due condizioni:
-				- {{embed ((64fb54d1-5aba-486b-aa5b-d872d8b3e3f4))}}
-			- Se $n = m$:
-			  $$
-			  \begin{aligned}
-			  (e_\lambda^n, e_\lambda^n)_{\L2} 
-			  &= ∫_0^{\frac{1}{λ}} e_λ^n(t)\overline{e_λ^n(t)}\\
-			  &= \lambda\int_0^\frac{1}{\lambda} e^{2\pi i n \lambda t} \cdot e^{-2\pi i n \lambda t}\,dt\\
-			  &= \lambda \int_0^{\frac{1}{\lambda}} 1\,dt \\
-			  &= 1
-			  \end{aligned}
-			  $$
-			  Se $n \neq m$:
-			  $$
-			  \begin{aligned}
-			  (e_\lambda^n, e_\lambda^m)_\L2 &= ∫_0^\frac{1}{λ}e_λ^n(t)\overline{e_λ^m(t)}
-			  \\
-			  &= \lambda \int_0^\frac{1}{\lambda} e^{2\pi i (n - m) \lambda t}\,dt\\
-			  &= \lambda \left[ \frac{e^{2\pi i (n - m)\lambda t}}{2\pi i (n-m)\lambda}\right]_0^\frac{1}{\lambda}\\
-			  &= \lambda\left(\frac{1 - 1}{2\pi i(n - m \lambda)}\right)\\
-			  &= 0
-			  \end{aligned}
-			  $$
-- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
-- per $t = 0$ la funzione vale 1
-- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
-  
-  Dimostrazione del punto 2 nell'appendice (facoltativo).
+				- {{embed ((64fb54d4-0529-40b3-865d-11d7dd6b598c))}}
+					- Se $n = m$:
+						- $$
+						  \begin{aligned}
+						  (e_\lambda^n, e_\lambda^n)_{\L2} 
+						  &= ∫_0^{\frac{1}{λ}} e_λ^n(t)\overline{e_λ^n(t)}\\
+						  &= \lambda\int_0^\frac{1}{\lambda} e^{2\pi i n \lambda t} \cdot e^{-2\pi i n \lambda t}\,dt\\
+						  &= \lambda \int_0^{\frac{1}{\lambda}} 1\,dt \\
+						  &= 1
+						  \end{aligned}
+						  $$
+					- Se $n \neq m$:
+						- $$
+						  \begin{aligned}
+						  (e_\lambda^n, e_\lambda^m)_\L2 &= ∫_0^\frac{1}{λ}e_λ^n(t)\overline{e_λ^m(t)}
+						  \\
+						  &= \lambda \int_0^\frac{1}{\lambda} e^{2\pi i (n - m) \lambda t}\,dt\\
+						  &= \lambda \left[ \frac{e^{2\pi i (n - m)\lambda t}}{2\pi i (n-m)\lambda}\right]_0^\frac{1}{\lambda}\\
+						  &= \lambda\left(\frac{1 - 1}{2\pi i(n - m \lambda)}\right)\\
+						  &= 0
+						  \end{aligned}
+						  $$
+						- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
+						- per $t = 0$ la funzione vale 1
+						- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
+- Dimostrazione del punto 2 nell'appendice (facoltativo).
   
   Dunque $\forall f \in L^2(0, a)$:
   $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$

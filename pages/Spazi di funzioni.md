@@ -181,11 +181,10 @@ tags:: complanalisi
 						  &= 0
 						  \end{aligned}
 						  $$
-- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
-- per $t = 0$ la funzione vale 1
-- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
-  
-  Dimostrazione del punto 2 nell'appendice (facoltativo).
+						- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
+						- per $t = 0$ la funzione vale 1
+						- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
+- Dimostrazione del punto 2 nell'appendice (facoltativo).
   
   Dunque $\forall f \in L^2(0, a)$:
   $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
