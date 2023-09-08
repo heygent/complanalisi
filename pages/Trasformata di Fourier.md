@@ -1,7 +1,75 @@
 tags:: complanalisi
 
-- ((64a4ab5c-5868-41a6-b80b-7c930b300497))
-- isometrico:
-	- preserva la norma
-- ((64a4b157-6b9b-46d7-874d-59b7f79f835f))
--
+- Sia $f: \R \rightarrow \C$, chiamiamo **trasformata di Fourier** di $f$ la funzione:
+  
+  $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
+  dipendente dalla variabile $ω \in \R$ ogni volta che l'integrale ha senso (di Lebesgue).
+  L'operatore che associa $\hat f$ a $f$ viene indicato con $\F$ , scrivendo quindi:
+  $$\F: f \rightarrow \hat f$$
+  $$\hat f(ω) = \F [f](ω)$$
+  
+  La trasformata di Fourier è ben definita per $f \in L^1(\R)$, infatti:
+  
+  $$
+  \begin{aligned}
+  ∀ω\in\R:\left| \hat f(ω) \right| &= \l|\fint e^{-2πiωt} f(t)\,dt \r|\\
+  &\le \fint |e^{-2πiωt} f(t)|\,dt\\
+  &=\fint|f(t)|\,dt \\
+  &=\|f\|_{L^1(\R)}
+  \end{aligned}
+  $$
+  Quindi:
+  $$
+  \|\hat f \|_{L^∞(\R)} = \esssup_{ω \in \R} |\hat f(ω)| \le \esssup_{ω \in \R} \|f\|_{L^1(\R)} = \|f\|_{L^1(\R)}
+  $$
+  La norma ∞ è <= della norma L1 di f.
+  
+  >[!note]
+  Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
+- ## Proprietà
+  
+  L'operatore $\F$ gode delle seguenti proprietà:
+- $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
+- $\F: L^1(\R) \rightarrow L^2(\R)$ è un isomorfismo isometrico, in particolare l'uguaglianza $\| \hat f \|_{L^2(\R)} = \|f\|_{L^2(\R)}$ esprime "conservazione dell'energia" del segnale (uguaglianza di Plancherel). Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
+	- in funzione del tempo da $f(t)$
+	- in funzione delle frequenze da $\hat f(t)$
+	  È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia, come infatti afferma l'uguaglianza di Plancherel.
+- $\F: S'(\R) \rightarrow S'(\R)$ è una biiezione lineare bicontinua
+  
+  Lineare perché:
+  $$
+  \begin{aligned}
+  \F[\lambda f_1 + \mu f_2](ω) &= \fint e^{-2πiωt}(λf_1(t) + \mu f_2(t))\,dt \\
+  &=
+  \lambda \fint e^{-2πiωt}f_1(t) + \mu\fint e^{-2πiωt}f_2(t)\,dt \\
+  &=\lambda\F[f_1](ω) + \mu\F[f_2(ω)]
+  \end{aligned}
+  $$
+  ![[Pasted image 20230908021630.png]]
+- ## Trasformata come rappresentazione del segnale
+  
+  L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
+  
+  $\hat 1 = δ$; $δ = \hat 1$
+  dato che è una biiezione, l'inverso è valido
+  
+  $∀ϕ\in S'(\R)$:
+  1. $\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$
+  2. $\F[\mu_a ϕ] = τ_a \hat ϕ$
+  
+  Per il caso 1:
+  $$
+  \begin{aligned}
+  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
+  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
+  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
+  &= (\mu_{-a} \hatϕ)(ω)
+  \end{aligned}
+  $$
+  Il caso 2 con $ϕ \in L'(\R)$ è del tutto analogo.
+  
+  Proprietà:
+  $\F[e^{2πiat}] = δ_a$
+  
+  Dalle due proprietà precedenti:
+  $F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
