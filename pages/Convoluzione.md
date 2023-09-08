@@ -27,5 +27,6 @@
 					- $f \in L^p(\R)$
 					- $g \in L^q(\R)$
 				- con $p, q \in [1, +\infty]$
-				- Allora $f * g$ è ben definita e appartiene a $L^r(\R)$ con $r \in [1, \infty]$ tale che $\frac{1}{p}+ \frac{1}{q}= 1 + \frac{1}{r}$ (intendendo $\frac{1}{\infty}= 0$).
+				- Sia $r \in [1, \infty]$ tale che $\frac{1}{p}+ \frac{1}{q}= 1 + \frac{1}{r}$ (intendendo $\frac{1}{\infty}= 0$).
+				- Allora $f * g$ è ben definita e appartiene a $L^r(\R)$
 					- Vale inoltre: $$\|f*g\|_{L^r(\R)} \le \|f\|_{L^p(\R)}\|g\|_{L^q(\R)}$$
