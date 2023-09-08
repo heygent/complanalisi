@@ -51,19 +51,17 @@ tags:: complanalisi
 	  dato che è una biiezione, l'inverso è valido
 	- $∀ϕ\in S'(\R)$:
 		- $$\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$$
-		- 2. $\F[\mu_a ϕ] = τ_a \hat ϕ$
-	- Per il caso 1:
-	  $$
-	  \begin{aligned}
-	  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
-	  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
-	  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
-	  &= (\mu_{-a} \hatϕ)(ω)
-	  \end{aligned}
-	  $$
-	  Il caso 2 con $ϕ \in L'(\R)$ è del tutto analogo.
-	  
-	  Proprietà:
+			- $$
+			  \begin{aligned}
+			  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
+			  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
+			  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
+			  &= (\mu_{-a} \hatϕ)(ω)
+			  \end{aligned}
+			  $$
+		- $\F[\mu_a ϕ] = τ_a \hat ϕ$
+			- $ϕ \in L'(\R)$ è del tutto analogo.
+	- Proprietà:
 	  $\F[e^{2πiat}] = δ_a$
 	  
 	  Dalle due proprietà precedenti:

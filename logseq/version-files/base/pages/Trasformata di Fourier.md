@@ -46,29 +46,24 @@ tags:: complanalisi
 			- in funzione delle frequenze da $\hat f(t)$
 		- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale
-  
-  L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
-  
-  $\hat 1 = δ$; $δ = \hat 1$
-  dato che è una biiezione, l'inverso è valido
-  
-  $∀ϕ\in S'(\R)$:
-  1. $\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$
-  2. $\F[\mu_a ϕ] = τ_a \hat ϕ$
-  
-  Per il caso 1:
-  $$
-  \begin{aligned}
-  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
-  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
-  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
-  &= (\mu_{-a} \hatϕ)(ω)
-  \end{aligned}
-  $$
-  Il caso 2 con $ϕ \in L'(\R)$ è del tutto analogo.
-  
-  Proprietà:
-  $\F[e^{2πiat}] = δ_a$
-  
-  Dalle due proprietà precedenti:
-  $F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
+	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
+	- $\hat 1 = δ$; $δ = \hat 1$
+	  dato che è una biiezione, l'inverso è valido
+	- $∀ϕ\in S'(\R)$:
+		- $$\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$$
+			- $$
+			  \begin{aligned}
+			  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
+			  &= \fint e^{-2πiω(s+a)} ϕ(s)\,ds \\
+			  &= e^{-2πiωa} \fint e^{-2πiωs} ϕ(s)\,ds\\
+			  &= (\mu_{-a} \hatϕ)(ω)
+			  \end{aligned}
+			  $$
+		- $\F[\mu_a ϕ] = τ_a \hat ϕ$
+			- Il caso 2 con $ϕ \in L'(\R)$ è del tutto analogo.
+	- Proprietà:
+	  $\F[e^{2πiat}] = δ_a$
+	  
+	  Dalle due proprietà precedenti:
+	  $F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
+	-
