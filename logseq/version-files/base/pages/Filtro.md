@@ -173,6 +173,8 @@ tags:: complanalisi
 		- $e_\lambda$ sono autofunzioni
 	- Funzione di trasferimento del sistema $A$:
 		- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
+		- id:: 64fb9097-2231-41b3-8a63-a9dbcdaecce1
+		  $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
 - # Filtro passa-basso
 	- Un filtro che lascia passare solo frequenze basse.
 	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:

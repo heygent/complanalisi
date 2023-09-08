@@ -118,9 +118,8 @@ tags:: complanalisi
 		- ### Passaggio finale
 			- Sia $x(t) = e_\lambda(t)$.
 			- Dato che:
-			- ![[Funzione di trasferimento#^transferfunctioneq]]
-			  
-			  Allora:
+				- ((64fb9097-2231-41b3-8a63-a9dbcdaecce1))
+			- Allora:
 			  $$
 			  \begin{aligned}
 			  v(t) &= H(\lambda)e_\lambda(t)\\

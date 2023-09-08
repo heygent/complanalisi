@@ -118,29 +118,25 @@ tags:: complanalisi
 		- ### Passaggio finale
 			- Sia $x(t) = e_\lambda(t)$.
 			- Dato che:
-			- ![[Funzione di trasferimento#^transferfunctioneq]]
-			  
-			  Allora:
-			  $$
+				- ((64fb9097-2231-41b3-8a63-a9dbcdaecce1))
+			- Allora:
+			- $$
 			  \begin{aligned}
 			  v(t) &= H(\lambda)e_\lambda(t)\\
 			  &= H(\lambda)e^{2\pi i \lambda t}\\
 			  v'(t) &= H(\lambda)e^{2\pi i \lambda t}\cdot 2\pi i \lambda
 			  \end{aligned}
 			  $$
-			  Sostituendo nell'equazione del sistema:
-			  
-			  ![[Circuito RC#^eqfiltrorc]]
-			  
-			  
-			  $$
+			- Sostituendo nell'equazione del sistema:
+			- ![[Circuito RC#^eqfiltrorc]]
+			- $$
 			  \begin{gathered}
 			  RC H(\lambda)\cdot2\pi i \lambda\cdot \cancel{e^{2\pi i \lambda t}} + H(\lambda) \cdot \cancel{e^{2 \pi i \lambda t}} = \cancel{e^{2 \pi i \lambda t}} \\
 			  H(\lambda)(2\pi i \lambda RC + 1) = 1 \\
 			  H(\lambda) = \frac{1}{1 + 2 \pi i \lambda RC}
 			  \end{gathered}
 			  $$
-			  > [!note]
+			- > [!note]
 			  Il fatto che la funzione sia a valori complessi può essere "fastidioso", ma fino a un certo punto dato che poi quello che interessa è il modulo della funzione, dato che è quello a influire sull'amplificazione o smorzamento delle frequenze.
 			  
 			  $$
