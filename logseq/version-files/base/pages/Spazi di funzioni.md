@@ -172,6 +172,12 @@ tags:: complanalisi
 					  $$
 					- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
 		- ### Base esponenziale di $L^2(0,a)$ #card
+		  card-last-interval:: -1
+		  card-repeats:: 1
+		  card-ease-factor:: 2.5
+		  card-next-schedule:: 2023-09-09T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-08T22:34:47.290Z
+		  card-last-score:: 1
 			- Sia $I = (0,a)$ con $a > 0$ fissato.
 			- Pongo:
 				- $$\lambda = \frac{1}{a}$$
