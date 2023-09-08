@@ -27,7 +27,7 @@ icon:: ∫
 		- Siano
 			- $x = x(t) \in X$
 			- $y = y(t) \in Y$
-		- funzioni in ((64eaeffe-3968-42cb-9047-566bc2b5b37b)) normati.
+		- funzioni in [[Spazi di funzioni]] normati.
 		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
 		- ((64f0ed21-afb3-44dd-aee4-c6ee06624e52))
 		- Siano $e_\lambda \in X$, $A$ filtro, allora

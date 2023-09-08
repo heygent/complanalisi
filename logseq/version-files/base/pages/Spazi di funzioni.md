@@ -51,12 +51,9 @@ tags:: complanalisi
 - # Spazio L2
 	- ## Spazio di Hilbert #card
 		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm_{\L2}$ proviene da un prodotto interno. Precisamente:
-		  collapsed:: true
 			- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
 		- dove:
-		  collapsed:: true
-			- collapsed:: true
-			  $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
+			- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
 				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 		  collapsed:: true
