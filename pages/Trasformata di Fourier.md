@@ -1,9 +1,9 @@
 tags:: complanalisi
 
-- # Definizione
+- # Definizione #card
 	- Sia $f: \R \rightarrow \C$, chiamiamo **trasformata di Fourier** di $f$ la funzione:
-	- $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
-	- dipendente dalla variabile $ω \in \R$ ogni volta che l'integrale ha senso (di Lebesgue).
+		- $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
+		- dipendente dalla variabile $ω \in \R$ ogni volta che l'integrale ha senso (di Lebesgue).
 	- L'operatore che associa $\hat f$ a $f$ viene indicato con $\F$ , scrivendo quindi:
 		- $$\F: f \rightarrow \hat f$$
 		- $$\hat f(ω) = \F [f](ω)$$
@@ -26,7 +26,7 @@ tags:: complanalisi
 	  $$
 		- La norma ∞ è <= della norma L1 di f.
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
-- ## Proprietà
+- ## Proprietà #card
 	- $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
 		- $$
 		  \begin{aligned}
@@ -38,13 +38,13 @@ tags:: complanalisi
 		  $$
 	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
 	- $\F: S'(\R) \rightarrow S'(\R)$ è una **biiezione lineare bicontinua**
-	- **Uguaglianza di Plancherel**
-		- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
-		- esprime "conservazione dell'energia" del segnale
-		- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
-			- in funzione del tempo da $f(t)$
-			- in funzione delle frequenze da $\hat f(t)$
-		- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
+- ## Uguaglianza di Plancherel
+	- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
+	- esprime "conservazione dell'energia" del segnale
+	- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
+		- in funzione del tempo da $f(t)$
+		- in funzione delle frequenze da $\hat f(t)$
+	- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale
 	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà.
 	- $\hat 1 = δ$ e $\hat δ = 1$

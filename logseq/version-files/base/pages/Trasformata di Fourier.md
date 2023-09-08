@@ -2,8 +2,8 @@ tags:: complanalisi
 
 - # Definizione
 	- Sia $f: \R \rightarrow \C$, chiamiamo **trasformata di Fourier** di $f$ la funzione:
-	- $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
-	- dipendente dalla variabile $ω \in \R$ ogni volta che l'integrale ha senso (di Lebesgue).
+		- $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
+		- dipendente dalla variabile $ω \in \R$ ogni volta che l'integrale ha senso (di Lebesgue).
 	- L'operatore che associa $\hat f$ a $f$ viene indicato con $\F$ , scrivendo quindi:
 		- $$\F: f \rightarrow \hat f$$
 		- $$\hat f(ω) = \F [f](ω)$$
