@@ -100,6 +100,7 @@ tags:: complanalisi
 			  $$
 				- Le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|_{\L2} = 1$
 			- logseq.order-list-type:: number
+			  id:: 64fb54d8-648d-45b8-b042-56d325007fa6
 			  $$ 
 			  \begin{aligned}
 			  \forall\,f \in \L2: \\
@@ -184,6 +185,7 @@ tags:: complanalisi
 						- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
 						- per $t = 0$ la funzione vale 1
 						- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
+				- {{embed ((64fb54d8-648d-45b8-b042-56d325007fa6))}}
 - Dimostrazione del punto 2 nell'appendice (facoltativo).
   
   Dunque $\forall f \in L^2(0, a)$:
