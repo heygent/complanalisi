@@ -92,7 +92,7 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
-- ## Base ortonormale
+- ## Base ortonormale #card
 	- ### Definizione
 		- Siano $\phi_n \in \L2$ con $n \in \Z$.
 		  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
@@ -115,6 +115,7 @@ tags:: complanalisi
 			  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
 			  \end{aligned}
 			  $$
+		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
 		- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
 	- #### Nota
 		- Per definizione:
@@ -123,7 +124,6 @@ tags:: complanalisi
 		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
 		  \end{gathered}
 		  $$
-		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
 	- ## Uguaglianza di Parseval
 		- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
 		- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
