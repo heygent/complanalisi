@@ -23,15 +23,15 @@
 	- Vengono definite le sue traslate $δ_a(t)$ di parametro $a \in \R$ come distribuzioni concentrate nei punti $a \in \R$, e rappresentate da "frecce" centrate in $a \in \R$.
 	- Si scrive anche $δ_a(t) = (τ_aδ)(t)$
 		- $τ_a$ operatore di traslazione già usato per funzioni.
-	- Si tratta ora di trovare uno spazio che contenga sia i segnali rappresentati da funzioni di $L^1(\R), L^2(\R)$ o $L^∞(\R)$, sia quelli rappresentati da distribuzioni $δ_a$
-	- Lo spazio che soddisfa queste esigenze è lo spazio $S'(\R)$ delle **distribuzioni temperate**.
+	-
+	- Spazio $S'(\R)$ delle **distribuzioni temperate**.
 	- Come oggetti matematici gli elementi di $S'(\R)$, cioè le distribuzioni temperate, sono "funzionali lineari continui".
 	- $S'(\R)$ contiene:
 		- $L^1(\R)$, $L^2(\R)$, $L^∞(\R)$ (e quindi tutte le funzioni costanti)
 		- tutte le distribuzioni $δ_a$ con $a \in \R$
 	- ((64fb2ac3-3a37-4c5f-8cc6-8b79facc4bde))
 	- Gli elementi di $S'(\R)$ si possono considerare come limiti in senso opportuno di successioni di funzioni.
-	- Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della successione $ϕ(n)$ descritta in precedenza.
+		- Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della successione $ϕ(n)$ descritta in precedenza.
 	- Si possono estendere a $S'(\R)$ essenzialmente tutte le operazioni definite su funzioni, in particolare:
 		- somma di funzioni
 		- prodotto di funzioni per una costante

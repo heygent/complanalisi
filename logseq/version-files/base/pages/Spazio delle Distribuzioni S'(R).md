@@ -23,8 +23,8 @@
 	- Vengono definite le sue traslate $δ_a(t)$ di parametro $a \in \R$ come distribuzioni concentrate nei punti $a \in \R$, e rappresentate da "frecce" centrate in $a \in \R$.
 	- Si scrive anche $δ_a(t) = (τ_aδ)(t)$
 		- $τ_a$ operatore di traslazione già usato per funzioni.
-	- Si tratta ora di trovare uno spazio che contenga sia i segnali rappresentati da funzioni di $L^1(\R), L^2(\R)$ o $L^∞(\R)$, sia quelli rappresentati da distribuzioni $δ_a$
-	- Lo spazio che soddisfa queste esigenze è lo spazio $S'(\R)$ delle **distribuzioni temperate**.
+	-
+	- Spazio $S'(\R)$ delle **distribuzioni temperate**.
 	- Come oggetti matematici gli elementi di $S'(\R)$, cioè le distribuzioni temperate, sono "funzionali lineari continui".
 	- $S'(\R)$ contiene:
 		- $L^1(\R)$, $L^2(\R)$, $L^∞(\R)$ (e quindi tutte le funzioni costanti)
