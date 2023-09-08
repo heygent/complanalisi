@@ -31,8 +31,8 @@ const macros = {
   "\\t": "\\text{#1}",
   "\\Z": "\\mathbb{Z}",
   "\\N": "\\mathbb{N}",
-  "\\L": "\\L^{#2}(#1)",
-  "\\Li": "\\L[#1]{\\infty}",
+  "\\L": "L^{#1}(I)",
+  "\\Li": "L^{\\infty}(I)",
   "\\norm": "\\lVert#1\\rVert",
   "\\lnorm": "\\left\\lVert#1\\right\\rVert",
   "\\expfn": "\\exp\\left(#1\\right)",
@@ -40,7 +40,8 @@ const macros = {
   "\\fint": "\\int_{-\\infty}^{+\\infty}",
   "\\l": "\\left",
   "\\r": "\\right",
-  "\\esssup": "\\ess\\,sup",
+  "\\esssup": String.raw`\operatorname*{ess\,sup}`,
+  "\\sinc": String.raw`\operatorname*{sinc}`,
 }
 
 
