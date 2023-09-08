@@ -3,11 +3,12 @@
 	- $$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
 	- purché l'integrale esista e sia finito (come integrale nel senso di Lebesgue).
 - # Proprietà
-	-
-	- Proprietà commutativa: $$(f * g)(x) = (g * f)(x)$$
-	- 2. Se $f, g \in L^1(\R)$, allora $f * g$ esiste ed appartiene a $L^1(\R)$. Inoltre: $$\norm[f*g]{L^1(\R)} \le \norm[f]{L^2(\R)} \norm[g]_{L^1(\R)}$$
-	- 3. Se $f\in L^2(\R), g \in L^1(\R)$ allora $f * g$ esiste ed appartiene ad $L^2(\R)$. Inoltre: $$\norm[f*g]_{L^2(\R)} \le \norm[f]_{L^2(\R)} \norm[g]_{L^1(\R)}$$
-	- 4. Se $f \in L^\infty(\R), g\in L^1(\R)$ allora $f*g$ e appartiene a $L^\infty(\R)$. Inoltre: $$\|f*g\|_{L^\infty(\R)} \le \|f\|_{L^\infty(\R)}\|g\|_{L^1(\R)}$$
+	- ##  Commutativa
+		- $$(f * g)(x) = (g * f)(x)$$
+	- ## Proprietà su norme
+	- Se $f, g \in L^1(\R)$, allora $f * g$ esiste ed appartiene a $L^1(\R)$. Inoltre: $$\norm[f*g]{L^1(\R)} \le \norm[f]{L^2(\R)} \norm[g]_{L^1(\R)}$$
+	- Se $f\in L^2(\R), g \in L^1(\R)$ allora $f * g$ esiste ed appartiene ad $L^2(\R)$. Inoltre: $$\norm[f*g]_{L^2(\R)} \le \norm[f]_{L^2(\R)} \norm[g]_{L^1(\R)}$$
+	- Se $f \in L^\infty(\R), g\in L^1(\R)$ allora $f*g$ e appartiene a $L^\infty(\R)$. Inoltre: $$\|f*g\|_{L^\infty(\R)} \le \|f\|_{L^\infty(\R)}\|g\|_{L^1(\R)}$$
 - Più in generale, per $p\in [1, +\infty)$, si definiscono gli spazi:
   $$L^p(I) = \left\{f: I \rightarrow \C \bigg| \int_I |f(t)|^p\,dt < +\infty\right\}$$
   In cui si intendono identificate funzioni che differiscono su insiemi di misura di Lebesgue nulla.
