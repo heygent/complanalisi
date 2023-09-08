@@ -40,7 +40,8 @@ const macros = {
   "\\fint": "\\int_{-\\infty}^{+\\infty}",
   "\\l": "\\left",
   "\\r": "\\right",
-  "\\esssup": String.raw`\operatorname*{ess\,sup}`
+  "\\esssup": String.raw`\operatorname*{ess\,sup}`,
+  "\\sinc": String.raw`\operatorname*{sinc}`,
 }
 
 

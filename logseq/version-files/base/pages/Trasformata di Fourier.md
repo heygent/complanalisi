@@ -88,7 +88,8 @@ tags:: complanalisi
 		  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
 		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
 		  &= \frac{\sin(2aπω)}{πω} \\
-		  &= \sin_{2a}(ω)
+		  &= \operatorname{sinc}_{2a}(ω)
 		  \end{aligned}
 		  $$
+		- La funzione
 		-
