@@ -34,34 +34,33 @@ tags:: complanalisi
 				- $V$ e $x$ sono funzioni, $C$ è una costante
 		- Questa è la relazione che lega l'input all'output del sistema:
 		- $$RCv'(t) + v(t) = x(t)$$
-		  Per risolverla ridefinisco variabile:
-		  $$
-		  \begin{aligned}
-		  v(t) &\coloneqq w(t)e^{\frac{-t}{RC}}\\
-		  w(t) &= e^{\frac{-t}{RC}} \cdot v(t) \\
-		  v' &= w' \exp{\frac{-t}{RC}} + w \exp\frac{-t}{RC}\cdot -\frac{1}{RC}
-		  \end{aligned}
-		  $$
-		  
-		  Sostituendo:
-		  $$
-		  \begin{aligned}
-		  RC\left(w' e^{\frac{-t}{RC}} + we^{\frac{-t}{RC}} \cdot \frac{-1}{RC}\right) + we^{\frac{-t}{RC}} &= x\\
-		  RC\left(w' - \frac{w}{RC}\right)+ w &= x e^{\frac{t}{RC}}  \\
-		  RCw' \cancel{-w} \cancel{+w} &= xe^{\frac{t}{RC}} \\
-		  w' &= \frac{1}{RC}e^{\frac{t}{RC}} x(t)
-		  \end{aligned}
-		  $$
-		  A questo punto l'equazione differenziale si riduce a risolvere un integrale:
-		  $$
-		  w(t) = \frac{1}{RC} \int\limits_{-\infty}^t e^{\frac{s}{RC}}x(s)\,ds + K
-		  $$
-		  con $K$ arbitrario.
-		  Per determinare $K$, posso porre come condizione che $A0 = 0$, per cui $K = 0$
-		  $$w(t) = \frac{1}{RC} \int\limits_{-\infty}^t e^{\frac{s}{RC}} x(s)\,ds$$
-		  Dato che: 
+		- Per risolverla ridefinisco variabile:
+			- $$
+			  \begin{aligned}
+			  v(t) &\coloneqq w(t)e^{\frac{-t}{RC}}\\
+			  w(t) &= e^{\frac{-t}{RC}} \cdot v(t) \\
+			  v' &= w' \exp{\frac{-t}{RC}} + w \exp\frac{-t}{RC}\cdot -\frac{1}{RC}
+			  \end{aligned}
+			  $$
+		- Sostituendo:
+			- $$
+			  \begin{aligned}
+			  RC\left(w' e^{\frac{-t}{RC}} + we^{\frac{-t}{RC}} \cdot \frac{-1}{RC}\right) + we^{\frac{-t}{RC}} &= x\\
+			  RC\left(w' - \frac{w}{RC}\right)+ w &= x e^{\frac{t}{RC}}  \\
+			  RCw' \cancel{-w} \cancel{+w} &= xe^{\frac{t}{RC}} \\
+			  w' &= \frac{1}{RC}e^{\frac{t}{RC}} x(t)
+			  \end{aligned}
+			  $$
+		- A questo punto l'equazione differenziale si riduce a risolvere un integrale:
+			- $$
+			  w(t) = \frac{1}{RC} \int\limits_{-\infty}^t e^{\frac{s}{RC}}x(s)\,ds + K
+			  $$
+				- con $K$ arbitrario.
+				- Per determinare $K$, posso porre come condizione che $A0 = 0$, per cui $K = 0$
+		- $$w(t) = \frac{1}{RC} \int\limits_{-\infty}^t e^{\frac{s}{RC}} x(s)\,ds$$
+		- Dato che: 
 		  $$ w(t) = e^{\frac{-t}{RC}} \cdot v(t)$$
-		  Allora:
+		- Allora:
 		  $$
 		  \begin{aligned}
 		  v(t) &= \frac{e^{\frac{-t}{RC}}}{RC} \int_{-\infty}^t \frac{s}{RC}s(x)\,ds\\
