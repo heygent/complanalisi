@@ -91,7 +91,7 @@ tags:: complanalisi
 			  $$
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
 	- ## Base ortonormale #card
-		- ## Definizione
+		- ### Definizione
 			- Siano $\phi_n \in \L2$ con $n \in \Z$.
 			  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
 			  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
@@ -123,7 +123,7 @@ tags:: complanalisi
 			  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
 			  \end{gathered}
 			  $$
-		- ## Uguaglianza di Parseval #card
+		- ### Uguaglianza di Parseval #card
 			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
 			- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
 			- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
@@ -154,7 +154,7 @@ tags:: complanalisi
 					  \end{aligned}
 					  $$
 					- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
-		- ## Base esponenziale di $L^2(0,a)$
+		- ### Base esponenziale di $L^2(0,a)$ #card
 			- Sia $I = (0,a)$ con $a > 0$ fissato.
 			- Pongo:
 				- $$\lambda = \frac{1}{a}$$
@@ -200,7 +200,7 @@ tags:: complanalisi
 				- dove la serie converge in norma $\norm_{L^2(0,a)}$.
 					- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita
 					- I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
-		- ### Base "trigonometrica" di $L^2(0,a)$
+		- ### Base "trigonometrica" di $L^2(0,a)$ #card
 			- Posto $λ = \frac{1}{a}$ si ha che:
 				- $$\{\sqrt{λ}\} \cup \{\sqrt{2λ}\cos(2πnλt)\}_{n = 1}^{+\infty} \cup \{\sqrt{2λ}\sin(2πnλt)\}_{n = 1}^{+\infty}$$
 					- è una base ortonormale di $L^2(0, a)$
