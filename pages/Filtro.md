@@ -130,6 +130,12 @@ tags:: complanalisi
 				- Cioè $A$ continuo.
 - # Funzione di trasferimento #card
   id:: 64f19736-5f2a-413d-8e60-1a838fe63067
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:18:33.551Z
+  card-last-score:: 1
 	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
 		- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
