@@ -9,7 +9,7 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- In teoria dei segnali non ci si interessa dei componenti di un sistema, ma piuttosto del modo in cui trasforma il segnale di input nel segnale di output ("scatola nera").
 	- Il sistema è modellato come un operatore che agisce su funzioni, per cui si scrive:
 		- $$y = Ax$$
-			- $x \in X$ [[Spazio di funzioni]] di input
+			- $x \in X$ [[Spazi di funzioni]] di input
 			- $y \in Y$ spazio di funzioni di output
 - # Esempi di sistemi
 	- ## Amplificatore ideale #card

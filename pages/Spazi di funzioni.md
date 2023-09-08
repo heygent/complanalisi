@@ -1,47 +1,44 @@
 tags:: complanalisi
 
+- # Spazio vettoriale di funzioni
 - Sia $I \subseteq \R$ un intervallo aperto.
-  Si consideri l'insieme $F(I)$ delle funzioni $f: I \rightarrow \C$.
-  
-  Se nell'insieme $F(I)$ sono definite le operazioni:
-  
-  1. Somma puntuale
-     $$(f + g)(t) = f(t) + g(t)$$
-  2. Prodotto per una costante $\lambda \in \C$
-     $$(\lambda f)(t) = \lambda f(t)$$
-  
-  Allora $F(I)$ è uno spazio vettoriale.
-  
-  Si definisce per $f \in F(I)$, quando ciò ha senso:
-  $$\norm[f]_{L^1(I)} = \int_I |f(t)|\,dt$$
-  $$\norm[f]_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
-  $$
-  \begin{aligned}
-  \norm[f]_\Li &=  \esssup |f|\\
-  &= \inf\{C\ge 0: |f(t)| \le C \text{ quasi ovunque su }I\}
-  \end{aligned}
-  $$
-  
-  > [!note]
-  Gli integrali qua sono intesi come integrali di Lebegue.
-  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
-  La definizione di $\|f\|_{L^\infty(I)}$ generalizza $\sup_{t \in I} |f(t)|$ e coincide con essa quando $f$ è continua.
-  
-  > [!note]
-  $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
-  Ad esempio se $I = \R$ e:
-  $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
-  Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
-  
-  Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$, ovvero considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
-  
-  "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
-  Tutti gli insiemi finiti e numerabili hanno misura di Lebesgue nulla.
-  
-  Ad esempio:
-  
-  $$f(t) = \frac{\sin(t)}{t}\quad\quad g(t) = \begin{cases}\frac{\sin(t)}{t}&t \neq 0\\ 1 & t = 0\end{cases}$$
-  sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
+- Si consideri l'insieme $F(I)$ delle funzioni $f: I \rightarrow \C$.
+- Se nell'insieme $F(I)$ sono definite le operazioni:
+	- Somma puntuale #.ol
+		- $$(f + g)(t) = f(t) + g(t)$$
+	- Prodotto per una costante $\lambda \in \C$
+		- $$(\lambda f)(t) = \lambda f(t)$$
+- Allora $F(I)$ è uno spazio vettoriale.
+	- Si definisce per $f \in F(I)$, quando ciò ha senso:
+	  $$\norm[f]_{L^1(I)} = \int_I |f(t)|\,dt$$
+	  $$\norm[f]_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
+	  $$
+	  \begin{aligned}
+	  \norm[f]_\Li &=  \esssup |f|\\
+	  &= \inf\{C\ge 0: |f(t)| \le C \text{ quasi ovunque su }I\}
+	  \end{aligned}
+	  $$
+	  
+	  > [!note]
+	  Gli integrali qua sono intesi come integrali di Lebegue.
+	  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
+	  La definizione di $\|f\|_{L^\infty(I)}$ generalizza $\sup_{t \in I} |f(t)|$ e coincide con essa quando $f$ è continua.
+	  
+	  > [!note]
+	  $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
+	  Ad esempio se $I = \R$ e:
+	  $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
+	  Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
+	  
+	  Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$, ovvero considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
+	  
+	  "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
+	  Tutti gli insiemi finiti e numerabili hanno misura di Lebesgue nulla.
+	  
+	  Ad esempio:
+	  
+	  $$f(t) = \frac{\sin(t)}{t}\quad\quad g(t) = \begin{cases}\frac{\sin(t)}{t}&t \neq 0\\ 1 & t = 0\end{cases}$$
+	  sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
 - # Spazi normati
   
   Si pongono:
