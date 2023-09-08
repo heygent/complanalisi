@@ -23,9 +23,11 @@ tags:: complanalisi
 			- \begin{aligned}
 			  V &= x - IR \\
 			  &= x - Q'R \\
-			  &= x - CV'R \\ 
-			  RCV' + V &= x
+			  &= x - CV'R
 			  \end{aligned}
+			-
+			- L'equazione differenziale che descrive il sistema è:
+				- $$RCV' + V = x$$
 			- Questo dato che:
 				- ((64ee366b-1c8e-4248-a232-59016644c8ff))
 				- $Q' = V'C$
