@@ -4,12 +4,12 @@ tags:: complanalisi
 	- Sia $A : X \rightarrow Y$ un [[filtro]].
 	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$.
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
-	- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
-	- Si aggiunge l'esponente $n$ perché si è interessati a tutti i multipli della frequenza
+		- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
+		- Si aggiunge l'esponente $n$ perché si è interessati a tutti i multipli della frequenza
 	- Si supponga che le $e_\lambda^n(t) \in X$
 	- Se $\forall\,x \in X$ suppongo che:
-	- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
-	- Ovvero posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti.
+		- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
+		- Ovvero posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti.
 	- Allora:
 		- $$\begin{aligned}
 		  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
