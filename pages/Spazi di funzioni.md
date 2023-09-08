@@ -58,17 +58,14 @@ tags:: complanalisi
   
   Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - ## Spazio L2
-  Più in particolare per $L^2(I)$:
-  
-  $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
-  
-  $$\|f\|{\L2} = \sqrt{(f, f)_{\L2}}$$
-  dove:
-  $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
-  $\forall\,f,g \in \L2$
-  
-  Ciò permette di definire il concetto di **ortogonalità** come:
-  $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
+- Più in particolare per $L^2(I)$:
+	- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
+	- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
+	- dove:
+	- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
+		- $\forall\,f,g \in \L2$
+	- Ciò permette di definire il concetto di **ortogonalità** come:
+	- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
 - ### Energia
   Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
   Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
