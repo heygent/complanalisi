@@ -91,5 +91,5 @@ tags:: complanalisi
 		  &= \operatorname{sinc}_{2a}(ω)
 		  \end{aligned}
 		  $$
-		- La funzione
-		-
+		- La funzione $\sinc$ è detta **seno cardinale**
+		- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
