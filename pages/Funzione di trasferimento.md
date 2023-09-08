@@ -5,23 +5,22 @@ tags:: complanalisi
 	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$.
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
 	- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
-- Si aggiunge l'esponente $n$ perché si è interessati a tutti i multipli della frequenza
-- Si supponga che le $e_\lambda^n(t) \in X$
-- Se $\forall\,x \in X$ suppongo che:
-- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
-- Ovvero posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti.
-- > [!note]
-  La serie converge in $\|\ldots\|_X$:
-  $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
-- Allora:
-- $$\begin{aligned}
-  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
-  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n e_\lambda^n(t)  \right) \\
-  &= \lim_{N \rightarrow +\infty} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) &\text{per A continuo} \\
-  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n A(e_\lambda^n)(t) &\text{per A lineare} \\
-  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n f_\lambda^{(n)}(t) \\
-  &= \sum_{n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
-  \end{aligned}$$
+	- Si aggiunge l'esponente $n$ perché si è interessati a tutti i multipli della frequenza
+	- Si supponga che le $e_\lambda^n(t) \in X$
+	- Se $\forall\,x \in X$ suppongo che:
+	- $$x(t) = \sum_{n = -\infty}^\infty c_n e_\lambda^n(t)$$
+	- Ovvero posso riscrivere il segnale come somma infinita di frequenze pure moltiplicate per dei coefficienti.
+	- > La serie converge in $\|\ldots\|_X$:
+	  $$\lim_{N \rightarrow \infty}\left\|\sum_{n = -N}^N c_n e_\lambda^n(t) - x(t)\right\|_X = 0$$
+	- Allora:
+		- $$\begin{aligned}
+		  Ax(t) &= A\left(\sum_{-\infty}^\infty c_n e_\lambda^n(t) \right) \\
+		  &= A\left( \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n e_\lambda^n(t)  \right) \\
+		  &= \lim_{N \rightarrow +\infty} A \left( \sum_{-N}^N c_n e_\lambda^n(t)\right) &\text{per A continuo} \\
+		  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n A(e_\lambda^n)(t) &\text{per A lineare} \\
+		  &= \lim_{N \rightarrow +\infty} \sum_{-N}^N c_n f_\lambda^{(n)}(t) \\
+		  &= \sum_{n = -\infty}^\infty c_n f_\lambda^{(n)}(t) \\
+		  \end{aligned}$$
 - Si supponga quindi di avere $e_\lambda(t) \xrightarrow{A} f_\lambda(t)$ :
 - $$\begin{aligned}
   e_\lambda(t + u) &= \tau_{-t} e(u) \\
@@ -53,15 +52,9 @@ tags:: complanalisi
 - Funzione di trasferimento del sistema $A$ :
 - $$\lambda \rightarrow f_\lambda(0) = H(\lambda)$$
 - $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
-  ^transferfunctioneq
-  
-  Se $H(\lambda)$ ed $e_\lambda(t)$ sono a valori complessi si ha che:
+- Se $H(\lambda)$ ed $e_\lambda(t)$ sono a valori complessi si ha che:
   Siano $H(\lambda), e_\lambda(t) = z_{1}, z_2$:
-  
-  ![[Numeri complessi#^complex-exp-product]]
-  
-  $\rho_2$ è 1, dato che è l'ampiezza della frequenza pura, mentre $\rho_1$ è il fattore per cui la frequenza viene smorzata o amplificata.
-  
-  $\rho_{1}=|z_1|=|H(\lambda)|$
-  
-  $\Theta_{2}$ va a influire sulla fase iniziale del segnale, che è impercettibile dal punto di vista sonoro (e non interessante).
+- ![[Numeri complessi#^complex-exp-product]]
+- $\rho_2$ è 1, dato che è l'ampiezza della frequenza pura, mentre $\rho_1$ è il fattore per cui la frequenza viene smorzata o amplificata.
+- $\rho_{1}=|z_1|=|H(\lambda)|$
+- $\Theta_{2}$ va a influire sulla fase iniziale del segnale, che è impercettibile dal punto di vista sonoro (e non interessante).
