@@ -50,7 +50,8 @@ tags:: complanalisi
 	- $\hat 1 = δ$; $δ = \hat 1$
 	  dato che è una biiezione, l'inverso è valido
 	- $∀ϕ\in S'(\R)$:
-		- $$\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$$
+		- logseq.order-list-type:: number
+		  $$\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$$
 			- $$
 			  \begin{aligned}
 			  \F[τ_a ϕ](ω) &= \fint e^{-2πiωt} ϕ(t-a)\,dt\\
@@ -60,10 +61,10 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 		- $\F[\mu_a ϕ] = τ_a \hat ϕ$
-			- Il caso 2 con $ϕ \in L'(\R)$ è del tutto analogo.
+		  logseq.order-list-type:: number
+			- Analogo al caso uno con $ϕ \in L'(\R)$
 	- Proprietà:
-	  $\F[e^{2πiat}] = δ_a$
-	  
-	  Dalle due proprietà precedenti:
+	- $\F[e^{2πiat}] = δ_a$
+	- Dalle due proprietà precedenti:
 	  $F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
 	-
