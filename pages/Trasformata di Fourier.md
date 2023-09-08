@@ -78,4 +78,7 @@ tags:: complanalisi
 			  $$
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
 	- ### Esercizio
-		-
+		- Calcolare la trasformata di Fourier della funzione:
+		- $$
+		  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin 
+		  $$
