@@ -1,6 +1,6 @@
 tags:: complanalisi
 
-- # Spazio vettoriale di funzioni
+- # Spazio vettoriale di funzioni #card
 	- Siano:
 		- $I \subseteq \R$ un intervallo aperto.
 		- $F(I)$ insieme delle funzioni $f: I \rightarrow \C$.
@@ -34,7 +34,7 @@ tags:: complanalisi
 		- Ad esempio:
 			- $$f(t) = \frac{\sin(t)}{t}\quad\quad g(t) = \begin{cases}\frac{\sin(t)}{t}&t \neq 0\\ 1 & t = 0\end{cases}$$
 			- sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
-	- # Spazi di Banach
+	- ## Spazi di Banach
 		- Si pongono:
 			- $$
 			  \begin{aligned}
@@ -104,7 +104,6 @@ tags:: complanalisi
 		  \end{aligned}
 		  $$
 	- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
-		-
 	- #### Note
 		- Per definizione:
 		- $$
