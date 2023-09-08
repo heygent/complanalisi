@@ -66,55 +66,53 @@ tags:: complanalisi
 				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
-- ### Energia
-	- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
-	  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
-	- Siano:
-		- $I$ corrente (costante)
-		- $V$ voltaggio (funzione del tempo)
-		- $R$ resistenza del circuito (funzione del tempo)
-	- Allora:
-		- $RI = V$ (legge di Ohm)
-		- $IV = P$ (= potenza)
-	- Se $W$ è il lavoro compiuto, ovvero l'energia trasferita, la sua variazione nel tempo ci dà la potenza:
-		- $$P = \frac{dW}{dt}$$
-	- L'energia totale sarà allora:
-		- $$
-		  \begin{aligned}
-		  E &= W(+\infty) - W(-\infty)\\
-		  &= \int_{-\infty}^{+\infty} \frac{dW}{dt}\,dt\\
-		  &= \int_{-\infty}^{+\infty} P(t)\,dt\\
-		  &= \frac{1}{R}\int_{-\infty}^{+\infty} V^2(t)\,dt\\
-		  &= \frac{1}{R}\|V\|_\L[\R]2^2
-		  \end{aligned}
-		  $$
-	- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
+	- ### Energia
+		- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
+		  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
+		- Siano:
+			- $I$ corrente (costante)
+			- $V$ voltaggio (funzione del tempo)
+			- $R$ resistenza del circuito (funzione del tempo)
+		- Allora:
+			- $RI = V$ (legge di Ohm)
+			- $IV = P$ (= potenza)
+		- Se $W$ è il lavoro compiuto, ovvero l'energia trasferita, la sua variazione nel tempo ci dà la potenza:
+			- $$P = \frac{dW}{dt}$$
+		- L'energia totale sarà allora:
+			- $$
+			  \begin{aligned}
+			  E &= W(+\infty) - W(-\infty)\\
+			  &= \int_{-\infty}^{+\infty} \frac{dW}{dt}\,dt\\
+			  &= \int_{-\infty}^{+\infty} P(t)\,dt\\
+			  &= \frac{1}{R}\int_{-\infty}^{+\infty} V^2(t)\,dt\\
+			  &= \frac{1}{R}\|V\|_L^2(\R)^2
+			  \end{aligned}
+			  $$
+		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
 	- ### Disuguaglianza di Schwartz
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
 		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
 		- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
 - ### Base ortonormale
-- #### Definizione
-  
-  Siano $\phi_n \in \L2$ con $n \in \Z$.
-  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
-  
-  $$
-  (\phi_n, \phi_m)_\L2 = \begin{cases}
-  0 & \text{per } n \neq m \\
-  1 & \text{per } n = m
-  \end{cases}
-  \tag{1}
-  $$
-  $$ 
-  \begin{aligned}
-  \forall\,f \in \L2: \\
-  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
-  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
-  \end{aligned}
-  \tag{2}
-  $$
+	- #### Definizione
+	- Siano $\phi_n \in \L2$ con $n \in \Z$.
+	  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
+	- $$
+	  (\phi_n, \phi_m)_\L2 = \begin{cases}
+	  0 & \text{per } n \neq m \\
+	  1 & \text{per } n = m
+	  \end{cases}
+	  \tag{1}
+	  $$
+	  $$ 
+	  \begin{aligned}
+	  \forall\,f \in \L2: \\
+	  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
+	  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
+	  \end{aligned}
+	  \tag{2}
+	  $$
 - #### Note
   
   Per definizione:
