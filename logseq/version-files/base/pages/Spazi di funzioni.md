@@ -97,6 +97,7 @@ tags:: complanalisi
 			  $$
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
 	- ## Base ortonormale #card
+	  id:: 64fb2fc8-e70c-4e1d-a9a9-63c4996ca88a
 		- ### Definizione
 			- Siano $\phi_n \in \L2$ con $n \in \Z$.
 			  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
@@ -178,7 +179,7 @@ tags:: complanalisi
 					- considero frequenze pure multiple della frequenza $λ$
 					- la radice smorza le oscillazioni in modo tale da avere energia 1.
 			- Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$:
-				- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
+				- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una ((64fb2fc8-e70c-4e1d-a9a9-63c4996ca88a)) di $L^2(0,a)$.
 					- ### Dimostrazione
 					  collapsed:: true
 						- Bisogna provare le due condizioni:
