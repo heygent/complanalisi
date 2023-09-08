@@ -23,7 +23,8 @@ tags:: complanalisi
 			- La definizione di $\|f\|_{L^\infty(I)}$ generalizza $\sup_{t \in I} |f(t)|$ e coincide con essa quando $f$ è continua.
 		- > Gli integrali qua sono intesi come integrali di Lebegue.
 		  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
-	- ## Quasi ovunque coincidenti
+	- ## Quasi ovunque coincidenti #card
+	  id:: 64fb5645-1722-4e12-8da5-946ef59cf2ab
 		- $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
 		- Ad esempio se $I = \R$ e:
 			- $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
@@ -44,7 +45,7 @@ tags:: complanalisi
 			  \Li &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^\infty(I)} < +\infty \} \\
 			  \end{aligned}
 			  $$
-			- sottointendendo l'identificazione tra funzioni q.o. coincidenti.
+			- sottointendendo l'identificazione tra funzioni ((64fb5645-1722-4e12-8da5-946ef59cf2ab))
 		- $(\L1, \norm_\L1),  (\L2, \norm_\L2), (\Li,\norm_\Li)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
 		- Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - # Spazio L2
