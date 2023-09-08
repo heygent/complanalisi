@@ -2,48 +2,35 @@ tags:: complanalisi
 
 - In uno spazio di funzioni il concetto di limite è spesso definito in termini di una norma $\|\cdot\|$ definita su ognuno degli spazi vettoriali.
 - Utile per definire la distanza tra due funzioni:
-  
-  $$\text{dist}(x_, x_2) = \|x_1 - x_2 \|$$
-  
-  $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
+- $$\text{dist}(x_, x_2) = \|x_1 - x_2 \|$$
+- $x_n \rightarrow x$ significa che $\lVert x_n - x \rVert = 0$
   (è necessario specificare rispetto a quale norma).
-  
-  Ci sono tre norme principalmente usate:
-- ### Norma infinito
-  
-  $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
-  
-  Definisce la convergenza uniforme
-- ### Norma 1
-  
-  $$\|x\|_1 = \int_I |x(t)|\,dt$$
-  
-  Definisce la convergenza media
+- Ci sono tre norme principalmente usate:
+	- ### Norma infinito
+		- $$\|x\|_\infty = \sup_{t\in I} |x(t)|$$
+		- Definisce la convergenza uniforme
+	- ### Norma 1
+		- $$\|x\|_1 = \int_I |x(t)|\,dt$$
+		- Definisce la convergenza media
 - ### Norma 2
-  
-  $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
-  
-  Rappresenta l'energia del segnale.
-  Deriva da un prodotto scalare tra funzioni.
-  
-  $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
-  
-  $\bar{y}(t)$ è il complesso coniugato di $y(t)$:
-  
-  $$
-  \begin{aligned}
-  (x, x) &= \int_I x(t) \bar{x}(t)\,dt \\
-  &= \int_I |x(t)|^2\,dt
-  \end{aligned}
-  $$  
-  che è il quadrato della norma:
-  
-  $\|x\|_1 = \sqrt{(x, x)}$
-  
-  > [!note]
-  La distanza può variare molto in base alla norma usata.
-  ![[Norma 2023-09-02 16.01.34.excalidraw]]
-  In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
+	- $$\|x\|_2 = \left( \int_I |x(t)|^2\,dt \right)^{\frac{1}{2}}$$
+	- Rappresenta l'energia del segnale.
+	- Deriva da un prodotto scalare tra funzioni.
+		- $$(x, y)_2 = \int_I x(t)\bar{y}(t)\,dt$$
+		- $\bar{y}(t)$ è il complesso coniugato di $y(t)$:
+		- $$
+		  \begin{aligned}
+		  (x, x) &= \int_I x(t) \bar{x}(t)\,dt \\
+		  &= \int_I |x(t)|^2\,dt
+		  \end{aligned}
+		  $$
+	- che è il quadrato della norma:
+	  
+	  $\|x\|_1 = \sqrt{(x, x)}$
+	  
+	  La distanza può variare molto in base alla norma usata.
+	  ![[Norma 2023-09-02 16.01.34.excalidraw]]
+	  In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
 - ### Convergenza puntuale
   
   Si dice che $x_n \rightarrow x$ puntualmente se
