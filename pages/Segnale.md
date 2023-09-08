@@ -76,6 +76,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			  collapsed:: true
 				- ((63d54c05-5822-4781-a96e-49dc6e79f219))
 	- ## Segnale puro sinusoidale o monocromatico #card
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:37:11.495Z
+	  card-last-score:: 1
 		- $$x(t) = \alpha \cos(\omega t + \varphi) + c$$
 			- Il termine sinusoide descrive qualunque onda con le caratteristiche di un onda seno.
 				- Anche l'onda coseno è detta sinusoidale, dato che $\cos(x)=\sin(x+\pi/2)$
