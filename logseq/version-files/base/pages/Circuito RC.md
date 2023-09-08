@@ -33,7 +33,8 @@ tags:: complanalisi
 				- $Q' = V'C$
 				- $V$ e $x$ sono funzioni, $C$ è una costante
 		- Questa è la relazione che lega l'input all'output del sistema:
-		- $$RCv'(t) + v(t) = x(t)$$
+			- id:: 64fb8cc5-d5df-46c3-9b80-d36a8375b236
+			  $$RCv'(t) + v(t) = x(t)$$
 		- Per risolverla ridefinisco variabile:
 			- $$
 			  \begin{aligned}
