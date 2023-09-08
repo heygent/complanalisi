@@ -125,11 +125,18 @@ tags:: complanalisi
 			  \end{gathered}
 			  $$
 		- ### Uguaglianza di Parseval #card
+		  card-last-interval:: -1
+		  card-repeats:: 1
+		  card-ease-factor:: 2.5
+		  card-next-schedule:: 2023-09-08T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-08T21:51:52.093Z
+		  card-last-score:: 1
 			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$.
 			- $\forall f \in \L2$ si ha:
 				- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
 				- Dove $c_n$ sono i coefficienti di Fourier.
 			- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
+			  collapsed:: true
 				- $$f: I = \{1,2,3\} \rightarrow \R$$
 				- $$
 				  \begin{aligned}
