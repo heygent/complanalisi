@@ -51,6 +51,12 @@ tags:: complanalisi
 	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
 	- $\F: S'(\R) \rightarrow S'(\R)$ è una **biiezione lineare bicontinua**
 - ## Uguaglianza di Plancherel #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:44:00.169Z
+  card-last-score:: 1
 	- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
 	- esprime "conservazione dell'energia" del segnale
 	- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:

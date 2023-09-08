@@ -5,8 +5,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2022-01-21T23:00:00.000Z
-  card-last-reviewed:: 2023-01-21T11:51:36.953Z
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:44:07.484Z
   card-last-score:: 1
 	- Funzione matematica sul tempo.
 		- $x = x(t)$
@@ -64,10 +64,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Finestra rettangolare #card
 	  card-last-score:: 1
 	  card-repeats:: 1
-	  card-next-schedule:: 2023-08-27T22:00:00.000Z
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
 	  card-last-interval:: -1
 	  card-ease-factor:: 2.5
-	  card-last-reviewed:: 2023-08-27T08:36:02.588Z
+	  card-last-reviewed:: 2023-09-08T22:44:08.167Z
 		- $$r(t) = \begin{cases}
 		  1 & \text{se } |t| < a \\
 		  0 & \text{se } |t| > a

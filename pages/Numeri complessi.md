@@ -66,6 +66,12 @@ tags:: complanalisi
 	- $\C = \R^2$ topologicamente
 - # Formula di Eulero #card
   id:: 64eaeffe-66fa-416d-b2be-a458ea31c68c
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:44:04.234Z
+  card-last-score:: 1
 	-
 	- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
@@ -84,6 +90,12 @@ tags:: complanalisi
 			  \end{aligned}
 		- $$z^n = (\rho e^{i\Theta})^n = \rho^n e^{i\Theta n}$$
 - ## Coordinate polari #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:43:58.983Z
+  card-last-score:: 1
 	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
 	- $$\begin{cases}
 	  \rho = \sqrt{x^2 + y^2} = |z| \\

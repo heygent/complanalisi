@@ -1,6 +1,12 @@
 tags:: complanalisi
 
 - # Circuito RC #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:44:01.021Z
+  card-last-score:: 1
 	- ((64ee5717-cb9b-40d9-9b66-a586754311c9))
 	- ## Grandezze fisiche di interesse
 		- $I$ corrente

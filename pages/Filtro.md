@@ -1,6 +1,12 @@
 tags:: complanalisi
 
 - # Definizione #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:44:02.070Z
+  card-last-score:: 1
 	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
 	  id:: 64f0ed21-afb3-44dd-aee4-c6ee06624e52
 - # Proprietà
@@ -10,6 +16,12 @@ tags:: complanalisi
 			- $A : x \rightarrow y$
 	- ### Linearità #card
 	  id:: 64f0ed21-ef2f-4428-80d4-1a61c9c2fc60
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:44:03.681Z
+	  card-last-score:: 1
 		- $\forall\,x_1, x_2 \in X$
 		- $\forall\,\lambda, \mu \in \C$
 		- $(\lambda x_1 + \mu x_2)(t) = \lambda x_1(t) + \mu x_2(t) \in X$
@@ -21,8 +33,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-08-27T22:00:00.000Z
-	  card-last-reviewed:: 2023-08-27T08:35:58.860Z
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:44:08.839Z
 	  card-last-score:: 1
 	  id:: 64f0ed21-ae48-441b-8daf-119dd7f5965d
 		- Si vuole formalizzare il fatto che il sistema non anticipa i tempi e risponde al principio di causa-effetto.
@@ -45,6 +57,12 @@ tags:: complanalisi
 						- Supporre che $z(t) = x_1(t) - x_2(t) = 0\,\forall\, t < t_0$ equivale a supporre che $x_1 = x_2\,\forall\,t < t_o$
 	- ### Invarianza per traslazione #card
 	  id:: 64f0ed21-ca43-460c-bd64-fcf998a8edf2
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:43:53.066Z
+	  card-last-score:: 1
 		- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 		- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
 		- Nessun sistema rispetta in assoluto questa proprietà.
@@ -189,6 +207,12 @@ tags:: complanalisi
 		  $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
 - # Filtro passa-basso #card
   id:: 64fb8e55-6062-41e7-83a4-953e54c1921e
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:43:49.477Z
+  card-last-score:: 1
 	- Un filtro che lascia passare solo frequenze basse.
 	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:
 	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/ta8g8wowpg?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>

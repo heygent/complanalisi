@@ -1,6 +1,12 @@
 tags:: complanalisi
 
 - # Definizione #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:44:06.883Z
+  card-last-score:: 1
 	- Siano $f, g: \R \rightarrow \R$ oppure $\C$. Definisco la convoluzione di $f$ e $g$ come:
 	- $$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
 	- purché l'integrale esista e sia finito (come integrale nel senso di Lebesgue).

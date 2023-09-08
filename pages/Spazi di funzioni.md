@@ -1,6 +1,12 @@
 tags:: complanalisi
 
 - # Spazio vettoriale di funzioni #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-09T22:00:00.000Z
+  card-last-reviewed:: 2023-09-08T22:43:57.774Z
+  card-last-score:: 1
 	- Siano:
 		- $I \subseteq \R$ un intervallo aperto.
 		- $F(I)$ insieme delle funzioni $f: I \rightarrow \C$.
@@ -25,6 +31,12 @@ tags:: complanalisi
 		  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
 	- ## Quasi ovunque coincidenti #card
 	  id:: 64fb5645-1722-4e12-8da5-946ef59cf2ab
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:44:05.507Z
+	  card-last-score:: 1
 		- $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
 		- Ad esempio se $I = \R$ e:
 			- $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
@@ -37,6 +49,12 @@ tags:: complanalisi
 			- $$f(t) = \frac{\sin(t)}{t}\quad\quad g(t) = \begin{cases}\frac{\sin(t)}{t}&t \neq 0\\ 1 & t = 0\end{cases}$$
 			- sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
 	- ## Spazi di Banach #card
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:44:06.129Z
+	  card-last-score:: 1
 		- Si pongono:
 			- $$
 			  \begin{aligned}
@@ -64,6 +82,12 @@ tags:: complanalisi
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
 	- ## Disuguaglianza di Schwartz #card
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:44:02.904Z
+	  card-last-score:: 1
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
 		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
 		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
@@ -98,6 +122,12 @@ tags:: complanalisi
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
 	- ## Base ortonormale #card
 	  id:: 64fb2fc8-e70c-4e1d-a9a9-63c4996ca88a
+	  card-last-interval:: -1
+	  card-repeats:: 1
+	  card-ease-factor:: 2.5
+	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-08T22:44:04.905Z
+	  card-last-score:: 1
 		- ### Definizione
 			- Siano $\phi_n \in \L2$ con $n \in \Z$.
 			  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
@@ -135,8 +165,8 @@ tags:: complanalisi
 		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.5
-		  card-next-schedule:: 2023-09-08T22:00:00.000Z
-		  card-last-reviewed:: 2023-09-08T21:51:52.093Z
+		  card-next-schedule:: 2023-09-09T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-08T22:44:09.516Z
 		  card-last-score:: 1
 			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$.
 			- $\forall f \in \L2$ si ha:
