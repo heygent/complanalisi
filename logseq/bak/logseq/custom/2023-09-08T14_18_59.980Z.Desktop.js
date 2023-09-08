@@ -31,7 +31,7 @@ const macros = {
   "\\t": "\\text{#1}",
   "\\Z": "\\mathbb{Z}",
   "\\N": "\\mathbb{N}",
-  "\\L": "\\L^{#1}(I)",
+  "\\L": "\\L^{#2}(#1)",
   "\\Li": "\\L[#1]{\\infty}",
   "\\norm": "\\lVert#1\\rVert",
   "\\lnorm": "\\left\\lVert#1\\right\\rVert",
