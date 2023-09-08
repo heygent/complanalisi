@@ -58,7 +58,7 @@ tags:: complanalisi
 	- ## Disuguaglianza di Schwartz
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
 		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
-		- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
+		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
 	- ## Energia
 		- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
