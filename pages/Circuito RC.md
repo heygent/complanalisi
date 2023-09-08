@@ -58,20 +58,19 @@ tags:: complanalisi
 				- con $K$ arbitrario.
 				- Per determinare $K$, posso porre come condizione che $A0 = 0$, per cui $K = 0$
 		- $$w(t) = \frac{1}{RC} \int\limits_{-\infty}^t e^{\frac{s}{RC}} x(s)\,ds$$
-		- Dato che: 
-		  $$ w(t) = e^{\frac{-t}{RC}} \cdot v(t)$$
+		- Dato che:
+			- $$ w(t) = e^{\frac{-t}{RC}} \cdot v(t)$$
 		- Allora:
-		  $$
-		  \begin{aligned}
-		  v(t) &= \frac{e^{\frac{-t}{RC}}}{RC} \int_{-\infty}^t \frac{s}{RC}s(x)\,ds\\
-		  &= \frac{1}{RC} \int_{-\infty}^t e^{\frac{-(t-s)}{RC}}x(s) \,ds
-		  \end{aligned}
-		  $$
+			- $$
+			  \begin{aligned}
+			  v(t) &= \frac{e^{\frac{-t}{RC}}}{RC} \int_{-\infty}^t \frac{s}{RC}s(x)\,ds\\
+			  &= \frac{1}{RC} \int_{-\infty}^t e^{\frac{-(t-s)}{RC}}x(s) \,ds
+			  \end{aligned}
+			  $$
 	- ## Proprietà
 	- ### Continuo
-	  
-	  Vedi [[Filtro#Continuità#Esercizio]]
-	  $$\|Ax\|_\infty \le \|x\|_\infty$$
+		- Vedi [[Filtro#Continuità#Esercizio]]
+		  $$\|Ax\|_\infty \le \|x\|_\infty$$
 	- ### Lineare
 	  
 	  $x_1(t),x_2(t) \in X$
@@ -99,7 +98,7 @@ tags:: complanalisi
 	  &= v(t-a)
 	  \end{aligned}
 	  $$
-	- ## [[Funzione di trasferimento]]
+	- ## Funzione di trasferimento
 	- ### Espressione in termini di [[Convoluzione]]
 	  
 	  Pongo:
