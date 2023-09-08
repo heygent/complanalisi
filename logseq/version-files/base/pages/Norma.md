@@ -27,9 +27,6 @@ tags:: complanalisi
 				  $$
 				- che è il quadrato della norma:
 				- $\|x\|_1 = \sqrt{(x, x)}$
-			- La distanza può variare molto in base alla norma usata.
-			-
-			- In questo caso, la distanza usando la norma infinito è alta mentre quella usando norma 1 è bassa.
 - ### Convergenza puntuale
 	- Si dice che $x_n \rightarrow x$ puntualmente se
 		- $$\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$$

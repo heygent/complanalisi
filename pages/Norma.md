@@ -31,23 +31,18 @@ tags:: complanalisi
 	- Si dice che $x_n \rightarrow x$ puntualmente se
 		- $$\lim_{n \rightarrow \infty} x_n(t) = x(t)\quad\forall\, t \in I$$
 - ## Caso discreto
-  
-  Quando il segnale è discreto, si possono usare le norme analoghe:
-  
-  $$
-  \begin{aligned}
-  \|x\|_\infty &= \sup_{t\in I} |x(t)| \\
-  \|x\|_1 &= \sum_{n = -\infty}^{+\infty} |x_n| \\
-  \|x\|_2 &= \left( \sum_{n = -\infty}^{+\infty} |x_n|^2 \right)^{\frac{1}{2}}
-  \end{aligned}
-  $$
-  
-  
-  $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
-  
-  $$
-  \begin{aligned}
-  \|x^{(n)} - x\| &\rightarrow 0 \\
-  \|x^{(n)} - x\| &= \sup_{k \in \Z} |x_k^{(n)} - x_k|
-  \end{aligned}
-  $$
+	- Quando il segnale è discreto, si possono usare le norme analoghe:
+	- $$
+	  \begin{aligned}
+	  \|x\|_\infty &= \sup_{t\in I} |x(t)| \\
+	  \|x\|_1 &= \sum_{n = -\infty}^{+\infty} |x_n| \\
+	  \|x\|_2 &= \left( \sum_{n = -\infty}^{+\infty} |x_n|^2 \right)^{\frac{1}{2}}
+	  \end{aligned}
+	  $$
+		- $x^{(n)} \rightarrow x$ in $(X, \|\cdot\|_\infty)$ significa che:
+			- $$
+			  \begin{aligned}
+			  \|x^{(n)} - x\| &\rightarrow 0 \\
+			  \|x^{(n)} - x\| &= \sup_{k \in \Z} |x_k^{(n)} - x_k|
+			  \end{aligned}
+			  $$
