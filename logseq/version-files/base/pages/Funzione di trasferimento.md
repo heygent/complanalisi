@@ -1,6 +1,6 @@
 tags:: complanalisi
 
-- # Definizione
+- # Definizione #card
 	- Sia $A : X \rightarrow Y$ un [[filtro]].
 	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$.
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
