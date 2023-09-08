@@ -62,6 +62,7 @@ tags:: complanalisi
 		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
 	- ## Energia
+	  collapsed:: true
 		- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
 		  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
 		- Siano:
@@ -113,37 +114,37 @@ tags:: complanalisi
 		  \end{gathered}
 		  $$
 		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
-- ## Uguaglianza di Parseval
-	- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
-	- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
-	- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
-		- $$f: I = \{1,2,3\} \rightarrow \R$$
-		- $$
-		  \begin{aligned}
-		  1 &\rightarrow x(1) = x_1 \\
-		  2 &\rightarrow x(2) = x_2 \\
-		  3 &\rightarrow x(3) = x_3 \\
-		  \end{aligned}
-		  $$
-		- Le funzioni in in $I$ possono essere fatte coincidere con un vettore in $\R^3$:
-			- $x = (x_1, x_2, x_3) \in \R^3$
-		- $$\|x\|_\L2^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
+	- ## Uguaglianza di Parseval
+		- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
+		- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
+		- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
+			- $$f: I = \{1,2,3\} \rightarrow \R$$
 			- $$
 			  \begin{aligned}
-			  \phi_1 &= e_1 = (1, 0, 0) \\
-			  \phi_2 &= e_2 = (0, 1, 0) \\
-			  \phi_3 &= e_3 = (0, 0, 1) \\
+			  1 &\rightarrow x(1) = x_1 \\
+			  2 &\rightarrow x(2) = x_2 \\
+			  3 &\rightarrow x(3) = x_3 \\
 			  \end{aligned}
 			  $$
-			- $$x = x_1e_1 + x_2e_2 + x_3e_3$$
-			- $$
-			  \begin{aligned}
-			  x_1 &= (x, e_1) \\
-			  x_2 &= (x, e_2) \\
-			  x_3 &= (x, e_3) \\
-			  \end{aligned}
-			  $$
-			- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
+			- Le funzioni in in $I$ possono essere fatte coincidere con un vettore in $\R^3$:
+				- $x = (x_1, x_2, x_3) \in \R^3$
+			- $$\|x\|_\L2^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
+				- $$
+				  \begin{aligned}
+				  \phi_1 &= e_1 = (1, 0, 0) \\
+				  \phi_2 &= e_2 = (0, 1, 0) \\
+				  \phi_3 &= e_3 = (0, 0, 1) \\
+				  \end{aligned}
+				  $$
+				- $$x = x_1e_1 + x_2e_2 + x_3e_3$$
+				- $$
+				  \begin{aligned}
+				  x_1 &= (x, e_1) \\
+				  x_2 &= (x, e_2) \\
+				  x_3 &= (x, e_3) \\
+				  \end{aligned}
+				  $$
+				- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
 - ### Base esponenziale di $L^2(0,a)$
   
   Sia $I = (0,a)$ con $a > 0$ fissato.
