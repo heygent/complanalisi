@@ -46,8 +46,8 @@ tags:: complanalisi
 			- sottointendendo l'identificazione tra funzioni q.o. coincidenti.
 		- $(\L1, \norm_\L1),  (\L2, \norm_\L2), (\Li,\norm_\Li)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
 		- Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
-- ## Spazio L2
-	- ### Spazio di Hilbert
+- # Spazio L2
+	- ## Spazio di Hilbert
 		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
 			- $$\|f\|_{\L2} = \sqrt{(f, f)_{\L2}}$$
 		- dove:
@@ -55,7 +55,7 @@ tags:: complanalisi
 				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
-	- ### Energia
+	- ## Energia
 		- Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
 		  Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
 		- Siano:
