@@ -116,7 +116,7 @@ tags:: complanalisi
 				  \end{aligned}$$
 				- Ogni volta che ho una successione $x_n$ che tende a $x$ in $X$ rispetto alla norma fissata su $x$, $y_n$ tende a $y$ in $Y$ rispetto alla norma fissata su $Y$.
 			- Dato che le $x$ non sono numeri ma funzioni, bisogna dare un concetto di limite che funzioni per le funzioni.
-			- Per dare questo concetto, si usa l'idea di ((64ef30fb-b59c-4905-8565-25f72859cd0f)), definita su ognuno degli spazi vettoriali $X$ e $Y$.
+			- Per dare questo concetto, si usa l'idea di ## Norma, definita su ognuno degli spazi vettoriali $X$ e $Y$.
 			- #### Proprietà
 			  id:: 64f0ed21-2f59-46c4-983c-ccb41c8f7ae1
 				- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
