@@ -115,7 +115,9 @@ tags:: complanalisi
 					  &= \|x\|_\infty \sup_t 1 \\
 					  &= \|x\|_\infty
 					  \end{aligned}
-			-
+					- Che significa che:
+						- $$\|A_x\|_\infty \le \|x\|_\infty$$
+					- Cioè $A$ continuo.
 		-
 			-
 	- ## Funzione di trasferimento #card

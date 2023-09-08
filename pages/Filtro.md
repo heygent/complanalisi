@@ -74,6 +74,7 @@ tags:: complanalisi
 					- $$ \|A_x\|_Y \le c \|x\|_X$$
 					- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
 			- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
+			  collapsed:: true
 				- $x(t) \rightarrow x'(t)$
 				- da norma infinito a norma infinito
 				- si prenda $x_n(t) = \frac1n \sin(nt)$
@@ -95,6 +96,7 @@ tags:: complanalisi
 					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1 \xcancel{\longrightarrow} 0\,\, \forall n$$
 					- $A0 = y = 0$
 			- ### Esercizio
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2023-09-01 Fri 06:10:27]--[2023-09-01 Fri 06:10:27] =>  00:00:00
 			  :END:
@@ -115,11 +117,9 @@ tags:: complanalisi
 					  &= \|x\|_\infty \sup_t 1 \\
 					  &= \|x\|_\infty
 					  \end{aligned}
-			- Che significa che:
-			  $$\|A_x\|_\infty \le \|x\|_\infty$$
-			  Cioè $A$ continuo.
-		-
-			-
+					- Che significa che:
+						- $$\|A_x\|_\infty \le \|x\|_\infty$$
+					- Cioè $A$ continuo.
 	- ## Funzione di trasferimento #card
 	  collapsed:: true
 		- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$
