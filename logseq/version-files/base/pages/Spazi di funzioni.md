@@ -89,32 +89,31 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
-		- ### Disuguaglianza di Schwartz
-			- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
-			- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
-			- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
-				- Ed è minorato da un numero ben definito.
+	- ### Disuguaglianza di Schwartz
+		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
+		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
+		- $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
+			- Ed è minorato da un numero ben definito.
 - ### Base ortonormale
-- #### Definizione
-  
-  Siano $\phi_n \in \L2$ con $n \in \Z$.
-  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
-  
-  $$
-  (\phi_n, \phi_m)_\L2 = \begin{cases}
-  0 & \text{per } n \neq m \\
-  1 & \text{per } n = m
-  \end{cases}
-  \tag{1}
-  $$
-  $$ 
-  \begin{aligned}
-  \forall\,f \in \L2: \\
-  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
-  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
-  \end{aligned}
-  \tag{2}
-  $$
+	- #### Definizione
+	- Siano $\phi_n \in \L2$ con $n \in \Z$.
+	  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
+		- logseq.order-list-type:: number
+		  $$
+		  (\phi_n, \phi_m)_\L2 = \begin{cases}
+		  0 & \text{per } n \neq m \\
+		  1 & \text{per } n = m
+		  \end{cases}
+		  $$
+		- logseq.order-list-type:: number
+		  $$ 
+		  \begin{aligned}
+		  \forall\,f \in \L2: \\
+		  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
+		  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
+		  \end{aligned}
+		  $$
+		-
 - #### Note
   
   Per definizione:

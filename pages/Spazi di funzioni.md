@@ -98,30 +98,29 @@ tags:: complanalisi
 	- #### Definizione
 	- Siano $\phi_n \in \L2$ con $n \in \Z$.
 	  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
-	- $$
-	  (\phi_n, \phi_m)_\L2 = \begin{cases}
-	  0 & \text{per } n \neq m \\
-	  1 & \text{per } n = m
-	  \end{cases}
-	  \tag{1}
-	  $$
-	  $$ 
-	  \begin{aligned}
-	  \forall\,f \in \L2: \\
-	  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
-	  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
-	  \end{aligned}
-	  \tag{2}
-	  $$
-- #### Note
-  
-  Per definizione:
-  
-  $$
-  \begin{gathered}
-  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
-  \end{gathered}
-  $$
+		- logseq.order-list-type:: number
+		  $$
+		  (\phi_n, \phi_m)_\L2 = \begin{cases}
+		  0 & \text{per } n \neq m \\
+		  1 & \text{per } n = m
+		  \end{cases}
+		  $$
+		- logseq.order-list-type:: number
+		  $$ 
+		  \begin{aligned}
+		  \forall\,f \in \L2: \\
+		  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
+		  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
+		  \end{aligned}
+		  $$
+		-
+	- #### Note
+		- Per definizione:
+		- $$
+		  \begin{gathered}
+		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
+		  \end{gathered}
+		  $$
 - La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
 - La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|{\L2} = 1$
 - ### Uguaglianza di Parseval
