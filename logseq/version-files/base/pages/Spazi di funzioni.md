@@ -20,13 +20,11 @@ tags:: complanalisi
 	  &= \inf\{C\ge 0: |f(t)| \le C \text{ quasi ovunque su }I\}
 	  \end{aligned}
 	  $$
-	- > [!note]
-	  Gli integrali qua sono intesi come integrali di Lebegue.
+	- > Gli integrali qua sono intesi come integrali di Lebegue.
 	  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
 	  La definizione di $\|f\|_{L^\infty(I)}$ generalizza $\sup_{t \in I} |f(t)|$ e coincide con essa quando $f$ è continua.
 	  
-	  > [!note]
-	  $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
+	  > $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
 	  Ad esempio se $I = \R$ e:
 	  $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
 	  Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
@@ -114,15 +112,13 @@ tags:: complanalisi
 		  \end{aligned}
 		  $$
 		-
-- #### Note
-  
-  Per definizione:
-  
-  $$
-  \begin{gathered}
-  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
-  \end{gathered}
-  $$
+	- #### Note
+		- Per definizione:
+		- $$
+		  \begin{gathered}
+		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
+		  \end{gathered}
+		  $$
 - La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
 - La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|{\L2} = 1$
 - ### Uguaglianza di Parseval
