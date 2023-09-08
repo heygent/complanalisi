@@ -23,15 +23,12 @@ tags:: complanalisi
 		- > Gli integrali qua sono intesi come integrali di Lebegue.
 		  Nei casi considerati nel corso possono essere considerati integrali di Riemann, ma è preferibile per teoria generale e rigorosa.
 		  La definizione di $\|f\|_{L^\infty(I)}$ generalizza $\sup_{t \in I} |f(t)|$ e coincide con essa quando $f$ è continua.
-		  
-		  > $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
-		  Ad esempio se $I = \R$ e:
-		  $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
-		  Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
-		  
-		  Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$, ovvero considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
-		  
-		  "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
+	- $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
+	  Ad esempio se $I = \R$ e:
+	  $$f(t) = \begin{cases}1&\text{per }t=0\\0 &\text{per } t \neq 0\end{cases}$$
+	  Si ha $\|f\|_{L^1(I)} = 0, \|f\|_{L^2(I)} = 0, \|f\|_{L^\infty(I)} = 0$ ma $f \neq 0$.
+		- Per ovviare all'inconveniente si identificano funzioni coincidenti "quasi ovunque" su $I$, ovvero considero $f = g$ se $f(t) = g(t)$ per "quasi ogni" $t \in I$.
+		- "q.o. $t\in I$" significa "ogni $t \in I$" eccetto al più un insieme di misura di Lebesgue nulla.
 		  Tutti gli insiemi finiti e numerabili hanno misura di Lebesgue nulla.
 		  
 		  Ad esempio:
