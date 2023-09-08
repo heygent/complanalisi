@@ -66,4 +66,5 @@ tags:: complanalisi
 		- $\F[e^{2πiat}] = δ_a$
 			- La frequenza pura $e_a$ è uguale al Delta di Dirac centrato in $a$
 			- $\F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
+				- Questa proprietà e la formula di Eulero
 	-
