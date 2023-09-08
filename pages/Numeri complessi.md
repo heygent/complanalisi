@@ -64,7 +64,8 @@ tags:: complanalisi
 		- Più generalmente, se voglio permettere che l'angolo faccia "più giri":
 			- $\rho e^{i(\Theta + k2 \pi)}$ con $k \in \Z$
 		- Notazione conveniente, perché permette di usare le operazioni che solitamente verrebbero usate su esponenziali.
-			- \begin{aligned}
+			- id:: 64eaeffe-5d3a-43c7-8994-7abed8fa33f7
+			  \begin{aligned}
 			  z_1 \cdot z_2 &=\underbrace{\rho_1 e^{i \Theta_1}}_{z_1}  \cdot \underbrace{\rho_2 e^{i \Theta_2}}_{z_2} \\
 			  &= \rho_1 \rho_2 e^{i(\Theta_1 + \Theta_2)}
 			  \end{aligned}
