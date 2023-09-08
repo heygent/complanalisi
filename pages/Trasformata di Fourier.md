@@ -33,15 +33,14 @@ tags:: complanalisi
 		  \end{aligned}
 		  $$
 	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
-		- **Uguaglianza di Plancherel**
-			- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
-			- esprime "conservazione dell'energia" del segnale
-			- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
-				- in funzione del tempo da $f(t)$
-				- in funzione delle frequenze da $\hat f(t)$
-			- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
-	- $\F: S'(\R) \rightarrow S'(\R)$ è una biiezione lineare bicontinua
-	- ![[Pasted image 20230908021630.png]]
+	- $\F: S'(\R) \rightarrow S'(\R)$ è una **biiezione lineare bicontinua**
+	- **Uguaglianza di Plancherel**
+		- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
+		- esprime "conservazione dell'energia" del segnale
+		- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
+			- in funzione del tempo da $f(t)$
+			- in funzione delle frequenze da $\hat f(t)$
+		- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale
   
   L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
