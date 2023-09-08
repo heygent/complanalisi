@@ -27,7 +27,9 @@ tags:: complanalisi
   L'operatore $\F$ gode delle seguenti proprietà:
 - $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
 	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
-		- in particolare l'uguaglianza $\| \hat f \|_{L^2(\R)} = \|f\|_{L^2(\R)}$ esprime "conservazione dell'energia" del segnale (uguaglianza di Plancherel). Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
+		- **Uguaglianza di Plancherel**
+			- $$\| \hat f \|_{L^2(\R)} = \|f\|_{L^2(\R)}$$
+		- esprime "conservazione dell'energia" del segnale (uguaglianza di Plancherel). Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
 		- in funzione del tempo da $f(t)$
 		- in funzione delle frequenze da $\hat f(t)$
 		  È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia, come infatti afferma l'uguaglianza di Plancherel.
