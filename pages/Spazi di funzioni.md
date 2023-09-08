@@ -13,7 +13,7 @@ tags:: complanalisi
 - Allora $F(I)$ è uno spazio vettoriale.
 	- Si definisce per $f \in F(I)$, quando ciò ha senso:
 	- $$\|f\|_{L^1(I)} = \int_I |f(t)|\,dt$$
-	- $$\|f\|_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
+	- $$\|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 	- $$
 	  \begin{aligned}
 	  \|f\|_\Li &=  \esssup |f|\\
