@@ -97,24 +97,24 @@ tags:: complanalisi
 	- ## Funzione di trasferimento
 		- ### Espressione in termini di [[Convoluzione]]
 			- Pongo:
-				- $$
+				- id:: 64fb8d7f-28e4-4546-bdd3-ab6ee5c7e2ff
+				  $$
 				  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
 				  $$
-				  ^hoft
 			- Con $u(t)$ uguale alla ((64eaeffe-1615-4958-a30d-6caec1f624d9)).
-		- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+			- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 		- $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
-	- $h(t-s) = 0$ se $t-s < 0$.
-	- Per cui posso integrare solo per gli $s < t$:
-		- $$
-		  \begin{aligned}
-		  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
-		  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
-		  &= v(t)
-		  \end{aligned}
-		  $$
-		- Per cui $v(t) = h * x$, dove:
-		  ![[Circuito RC#^hoft]]
+			- $h(t-s) = 0$ se $t-s < 0$.
+			- Per cui posso integrare solo per gli $s < t$:
+				- $$
+				  \begin{aligned}
+				  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
+				  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
+				  &= v(t)
+				  \end{aligned}
+				  $$
+			- Per cui $v(t) = h * x$, dove:
+				- ((64fb8d7f-28e4-4546-bdd3-ab6ee5c7e2ff))
 		- ### Passaggio finale
 		  
 		  Sia $x(t) = e_\lambda(t)$.

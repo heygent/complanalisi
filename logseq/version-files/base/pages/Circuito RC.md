@@ -97,63 +97,64 @@ tags:: complanalisi
 	- ## Funzione di trasferimento
 		- ### Espressione in termini di [[Convoluzione]]
 			- Pongo:
-				- $$
+				- id:: 64fb8d7f-28e4-4546-bdd3-ab6ee5c7e2ff
+				  $$
 				  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
 				  $$
 				  ^hoft
 			- Con $u(t)$ uguale alla ((64eaeffe-1615-4958-a30d-6caec1f624d9)).
-		- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-	- $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
-	- $h(t-s) = 0$ se $t-s < 0$.
-	- Per cui posso integrare solo per gli $s < t$:
-		- $$
+			- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+		- $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
+			- $h(t-s) = 0$ se $t-s < 0$.
+			- Per cui posso integrare solo per gli $s < t$:
+				- $$
+				  \begin{aligned}
+				  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
+				  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
+				  &= v(t)
+				  \end{aligned}
+				  $$
+			- Per cui $v(t) = h * x$, dove:
+				- ((64fb8d7f-28e4-4546-bdd3-ab6ee5c7e2ff))
+		- ### Passaggio finale
+		  
+		  Sia $x(t) = e_\lambda(t)$.
+		  Dato che:
+		  
+		  ![[Funzione di trasferimento#^transferfunctioneq]]
+		  
+		  Allora:
+		  $$
 		  \begin{aligned}
-		  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
-		  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
-		  &= v(t)
+		  v(t) &= H(\lambda)e_\lambda(t)\\
+		  &= H(\lambda)e^{2\pi i \lambda t}\\
+		  v'(t) &= H(\lambda)e^{2\pi i \lambda t}\cdot 2\pi i \lambda
 		  \end{aligned}
 		  $$
-		- Per cui $v(t) = h * x$, dove:
-		  ![[Circuito RC#^hoft]]
-	- ### Passaggio finale
-	  
-	  Sia $x(t) = e_\lambda(t)$.
-	  Dato che:
-	  
-	  ![[Funzione di trasferimento#^transferfunctioneq]]
-	  
-	  Allora:
-	  $$
-	  \begin{aligned}
-	  v(t) &= H(\lambda)e_\lambda(t)\\
-	  &= H(\lambda)e^{2\pi i \lambda t}\\
-	  v'(t) &= H(\lambda)e^{2\pi i \lambda t}\cdot 2\pi i \lambda
-	  \end{aligned}
-	  $$
-	  Sostituendo nell'equazione del sistema:
-	  
-	  ![[Circuito RC#^eqfiltrorc]]
-	  
-	  
-	  $$
-	  \begin{gathered}
-	  RC H(\lambda)\cdot2\pi i \lambda\cdot \cancel{e^{2\pi i \lambda t}} + H(\lambda) \cdot \cancel{e^{2 \pi i \lambda t}} = \cancel{e^{2 \pi i \lambda t}} \\
-	  H(\lambda)(2\pi i \lambda RC + 1) = 1 \\
-	  H(\lambda) = \frac{1}{1 + 2 \pi i \lambda RC}
-	  \end{gathered}
-	  $$
-	  > [!note]
-	  Il fatto che la funzione sia a valori complessi può essere "fastidioso", ma fino a un certo punto dato che poi quello che interessa è il modulo della funzione, dato che è quello a influire sull'amplificazione o smorzamento delle frequenze.
-	  
-	  $$
-	  \begin{aligned}
-	  |H(\lambda)| &=  \frac{1}{| 1 + 2\pi i \lambda RC |}\\\\
-	  &= \frac{1}{\sqrt{1 + 4\pi^{2}R^{2}C^2\lambda^2}}
-	  \end{aligned}
-	  $$
-	  Considerando nel [[Numeri complessi#Modulo|modulo]]
-		- $1$ parte reale
-		- $2\pi i \lambda RC$ parte immaginaria.
+		  Sostituendo nell'equazione del sistema:
+		  
+		  ![[Circuito RC#^eqfiltrorc]]
+		  
+		  
+		  $$
+		  \begin{gathered}
+		  RC H(\lambda)\cdot2\pi i \lambda\cdot \cancel{e^{2\pi i \lambda t}} + H(\lambda) \cdot \cancel{e^{2 \pi i \lambda t}} = \cancel{e^{2 \pi i \lambda t}} \\
+		  H(\lambda)(2\pi i \lambda RC + 1) = 1 \\
+		  H(\lambda) = \frac{1}{1 + 2 \pi i \lambda RC}
+		  \end{gathered}
+		  $$
+		  > [!note]
+		  Il fatto che la funzione sia a valori complessi può essere "fastidioso", ma fino a un certo punto dato che poi quello che interessa è il modulo della funzione, dato che è quello a influire sull'amplificazione o smorzamento delle frequenze.
+		  
+		  $$
+		  \begin{aligned}
+		  |H(\lambda)| &=  \frac{1}{| 1 + 2\pi i \lambda RC |}\\\\
+		  &= \frac{1}{\sqrt{1 + 4\pi^{2}R^{2}C^2\lambda^2}}
+		  \end{aligned}
+		  $$
+		  Considerando nel [[Numeri complessi#Modulo|modulo]]
+			- $1$ parte reale
+			- $2\pi i \lambda RC$ parte immaginaria.
 	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/4onthbjdxw?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 		- La frequenza $\lambda_{C} = \frac{1}{2\pi RC}$ è detta frequenza di cutoff. Oltre questa, le frequenze di input sono ridotte da un fattore maggiore di $\frac{1}{\sqrt{2}}$.
 		- Per cui è una buona approssimazione di un [[Filtro passa-basso]].
