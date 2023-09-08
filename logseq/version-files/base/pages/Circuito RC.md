@@ -70,13 +70,11 @@ tags:: complanalisi
 	- ## Proprietà
 	- ### Continuo
 		- Vedi [[Filtro#Continuità#Esercizio]]
-		  $$\|Ax\|_\infty \le \|x\|_\infty$$
+			- $$\|Ax\|_\infty \le \|x\|_\infty$$
 	- ### Lineare
-	  
-	  $x_1(t),x_2(t) \in X$
-	  $\lambda_1, \lambda_2 \in \R$
-	  
-	  $$
+	- $x_1(t),x_2(t) \in X$
+	- $\lambda_1, \lambda_2 \in \R$
+	- $$
 	  \begin{aligned}
 	  &\phantom{==} A(\lambda_1 x_(t) + \lambda_2x_2(t))\\
 	  &= \frac{1}{RC}\int_{-\infty}^t \expfn{-\frac{t-s}{RC}}(\lambda_1x_1(t) + \lambda_2x_2(t))\,ds\\
@@ -85,6 +83,7 @@ tags:: complanalisi
 	  &= \lambda_1 Ax_1(t) + \lambda_2 Ax_2(t)
 	  \end{aligned}
 	  $$
+	-
 	- ### Invariante per traslazione
 	  
 	  $x(t) \rightarrow v(t)$
@@ -98,7 +97,7 @@ tags:: complanalisi
 	  &= v(t-a)
 	  \end{aligned}
 	  $$
-	- ## [[Funzione di trasferimento]]
+	- ## Funzione di trasferimento
 	- ### Espressione in termini di [[Convoluzione]]
 	  
 	  Pongo:
