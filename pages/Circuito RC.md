@@ -138,18 +138,17 @@ tags:: complanalisi
 			  $$
 			- > [!note]
 			  Il fatto che la funzione sia a valori complessi può essere "fastidioso", ma fino a un certo punto dato che poi quello che interessa è il modulo della funzione, dato che è quello a influire sull'amplificazione o smorzamento delle frequenze.
-			  
-			  $$
+			- $$
 			  \begin{aligned}
 			  |H(\lambda)| &=  \frac{1}{| 1 + 2\pi i \lambda RC |}\\\\
 			  &= \frac{1}{\sqrt{1 + 4\pi^{2}R^{2}C^2\lambda^2}}
 			  \end{aligned}
 			  $$
-			  Considerando nel [[Numeri complessi#Modulo|modulo]]
-			- $1$ parte reale
-			- $2\pi i \lambda RC$ parte immaginaria.
-	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/4onthbjdxw?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-		- La frequenza $\lambda_{C} = \frac{1}{2\pi RC}$ è detta frequenza di cutoff. Oltre questa, le frequenze di input sono ridotte da un fattore maggiore di $\frac{1}{\sqrt{2}}$.
-		- Per cui è una buona approssimazione di un [[Filtro passa-basso]].
-		- Muovendo lentamente la $x$ nel tempo, ovvero aumentando e diminuendo il voltaggio, la resistenza può essere d'intralcio ma nel complesso l'uscita $V$ segue abbastanza bene la $x$ .
-		- Muovendo la $x$ velocemente, la $R$ smorza le oscillazioni.
+			- Considerando nel ((64eaeffe-6493-48d0-b9b0-c32fb55c0edf))
+				- $1$ parte reale
+				- $2\pi i \lambda RC$ parte immaginaria.
+		- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/4onthbjdxw?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+			- La frequenza $\lambda_{C} = \frac{1}{2\pi RC}$ è detta frequenza di cutoff. Oltre questa, le frequenze di input sono ridotte da un fattore maggiore di $\frac{1}{\sqrt{2}}$.
+			- Per cui è una buona approssimazione di un [[Filtro passa-basso]].
+			- Muovendo lentamente la $x$ nel tempo, ovvero aumentando e diminuendo il voltaggio, la resistenza può essere d'intralcio ma nel complesso l'uscita $V$ segue abbastanza bene la $x$ .
+			- Muovendo la $x$ velocemente, la $R$ smorza le oscillazioni.

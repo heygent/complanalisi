@@ -37,6 +37,7 @@ tags:: complanalisi
 	  &= (x, y) \\
 	  \end{aligned}
 - ## Modulo
+  id:: 64eaeffe-6493-48d0-b9b0-c32fb55c0edf
 	- $|z| = \sqrt{x^2 + y^2}$
 	- Per teorema di Pitagora:
 		- {{renderer excalidraw, excalidraw-2023-06-28-12-03-44}}
