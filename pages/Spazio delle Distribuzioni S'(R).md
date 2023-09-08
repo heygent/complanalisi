@@ -16,32 +16,18 @@
 	  $$
 - Ma anche, in senso opportuno, $\int_{-∞}^{+∞}ϕ(t)\,dt = 1$, e quindi $δ(t)$ non rappresenta la distribuzione nulla di carica $ϕ(t) = 0$.
 - Tuttavia $δ(t)$ differisce dalla funzione nulla solo in $t=0$, insieme di misura nulla, per cui se fosse una funzione di $L^1(\R)$,  $L^2(\R)$ o $L^∞(\R)$ dovrebbe essere identificata con $ϕ(t) = 0$.
-  
-  Ciò mostra, intuitivamente, che lo strumento matematico usato per una distribuzione di carica $δ(t)$ concentrata in $t=0$ non può essere una funzione.
-  
-  Anche in teoria dei segnali è utile considerare segnali (ideali) del tipo $δ(t)$.
-  
-  Rappresentiamo graficamente la distribuzione $δ(t)$ con una "freccia" centrata in $t=0$:
-  
-  ![[Pasted image 20230907170926.png]]
-  
-  Vengono definite le sue traslate $δ_a(t)$ di parametro $a \in \R$ come distribuzioni concentrate nei punti $a \in \R$, e rappresentate da "frecce" centrate in $a \in \R$:
-  
-  ![[Pasted image 20230907170940.png]]
-  
-  Scriveremo anche $δ_a(t) = (τ_aδ)(t)$ usando lo stesso simbolo $τ_a$ dell'operatore di traslazione già usato per funzioni.
-  
-  Si tratta ora di trovare uno spazio che contenga sia i segnali rappresentati da funzioni di $\L[\R]1, \L[\R]2$$ o $\Li[\R]$, sia quelli rappresentati da distribuzioni $δ_a$.o
-  
-  Lo spazio che soddisfa queste esigenze è lo spazio $S'(\R)$ delle **distribuzioni temperate**.
-  
-  Come oggetti matematici gli elementi di $S'(\R)$, cioè le distribuzioni temperate, sono "funzionali lineari continui".
+- Ciò mostra, intuitivamente, che lo strumento matematico usato per una distribuzione di carica $δ(t)$ concentrata in $t=0$ non può essere una funzione.
+- Rappresentiamo graficamente la distribuzione $δ(t)$ con una "freccia" centrata in $t=0$:
+- Vengono definite le sue traslate $δ_a(t)$ di parametro $a \in \R$ come distribuzioni concentrate nei punti $a \in \R$, e rappresentate da "frecce" centrate in $a \in \R$:
+- Scriveremo anche $δ_a(t) = (τ_aδ)(t)$ usando lo stesso simbolo $τ_a$ dell'operatore di traslazione già usato per funzioni.
+- Si tratta ora di trovare uno spazio che contenga sia i segnali rappresentati da funzioni di $\L[\R]1, \L[\R]2$$ o $\Li[\R]$, sia quelli rappresentati da distribuzioni $δ_a$o
+- Lo spazio che soddisfa queste esigenze è lo spazio $S'(\R)$ delle **distribuzioni temperate**.
+- Come oggetti matematici gli elementi di $S'(\R)$, cioè le distribuzioni temperate, sono "funzionali lineari continui".
 - $S'(\R)$ contiene:
 	- $L^1(\R)$, $L^2(\R)$, $L^∞(\R)$ (e quindi tutte le funzioni costanti)
 	- tutte le distribuzioni $δ_a$ con $a \in \R$
-	  ![[Pasted image 20230907171743.png]]
-	  
-	  Gli elementi di $S'(\R)$ si possono considerare come limiti in senso opportuno di successioni di funzioni.
+	-
+	- Gli elementi di $S'(\R)$ si possono considerare come limiti in senso opportuno di successioni di funzioni.
 	  Si pensi ad es. a $δ(t)$ come limite per $n \rightarrow ∞$ (in senso opportuno) della successione $ϕ(n)$ descritta in precedenza.
 	  
 	  Si possono estendere a $S'(\R)$ essenzialmente tutte le operazioni definite su funzioni, in particolare:
