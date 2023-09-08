@@ -124,8 +124,9 @@ tags:: complanalisi
 			  \end{gathered}
 			  $$
 		- ### Uguaglianza di Parseval #card
-			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
-			- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
+			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$.
+			- $\forall f \in \L2$ si ha:
+				- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
 			- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
 				- $$f: I = \{1,2,3\} \rightarrow \R$$
 				- $$
