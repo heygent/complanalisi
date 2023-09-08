@@ -146,44 +146,41 @@ tags:: complanalisi
 				  \end{aligned}
 				  $$
 				- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
-	- ### Base esponenziale di $L^2(0,a)$
+	- ## Base esponenziale di $L^2(0,a)$
 		- Sia $I = (0,a)$ con $a > 0$ fissato.
 		- Pongo:
 			- $$\lambda = \frac{1}{a}$$
-			- $$e^n_\lambda(t) = \sqrt\lambda e^{2\pi n \lambda t}$$
-				- per $n \in \Z$.
-		- considero frequenze pure multiple della frequenza $λ$
-- la radice smorza le oscillazioni in modo tale da avere energia 1.
-  
-  Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$.
-  L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
-  
-  Dimostrazione
-  
-  Bisogna provare le due condizioni:
-  ![[Spazio di funzioni#Base ortonormale#Definizione]]
-  
-  Se $n = m$:
-  $$
-  \begin{aligned}
-  (e_\lambda^n, e_\lambda^n)_{\L2} 
-  &= ∫_0^{\frac{1}{λ}} e_λ^n(t)\overline{e_λ^n(t)}\\
-  &= \lambda\int_0^\frac{1}{\lambda} e^{2\pi i n \lambda t} \cdot e^{-2\pi i n \lambda t}\,dt\\
-  &= \lambda \int_0^{\frac{1}{\lambda}} 1\,dt \\
-  &= 1
-  \end{aligned}
-  $$
-  Se $n \neq m$:
-  $$
-  \begin{aligned}
-  (e_\lambda^n, e_\lambda^m)_\L2 &= ∫_0^\frac{1}{λ}e_λ^n(t)\overline{e_λ^m(t)}
-  \\
-  &= \lambda \int_0^\frac{1}{\lambda} e^{2\pi i (n - m) \lambda t}\,dt\\
-  &= \lambda \left[ \frac{e^{2\pi i (n - m)\lambda t}}{2\pi i (n-m)\lambda}\right]_0^\frac{1}{\lambda}\\
-  &= \lambda\left(\frac{1 - 1}{2\pi i(n - m \lambda)}\right)\\
-  &= 0
-  \end{aligned}
-  $$
+			- $$e^n_\lambda(t) = \sqrt\lambda e^{2\pi n \lambda t}\quad n \in \Z$$
+				- considero frequenze pure multiple della frequenza $λ$
+				- la radice smorza le oscillazioni in modo tale da avere energia 1.
+		- Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$:
+			- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
+			- Dimostrazione
+			  
+			  Bisogna provare le due condizioni:
+			  ![[Spazio di funzioni#Base ortonormale#Definizione]]
+			  
+			  Se $n = m$:
+			  $$
+			  \begin{aligned}
+			  (e_\lambda^n, e_\lambda^n)_{\L2} 
+			  &= ∫_0^{\frac{1}{λ}} e_λ^n(t)\overline{e_λ^n(t)}\\
+			  &= \lambda\int_0^\frac{1}{\lambda} e^{2\pi i n \lambda t} \cdot e^{-2\pi i n \lambda t}\,dt\\
+			  &= \lambda \int_0^{\frac{1}{\lambda}} 1\,dt \\
+			  &= 1
+			  \end{aligned}
+			  $$
+			  Se $n \neq m$:
+			  $$
+			  \begin{aligned}
+			  (e_\lambda^n, e_\lambda^m)_\L2 &= ∫_0^\frac{1}{λ}e_λ^n(t)\overline{e_λ^m(t)}
+			  \\
+			  &= \lambda \int_0^\frac{1}{\lambda} e^{2\pi i (n - m) \lambda t}\,dt\\
+			  &= \lambda \left[ \frac{e^{2\pi i (n - m)\lambda t}}{2\pi i (n-m)\lambda}\right]_0^\frac{1}{\lambda}\\
+			  &= \lambda\left(\frac{1 - 1}{2\pi i(n - m \lambda)}\right)\\
+			  &= 0
+			  \end{aligned}
+			  $$
 - valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
 - per $t = 0$ la funzione vale 1
 - per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
