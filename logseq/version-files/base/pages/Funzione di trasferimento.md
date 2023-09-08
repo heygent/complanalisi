@@ -53,7 +53,8 @@ tags:: complanalisi
 		- $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
 	- Se $H(\lambda)$ ed $e_\lambda(t)$ sono a valori complessi si ha che:
 		- Siano $H(\lambda), e_\lambda(t) = z_{1}, z_2$:
-		- ((64eaeffe-22d6-4623-9522-a5bf989a3191))
-	- $\rho_2$ è 1, dato che è l'ampiezza della frequenza pura, mentre $\rho_1$ è il fattore per cui la frequenza viene smorzata o amplificata.
-	- $\rho_{1}=|z_1|=|H(\lambda)|$
+		- {{embed ((64eaeffe-5d3a-43c7-8994-7abed8fa33f7))}}
+			- $\rho_1$ è il fattore per cui la frequenza viene smorzata o amplificata.
+				- $\rho_{1}=|z_1|=|H(\lambda)|$
+			- $\rho_2$ è 1, dato che è l'ampiezza della frequenza pura
 	- $\Theta_{2}$ va a influire sulla fase iniziale del segnale, che è impercettibile dal punto di vista sonoro (e non interessante).
