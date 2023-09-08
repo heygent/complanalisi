@@ -1,4 +1,4 @@
-# Delta di Dirac
+# Delta di Dirac #card
 	- Per rappresentare fenomeni di tipo "impulsivo" (es. una massa o carica elettrica concentrate in un punto, un urto, un'esplosione, ecc.) le funzioni non sono sufficienti.
 	- Siano $ϕ(t) \ge 0$ e che rappresentino la densità di carica lungo i punti $t$ di un filo illimitato coincidente con l'asse delle ascisse $\R_t$.
 	- Se la carica totale è 1 avremo:
@@ -16,7 +16,7 @@
 		  \end{cases}
 		  $$
 	- Ma anche, in senso opportuno, $\int_{-∞}^{+∞}ϕ(t)\,dt = 1$, e quindi $δ(t)$ non rappresenta la distribuzione nulla di carica $ϕ(t) = 0$.
-- # Spazio delle distribuzioni $S'(\R)$
+- # Spazio delle distribuzioni $S'(\R)$ #card
 	- $δ(t)$ differisce dalla funzione nulla solo in $t=0$, insieme di misura nulla, per cui se fosse una funzione di $L^1(\R)$,  $L^2(\R)$ o $L^∞(\R)$ dovrebbe essere identificata con $ϕ(t) = 0$.
 	- Ciò mostra, intuitivamente, che lo strumento matematico usato per una distribuzione di carica $δ(t)$ concentrata in $t=0$ non può essere una funzione.
 	- Rappresentiamo graficamente la distribuzione $δ(t)$ con una "freccia" centrata in $t=0$:
