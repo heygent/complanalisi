@@ -23,29 +23,25 @@ tags:: complanalisi
 		- La norma ∞ è <= della norma L1 di f.
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 - ## Proprietà
-  
-  L'operatore $\F$ gode delle seguenti proprietà:
-- $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
+	- $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
+		- $$
+		  \begin{aligned}
+		  \F[\lambda f_1 + \mu f_2](ω) &= \fint e^{-2πiωt}(λf_1(t) + \mu f_2(t))\,dt \\
+		  &=
+		  \lambda \fint e^{-2πiωt}f_1(t) + \mu\fint e^{-2πiωt}f_2(t)\,dt \\
+		  &=\lambda\F[f_1](ω) + \mu\F[f_2(ω)]
+		  \end{aligned}
+		  $$
 	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
 		- **Uguaglianza di Plancherel**
 			- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
-		- esprime "conservazione dell'energia" del segnale
-		- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
-			- in funzione del tempo da $f(t)$
-			- in funzione delle frequenze da $\hat f(t)$
-		- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
-- $\F: S'(\R) \rightarrow S'(\R)$ è una biiezione lineare bicontinua
-  
-  Lineare perché:
-  $$
-  \begin{aligned}
-  \F[\lambda f_1 + \mu f_2](ω) &= \fint e^{-2πiωt}(λf_1(t) + \mu f_2(t))\,dt \\
-  &=
-  \lambda \fint e^{-2πiωt}f_1(t) + \mu\fint e^{-2πiωt}f_2(t)\,dt \\
-  &=\lambda\F[f_1](ω) + \mu\F[f_2(ω)]
-  \end{aligned}
-  $$
-  ![[Pasted image 20230908021630.png]]
+			- esprime "conservazione dell'energia" del segnale
+			- Più specificamente un segnale è un fenomeno fisico che può essere rappresentato:
+				- in funzione del tempo da $f(t)$
+				- in funzione delle frequenze da $\hat f(t)$
+			- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
+	- $\F: S'(\R) \rightarrow S'(\R)$ è una biiezione lineare bicontinua
+	- ![[Pasted image 20230908021630.png]]
 - ## Trasformata come rappresentazione del segnale
   
   L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà:
