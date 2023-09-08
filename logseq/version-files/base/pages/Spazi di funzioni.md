@@ -56,13 +56,11 @@ tags:: complanalisi
 			- $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
 				- $\forall\,f,g \in \L2$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
-		  collapsed:: true
 			- $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
 	- ## Disuguaglianza di Schwartz #card
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|_{\L2}$$
 		- Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
-		- collapsed:: true
-		  $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
+		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
 	- ## Energia
 	  collapsed:: true
@@ -115,9 +113,10 @@ tags:: complanalisi
 			  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
 			  \end{aligned}
 			  $$
-		- Dall'espressione di $f$ tramite la sua serie di Fourier $f = \sum_{n = -\infty}^{+\infty} c_n \phi_n$ si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. Nei seguenti casi particolari si identificano $\phi_n$ con le frequenze pure.
+		- Dall'espressione di $f$ tramite la sua serie di Fourier si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. In seguito si identificano $\phi_n$ con le frequenze pure.
 		- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
 	- #### Nota
+	  collapsed:: true
 		- Per definizione:
 		- $$
 		  \begin{gathered}
