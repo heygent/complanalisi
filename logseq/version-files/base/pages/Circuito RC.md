@@ -68,32 +68,32 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 	- ## Proprietà
-	- ### Continuo
-		- Vedi [[Filtro#Continuità#Esercizio]]
-			- $$\|Ax\|_\infty \le \|x\|_\infty$$
-	- ### Lineare
-	- $x_1(t),x_2(t) \in X$
-	- $\lambda_1, \lambda_2 \in \R$
-	- $$
-	  \begin{aligned}
-	  &\phantom{==} A(\lambda_1 x_(t) + \lambda_2x_2(t))\\
-	  &= \frac{1}{RC}\int_{-\infty}^t \expfn{-\frac{t-s}{RC}}(\lambda_1x_1(t) + \lambda_2x_2(t))\,ds\\
-	  &= \frac{1}{RC}\int_{-\infty}^t \lambda_1 \expfn{-\frac{t-s}{RC}}x_1(s) + \lambda_2\expfn{-\frac{t-s}{RC}}x_2(s)\,ds\\
-	  &= \lambda_1\frac{1}{RC}\int_{-\infty}^t  \expfn{-\frac{t-s}{RC}}x_1(s)\,ds + \lambda_2\frac{1}{RC}\int_{-\infty}^t\expfn{-\frac{t-s}{RC}}x_2(s)\,ds\\
-	  &= \lambda_1 Ax_1(t) + \lambda_2 Ax_2(t)
-	  \end{aligned}
-	  $$
+		- ### Continuo
+			- Vedi [[Filtro#Continuità#Esercizio]]
+				- $$\|Ax\|_\infty \le \|x\|_\infty$$
+		- ### Lineare
+			- $x_1(t),x_2(t) \in X$
+			- $\lambda_1, \lambda_2 \in \R$
+			- $$
+			  \begin{aligned}
+			  &\phantom{==} A(\lambda_1 x_(t) + \lambda_2x_2(t))\\
+			  &= \frac{1}{RC}\int_{-\infty}^t \expfn{-\frac{t-s}{RC}}(\lambda_1x_1(t) + \lambda_2x_2(t))\,ds\\
+			  &= \frac{1}{RC}\int_{-\infty}^t \lambda_1 \expfn{-\frac{t-s}{RC}}x_1(s) + \lambda_2\expfn{-\frac{t-s}{RC}}x_2(s)\,ds\\
+			  &= \lambda_1\frac{1}{RC}\int_{-\infty}^t  \expfn{-\frac{t-s}{RC}}x_1(s)\,ds + \lambda_2\frac{1}{RC}\int_{-\infty}^t\expfn{-\frac{t-s}{RC}}x_2(s)\,ds\\
+			  &= \lambda_1 Ax_1(t) + \lambda_2 Ax_2(t)
+			  \end{aligned}
+			  $$
 	- ### Invariante per traslazione
-	- $x(t) \rightarrow v(t)$
-	- $x(t - a) \xrightarrow{?} v(t-a)$
-	- $$
-	  \begin{aligned}
-	  A[\tau_a x](t) &= \frac{1}{RC}\int_{-\infty}^t e^{-\frac{t-s}{RC}} x(s-a)\,ds &y &= s - a\\
-	  &= \frac{1}{RC}\int_{-\infty}^{t-a}e^{-\frac{t - (y+a)}{RC}}x(y)\,dy\\
-	  &= \frac{1}{RC}\int_{-\infty}^{t-a} e^{-\frac{(t-a) - y}{RC}}x(y)\,dy\\
-	  &= v(t-a)
-	  \end{aligned}
-	  $$
+		- $x(t) \rightarrow v(t)$
+		- $x(t - a) \xrightarrow{?} v(t-a)$
+		- $$
+		  \begin{aligned}
+		  A[\tau_a x](t) &= \frac{1}{RC}\int_{-\infty}^t e^{-\frac{t-s}{RC}} x(s-a)\,ds &y &= s - a\\
+		  &= \frac{1}{RC}\int_{-\infty}^{t-a}e^{-\frac{t - (y+a)}{RC}}x(y)\,dy\\
+		  &= \frac{1}{RC}\int_{-\infty}^{t-a} e^{-\frac{(t-a) - y}{RC}}x(y)\,dy\\
+		  &= v(t-a)
+		  \end{aligned}
+		  $$
 	- ## Funzione di trasferimento
 	- ### Espressione in termini di [[Convoluzione]]
 	- Pongo:
