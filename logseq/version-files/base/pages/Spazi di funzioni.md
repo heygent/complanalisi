@@ -12,11 +12,11 @@ tags:: complanalisi
 		- $$(\lambda f)(t) = \lambda f(t)$$
 - Allora $F(I)$ è uno spazio vettoriale.
 	- Si definisce per $f \in F(I)$, quando ciò ha senso:
-	- $$\norm[f]_{L^1(I)} = \int_I |f(t)|\,dt$$
-	- $$\norm[f]_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
+	- $$\|f\|_{L^1(I)} = \int_I |f(t)|\,dt$$
+	- $$\|f\|_\L2 = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 	- $$
 	  \begin{aligned}
-	  \norm[f]_\Li &=  \esssup |f|\\
+	  \|f\|_\Li &=  \esssup |f|\\
 	  &= \inf\{C\ge 0: |f(t)| \le C \text{ quasi ovunque su }I\}
 	  \end{aligned}
 	  $$
@@ -62,7 +62,7 @@ tags:: complanalisi
   
   $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
   
-  $$\norm[f]{\L2} = \sqrt{(f, f)_{\L2}}$$
+  $$\|f\|{\L2} = \sqrt{(f, f)_{\L2}}$$
   dove:
   $$(f, g)_{\L2} = \int_I f(t) \overline{g(t)}\,dt$$
   $\forall\,f,g \in \L2$
@@ -70,7 +70,7 @@ tags:: complanalisi
   Ciò permette di definire il concetto di **ortogonalità** come:
   $$f \perp g \text{ se } (f, g)_{\L2} = 0$$
 - ### Energia
-  Fisicamente $\norm[f]_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
+  Fisicamente $\|f\|_\L2^2$ rappresenta l'energia del segnale $f \in \L2$.
   Un'interpretazione di questo fatto per segnali rappresentati da circuiti elettrici è la seguente.
   
   Siano:
@@ -93,16 +93,16 @@ tags:: complanalisi
   &= \int_{-\infty}^{+\infty} \frac{dW}{dt}\,dt\\
   &= \int_{-\infty}^{+\infty} P(t)\,dt\\
   &= \frac{1}{R}\int_{-\infty}^{+\infty} V^2(t)\,dt\\
-  &= \frac{1}{R}\norm[V]_\L[\R]2^2
+  &= \frac{1}{R}\|V\|_\L[\R]2^2
   \end{aligned}
   $$
   Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
 - ### Disuguaglianza di Schwartz
   
-  $$\int_I |f(t)| |g(t) | \,dt \le \norm[f]_\L2 \norm[g]{\L2}$$
+  $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2 \|g\|{\L2}$$
   Da questa segue che $f, g \in \L2 \Rightarrow fg \in \L1$, dato che:
   
-  $$\norm[fg]{1} = \int_I|f(t)||g(t)|$$
+  $$\|fg\|{1} = \int_I|f(t)||g(t)|$$
   Ed è minorato da un numero ben definito.
 - ### Base ortonormale
 - #### Definizione
@@ -135,11 +135,11 @@ tags:: complanalisi
   \end{gathered}
   $$
 - La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
-- La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\norm[\phi_n]{\L2} = 1$
+- La (1) significa che le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|{\L2} = 1$
 - ### Uguaglianza di Parseval
   
   Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
-  $$\norm[f]_\L2^2 = \sum\limits_n |c_n|^2$$
+  $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
   
   Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
   
@@ -153,7 +153,7 @@ tags:: complanalisi
   $$
   Le funzioni in in $I$ possono essere fatte coincidere con un vettore in $\R^3$:
   $x = (x_1, x_2, x_3) \in \R^3$
-  $$\norm[x]_\L2^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
+  $$\|x\|_\L2^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
   $$
   \begin{aligned}
   \phi_1 &= e_1 = (1, 0, 0) \\
