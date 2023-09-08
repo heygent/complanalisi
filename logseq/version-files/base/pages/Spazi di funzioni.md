@@ -198,24 +198,17 @@ tags:: complanalisi
 		- Posto $λ = \frac{1}{a}$ si ha che:
 			- $$\{\sqrt{λ}\} \cup \{\sqrt{2λ}\cos(2πnλt)\}_{n = 1}^{+\infty} \cup \{\sqrt{2λ}\sin(2πnλt)\}_{n = 1}^{+\infty}$$
 				- è una base ortonormale di $L^2(0, a)$
-				  
-				  Per la corrispondente serie di Fourier di $f \in L^2(0,a)$ si ha l'espressione con convergenza in $L^2(0, a)$:
-				  
-				  $$f(t) = \frac{a_0}{2}+ \sum\limits_{n = 1}^{+\infty} a_n \cos(2πnλt) + \sum\limits_{n=1}^{+\infty}b_n\sin(2πnλt)$$
-				  
-				  con:
-				  
-				  $$
-				  \begin{cases}
-				  a_n = 2λ\int_0^{\frac{1}{λ}}f(t)\cos(2πnλt)\,dt \\
-				  b_n = 2λ\int_0^{\frac{1}{λ}}f(t)\sin(2πnλt)\,dt \\
-				  \end{cases}
-				  \quad\quad(n = 1,2,3,\ldots)
-				  $$
-				  
-				  >[!note]
-				  La connessione tra base trigonometrica ed esponenziale è data dalla [[Numeri complessi#Formula di Eulero|Formula di Eulero]].
-				  $$e^{2πinλt} = \cos(2πnλt) + i\sin(2πnλt)$$
-				  
-				  >[!note]
-				  Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
+		- Per la corrispondente serie di Fourier di $f \in L^2(0,a)$ si ha l'espressione con convergenza in $L^2(0, a)$:
+		- $$f(t) = \frac{a_0}{2}+ \sum\limits_{n = 1}^{+\infty} a_n \cos(2πnλt) + \sum\limits_{n=1}^{+\infty}b_n\sin(2πnλt)$$
+		- con:
+		- $$
+		  \begin{cases}
+		  a_n = 2λ\int_0^{\frac{1}{λ}}f(t)\cos(2πnλt)\,dt \\
+		  b_n = 2λ\int_0^{\frac{1}{λ}}f(t)\sin(2πnλt)\,dt \\
+		  \end{cases}
+		  \quad\quad(n = 1,2,3,\ldots)
+		  $$
+		- >[!note]
+		  La connessione tra base trigonometrica ed esponenziale è data dalla [[Numeri complessi#Formula di Eulero|Formula di Eulero]].
+		  $$e^{2πinλt} = \cos(2πnλt) + i\sin(2πnλt)$$
+		- > Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$

@@ -211,5 +211,4 @@ tags:: complanalisi
 		- >[!note]
 		  La connessione tra base trigonometrica ed esponenziale è data dalla [[Numeri complessi#Formula di Eulero|Formula di Eulero]].
 		  $$e^{2πinλt} = \cos(2πnλt) + i\sin(2πnλt)$$
-		- >[!note]
-		  Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
+		- > Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
