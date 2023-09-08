@@ -1,7 +1,7 @@
 tags:: complanalisi
 
-- # Definizione
-	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2)) #card
+- # Definizione #card
+	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
 	  id:: 64f0ed21-afb3-44dd-aee4-c6ee06624e52
 - # Proprietà
 	- Sia $A : X \rightarrow Y$
@@ -175,7 +175,7 @@ tags:: complanalisi
 		- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
 		- id:: 64fb9097-2231-41b3-8a63-a9dbcdaecce1
 		  $$Ae_\lambda(t) = H(\lambda)e_\lambda(t)$$
-- # Filtro passa-basso
+- # Filtro passa-basso #card
 	- Un filtro che lascia passare solo frequenze basse.
 	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:
 	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/ta8g8wowpg?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
