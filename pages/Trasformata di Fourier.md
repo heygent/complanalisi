@@ -64,7 +64,6 @@ tags:: complanalisi
 		  logseq.order-list-type:: number
 			- Analogo al caso uno con $ϕ \in L'(\R)$
 	- $\F[e^{2πiat}] = δ_a$
-		- La frequenza pura 3
-	- Dalle due proprietà precedenti:
-	  $F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
+		- La frequenza pura $e_a$ è uguale al Delta di Dirac centrato in $a$
+		- $\F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
 	-

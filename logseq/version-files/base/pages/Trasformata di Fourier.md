@@ -63,8 +63,8 @@ tags:: complanalisi
 		- $\F[\mu_a ϕ] = τ_a \hat ϕ$
 		  logseq.order-list-type:: number
 			- Analogo al caso uno con $ϕ \in L'(\R)$
-	- Proprietà:
 	- $\F[e^{2πiat}] = δ_a$
+		- La frequenza pura $e_a$ è uguale a un
 	- Dalle due proprietà precedenti:
 	  $F[e^{2πiat}] = \F[\mu_a 1] = \tau_a \hat 1 = τ_aδ = δ_a$
 	-
