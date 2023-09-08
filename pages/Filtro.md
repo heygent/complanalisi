@@ -121,6 +121,7 @@ tags:: complanalisi
 					- $$\|A_x\|_\infty \le \|x\|_\infty$$
 				- Cioè $A$ continuo.
 - # Funzione di trasferimento #card
+  id:: 64f19736-5f2a-413d-8e60-1a838fe63067
 	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$
 		- $e^n_\lambda(t) = e^{2\pi i \lambda n t}$ per proprietà degli esponenziali
@@ -171,4 +172,8 @@ tags:: complanalisi
 	- Funzione di trasferimento del sistema $A$:
 		- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
 - # Filtro passa-basso
--
+	- Un filtro che lascia passare solo frequenze basse.
+	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:
+	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/ta8g8wowpg?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
+- L'output delle frequenze $\lambda$ fino a $\lambda_C$ non viene cambiato, perché $|H(\lambda)| = 1$.
+  Un filtro con questa funzione di trasferimento non è realizzabile, perché non [[Filtro#Causalità|causale]]

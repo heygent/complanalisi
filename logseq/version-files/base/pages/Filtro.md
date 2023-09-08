@@ -171,4 +171,9 @@ tags:: complanalisi
 	- Funzione di trasferimento del sistema $A$:
 		- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
 - # Filtro passa-basso
--
+- Un filtro che lascia passare solo frequenze basse.
+- Un filtro di questo tipo idealmente ha  del tipo:
+- ![[Funzione di trasferimento#^transferfunctioneq]]
+- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/ta8g8wowpg?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
+- L'output delle frequenze $\lambda$ fino a $\lambda_C$ non viene cambiato, perché $|H(\lambda)| = 1$.
+  Un filtro con questa funzione di trasferimento non è realizzabile, perché non [[Filtro#Causalità|causale]]
