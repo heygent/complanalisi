@@ -83,13 +83,10 @@ tags:: complanalisi
 	  &= \lambda_1 Ax_1(t) + \lambda_2 Ax_2(t)
 	  \end{aligned}
 	  $$
-	-
 	- ### Invariante per traslazione
-	  
-	  $x(t) \rightarrow v(t)$
-	  $x(t - a) \xrightarrow{?} v(t-a)$
-	  
-	  $$
+	- $x(t) \rightarrow v(t)$
+	- $x(t - a) \xrightarrow{?} v(t-a)$
+	- $$
 	  \begin{aligned}
 	  A[\tau_a x](t) &= \frac{1}{RC}\int_{-\infty}^t e^{-\frac{t-s}{RC}} x(s-a)\,ds &y &= s - a\\
 	  &= \frac{1}{RC}\int_{-\infty}^{t-a}e^{-\frac{t - (y+a)}{RC}}x(y)\,dy\\
@@ -99,29 +96,25 @@ tags:: complanalisi
 	  $$
 	- ## Funzione di trasferimento
 	- ### Espressione in termini di [[Convoluzione]]
-	  
-	  Pongo:
-	  
-	  $$
+	- Pongo:
+	- $$
 	  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
 	  $$
 	  ^hoft
-	  
-	  Con $u(t)$ uguale alla [[Segnale#Funzione Heaviside|Funzione Heaviside]].
-	  <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-	  $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
-	  $h(t-s) = 0$ se $t-s < 0$.
-	  Per cui posso integrare solo per gli $s < t$:
-	  $$
-	  \begin{aligned}
-	  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
-	  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
-	  &= v(t)
-	  \end{aligned}
-	  $$
-	  
-	  Per cui $v(t) = h * x$, dove:
-	  ![[Circuito RC#^hoft]]
+	- Con $u(t)$ uguale alla [[Segnale#Funzione Heaviside|Funzione Heaviside]].
+	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+	- $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
+	- $h(t-s) = 0$ se $t-s < 0$.
+	- Per cui posso integrare solo per gli $s < t$:
+		- $$
+		  \begin{aligned}
+		  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
+		  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
+		  &= v(t)
+		  \end{aligned}
+		  $$
+		- Per cui $v(t) = h * x$, dove:
+		  ![[Circuito RC#^hoft]]
 	- ### Passaggio finale
 	  
 	  Sia $x(t) = e_\lambda(t)$.

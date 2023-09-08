@@ -96,29 +96,25 @@ tags:: complanalisi
 	  $$
 	- ## Funzione di trasferimento
 	- ### Espressione in termini di [[Convoluzione]]
-	  
-	  Pongo:
-	  
-	  $$
+	- Pongo:
+	- $$
 	  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
 	  $$
 	  ^hoft
-	  
-	  Con $u(t)$ uguale alla [[Segnale#Funzione Heaviside|Funzione Heaviside]].
-	  <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-	  $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
-	  $h(t-s) = 0$ se $t-s < 0$.
-	  Per cui posso integrare solo per gli $s < t$:
-	  $$
-	  \begin{aligned}
-	  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
-	  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
-	  &= v(t)
-	  \end{aligned}
-	  $$
-	  
-	  Per cui $v(t) = h * x$, dove:
-	  ![[Circuito RC#^hoft]]
+	- Con $u(t)$ uguale alla [[Segnale#Funzione Heaviside|Funzione Heaviside]].
+	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/k9zd5s0wxc?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+	- $$ (h * x)(t) = \int_{-\infty}^{\infty} h(t-s)x(s)\,ds$$
+	- $h(t-s) = 0$ se $t-s < 0$.
+	- Per cui posso integrare solo per gli $s < t$:
+		- $$
+		  \begin{aligned}
+		  (h * x)(t) &= \int_{-\infty}^{t}h(t- s)x(s)\,ds\\
+		  &= \int_{-\infty}^t\frac{1}{RC} e^{\frac{t-s}{RC}}x(s)\,ds\\
+		  &= v(t)
+		  \end{aligned}
+		  $$
+		- Per cui $v(t) = h * x$, dove:
+		  ![[Circuito RC#^hoft]]
 	- ### Passaggio finale
 	  
 	  Sia $x(t) = e_\lambda(t)$.
@@ -156,11 +152,10 @@ tags:: complanalisi
 	  \end{aligned}
 	  $$
 	  Considerando nel [[Numeri complessi#Modulo|modulo]]
-	- $1$ parte reale
-	- $2\pi i \lambda RC$ parte immaginaria.
-	  <iframe class="desmos-graph" src="https://www.desmos.com/calculator/4onthbjdxw?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-	  La frequenza $\lambda_{C} = \frac{1}{2\pi RC}$ è detta frequenza di cutoff. Oltre questa, le frequenze di input sono ridotte da un fattore maggiore di $\frac{1}{\sqrt{2}}$.
-	  
-	  Per cui è una buona approssimazione di un [[Filtro passa-basso]].
+		- $1$ parte reale
+		- $2\pi i \lambda RC$ parte immaginaria.
+	- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/4onthbjdxw?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+		- La frequenza $\lambda_{C} = \frac{1}{2\pi RC}$ è detta frequenza di cutoff. Oltre questa, le frequenze di input sono ridotte da un fattore maggiore di $\frac{1}{\sqrt{2}}$.
+		- Per cui è una buona approssimazione di un [[Filtro passa-basso]].
 		- Muovendo lentamente la $x$ nel tempo, ovvero aumentando e diminuendo il voltaggio, la resistenza può essere d'intralcio ma nel complesso l'uscita $V$ segue abbastanza bene la $x$ .
 		- Muovendo la $x$ velocemente, la $R$ smorza le oscillazioni.
