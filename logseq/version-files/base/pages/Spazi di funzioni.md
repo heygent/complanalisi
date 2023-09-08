@@ -186,16 +186,15 @@ tags:: complanalisi
 						- per $t = 0$ la funzione vale 1
 						- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
 				- {{embed ((64fb54d8-648d-45b8-b042-56d325007fa6))}}
-- Dimostrazione del punto 2 nell'appendice (facoltativo).
-  
-  Dunque $\forall f \in L^2(0, a)$:
-  $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
-  con
-  $$a_n = ∫_0^\frac{1}{λ}f(t)e^{-2πinλt}$$
-  dove la serie converge in norma $\norm_\L[0,a]2$.
-  (la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita)
-  
-  I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$.
+					- Dimostrazione in appendice (facoltativo)
+					- Dunque $\forall f \in L^2(0, a)$:
+					- $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
+					- con
+					- $$a_n = ∫_0^\frac{1}{λ}f(t)e^{-2πinλt}$$
+					- dove la serie converge in norma $\norm_\L[0,a]2$.
+					- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita)
+					  
+					  I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
 - ### Base "trigonometrica" di L2(0,a)
   
   Posto $λ = \frac{1}{a}$ si ha che:
