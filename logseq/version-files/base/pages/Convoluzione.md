@@ -1,17 +1,4 @@
-- $$
-  \newcommand{\R}{\mathbb{R}}
-  \newcommand{\C}{\mathbb{C}}
-  \newcommand{\Z}{\mathbb{Z}}
-  \newcommand{\N}{\mathbb{N}}
-  \newcommand{\L}[2][I]{ {L^{#2}(#1)} }
-  \newcommand{\Li}[1][I]{\L[#1]{\infty}}
-  \newcommand{\norm}[1][\ldots]{\lVert#1\rVert}
-  \newcommand{\lnorm}[1][\ldots]{\left\lVert#1\right\rVert}
-  \newcommand{\expfn}[1]{\exp\left(#1\right)}
-  \newcommand{\fou}{\mathcal{F}}
-  \DeclareMathOperator*{\esssup}{ess\,sup}
-  $$
-- # Definizione
+# Definizione
 - Siano $f, g: \R \rightarrow \R$ oppure $\C$. Definisco la convoluzione di $f$ e $g$ come:
   
   $$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
