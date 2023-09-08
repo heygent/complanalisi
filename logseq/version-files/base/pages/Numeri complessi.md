@@ -100,7 +100,7 @@ tags:: complanalisi
 	- $f: t \in \R \longrightarrow f(t) \in \C$
 		- Ovvero funzioni con immagine complessa.
 	- Frequenza pura:
-		- $\cos \omega t + i \sin \omega t = e^{i\omega t}$
+		- $e^{i\omega t} = \cos \omega t + i \sin \omega t$
 	- Nel caso si vogliano fare derivate occorre considerare che:
 		- \begin{aligned}
 		  f(t) &= f_1(t) + if_2(t) \\ \\

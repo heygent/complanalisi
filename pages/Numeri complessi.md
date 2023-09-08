@@ -51,6 +51,7 @@ tags:: complanalisi
 	- Corrisponde con la distanza euclidea.
 	- $\C = \R^2$ topologicamente
 - # Formula di Eulero #card
+  id:: 64eaeffe-66fa-416d-b2be-a458ea31c68c
 	-
 	- $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
@@ -100,7 +101,7 @@ tags:: complanalisi
 	- $f: t \in \R \longrightarrow f(t) \in \C$
 		- Ovvero funzioni con immagine complessa.
 	- Frequenza pura:
-		- $\cos \omega t + i \sin \omega t = e^{i\omega t}$
+		- $e^{i\omega t} = \cos \omega t + i \sin \omega t$
 	- Nel caso si vogliano fare derivate occorre considerare che:
 		- \begin{aligned}
 		  f(t) &= f_1(t) + if_2(t) \\ \\
