@@ -26,11 +26,10 @@ card-last-score:: 1
 	- Ciò mostra, intuitivamente, che lo strumento matematico usato per una distribuzione di carica $δ(t)$ concentrata in $t=0$ non può essere una funzione.
 	- Rappresentiamo graficamente la distribuzione $δ(t)$ con una "freccia" centrata in $t=0$:
 		- ((64fb296b-1892-4162-a79e-f4cb196b9be0))
-- # Spazio delle distribuzioni $S'(\R)$ #card
 	- Vengono definite le sue traslate $δ_a(t)$ di parametro $a \in \R$ come distribuzioni concentrate nei punti $a \in \R$, e rappresentate da "frecce" centrate in $a \in \R$.
-	- Si scrive anche $δ_a(t) = (τ_aδ)(t)$
-		- $τ_a$ operatore di traslazione già usato per funzioni.
-	-
+		- Si scrive anche $δ_a(t) = (τ_aδ)(t)$
+			- $τ_a$ operatore di traslazione già usato per funzioni.
+- # Spazio delle distribuzioni $S'(\R)$ #card
 	- Spazio $S'(\R)$ delle **distribuzioni temperate**.
 	- Come oggetti matematici gli elementi di $S'(\R)$, cioè le distribuzioni temperate, sono "funzionali lineari continui".
 	- $S'(\R)$ contiene:
