@@ -69,7 +69,7 @@ tags:: complanalisi
 			  $$
 	- ## Proprietà
 		- ### Continuo
-			- Vedi [[Filtro#Continuità#Esercizio]]
+			- Vedi ((64f15ffb-33c9-4aae-8a51-585010b6f38a))
 				- $$\|Ax\|_\infty \le \|x\|_\infty$$
 		- ### Lineare
 			- $x_1(t),x_2(t) \in X$
@@ -83,19 +83,19 @@ tags:: complanalisi
 			  &= \lambda_1 Ax_1(t) + \lambda_2 Ax_2(t)
 			  \end{aligned}
 			  $$
-	- ### Invariante per traslazione
-		- $x(t) \rightarrow v(t)$
-		- $x(t - a) \xrightarrow{?} v(t-a)$
-		- $$
-		  \begin{aligned}
-		  A[\tau_a x](t) &= \frac{1}{RC}\int_{-\infty}^t e^{-\frac{t-s}{RC}} x(s-a)\,ds &y &= s - a\\
-		  &= \frac{1}{RC}\int_{-\infty}^{t-a}e^{-\frac{t - (y+a)}{RC}}x(y)\,dy\\
-		  &= \frac{1}{RC}\int_{-\infty}^{t-a} e^{-\frac{(t-a) - y}{RC}}x(y)\,dy\\
-		  &= v(t-a)
-		  \end{aligned}
-		  $$
+		- ### Invariante per traslazione
+			- $x(t) \rightarrow v(t)$
+			- $x(t - a) \xrightarrow{?} v(t-a)$
+			- $$
+			  \begin{aligned}
+			  A[\tau_a x](t) &= \frac{1}{RC}\int_{-\infty}^t e^{-\frac{t-s}{RC}} x(s-a)\,ds &y &= s - a\\
+			  &= \frac{1}{RC}\int_{-\infty}^{t-a}e^{-\frac{t - (y+a)}{RC}}x(y)\,dy\\
+			  &= \frac{1}{RC}\int_{-\infty}^{t-a} e^{-\frac{(t-a) - y}{RC}}x(y)\,dy\\
+			  &= v(t-a)
+			  \end{aligned}
+			  $$
 	- ## Funzione di trasferimento
-	- ### Espressione in termini di [[Convoluzione]]
+		- ### Espressione in termini di [[Convoluzione]]
 	- Pongo:
 	- $$
 	  h(t) = \frac{1}{RC}e^{\frac{-t}{RC}}\cdot u(t)
