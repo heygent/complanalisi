@@ -34,23 +34,18 @@ tags:: complanalisi
 		- Ad esempio:
 			- $$f(t) = \frac{\sin(t)}{t}\quad\quad g(t) = \begin{cases}\frac{\sin(t)}{t}&t \neq 0\\ 1 & t = 0\end{cases}$$
 			- sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
-- # Spazi normati
-  
-  Si pongono:
-  
-  $$
-  \begin{aligned}
-  \L1 &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^1(I)} < +\infty \} \\
-  \L2 &= \{f: I \rightarrow \C\,\, |\,\, \|f\|_{L^2(I)} < +\infty \} \\
-  \Li &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^\infty(I)} < +\infty \} \\
-  \end{aligned}
-  $$
-  sottointendendo l'identificazione tra funzioni q.o. coincidenti.
-  
-  $(\L1, \norm_\L1),  (\L2, \norm_\L2), (\Li,\norm_\Li)$,
-  sono spazi di Banach, ovvero spazi vettoriali normati completi.
-  
-  Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
+	- # Spazi di Banach
+		- Si pongono:
+			- $$
+			  \begin{aligned}
+			  \L1 &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^1(I)} < +\infty \} \\
+			  \L2 &= \{f: I \rightarrow \C\,\, |\,\, \|f\|_{L^2(I)} < +\infty \} \\
+			  \Li &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^\infty(I)} < +\infty \} \\
+			  \end{aligned}
+			  $$
+			- sottointendendo l'identificazione tra funzioni q.o. coincidenti.
+		- $(\L1, \norm_\L1),  (\L2, \norm_\L2), (\Li,\norm_\Li)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
+		- Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - ## Spazio L2
 	- ### Spazio di Hilbert
 		- $(\L2, \norm_\L2)$ è uno **spazio di Hilbert**, ovvero la norma $\norm{\L2}$ proviene da un prodotto interno. Precisamente:
