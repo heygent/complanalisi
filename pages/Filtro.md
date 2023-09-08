@@ -170,3 +170,5 @@ tags:: complanalisi
 		- $e_\lambda$ sono autofunzioni
 	- Funzione di trasferimento del sistema $A$:
 		- $\lambda \rightarrow f_\lambda(0) = H(\lambda)$
+- # Filtro passa-basso
+-
