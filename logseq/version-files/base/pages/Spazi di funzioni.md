@@ -90,130 +90,130 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 		- Da questo si può giustificare il perché $\norm{\L2}$ rappresenta l'energia del segnale.
-- ## Base ortonormale #card
-	- ### Definizione
-		- Siano $\phi_n \in \L2$ con $n \in \Z$.
-		  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
-		  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
-			- logseq.order-list-type:: number
-			  id:: 64fb54d4-0529-40b3-865d-11d7dd6b598c
-			  $$
-			  (\phi_n, \phi_m)_\L2 = \begin{cases}
-			  0 & \text{per } n \neq m \\
-			  1 & \text{per } n = m
-			  \end{cases}
-			  $$
-				- Le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|_{\L2} = 1$
-			- logseq.order-list-type:: number
-			  id:: 64fb54d8-648d-45b8-b042-56d325007fa6
-			  $$ 
-			  \begin{aligned}
-			  \forall\,f \in \L2: \\
-			  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
-			  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
-			  \end{aligned}
-			  $$
-		- Dall'espressione di $f$ tramite la sua serie di Fourier si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. In seguito si identificano $\phi_n$ con le frequenze pure.
-		- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
-	- #### Nota
-	  collapsed:: true
-		- Per definizione:
-		- $$
-		  \begin{gathered}
-		  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
-		  \end{gathered}
-		  $$
-	- ## Uguaglianza di Parseval
-		- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
-		- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
-		- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
-			- $$f: I = \{1,2,3\} \rightarrow \R$$
-			- $$
-			  \begin{aligned}
-			  1 &\rightarrow x(1) = x_1 \\
-			  2 &\rightarrow x(2) = x_2 \\
-			  3 &\rightarrow x(3) = x_3 \\
-			  \end{aligned}
-			  $$
-			- Le funzioni in in $I$ possono essere fatte coincidere con un vettore in $\R^3$:
-				- $x = (x_1, x_2, x_3) \in \R^3$
-			- $$\|x\|_\L2^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
-				- $$
+	- ## Base ortonormale #card
+		- ## Definizione
+			- Siano $\phi_n \in \L2$ con $n \in \Z$.
+			  id:: 64fb54d1-5aba-486b-aa5b-d872d8b3e3f4
+			  L'insieme di funzioni $\{\phi_n\}_{n \in \Z}$ si dice **base ortonormale** di $\L2$ se:
+				- logseq.order-list-type:: number
+				  id:: 64fb54d4-0529-40b3-865d-11d7dd6b598c
+				  $$
+				  (\phi_n, \phi_m)_\L2 = \begin{cases}
+				  0 & \text{per } n \neq m \\
+				  1 & \text{per } n = m
+				  \end{cases}
+				  $$
+					- Le funzioni $\phi_n$ sono ortogonali a due a due ed hanno $\|\phi_n\|_{\L2} = 1$
+				- logseq.order-list-type:: number
+				  id:: 64fb54d8-648d-45b8-b042-56d325007fa6
+				  $$ 
 				  \begin{aligned}
-				  \phi_1 &= e_1 = (1, 0, 0) \\
-				  \phi_2 &= e_2 = (0, 1, 0) \\
-				  \phi_3 &= e_3 = (0, 0, 1) \\
+				  \forall\,f \in \L2: \\
+				  f = \sum\limits_{n = -\infty}^{+\infty} c_n \phi_n \quad\quad\quad&\text{Serie di Fourier}\\
+				  \text{dove }\,c_n = (f, \phi_n)_{\L2} \quad\quad\quad&\text{Coefficienti di Fourier}
 				  \end{aligned}
 				  $$
-				- $$x = x_1e_1 + x_2e_2 + x_3e_3$$
-				- $$
-				  \begin{aligned}
-				  x_1 &= (x, e_1) \\
-				  x_2 &= (x, e_2) \\
-				  x_3 &= (x, e_3) \\
-				  \end{aligned}
-				  $$
-				- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
-	- ## Base esponenziale di $L^2(0,a)$
-		- Sia $I = (0,a)$ con $a > 0$ fissato.
-		- Pongo:
-			- $$\lambda = \frac{1}{a}$$
-			- $$e^n_\lambda(t) = \sqrt\lambda e^{2\pi n \lambda t}\quad n \in \Z$$
-				- considero frequenze pure multiple della frequenza $λ$
-				- la radice smorza le oscillazioni in modo tale da avere energia 1.
-		- Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$:
-			- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
-		- ### Dimostrazione
+			- Dall'espressione di $f$ tramite la sua serie di Fourier si comprende intuitivamente che ogni coefficiente di Fourier $c_n$ indica "quanto" della funzione $\phi_n$ è presente nel segnale $f$. In seguito si identificano $\phi_n$ con le frequenze pure.
+			- La definizione è analoga per $n \in \N$ invece che $n \in \Z$.
+		- #### Nota
 		  collapsed:: true
-			- Bisogna provare le due condizioni:
-				- {{embed ((64fb54d4-0529-40b3-865d-11d7dd6b598c))}}
-					- Se $n = m$:
-						- $$
-						  \begin{aligned}
-						  (e_\lambda^n, e_\lambda^n)_{\L2} 
-						  &= ∫_0^{\frac{1}{λ}} e_λ^n(t)\overline{e_λ^n(t)}\\
-						  &= \lambda\int_0^\frac{1}{\lambda} e^{2\pi i n \lambda t} \cdot e^{-2\pi i n \lambda t}\,dt\\
-						  &= \lambda \int_0^{\frac{1}{\lambda}} 1\,dt \\
-						  &= 1
-						  \end{aligned}
-						  $$
-					- Se $n \neq m$:
-						- $$
-						  \begin{aligned}
-						  (e_\lambda^n, e_\lambda^m)_\L2 &= ∫_0^\frac{1}{λ}e_λ^n(t)\overline{e_λ^m(t)}
-						  \\
-						  &= \lambda \int_0^\frac{1}{\lambda} e^{2\pi i (n - m) \lambda t}\,dt\\
-						  &= \lambda \left[ \frac{e^{2\pi i (n - m)\lambda t}}{2\pi i (n-m)\lambda}\right]_0^\frac{1}{\lambda}\\
-						  &= \lambda\left(\frac{1 - 1}{2\pi i(n - m \lambda)}\right)\\
-						  &= 0
-						  \end{aligned}
-						  $$
-						- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
-						- per $t = 0$ la funzione vale 1
-						- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
-				- {{embed ((64fb54d8-648d-45b8-b042-56d325007fa6))}}
-					- Dimostrazione in appendice (facoltativo)
-		- Dunque $\forall f \in L^2(0, a)$:
-			- $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
-			- con
-			- $$a_n = ∫_0^\frac{1}{λ}f(t)e^{-2πinλt}$$
-			- dove la serie converge in norma $\norm_{L^2(0,a)}$.
-				- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita
-				- I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
-	- ### Base "trigonometrica" di $L^2(0,a)$
-		- Posto $λ = \frac{1}{a}$ si ha che:
-			- $$\{\sqrt{λ}\} \cup \{\sqrt{2λ}\cos(2πnλt)\}_{n = 1}^{+\infty} \cup \{\sqrt{2λ}\sin(2πnλt)\}_{n = 1}^{+\infty}$$
-				- è una base ortonormale di $L^2(0, a)$
-		- Per la corrispondente serie di Fourier di $f \in L^2(0,a)$ si ha l'espressione con convergenza in $L^2(0, a)$:
-		- $$f(t) = \frac{a_0}{2}+ \sum\limits_{n = 1}^{+\infty} a_n \cos(2πnλt) + \sum\limits_{n=1}^{+\infty}b_n\sin(2πnλt)$$
-		- con:
-		- $$
-		  \begin{cases}
-		  a_n = 2λ\int_0^{\frac{1}{λ}}f(t)\cos(2πnλt)\,dt \\
-		  b_n = 2λ\int_0^{\frac{1}{λ}}f(t)\sin(2πnλt)\,dt \\
-		  \end{cases}
-		  \quad\quad(n = 1,2,3,\ldots)
-		  $$
-	- > La connessione tra base trigonometrica ed esponenziale è data dalla ((64eaeffe-66fa-416d-b2be-a458ea31c68c)).
-	  $$e^{2πinλt} = \cos(2πnλt) + i\sin(2πnλt)$$
-	- > Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
+			- Per definizione:
+			- $$
+			  \begin{gathered}
+			  f = \sum\limits_{-\infty}^{+\infty} c_n \phi_n \\\Updownarrow \\\lim_{N \rightarrow \infty} \left\| f - \sum\limits_{n = -N}^N c_n\phi_n \right\| _{\L2} = 0
+			  \end{gathered}
+			  $$
+		- ## Uguaglianza di Parseval #card
+			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2$. Allora $\forall f \in \L2$ si ha:
+			- $$\|f\|_\L2^2 = \sum\limits_n |c_n|^2$$
+			- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
+				- $$f: I = \{1,2,3\} \rightarrow \R$$
+				- $$
+				  \begin{aligned}
+				  1 &\rightarrow x(1) = x_1 \\
+				  2 &\rightarrow x(2) = x_2 \\
+				  3 &\rightarrow x(3) = x_3 \\
+				  \end{aligned}
+				  $$
+				- Le funzioni in in $I$ possono essere fatte coincidere con un vettore in $\R^3$:
+					- $x = (x_1, x_2, x_3) \in \R^3$
+				- $$\|x\|_\L2^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
+					- $$
+					  \begin{aligned}
+					  \phi_1 &= e_1 = (1, 0, 0) \\
+					  \phi_2 &= e_2 = (0, 1, 0) \\
+					  \phi_3 &= e_3 = (0, 0, 1) \\
+					  \end{aligned}
+					  $$
+					- $$x = x_1e_1 + x_2e_2 + x_3e_3$$
+					- $$
+					  \begin{aligned}
+					  x_1 &= (x, e_1) \\
+					  x_2 &= (x, e_2) \\
+					  x_3 &= (x, e_3) \\
+					  \end{aligned}
+					  $$
+					- I coefficienti $c_n$ corrispondono con $x_1, x_2, x_3$
+		- ## Base esponenziale di $L^2(0,a)$
+			- Sia $I = (0,a)$ con $a > 0$ fissato.
+			- Pongo:
+				- $$\lambda = \frac{1}{a}$$
+				- $$e^n_\lambda(t) = \sqrt\lambda e^{2\pi n \lambda t}\quad n \in \Z$$
+					- considero frequenze pure multiple della frequenza $λ$
+					- la radice smorza le oscillazioni in modo tale da avere energia 1.
+			- Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$:
+				- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una **base ortonormale** di $L^2(0,a)$.
+			- ### Dimostrazione
+			  collapsed:: true
+				- Bisogna provare le due condizioni:
+					- {{embed ((64fb54d4-0529-40b3-865d-11d7dd6b598c))}}
+						- Se $n = m$:
+							- $$
+							  \begin{aligned}
+							  (e_\lambda^n, e_\lambda^n)_{\L2} 
+							  &= ∫_0^{\frac{1}{λ}} e_λ^n(t)\overline{e_λ^n(t)}\\
+							  &= \lambda\int_0^\frac{1}{\lambda} e^{2\pi i n \lambda t} \cdot e^{-2\pi i n \lambda t}\,dt\\
+							  &= \lambda \int_0^{\frac{1}{\lambda}} 1\,dt \\
+							  &= 1
+							  \end{aligned}
+							  $$
+						- Se $n \neq m$:
+							- $$
+							  \begin{aligned}
+							  (e_\lambda^n, e_\lambda^m)_\L2 &= ∫_0^\frac{1}{λ}e_λ^n(t)\overline{e_λ^m(t)}
+							  \\
+							  &= \lambda \int_0^\frac{1}{\lambda} e^{2\pi i (n - m) \lambda t}\,dt\\
+							  &= \lambda \left[ \frac{e^{2\pi i (n - m)\lambda t}}{2\pi i (n-m)\lambda}\right]_0^\frac{1}{\lambda}\\
+							  &= \lambda\left(\frac{1 - 1}{2\pi i(n - m \lambda)}\right)\\
+							  &= 0
+							  \end{aligned}
+							  $$
+							- valuto funzione in $t = \frac{1}{λ}$ e $t = 0$ e sottraggo.
+							- per $t = 0$ la funzione vale 1
+							- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
+					- {{embed ((64fb54d8-648d-45b8-b042-56d325007fa6))}}
+						- Dimostrazione in appendice (facoltativo)
+			- Dunque $\forall f \in L^2(0, a)$:
+				- $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
+				- con
+				- $$a_n = ∫_0^\frac{1}{λ}f(t)e^{-2πinλt}$$
+				- dove la serie converge in norma $\norm_{L^2(0,a)}$.
+					- la convergenza puntuale della serie, cioè $\forall t \in (0, a)$, non è garantita
+					- I coefficienti di Fourier $a_n$ indicano intuitivamente "quanto" delle frequenze pure $e^{2πi\lambda t}$ è presente nel segnale $f$
+		- ### Base "trigonometrica" di $L^2(0,a)$
+			- Posto $λ = \frac{1}{a}$ si ha che:
+				- $$\{\sqrt{λ}\} \cup \{\sqrt{2λ}\cos(2πnλt)\}_{n = 1}^{+\infty} \cup \{\sqrt{2λ}\sin(2πnλt)\}_{n = 1}^{+\infty}$$
+					- è una base ortonormale di $L^2(0, a)$
+			- Per la corrispondente serie di Fourier di $f \in L^2(0,a)$ si ha l'espressione con convergenza in $L^2(0, a)$:
+			- $$f(t) = \frac{a_0}{2}+ \sum\limits_{n = 1}^{+\infty} a_n \cos(2πnλt) + \sum\limits_{n=1}^{+\infty}b_n\sin(2πnλt)$$
+			- con:
+			- $$
+			  \begin{cases}
+			  a_n = 2λ\int_0^{\frac{1}{λ}}f(t)\cos(2πnλt)\,dt \\
+			  b_n = 2λ\int_0^{\frac{1}{λ}}f(t)\sin(2πnλt)\,dt \\
+			  \end{cases}
+			  \quad\quad(n = 1,2,3,\ldots)
+			  $$
+		- > La connessione tra base trigonometrica ed esponenziale è data dalla ((64eaeffe-66fa-416d-b2be-a458ea31c68c)).
+		  $$e^{2πinλt} = \cos(2πnλt) + i\sin(2πnλt)$$
+		- > Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
