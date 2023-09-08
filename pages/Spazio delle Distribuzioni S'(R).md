@@ -1,15 +1,13 @@
+# Spazio delle distribuzioni
 - Per rappresentare fenomeni di tipo "impulsivo" (es. una massa o carica elettrica concentrate in un punto, un urto, un'esplosione, ecc.) le funzioni non sono sufficienti.
 - Siano $ϕ(t) \ge 0$ e che rappresentino la densità di carica lungo i punti $t$ di un filo illimitato coincidente con l'asse delle ascisse $\R_t$.
-  Se la carica totale è 1 avremo:
+- Se la carica totale è 1 avremo:
   $$1 = \int_{-∞}^{+∞}ϕ(t)\,dt$$
 - Immaginiamo ora che la carica si distribuisca secondo densità $ϕ_n(t)$, con $n = 1,2,3,…$, che si accumulano sempre più nel punto $t = 0$, come da disegno:
-- <iframe class="desmos-graph" src="https://www.desmos.com/calculator/32oxeeuuy6?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-- ![[Pasted image 20230907170850.png]]
-  
-  Il fatto che la carica resta invariata si esprime con:
-  
-  $$∫_{-∞}^{+∞}ϕ_n(t)\,dt = 1\quad∀\,n\in \N$$
-  Al limite avremo una distribuzione di carica in cui tutta la carica è concentrata in $t = 0$. Chiamiamo $δ(t)$ questa distribuzione (ideale) di carica. Per la distribuzione $δ(t)$ dovrà dunque valere:
+	- ((64fb2882-fd36-4d9d-935f-0b2b20bb3f73))
+- Il fatto che la carica resta invariata si esprime con:
+- $$∫_{-∞}^{+∞}ϕ_n(t)\,dt = 1\quad∀\,n\in \N$$
+- Al limite avremo una distribuzione di carica in cui tutta la carica è concentrata in $t = 0$. Chiamiamo $δ(t)$ questa distribuzione (ideale) di carica. Per la distribuzione $δ(t)$ dovrà dunque valere:
   
   $$
   δ(t) = \begin{cases}
