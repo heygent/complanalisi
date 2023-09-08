@@ -94,27 +94,28 @@ tags:: complanalisi
 					- Per cui $y_n \xcancel{\longrightarrow} 0$ in $\|\ldots\|_\infty$
 					- $$\|y_n\|_\infty = \sup_{t \in \R} |\cos(nt)| = 1 \xcancel{\longrightarrow} 0\,\, \forall n$$
 					- $A0 = y = 0$
-			- TODO Esercizio
+			- ### Esercizio
 			  :LOGBOOK:
 			  CLOCK: [2023-09-01 Fri 06:10:27]--[2023-09-01 Fri 06:10:27] =>  00:00:00
 			  :END:
 				- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
 				- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
-					- Soluzione
-						- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
-						- $$\forall\, x \in X\, \exists\, c > 0 \text{ t.c. } \|Ax\|_\infty \le c \|x\|_\infty?$$
-						- \begin{aligned}
-						  \sup_{t\in\R}|Ax(t)| &= \sup_t \left|\int_{-\infty}^t e^{-(t-s)}x(s)\,ds \right|\\
-						  &\le \sup_t \int_{-\infty}^t \left| e^{-(t-s)}x(s)\, \right| ds \\
-						  &= \sup_t \int_{-\infty}^t e^{-(t-s)}|x(s)|\, ds \\
-						  &= \sup_t \int_{-\infty}^t e^s e^{-t} |x(s)|\, ds \\
-						  &= \sup_t e^{-t} \int_{-\infty}^t e^s \underbrace{|x(s)|}_{\le \|x\|_\infty}\, ds \\
-						  &\le \|x\|_\infty \sup_t e^{-t} \int_{-\infty}^t e^s \,ds \\
-						  &= \|x\|_\infty \sup_t  e^{-t}\biggl[e^s \biggr]_{-\infty}^t \\
-						  &= \|x\|_\infty \sup_t  e^{-t}(e^t - \underbrace{e^{-\infty}}_{=0}) \\
-						  &= \|x\|_\infty \sup_t 1 \\
-						  &= \|x\|_\infty
-						  \end{aligned}
+				- #### Soluzione
+					- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
+					- $$\forall\, x \in X\, \exists\, c > 0 \text{ t.c. } \|Ax\|_\infty \le c \|x\|_\infty?$$
+					- \begin{aligned}
+					  \sup_{t\in\R}|Ax(t)| &= \sup_t \left|\int_{-\infty}^t e^{-(t-s)}x(s)\,ds \right|\\
+					  &\le \sup_t \int_{-\infty}^t \left| e^{-(t-s)}x(s)\, \right| ds \\
+					  &= \sup_t \int_{-\infty}^t e^{-(t-s)}|x(s)|\, ds \\
+					  &= \sup_t \int_{-\infty}^t e^s e^{-t} |x(s)|\, ds \\
+					  &= \sup_t e^{-t} \int_{-\infty}^t e^s \underbrace{|x(s)|}_{\le \|x\|_\infty}\, ds \\
+					  &\le \|x\|_\infty \sup_t e^{-t} \int_{-\infty}^t e^s \,ds \\
+					  &= \|x\|_\infty \sup_t  e^{-t}\biggl[e^s \biggr]_{-\infty}^t \\
+					  &= \|x\|_\infty \sup_t  e^{-t}(e^t - \underbrace{e^{-\infty}}_{=0}) \\
+					  &= \|x\|_\infty \sup_t 1 \\
+					  &= \|x\|_\infty
+					  \end{aligned}
+			-
 		-
 			-
 	- ## Funzione di trasferimento #card
