@@ -120,7 +120,8 @@ tags:: complanalisi
 			  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
 			  &=
 			  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
-			  &= -2\sin(θ)
+			  &= -2\sin(θ) \\
+			  e^{-2πiωa} - e^{2πiωa} &= -2\sin(2πωa)
 			  \end{aligned}
 			  $$
 		- $$
