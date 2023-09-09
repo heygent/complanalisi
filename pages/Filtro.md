@@ -114,8 +114,9 @@ tags:: complanalisi
 					- Per cui dalla [precedente affermazione](((64fceb95-04e2-4f32-8299-95321f9468f9))) ottengo:
 						- $$\lim_{n\rightarrow∞}\|y_n - y\|_Y = 0$$
 						- cioè $y_n \rightarrow y$ in $Y$
-				-
-					-
+		- Se $A$ continuo e $x = \lim_{n \rightarrow ∞ x_n}$ in $X$
+			-
+			-
 			-
 		- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
 		  collapsed:: true
