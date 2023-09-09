@@ -109,7 +109,7 @@ tags:: complanalisi
 		  \begin{aligned}
 		  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
 		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
-		  &= \frac{e^{-2πiω}}\\
+		  &= \frac{e^{2πiωa}}{} \\
 		  &= \frac{\sin(2aπω)}{πω} \\
 		  &= \sinc_{2a}(ω) \\
 		  \end{aligned}
