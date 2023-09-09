@@ -113,7 +113,7 @@ tags:: complanalisi
 		  \end{aligned}
 		  $$
 		- Dato che:
-			-
+			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
 		- $$
 		  \begin{aligned}
 		  &= \frac{\sin(2aπω)}{πω} \\
