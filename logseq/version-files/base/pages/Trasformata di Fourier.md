@@ -126,5 +126,6 @@ tags:: complanalisi
 		  &= \sinc_{2a}(ω) \\
 		  \end{aligned}
 		  $$
+		- $$\hat F$$
 		- La funzione $\sinc$ è detta **seno cardinale**
 		- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
