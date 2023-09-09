@@ -42,12 +42,15 @@ const macros = {
   "\\esssup": String.raw`\operatorname*{ess\,sup}`,
   "\\sinc": String.raw`\operatorname*{sinc}`,
   "\\liml": "\\lim\\limits",
-  "\\banana": "\\text{\\texttt{banana}}"
+  "\\banana": "\\text{banana}"
 }
 
 
-whenAvailable("katex", function(t) {
+whenAvailable("katex", function(katex) {
   for (const [key, macro] of Object.entries(macros)) {
-    katex.__defineMacro(key, macro);
+    try {
+      katex.__defineMacro(key, macro);
+    } catch(e) {}
+    
   }
 });
