@@ -99,14 +99,14 @@ tags:: complanalisi
 				- $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
 			- Questo implica che:
-				- Suppngo  $x_n \rightarrow x$ in $X$
+				- Suppongo  $x_n \rightarrow x$ in $X$
 					- $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
 				- Allora
 					- $$
 					  \begin{aligned}
 					  \|y_n - y\|_Y &=  \|Ax_n - Ax\|_Y \\
 					  &= \|A(x_n - x)\|_Y \\
-					  \le C\|x_n - x\|
+					  &\le C\|x_n - x\|_X \\
 					  \end{aligned}
 					  $$
 			-
