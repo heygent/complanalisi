@@ -117,7 +117,8 @@ tags:: complanalisi
 		- Se $A$ continuo e $x = \lim\limits_{n \rightarrow ∞} x_n$ in $X$
 			- Allora $y_n = Ax_n \rightarrow y = Ax$
 				- $y  = \liml_{n \to ∞} Ax_n$
-				- $Ax =
+				- $Ax =A\l(\liml_{x \to ∞} x_n\r)$
+				-
 				-
 				-
 			-
