@@ -34,6 +34,7 @@ icon:: ∫
 			- Funzione di transizione: $Ae_\lambda = H(\lambda)e_\lambda$
 		- ((64fb8e55-6062-41e7-83a4-953e54c1921e)) e [[Circuito RC]]
 	- [[Trasformata di Fourier]]
+		- [[Spazio delle Distribuzioni S'(R)]]
 -
 - Screenshot
   collapsed:: true

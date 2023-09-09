@@ -94,6 +94,7 @@ tags:: complanalisi
 			  \hat f(ω) &= \sum_{k=1}^N c_k δ_{λ_k}
 			  \end{aligned}
 			  $$
+			- Sarà quindi la somma dei $c_k$ moltiplicati per $δ$
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
 	- ### Esercizio
 		- Calcolare la trasformata di Fourier della funzione:
