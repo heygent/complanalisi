@@ -66,7 +66,7 @@ tags:: complanalisi
 - ## Trasformata come rappresentazione del segnale
 	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà.
 	- $\hat 1 = δ$ e $\hat δ = 1$
-		- La trasformata della funzione 1 costante è un delta di Dirac, e viceversa
+		- La trasformata della funzione 1 costante è un ((64fb2fc8-5728-4097-9f3b-b84a5e13e869)), e viceversa
 	- $∀ϕ\in S'(\R)$:
 		- $\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$
 		  logseq.order-list-type:: number
