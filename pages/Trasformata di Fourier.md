@@ -120,15 +120,11 @@ tags:: complanalisi
 			  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
 			  &=
 			  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
-			  &= -2\sin(θ) \\
-			  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2\sin(2πωa)}{-2πiω}
+			  &= -2i\sin(θ) \\
+			  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2i\sin(2πωa)}{-2πiω} \\
+			  &= \frac{\sin(2aπω)}{πω} \\
+			  &= \sinc_{2a}(ω) \\
 			  \end{aligned}
 			  $$
-		- $$
-		  \begin{aligned}
-		  &= \frac{\sin(2aπω)}{πω} \\
-		  &= \sinc_{2a}(ω) \\
-		  \end{aligned}
-		  $$
 		- La funzione $\sinc$ è detta **seno cardinale**
 		- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
