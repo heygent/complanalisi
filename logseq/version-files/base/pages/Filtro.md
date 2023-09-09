@@ -96,9 +96,10 @@ tags:: complanalisi
 		  id:: 64f0ed21-2f59-46c4-983c-ccb41c8f7ae1
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
 				- per ogni $x \in X$ esiste $c > 0$ tale che:
-				- $$ \|Ax\|_Y \le c \|x\|_X$$
+				- id:: 64f0ed21-689e-45f9-97f4-3e9ec8f97ce9
+				  $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
-			- Questo implica che:
+			- Per dimostrare che $∀ x ∃ c > 0$ tale che [*](((64f0ed21-689e-45f9-97f4-3e9ec8f97ce9)))
 				- Suppongo  $x_n \rightarrow x$ in $X$
 					- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
 					  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
