@@ -116,7 +116,7 @@ tags:: complanalisi
 			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
 			- $$
 			  \begin{aligned}
-			  e^{iθ} - e^{-iθ} =
+			  e^{iθ} - e^{-iθ} &=
 			  \cos(θ) + i\sin(θ) - \cos(-θ) - i\sin(-θ) \\
 			  &=
 			  \cos(θ) +i\sin(θ) + \cos(θ) - i\sin(θ)
