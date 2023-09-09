@@ -100,7 +100,8 @@ tags:: complanalisi
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
 			- Questo implica che:
 				- Suppongo  $x_n \rightarrow x$ in $X$
-					- $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
+					- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
+					  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
 				- Allora
 					- $$
 					  \begin{aligned}
@@ -109,6 +110,9 @@ tags:: complanalisi
 					  &\le c\|x_n - x\|_X \\
 					  \end{aligned}
 					  $$
+					- Per cui dalla [precedente affermazione](((64fceb95-04e2-4f32-8299-95321f9468f9))) ottengo:
+					-
+					-
 			-
 		- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
 		  collapsed:: true
