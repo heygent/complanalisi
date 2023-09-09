@@ -116,7 +116,8 @@ tags:: complanalisi
 						- cioè $y_n \rightarrow y$ in $Y$
 		- Se $A$ continuo e $x = \lim_{n \rightarrow ∞} x_n$ in $X$
 			- Allora $y_n = Ax_n \rightarrow y = Ax$
-			-
+				- $y = \lim_{n \rightarrow ∞} y_n = \lim_{n \rightarrow ∞} Ax_n$
+				-
 			-
 			-
 		- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
