@@ -99,7 +99,7 @@ tags:: complanalisi
 			  $$
 			- Sarà quindi la somma dei $c_k$ moltiplicati per $δ$
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
-	- ### Esercizio
+	- ## Trasformata della
 		- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
 		- $$
 		  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
