@@ -32,7 +32,7 @@ const macros = {
   "\\Z": "\\mathbb{Z}",
   "\\N": "\\mathbb{N}",
   "\\L": "{L^{#1}(I)}",
-  "\\Li": "L^{\\infty}(I)",
+  "\\Li": "{\\L\\infty}",
   "\\norm": "\\lVert\\cdot\\rVert",
   "\\expfn": "\\exp\\left(#1\\right)",
   "\\F": "\\mathcal{F}",
@@ -41,11 +41,16 @@ const macros = {
   "\\r": "\\right",
   "\\esssup": String.raw`\operatorname*{ess\,sup}`,
   "\\sinc": String.raw`\operatorname*{sinc}`,
+  "\\banana": "\\text{banana}",
+  "\\liml": "\\lim\\limits",
 }
 
 
-whenAvailable("katex", function(t) {
+whenAvailable("katex", function(katex) {
   for (const [key, macro] of Object.entries(macros)) {
-    katex.__defineMacro(key, macro);
+    try {
+      katex.__defineMacro(key, macro);
+    } catch(e) {}
+    
   }
 });
