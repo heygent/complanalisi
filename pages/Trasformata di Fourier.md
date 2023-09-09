@@ -112,7 +112,7 @@ tags:: complanalisi
 		  &= \frac{e^{2πiωa} - e^{-2πiωa}}{-2πiω} \\
 		  \end{aligned}
 		  $$
-		- Dato che:
+		- Dato che, per la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) :
 			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
 		- $$
 		  \begin{aligned}

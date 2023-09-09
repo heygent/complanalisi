@@ -72,7 +72,6 @@ tags:: complanalisi
   card-next-schedule:: 2023-09-09T22:00:00.000Z
   card-last-reviewed:: 2023-09-08T22:44:04.234Z
   card-last-score:: 1
-	-
 	- id:: 64eaeffe-0fd6-4be4-9dec-30f3e085d02a
 	  $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$
 	- Questo permette di riscrivere $z$ come:
