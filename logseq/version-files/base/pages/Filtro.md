@@ -95,6 +95,7 @@ tags:: complanalisi
 		- #### Proprietà
 		  id:: 64f0ed21-2f59-46c4-983c-ccb41c8f7ae1
 			- $A$ è continuo da $(X, \|\ldots\|)$ in $(Y, \|\ldots\|)$ se e solo se:
+			  id:: 64f0ed21-c47f-480c-b48e-26df91decd36
 				- per ogni $x \in X$ esiste $c > 0$ tale che:
 				- id:: 64f0ed21-689e-45f9-97f4-3e9ec8f97ce9
 				  $$ \|Ax\|_Y \le c \|x\|_X$$
@@ -149,7 +150,7 @@ tags:: complanalisi
 			- $$A: x(t) \rightarrow y(t) = \int_{-\infty}^t e^{-(t-s)}x(s)\,ds$$
 			- Dimostrare che $A$ è continuo rispetto a $(X, \|\ldots\|_\infty) \rightarrow (Y, \|\ldots\|_\infty)$
 			- #### Soluzione
-				- {{embed ((64f0ed21-2f59-46c4-983c-ccb41c8f7ae1))}}
+				- {{embed ((64f0ed21-c47f-480c-b48e-26df91decd36))}}
 				- $$\forall\, x \in X\, \exists\, c > 0 \text{ t.c. } \|Ax\|_\infty \le c \|x\|_\infty?$$
 				- \begin{aligned}
 				  \sup_{t\in\R}|Ax(t)| &= \sup_t \left|\int_{-\infty}^t e^{-(t-s)}x(s)\,ds \right|\\
