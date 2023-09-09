@@ -102,7 +102,7 @@ tags:: complanalisi
 	- ### Esercizio
 		- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
 		- $$
-		  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
+		  _{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
 		  $$
 			- con $a > 0$
 		- $$
@@ -127,5 +127,5 @@ tags:: complanalisi
 		  \end{aligned}
 		  $$
 		- $$\widehat {χ_{[-a, a]}} = \sinc_{2a}(ω)$$
-		- La funzione $\sinc$ è detta **seno cardinale**
-		- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
+			- La funzione $\sinc$ è detta **seno cardinale**
+			- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
