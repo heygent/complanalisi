@@ -128,5 +128,5 @@ tags:: complanalisi
 		  $$
 		- $$\widehat {χ_{[-a, a]}} = \sinc_{2a}(ω)$$
 			- La funzione $\sinc$ è detta **seno cardinale**
-				-
+				- <iframe src="https://www.desmos.com/calculator/vws33pzz17?embed" width="500" height="200" style="border: 1px solid #ccc" frameborder=0></iframe>
 			- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
