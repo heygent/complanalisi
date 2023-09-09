@@ -111,7 +111,7 @@ tags:: complanalisi
 		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
 		  &= \frac{e^{-2πiω}}\\
 		  &= \frac{\sin(2aπω)}{πω} \\
-		  &= \sinc_{2a}(ω)
+		  &= \sinc_{2a}(ω) \\
 		  \end{aligned}
 		  $$
 		- La funzione $\sinc$ è detta **seno cardinale**
