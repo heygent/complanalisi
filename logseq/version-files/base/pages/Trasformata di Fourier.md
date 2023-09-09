@@ -65,9 +65,10 @@ tags:: complanalisi
 	- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale
 	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà.
-	- $\hat 1 = δ$ e $\hat δ = 1$
-		- La trasformata della funzione 1 costante è un ((64fb2fc8-5728-4097-9f3b-b84a5e13e869)), e viceversa
 	- $∀ϕ\in S'(\R)$:
+		- $\hat 1 = δ$ e $\hat δ = 1$
+		  logseq.order-list-type:: number
+			- La trasformata della funzione 1 costante è un ((64fb2fc8-5728-4097-9f3b-b84a5e13e869)), e viceversa
 		- $\F[\tau_a ϕ] = \mu_{-a}\hat ϕ$
 		  logseq.order-list-type:: number
 			- $$
