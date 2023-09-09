@@ -90,7 +90,7 @@ tags:: complanalisi
 		- Per la linearità di $\F$, la trasformata di Fourier di un segnale che contiene le frequenze $λ_1, …, λ_n$, sarà:
 			- $$
 			  \begin{aligned}
-			  f(t) &= \sum^N_{k=1} c_k e^{eπiλkt} \\
+			  f(t) &= \sum^N_{k=1} c_k e^{2πiλ_kt} \\
 			  \hat f(ω) &= \sum_{k=1}^N c_k δ_{λ_k}
 			  \end{aligned}
 			  $$
