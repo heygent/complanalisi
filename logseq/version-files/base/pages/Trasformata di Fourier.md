@@ -99,35 +99,36 @@ tags:: complanalisi
 			  $$
 			- Sarà quindi la somma dei $c_k$ moltiplicati per $δ$
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
-	- ## Trasformata della Funzione Caratteristica
-		- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
-		- $$
-		  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
-		  $$
-			- con $a > 0$
-		- $$
-		  \begin{aligned}
-		  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
-		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
-		  &= \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} \\
-		  \end{aligned}
-		  $$
-		- Dato che, per la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) :
-			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
-		- $$
-		  \begin{aligned}
-		  e^{-iθ} - e^{iθ} &=
-		  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
-		  &=
-		  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
-		  &= -2i\sin(θ) \\ \\
-		  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2i\sin(2πωa)}{-2iπω} \\
-		  &= \frac{\sin(2aπω)}{πω} \\
-		  &= \sinc_{2a}(ω) \\
-		  \end{aligned}
-		  $$
-		- $$\widehat {χ_{[-a, a]}} = \sinc_{2a}(ω)$$
-			- <iframe src="https://www.desmos.com/calculator/g0cy2uuhrf?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-				- $\liml_{ω \to 0} \frac{\sin(2aπω)}{2aπω} = 2a$
-		- La funzione $\sinc$ è detta **seno cardinale**
-		- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
+- ## Trasformata della Funzione Caratteristica
+	- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
+	- $$
+	  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
+	  $$
+		- con $a > 0$
+	- $$
+	  \begin{aligned}
+	  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
+	  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
+	  &= \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} \\
+	  \end{aligned}
+	  $$
+	- Dato che, per la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) :
+		- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
+	- $$
+	  \begin{aligned}
+	  e^{-iθ} - e^{iθ} &=
+	  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
+	  &=
+	  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
+	  &= -2i\sin(θ) \\ \\
+	  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2i\sin(2πωa)}{-2iπω} \\
+	  &= \frac{\sin(2aπω)}{πω} \\
+	  &= \sinc_{2a}(ω) \\
+	  \end{aligned}
+	  $$
+	- $$\widehat {χ_{[-a, a]}} = \sinc_{2a}(ω)$$
+		- <iframe src="https://www.desmos.com/calculator/g0cy2uuhrf?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+			- $\liml_{ω \to 0} \frac{\sin(2aπω)}{2aπω} = 2a$
+	- La funzione $\sinc$ è detta **seno cardinale**
+	- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
+	-
