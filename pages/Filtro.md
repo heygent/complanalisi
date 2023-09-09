@@ -104,7 +104,9 @@ tags:: complanalisi
 				- Allora
 					- $$
 					  \begin{aligned}
-					  \|y_n - y\|_Y =  \|Ax_n - Ax\|_Y = 
+					  \|y_n - y\|_Y &=  \|Ax_n - Ax\|_Y \\
+					  &= \|A(x_n - x)\|_Y \\
+					  \le C\|x_n - x\|
 					  \end{aligned}
 					  $$
 			-

@@ -102,7 +102,13 @@ tags:: complanalisi
 				- Suppngo  $x_n \rightarrow x$ in $X$
 					- $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
 				- Allora
-					- $$\|y_n - y\|_Y = $$
+					- $$
+					  \begin{aligned}
+					  \|y_n - y\|_Y &=  \|Ax_n - Ax\|_Y \\
+					  &= \|A(x_n - x)\|_Y \\
+					  
+					  \end{aligned}
+					  $$
 			-
 		- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
 		  collapsed:: true
