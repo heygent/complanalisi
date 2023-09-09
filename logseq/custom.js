@@ -52,6 +52,5 @@ whenAvailable("katex", function(katex) {
     try {
       katex.__defineMacro(key, macro);
     } catch(e) {}
-    
   }
 });

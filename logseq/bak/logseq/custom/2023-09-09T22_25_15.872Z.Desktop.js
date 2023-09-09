@@ -42,7 +42,8 @@ const macros = {
   "\\esssup": String.raw`\operatorname*{ess\,sup}`,
   "\\sinc": String.raw`\operatorname*{sinc}`,
   "\\liml": "\\lim\\limits",
-  "\\banana": "\\text{\\texttt{banana}}"
+  "\\suml": "\\sum\\limits",
+  "\\banana": "\\text{banana}"
 }
 
 
