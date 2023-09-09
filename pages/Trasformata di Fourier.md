@@ -114,17 +114,17 @@ tags:: complanalisi
 		  $$
 		- Dato che, per la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) :
 			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
-			- $$
-			  \begin{aligned}
-			  e^{-iθ} - e^{iθ} &=
-			  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
-			  &=
-			  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
-			  &= -2i\sin(θ) \\
-			  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2i\sin(2πωa)}{-2πiω} \\
-			  &= \frac{\sin(2aπω)}{πω} \\
-			  &= \sinc_{2a}(ω) \\
-			  \end{aligned}
-			  $$
+		- $$
+		  \begin{aligned}
+		  e^{-iθ} - e^{iθ} &=
+		  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
+		  &=
+		  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
+		  &= -2i\sin(θ) \\ \\
+		  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2i\sin(2πωa)}{-2iπω} \\
+		  &= \frac{\sin(2aπω)}{πω} \\
+		  &= \sinc_{2a}(ω) \\
+		  \end{aligned}
+		  $$
 		- La funzione $\sinc$ è detta **seno cardinale**
 		- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
