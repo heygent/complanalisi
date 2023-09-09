@@ -98,7 +98,7 @@ tags:: complanalisi
 				- per ogni $x \in X$ esiste $c > 0$ tale che:
 				- $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
-			- Questo implica che:
+			- Per dimostrare che $∀ x ∃c > 0 |
 				- Suppongo  $x_n \rightarrow x$ in $X$
 					- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
 					  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
