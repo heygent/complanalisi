@@ -114,7 +114,11 @@ tags:: complanalisi
 		  $$
 		- Dato che, per la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) :
 			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
-			- $$$$
+			- $$
+			  \begin{aligned}
+			  \cos(θ) + i\sin(θ) - \cos(θ) + i\sin(θ)
+			  \end{aligned}
+			  $$
 		- $$
 		  \begin{aligned}
 		  &= \frac{\sin(2aπω)}{πω} \\
