@@ -121,7 +121,7 @@ tags:: complanalisi
 			  &=
 			  \cancel{\cos(θ)} - i\sin(θ) \cancel{-\cos(θ)} - i\sin(θ) \\
 			  &= -2\sin(θ) \\
-			  e^{-2πiωa} - e^{2πiωa} &= -2\sin(2πωa)
+			  \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} &= \frac{-2\sin(2πωa)}{-2πiω}
 			  \end{aligned}
 			  $$
 		- $$
