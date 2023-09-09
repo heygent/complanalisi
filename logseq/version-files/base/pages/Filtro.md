@@ -99,7 +99,7 @@ tags:: complanalisi
 				- id:: 64f0ed21-689e-45f9-97f4-3e9ec8f97ce9
 				  $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
-			- Per dimostrare che $∀ x ∃ c > 0$ tale che [*](((64f0ed21-689e-45f9-97f4-3e9ec8f97ce9)))
+			- Per dimostrare che $∀ x ∃ c > 0$ tale che [*](((64f0ed21-689e-45f9-97f4-3e9ec8f97ce9))) $\rightarrow$ $A$ continuo:
 				- Suppongo  $x_n \rightarrow x$ in $X$
 					- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
 					  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
