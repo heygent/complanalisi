@@ -99,7 +99,10 @@ tags:: complanalisi
 				- $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
 			- Questo implica che:
-				-
+				- Suppngo  $x_n \rightarrow x$ in $X$
+					- $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
+				- Allora
+					- $$\|y_n - y\|_$$
 			-
 		- Esempio: il differenziatore non è continuo rispetto a $\|\ldots\|_\infty$
 		  collapsed:: true
