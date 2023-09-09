@@ -114,9 +114,9 @@ tags:: complanalisi
 					- Per cui dalla [precedente affermazione](((64fceb95-04e2-4f32-8299-95321f9468f9))) ottengo:
 						- $$\lim_{n\rightarrow∞}\|y_n - y\|_Y = 0$$
 						- cioè $y_n \rightarrow y$ in $Y$
-		- Se $A$ continuo e $x = \lim_{n \rightarrow ∞} x_n$ in $X$
+		- Se $A$ continuo e $x = \lim\limits_{n \rightarrow ∞} x_n$ in $X$
 			- Allora $y_n = Ax_n \rightarrow y = Ax$
-				- $y = \lim_{n \rightarrow ∞} y_n = \lim_{n \rightarrow ∞} Ax_n$
+				- $y = \lim\limits_{n \rightarrow ∞} y_n = \lim*_{n \rightarrow ∞} Ax_n$
 				-
 			-
 			-
