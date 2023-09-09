@@ -109,17 +109,17 @@ tags:: complanalisi
 		  \begin{aligned}
 		  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
 		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
-		  &= \frac{e^{2πiωa} - e^{-2πiωa}}{-2πiω} \\
+		  &= \frac{e^{-2πiωa} - e^{2πiωa}}{-2πiω} \\
 		  \end{aligned}
 		  $$
 		- Dato che, per la ((64eaeffe-66fa-416d-b2be-a458ea31c68c)) :
 			- ((64eaeffe-0fd6-4be4-9dec-30f3e085d02a))
 			- $$
 			  \begin{aligned}
-			  e^{iθ} - e^{-iθ} &=
-			  \cos(θ) + i\sin(θ) - \cos(-θ) - i\sin(-θ) \\
+			  e^{-iθ} - e^{iθ} &=
+			  \cos(-θ) + i\sin(-θ) - \cos(θ) - i\sin(θ) \\
 			  &=
-			  \cos(θ) +i\sin(θ) + \cos(θ) - i\sin(θ)
+			  -\cos(θ) +i\sin(θ) + \cos(θ) - i\sin(θ)
 			  \end{aligned}
 			  $$
 		- $$
