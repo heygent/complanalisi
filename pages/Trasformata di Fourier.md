@@ -109,8 +109,7 @@ tags:: complanalisi
 		  \begin{aligned}
 		  \F[χ_{[-a, a]}](ω) &= ∫_{-a}^a e^{-2πiωt}\,dt \\
 		  &= \left[\frac{e^{-2πiωt}}{-2πiω}\right]^a_{-a} \\
-		  &= \frac{\sin(2aπω)}{πω} \\
-		  &= \sinc_{2a}(ω)
+		  &= \frac{\sin(2aπω)}{πω} \\&= \sinc_{2a}(ω)
 		  \end{aligned}
 		  $$
 		- La funzione $\sinc$ è detta **seno cardinale**
