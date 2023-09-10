@@ -148,7 +148,7 @@ tags:: complanalisi
 		- $\widehat{f * g} = \hat f \hat g$
 		  logseq.order-list-type:: number
 			- Valida anche per:
-				- $f \in L^2(\R), g \in L^(\R)$
+				- $f \in L^2(\R), g \in L^1(\R)$
 				- $f \in
 		- logseq.order-list-type:: number
 -
