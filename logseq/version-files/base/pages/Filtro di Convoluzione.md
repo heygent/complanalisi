@@ -69,4 +69,6 @@ tags:: complanalisi
 		- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t_0$, e in una diversa banda dopo l'istante $t_0$.
 		- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
-	- Il filtro di convoluzione $f \to f * h$ è causale se e solo se
+	- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h$
+-
+-
