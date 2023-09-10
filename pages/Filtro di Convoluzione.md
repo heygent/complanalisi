@@ -41,4 +41,5 @@ tags:: complanalisi
 		- Dimostrazione
 			- Poiché $λ \in \R$, si ha $e_λ(t) = e^{2πiλt} \in \L∞\R$
 			- Dalla definizione di ((64f19736-5f2a-413d-8e60-1a838fe63067)) si ha:
-				- $(e_λ * h)(t) = H(
+				- $(e_λ * h)(t) = H(λ)e_λ(t)$
+			- Dato che
