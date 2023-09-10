@@ -38,4 +38,5 @@ tags:: complanalisi
 		- Da notare che ha senso applicare $A$ ad $e_λ$ perché $e_λ \in \L∞\R$
 - # Legame con [[Trasformata di Fourier]]
 	- Sia $h \in \L1\R$ e $A: f \in \L∞\R \to f*h \in \L∞\R$ il corrispondente filtro di convoluzione con funzione di trasferimento $H$. Allora $H = \hat h$
-		-
+		- Dimostrazione
+			- Poiché $λ \in \R$, si ha $
