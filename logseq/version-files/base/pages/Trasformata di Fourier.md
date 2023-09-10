@@ -171,5 +171,6 @@ tags:: complanalisi
 			  f, g \in \L2\R &\Rightarrow \hat f, \hat g \in \L2\R &\Rightarrow \hat f \hat g \in \L1\R
 			  \end{aligned}
 			  $$
+			-
 		- logseq.order-list-type:: number
 -
