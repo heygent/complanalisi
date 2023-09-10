@@ -31,7 +31,8 @@ tags:: complanalisi
 		   &= \|f\|_{L^1(\R)}
 		   \end{aligned}
 		  $$
-		- $$\|\hat f\|_\L∞\R \le \| f \|_\L1\R$$
+		- id:: 64fd426d-72fb-47a8-85ee-612b1d86ecc3
+		  $$\|\hat f\|_\L∞\R \le \| f \|_\L1\R$$
 			-
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 - ## Proprietà #card
