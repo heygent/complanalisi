@@ -71,5 +71,9 @@ tags:: complanalisi
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
 	- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
 		- Dimostrazione:
-			- Sia $\supp h \subseteq [0, +∞)$
+			- Sia $\supp h \subseteq [0, +∞)$, e sia $f(t) = 0 \,\forall t \le t_0$.
+			- Allora:
+				- $$
+				  
+				  \fint f(t-s) h(s)\,ds $$
 -
