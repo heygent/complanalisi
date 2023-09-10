@@ -19,7 +19,7 @@ tags:: complanalisi
 		  \begin{aligned}
 		  ∀ω\in\R:\left| \hat f(ω) \right| &= \l|\fint e^{-2πiωt} f(t)\,dt \r|\\
 		  &\le \fint |e^{-2πiωt} f(t)|\,dt\\
-		  &=\fint|f(t)|\,dt \\
+		  &\le\fint|f(t)|\,dt \\
 		  &=\|f\|_{L^1(\R)}
 		  \end{aligned}
 		  $$
