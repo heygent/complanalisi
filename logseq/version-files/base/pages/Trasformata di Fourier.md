@@ -139,7 +139,7 @@ tags:: complanalisi
 	  logseq.order-list-type:: number
 		- Se $f, \hat f \in L^1(\R)$, allora:
 		  id:: 64fd2d1a-3c33-4838-8a7f-c0ab01452b7d
-		- $$f(t) = \F^{-1}[\hat f](ω) = \fint e^{2πitω} \hat f(ω)$$
+		- $$f(t) = \F^{-1}[\hat f](ω) = \fint e^{2πitω} \hat f(ω)\,dω$$
 			- q.o. $t \in \R$
 			- è la trasformata di Fourier stessa calcolata in $-t$ invece che $t$.
 		- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$ e vale:
