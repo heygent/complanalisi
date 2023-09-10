@@ -142,8 +142,8 @@ tags:: complanalisi
 		- $$f(t) = \F^{-1}[\hat f](ω) = \fint e^{2πitω} \hat f(ω)\,dω$$
 			- q.o. $t \in \R$
 			- è la trasformata di Fourier stessa calcolata in $-t$ invece che $t$.
-				- $f(t) = \hat{{\hat f}} (-t)$
-				- $\hat{\vphantom{\rule{1pt}{5.5pt}}\smash{\hat{x}}}$
+				- $f(t) = \hat{{\hat{\,f}}} (-t)$
+				-
 		- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$ e vale:
 			- $$f = \F^{-1} \F[f]\quad \forall f \in S'(\R)$$
 	- Se $f, \hat f \in L^1(\R)$ allora:
