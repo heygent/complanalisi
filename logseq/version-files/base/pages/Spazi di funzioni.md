@@ -81,7 +81,7 @@ tags:: complanalisi
 				- $\forall\,f,g \in \L2I$
 		- Ciò permette di definire il concetto di **ortogonalità** come:
 			- $$f \perp g \text{ se } (f, g)_{\L2I} = 0$$
-	- ## Disuguaglianza di Schwartz #card
+	- ## Disuguaglianza di Schwarz #card
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
