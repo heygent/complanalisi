@@ -64,8 +64,8 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 			- sottointendendo l'identificazione tra funzioni ((64fb5645-1722-4e12-8da5-946ef59cf2ab))
-		- $(\L1I, \norm_\L1),  (\L2I, \norm_\L2I), (\L∞I,\norm_\L∞)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
-		- Su $\L1I, \L2I, \L∞I$ rispettivamente si ha che rispettivamente $\norm_\L1!, \norm_\L2I, \norm_\L∞I$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
+		- $(\L1I, \norm_\L1I),  (\L2I, \norm_\L2I), (\L∞I,\norm_\L∞I)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
+		- Su $\L1I, \L2I, \L∞I$ rispettivamente si ha che rispettivamente $\norm_\L1I, \norm_\L2I, \norm_\L∞I$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - # Spazio L2
 	- ## Spazio di Hilbert #card
 	  card-last-interval:: -1
@@ -89,7 +89,7 @@ tags:: complanalisi
 	  card-last-reviewed:: 2023-09-08T22:44:02.904Z
 	  card-last-score:: 1
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2I \|g\|_{\L2I}$$
-		- Da questa segue che $f, g \in \L2I \Rightarrow fg \in \L1$, dato che:
+		- Da questa segue che $f, g \in \L2I \Rightarrow fg \in \L1I$, dato che:
 		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
 			- Ed è minorato da un numero ben definito.
 	- ## Energia
