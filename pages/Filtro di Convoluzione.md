@@ -14,7 +14,7 @@ tags:: complanalisi
 		- ### Invarianza per traslazioni
 			- $$
 			  \begin{aligned}
-			  A[τ_a f](t) &= 
+			  A[τ_a f](t) &= \fint f((t-s) - a) h(s)\,ds
 			  \end{aligned}
 			  $$
 -

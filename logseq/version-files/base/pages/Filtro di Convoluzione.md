@@ -11,5 +11,10 @@ tags:: complanalisi
 		- ### Linearità
 			- Ovvia, dato che $Af$ è definito dall'integrale:
 				- ((64fb2fc8-5bd3-459c-8dd0-c676cae9bb95))
-		-
+		- ### Invarianza per traslazioni
+			- $$
+			  \begin{aligned}
+			  A[τ_a f](t) &= \fint f(t-a) -
+			  \end{aligned}
+			  $$
 -
