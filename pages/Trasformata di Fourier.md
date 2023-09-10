@@ -165,5 +165,9 @@ tags:: complanalisi
 			- Valida anche per:
 				- $f \in L^2(\R), g \in \L1\R$
 				- $f \in \L1\R, g \in \L1\R$
+			- $$
+			  \begin{gathered}
+			  
+			  $$
 		- logseq.order-list-type:: number
 -
