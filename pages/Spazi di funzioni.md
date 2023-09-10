@@ -88,6 +88,7 @@ tags:: complanalisi
 	  card-next-schedule:: 2023-09-09T22:00:00.000Z
 	  card-last-reviewed:: 2023-09-08T22:44:02.904Z
 	  card-last-score:: 1
+	  id:: 64fb2fc8-5427-4733-b971-33f818818961
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2I \|g\|_{\L2I}$$
 		- Da questa segue che $f, g \in \L2I \Rightarrow fg \in \L1I$, dato che:
 		- $$\|fg\|_{L^1(I)} = \int_I|f(t)||g(t)|$$
