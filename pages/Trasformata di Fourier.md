@@ -135,7 +135,7 @@ tags:: complanalisi
 	- La funzione $\sinc$ è detta **seno cardinale**
 	- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
 - # Altre proprietà
-	- ## Formula di inversione
+	- ### Formula di inversione
 	  logseq.order-list-type:: number
 		- Se $f, \hat f \in L^1(\R)$, allora:
 		  id:: 64fd2d1a-3c33-4838-8a7f-c0ab01452b7d
