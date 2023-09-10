@@ -145,8 +145,9 @@ tags:: complanalisi
 			- è la trasformata di Fourier stessa calcolata in $-t$ invece che $t$.
 				- $f(t) = \widehat{{\widehat{\,f}}} (-t)$
 				-
-		- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$ e vale:
+		- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$:
 			- $$f = \F^{-1} \F[f]\quad \forall f \in S'(\R)$$
+			- E per $f \in \L1\R, \hat f \in \L1\R$ questa
 		- Per interpretazione in teoria dei segnali vedi appendice [(i)](((64fdd17b-2e96-4e94-a7e7-953af6627a8e)))
 		-
 	- Se $f, \hat f \in L^1(\R)$ allora:
