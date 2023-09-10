@@ -138,8 +138,7 @@ tags:: complanalisi
 			- $$f(t) = \F^{-1}[\hat f(ω)] = \fint e^{2πitω} \hat f(ω)$$
 				- q.o. $t \in \R$
 			- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$ e vale:
-				- $$f = \F^{-1} \F$$
-				-
+				- $$f = \F^{-1} \F[f]\quad \forall f \in S'(\R)$$
 	- Se $f, \hat f \in L^1(\R)$ allora:
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
