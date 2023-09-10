@@ -144,6 +144,7 @@ tags:: complanalisi
 				- $A0 = y = 0$
 		- ### Esercizio
 		  id:: 64f15ffb-33c9-4aae-8a51-585010b6f38a
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2023-09-01 Fri 06:10:27]--[2023-09-01 Fri 06:10:27] =>  00:00:00
 		  :END:
