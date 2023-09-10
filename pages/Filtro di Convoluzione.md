@@ -6,5 +6,8 @@ tags:: complanalisi
 	- Sia $h \in \L1\R$. Allora $A$ è continuo, lineare e invariante per traslazioni:
 		- da $\L∞\R$ a $\L∞\R$
 		- da $\L2\R$ a $\L2\R$
-		- da $\L1
-	-
+		- da $\L1\R$ a $\L1\R$
+	- ## Dimostrazione
+		- ### Linearità
+			- Ovvia, dato che
+-
