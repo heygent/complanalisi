@@ -39,11 +39,11 @@ tags:: complanalisi
 				- $$\|f\|_{L^p(I)} = \left(\int_I |f(t)|^p\,dt\right)^\frac{1}{p}$$
 				- ottenendo spazi di Banach.
 			- Vale la seguente proprietà (di cui le tre proprietà precedenti sono casi particolari):
+				- Siano $pr \in [1, \infty]$ tale che $\frac{1}{p}+ \frac{1}{q}= 1 + \frac{1}{r}$ (intendendo $\frac{1}{\infty}= 0$).
 				- Se :
 					- $f \in L^p(\R)$
 					- $g \in L^q(\R)$
 				- con $p, q \in [1, +\infty]$
-				- Sia $r \in [1, \infty]$ tale che $\frac{1}{p}+ \frac{1}{q}= 1 + \frac{1}{r}$ (intendendo $\frac{1}{\infty}= 0$).
 				- Allora $f * g$ è ben definita e appartiene a $L^r(\R)$
 					- Vale inoltre
 						- id:: 64fde8dd-149c-4829-ae0b-ffd9f6a128f2
