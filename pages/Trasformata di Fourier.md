@@ -167,7 +167,9 @@ tags:: complanalisi
 				- $f \in \L1\R, g \in \L1\R$
 			- $$
 			  \begin{gathered}
-			  
+			  f, g \in \L2\R \Rightarrow f * g \in \L∞\R \Rightarrow \widehat{f * g} \in S'(\R) \\
+			  f, g \in \L2\R
+			  \end{gathered}
 			  $$
 		- logseq.order-list-type:: number
 -
