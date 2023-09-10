@@ -74,6 +74,8 @@ tags:: complanalisi
 			- Sia $\supp h \subseteq [0, +∞)$, e sia $f(t) = 0 \,\forall t \le t_0$.
 			- Allora:
 				- $$
-				  
-				  \fint f(t-s) h(s)\,ds $$
+				  \begin{aligned}
+				  \fint f(t-s) h(s)\,ds &= ∫_0(f(t-s)h(s)\,ds
+				  \end{aligned}
+				  $$
 -

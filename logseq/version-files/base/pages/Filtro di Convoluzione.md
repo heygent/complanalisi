@@ -70,5 +70,12 @@ tags:: complanalisi
 		- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
 	- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
--
+		- Dimostrazione:
+			- Sia $\supp h \subseteq [0, +∞)$, e sia $f(t) = 0 \,\forall t \le t_0$.
+			- Allora:
+				- $$
+				  \begin{aligned}
+				  \fint f(t-s) h(s)\,ds &= \fint(f(t-s)h(s)\,ds
+				  \end{aligned}
+				  $$
 -
