@@ -23,5 +23,6 @@ tags:: complanalisi
 			  &= τ_a Af(t)
 			  \end{aligned}
 			  $$
-		-
+		- ### Continuità
+			-
 -
