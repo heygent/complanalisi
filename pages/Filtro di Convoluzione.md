@@ -35,4 +35,5 @@ tags:: complanalisi
 			- $$Ae_λ = H(λ)eλ$$
 				- $∀λ\in\R$
 				- $e_λ = e_λ(t) = e^{2πiλt}$
-		-
+		- Da notare che ha senso applicare $A$ ad $e_λ$ perché $e_λ \in \L∞\R$
+-
