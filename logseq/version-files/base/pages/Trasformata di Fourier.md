@@ -48,7 +48,7 @@ tags:: complanalisi
 		  &=\lambda\F[f_1](ω) + \mu\F[f_2](ω)
 		  \end{aligned}
 		  $$
-	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
+	- $\F: \L1\R \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
 	- $\F: S'(\R) \rightarrow S'(\R)$ è una **biiezione lineare bicontinua**
 - ## Uguaglianza di Plancherel #card
   card-last-interval:: -1

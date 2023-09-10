@@ -48,7 +48,7 @@ tags:: complanalisi
 		  &=\lambda\F[f_1](ω) + \mu\F[f_2](ω)
 		  \end{aligned}
 		  $$
-	- $\F: L^1(\R) \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
+	- $\F: \L1\R \rightarrow L^2(\R)$ è un **isomorfismo isometrico**
 	- $\F: S'(\R) \rightarrow S'(\R)$ è una **biiezione lineare bicontinua**
 - ## Uguaglianza di Plancherel #card
   card-last-interval:: -1
@@ -150,11 +150,11 @@ tags:: complanalisi
 		- $\widehat{fg} = \hat f * \hat g$
 		  logseq.order-list-type:: number
 			- Si nota che $f$ e $g$ appartengono a $\LiR$:
-				- $$f,g \in \LtwoR$$
+				- $$f,g \in \L2\R$$
 		- $\widehat{f * g} = \hat f \hat g$
 		  logseq.order-list-type:: number
 			- Valida anche per:
 				- $f \in L^2(\R), g \in \L1\R$
-				- $f \in L^1(\R), g \in \LoneR$
+				- $f \in \L1\R, g \in \L1\R$
 		- logseq.order-list-type:: number
 -
