@@ -58,4 +58,7 @@ tags:: complanalisi
 		- Dimostrazione:
 			- Per le proprietà della convoluzione, se $f \in \L2\R, h \in \L1\R \Rightarrow f * h \in \L2\R$
 			- Inoltre $f * h = \F^{-1}\F[f * h] = \F^{-1}[\hat f \hat g]$
-		- Questa proposizione si pu
+		- Questa proposizione si può scomporre in tre fasi:
+			- Analisi delle frequenze tramite trasformata di Fourier $f \rightarrow \hat f$
+			  logseq.order-list-type:: number
+			- logseq.order-list-type:: number
