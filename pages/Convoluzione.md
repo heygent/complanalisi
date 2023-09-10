@@ -40,9 +40,10 @@ tags:: complanalisi
 				- ottenendo spazi di Banach.
 			- Vale la seguente proprietà (di cui le tre proprietà precedenti sono casi particolari):
 				- Siano $p,q,r \in [1, +∞]$ tali che:
+				  id:: 64fdf0c4-2499-4334-bad4-f472476173c9
 					- $$\frac1p + \frac1q = \frac1r + 1$$
 					- Intendendo $\frac1∞ = 0$
-				- Se $f \in L^p(\R)$, $g \in L^q(\R)$ allora $f * g$ è ben definita e appartiene a $L^r(\R)$.
-				- Vale inoltre:
-					- id:: 64fde8dd-149c-4829-ae0b-ffd9f6a128f2
-					  $$\|f*g\|_{L^r(\R)} \le \|f\|_{L^p(\R)}\|g\|_{L^q(\R)}$$
+					- Se $f \in L^p(\R)$, $g \in L^q(\R)$ allora $f * g$ è ben definita e appartiene a $L^r(\R)$.
+					- Vale inoltre:
+						- id:: 64fde8dd-149c-4829-ae0b-ffd9f6a128f2
+						  $$\|f*g\|_{L^r(\R)} \le \|f\|_{L^p(\R)}\|g\|_{L^q(\R)}$$

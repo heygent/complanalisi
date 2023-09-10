@@ -25,6 +25,7 @@ tags:: complanalisi
 			  $$
 		- ### Continuità
 			- {{embed ((64f0ed21-c47f-480c-b48e-26df91decd36))}}
-			- ((64fde8dd-149c-4829-ae0b-ffd9f6a128f2))
+			-
+			- {{embed ((64fdf0c4-2499-4334-bad4-f472476173c9))}}
 			-
 -
