@@ -135,7 +135,7 @@ tags:: complanalisi
 	- Se $f \in L^1(\R)$ e $\hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
 		- **Formula di inversione**
-		- $$f(t) = \fint e^{2πitω} \hat f(ω)$$
+		- $$f(t) =  = \fint e^{2πitω} \hat f(ω)$$
 			- q.o. $t \in \R$
 	- Se $f = L^1(\R)$ e $\hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
