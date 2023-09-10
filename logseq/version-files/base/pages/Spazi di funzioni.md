@@ -22,7 +22,7 @@ tags:: complanalisi
 		- $$\|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 		- $$
 		  \begin{aligned}
-		  \|f\|_\Li &=  \esssup |f|\\
+		  \|f\|_\L∞I &=  \esssup |f|\\
 		  &= \inf\{C: C \ge |f(t)| \text{ quasi ovunque su }I\}
 		  \end{aligned}
 		  $$

@@ -22,7 +22,7 @@ tags:: complanalisi
 		- $$\|f\|_{L^2(I)} = \left(\int_I |f(t)|^2\,dt\right)^\frac{1}{2}$$
 		- $$
 		  \begin{aligned}
-		  \|f\|_\Li &=  \esssup |f|\\
+		  \|f\|_\L∞I &=  \esssup |f|\\
 		  &= \inf\{C: C \ge |f(t)| \text{ quasi ovunque su }I\}
 		  \end{aligned}
 		  $$
@@ -58,8 +58,8 @@ tags:: complanalisi
 		- Si pongono:
 			- $$
 			  \begin{aligned}
-			  \L1 &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^1(I)} < +\infty \} \\
-			  \L2 &= \{f: I \rightarrow \C\,\, |\,\, \|f\|_{L^2(I)} < +\infty \} \\
+			  \L1I &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^1(I)} < +\infty \} \\
+			  \L2I &= \{f: I \rightarrow \C\,\, |\,\, \|f\|_{L^2(I)} < +\infty \} \\
 			  \Li &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^\infty(I)} < +\infty \} \\
 			  \end{aligned}
 			  $$
