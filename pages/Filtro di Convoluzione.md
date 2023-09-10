@@ -61,4 +61,7 @@ tags:: complanalisi
 		- Questa proposizione si può scomporre in tre fasi:
 			- Analisi delle frequenze tramite trasformata di Fourier $f \rightarrow \hat f$
 			  logseq.order-list-type:: number
-			- logseq.order-list-type:: number
+			- Filtraggio delle frequenze tramite moltiplicazione di $\hat f$ per $\hat h$, ovvero $H$
+			  logseq.order-list-type:: number
+			- Ricostruzione del segnale filtrato tramite trasformata di Fourier inversa: $\hat f \hat h \to \F
+			  logseq.order-list-type:: number
