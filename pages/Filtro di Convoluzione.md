@@ -26,5 +26,5 @@ tags:: complanalisi
 		- ### Continuità
 			- {{embed ((64f0ed21-c47f-480c-b48e-26df91decd36))}}
 			- {{embed ((64fdf0c4-2499-4334-bad4-f472476173c9))}}
-			-
+			- $$\|f * h\|_\L∞\R \le \|f\|_\L∞\R \|h\|_\L1\R$$$$
 -
