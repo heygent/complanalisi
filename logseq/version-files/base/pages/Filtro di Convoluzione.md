@@ -54,4 +54,5 @@ tags:: complanalisi
 			- Posto $t=0$, ho $\hat h(λ) = H(λ)$
 				- Il valore puntuale non importa, dato che una $f(t) \in \L1\R$ non rappresenta un'unica funzione, ma una classe di funzioni che possono differire in un singolo punto e mantenere la loro uguaglianza.
 	- Sia $h \in \L1\R$ e $f \in \L2R$. Allora $A: f \in \L2\R \to f * g \in \L2\R$ e vale:
-		-
+		- $$f * h = \F^{-1}[ \hat f \hat h]$$
+		- Dimostrazione
