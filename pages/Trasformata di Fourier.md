@@ -137,5 +137,9 @@ tags:: complanalisi
 		- **Formula di inversione**
 		- $$f(t) = \fint e^{2πitω} \hat f(ω)$$
 			- q.o. $t \in \R$
-	- Se $f = L^1(\R)$ e $\hat f \in
+	- Se $f = L^1(\R)$ e $\hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
+		- $\F^2[f](t) = f(-t)$
+			- q.o. $t \in \R$
+			-
+-
