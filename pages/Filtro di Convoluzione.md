@@ -53,4 +53,4 @@ tags:: complanalisi
 			- Dunque $\hat h(λ) e_λ(t) = H(λ)e_λ(t)\quad ∀t$
 			- Posto $t=0$, ho $\hat h(λ) = H(λ)$
 				- Il valore puntuale non importa, dato che una $f(t) \in \L1\R$ non rappresenta un'unica funzione, ma una classe di funzioni che possono differire in un singolo punto e mantenere la loro uguaglianza.
-			-
+	- Sia $j
