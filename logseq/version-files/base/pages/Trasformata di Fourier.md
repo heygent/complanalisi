@@ -14,6 +14,7 @@ tags:: complanalisi
 		- $$\F: f \rightarrow \hat f$$
 		- $$\hat f(ω) = \F [f](ω)$$
 	- La trasformata di Fourier è ben definita per $f \in L^1(\R)$:
+		- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 		- $$
 		  \begin{aligned}
 		  ∀ω\in\R:\left| \hat f(ω) \right| &= \l|\fint e^{-2πiωt} f(t)\,dt \r|\\
@@ -34,7 +35,6 @@ tags:: complanalisi
 		- id:: 64fd426d-72fb-47a8-85ee-612b1d86ecc3
 		  $$\|\hat f\|_\L∞\R \le \| f \|_\L1\R$$
 			-
-	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 - ## Proprietà #card
   card-last-interval:: -1
   card-repeats:: 1
