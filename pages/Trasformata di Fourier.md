@@ -22,6 +22,7 @@ tags:: complanalisi
 		  &=\|f\|_{L^1(\R)}
 		  \end{aligned}
 		  $$
+		- $$|\hat f|(ω) = \| f \|_\L1\R$$
 	- Quindi:
 	  $$
 	   \begin{aligned}
