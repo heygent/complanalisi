@@ -30,8 +30,8 @@ tags:: complanalisi
 				- $$\|f * h\|_\L∞\R \le \|f\|_\L∞\R \|h\|_\L1\R\quad\text{per }f \in \L∞\R$$
 				- $$\|f * h\|_\L2\R \le \|f\|_\L2\R \|h\|_\L1\R\quad\text{per }f \in \L2\R$$
 				- $$\|f * h\|_\L1\R \le \|f\|_\L1\R \|h\|_\L1\R\quad\text{per }f \in \L1\R$$
-	- ## ((64f19736-5f2a-413d-8e60-1a838fe63067))
-		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una funzione di trasferimento $H(λ)$ tale che:
+	- ## Funzione di trasferimento
+		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una ((64f19736-5f2a-413d-8e60-1a838fe63067)) $H(λ)$ tale che:
 			- $$Ae_λ = H(λ)e_λ$$
 				- $∀λ\in\R$
 				- $e_λ = e_λ(t) = e^{2πiλt}$
