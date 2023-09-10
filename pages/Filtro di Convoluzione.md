@@ -40,5 +40,5 @@ tags:: complanalisi
 	- Sia $h \in \L1\R$ e $A: f \in \L∞\R \to f*h \in \L∞\R$ il corrispondente filtro di convoluzione con funzione di trasferimento $H$. Allora $H = \hat h$
 		- Dimostrazione
 			- Poiché $λ \in \R$, si ha $e_λ(t) = e^{2πiλt} \in \L∞\R$
-			- Dalla definizione di funzione di trasferimento si ha:
-				- $
+			- Dalla definizione di ((64f19736-5f2a-413d-8e60-1a838fe63067)) si ha:
+				- $(e_λ * h)(t) = H(
