@@ -8,7 +8,8 @@ tags:: complanalisi
   card-last-reviewed:: 2023-09-08T22:44:06.883Z
   card-last-score:: 1
 	- Siano $f, g: \R \rightarrow \R$ oppure $\C$. Definisco la convoluzione di $f$ e $g$ come:
-	- $$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
+	- id:: 64fb2fc8-5bd3-459c-8dd0-c676cae9bb95
+	  $$(f * g)(t) =\int_{-\infty}^{+\infty} f(t - s) g(s)\,ds$$
 	- purché l'integrale esista e sia finito (come integrale nel senso di Lebesgue).
 - # Proprietà #card
   card-last-interval:: -1
