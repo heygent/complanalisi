@@ -45,4 +45,6 @@ tags:: complanalisi
 				- con $p, q \in [1, +\infty]$
 				- Sia $r \in [1, \infty]$ tale che $\frac{1}{p}+ \frac{1}{q}= 1 + \frac{1}{r}$ (intendendo $\frac{1}{\infty}= 0$).
 				- Allora $f * g$ è ben definita e appartiene a $L^r(\R)$
-					- Vale inoltre: $$\|f*g\|_{L^r(\R)} \le \|f\|_{L^p(\R)}\|g\|_{L^q(\R)}$$
+					- Vale inoltre
+						- id:: 64fde8dd-149c-4829-ae0b-ffd9f6a128f2
+						  $$\|f*g\|_{L^r(\R)} \le \|f\|_{L^p(\R)}\|g\|_{L^q(\R)}$$

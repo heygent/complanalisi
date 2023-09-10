@@ -24,5 +24,5 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 		- ### Continuità
-			-
+			- ((64fde8dd-149c-4829-ae0b-ffd9f6a128f2))
 -
