@@ -50,4 +50,5 @@ tags:: complanalisi
 				  &= e_λ(t) \cdot \hat h(λ)
 				  \end{aligned}
 				  $$
+			- Dunque $\hat h(λ) e_λ(t) = H(λ)e_λ(t)\quad ∀t$
 				-
