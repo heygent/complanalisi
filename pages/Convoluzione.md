@@ -39,6 +39,8 @@ tags:: complanalisi
 				- $$\|f\|_{L^p(I)} = \left(\int_I |f(t)|^p\,dt\right)^\frac{1}{p}$$
 				- ottenendo spazi di Banach.
 			- Vale la seguente proprietà (di cui le tre proprietà precedenti sono casi particolari):
+				- Siano $p,q,r \in [1, +∞]$ tali che:
+					- $$\frac1p + \frac1q = \frac1r + 1$$
 				- Se :
 					- $f \in L^p(\R)$
 					- $g \in L^q(\R)$
