@@ -30,6 +30,7 @@ tags:: complanalisi
 		  logseq.order-list-type:: number
 			- $$\|f*g\|_{L^\infty(\R)} \le \|f\|_{L^\infty(\R)}\|g\|_{L^1(\R)}$$
 		- ### Generalizzazione
+		  id:: 64fb2fc8-515d-4731-9de5-6863e8710a6b
 			- Per $p\in [1, +\infty)$, si definiscono gli spazi:
 				- $$L^p(I) = \left\{f: I \rightarrow \C \bigg| \int_I |f(t)|^p\,dt < +\infty\right\}$$
 			- In cui si intendono identificate funzioni che differiscono su insiemi di misura di Lebesgue nulla.
