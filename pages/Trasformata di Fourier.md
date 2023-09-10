@@ -145,5 +145,8 @@ tags:: complanalisi
 	  logseq.order-list-type:: number
 		- $\widehat{fg} = \hat f * \hat g$
 		  logseq.order-list-type:: number
+		- $\widehat{f * g} = \hat f \hat g$
+		  logseq.order-list-type:: number
+			- Valida anc
 		- logseq.order-list-type:: number
 -

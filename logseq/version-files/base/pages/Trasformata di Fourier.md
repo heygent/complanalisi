@@ -143,4 +143,7 @@ tags:: complanalisi
 			- q.o. $t \in \R$
 	- Se $f, g \in L^2(\R)$ allora:
 	  logseq.order-list-type:: number
+		- $\widehat{fg} = \hat f * \hat g$
+		  logseq.order-list-type:: number
+		- logseq.order-list-type:: number
 -
