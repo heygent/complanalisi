@@ -37,4 +37,4 @@ tags:: complanalisi
 				- $e_λ = e_λ(t) = e^{2πiλt}$
 		- Da notare che ha senso applicare $A$ ad $e_λ$ perché $e_λ \in \L∞\R$
 - # Legame con [[Trasformata di Fourier]]
-	-
+	- Se $h \in \L1\R$ e $A: f \in \L∞\R \to \L∞\R$
