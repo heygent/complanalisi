@@ -57,3 +57,10 @@ file-path:: ../assets/trasf_fourier_filtri.pdf
   id:: 64fdd7b2-ab64-48bf-8068-e52d167122cd
   hl-type:: area
   hl-stamp:: 1694357424394
+- [:span]
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: yellow
+  id:: 64fde326-7e0d-40d1-b9d4-15d51aec5571
+  hl-type:: area
+  hl-stamp:: 1694360357335

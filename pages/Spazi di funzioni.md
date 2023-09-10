@@ -245,7 +245,8 @@ tags:: complanalisi
 								- per $t = 0$ la funzione vale 1
 								- per $t = \frac{1}{λ}$, ottengo $e^{2πi(n - m)}$. Essendo l'esponente un multiplo di $2iπ$, il risultato è 1.
 						- {{embed ((64fb54d8-648d-45b8-b042-56d325007fa6))}}
-							- Dimostrazione in appendice (facoltativo)
+							- [Dimostrazione in appendice](((64fde326-7e0d-40d1-b9d4-15d51aec5571))) (facoltativo)
+								-
 			- Dunque $\forall f \in L^2(0, a)$:
 				- $$f(t) = \lambda\sum_{n = -\infty}^{+\infty}a_ne^{2πinλt}$$
 				- con
