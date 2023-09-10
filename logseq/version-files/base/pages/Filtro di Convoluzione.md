@@ -75,7 +75,9 @@ tags:: complanalisi
 			- Allora:
 				- $$
 				  \begin{aligned}
-				  \fint f(t-s) h(s)\,ds &= \fint(f(t-s)h(s)\,ds
+				  \fint f(t-s) h(s)\,ds &= ∫_0^{+∞}(f(t-s)h(s)\,ds
 				  \end{aligned}
 				  $$
+			- Per $t \le t_0$ ho $t - s \le t_0 - s \le t_0$
+			-
 -
