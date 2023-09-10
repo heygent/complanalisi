@@ -15,7 +15,8 @@ tags:: complanalisi
 			- $A(τ_a f)(t) \stackrel{?}{=} τ_a Af(t)$
 			- $$
 			  \begin{aligned}
-			  (A(τ_a f))(t) &= \fint f((t-s) - a) h(s)\,ds \\
+			  A(τ_a f)(t) &= (τ_af * h)
+			  &= \fint f((t-s) - a) h(s)\,ds \\
 			  &= \fint f((t-a) - s) h(s)\,ds \\
 			  &= (Af)(t-a)
 			  \end{aligned}
