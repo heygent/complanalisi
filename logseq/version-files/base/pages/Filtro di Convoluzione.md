@@ -33,4 +33,6 @@ tags:: complanalisi
 	- ## ((64f19736-5f2a-413d-8e60-1a838fe63067))
 		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una funzione di trasferimento $H(λ)$ tale che:
 			- $$Ae_λ = H(λ)eλ$$
-				-
+				- $∀λ\in\R$
+				- $e_λ = e_λ(t) = e^{2πiλt}$
+		-
