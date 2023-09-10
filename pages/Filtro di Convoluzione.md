@@ -46,6 +46,6 @@ tags:: complanalisi
 				- $$
 				  \begin{aligned}
 				  (e_λ * h)(t) &= \fint e^{2πiλ(t-s)}h(s)\,ds \\
-				  &= e^{2πiλt} 
+				  &= e^{2πiλt} \fint e^{-2πiλs} h(s)\,ds
 				  \end{aligned}
 				  $$

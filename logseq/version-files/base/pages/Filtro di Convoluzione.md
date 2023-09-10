@@ -42,4 +42,10 @@ tags:: complanalisi
 			- Poiché $λ \in \R$, si ha $e_λ(t) = e^{2πiλt} \in \L∞\R$
 			- Dalla definizione di ((64f19736-5f2a-413d-8e60-1a838fe63067)) si ha:
 				- $(e_λ * h)(t) = H(λ)e_λ(t)$
-			- Dato che
+			- $h \in \L1\R$ può essere calcolato direttamente:
+				- $$
+				  \begin{aligned}
+				  (e_λ * h)(t) &= \fint e^{2πiλ(t-s)}h(s)\,ds \\
+				  &= e^{2πiλt} \fint e^{-2πiλs} h(s)\,ds
+				  \end{aligned}
+				  $$
