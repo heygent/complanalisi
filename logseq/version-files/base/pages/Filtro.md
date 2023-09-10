@@ -70,7 +70,8 @@ tags:: complanalisi
 		- Sia $\tau_a$ l'operatore delay definito da:
 			- $$\tau_a x(t) = x(t - a)$$
 		- Se $A$ è invariante, allora:
-			- $$A(\tau_a x) = \tau_a (Ax) \quad \forall\,x \in X, a \in \mathbb{R}$$
+			- id:: 64f0ed21-144b-46aa-876b-83e9ab89a201
+			  $$A(\tau_a x) = \tau_a (Ax) \quad \forall\,x \in X, a \in \mathbb{R}$$
 			- $$A \tau_a = \tau_a A$$
 				- Che significa che $A$ si commuta con le traslazioni.
 	- ### Continuità #card
@@ -101,6 +102,7 @@ tags:: complanalisi
 				  $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
 			- Per dimostrare che la proprietà implica $A$ continuo:
+			  collapsed:: true
 				- Suppongo  $x_n \rightarrow x$ in $X$
 					- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
 					  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$

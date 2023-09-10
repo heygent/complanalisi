@@ -13,6 +13,7 @@ tags:: complanalisi
 				- ((64fb2fc8-5bd3-459c-8dd0-c676cae9bb95))
 		- ### Invarianza per traslazioni
 			- $$A(τ_a f)(t) \stackrel{?}{=} τ_a Af(t)$$
+			- ((64f0ed21-144b-46aa-876b-83e9ab89a201))
 			- $$
 			  \begin{aligned}
 			  A(τ_a f)(t) &= (τ_af * h)(t) \\
@@ -28,5 +29,5 @@ tags:: complanalisi
 			- {{embed ((64fdf0c4-2499-4334-bad4-f472476173c9))}}
 			- $$\|f * h\|_\L∞\R \le \|f\|_\L∞\R \|h\|_\L1\R\quad\text{per }f \in \L∞\R$$
 			- $$\|f * h\|_\L2\R \le \|f\|_\L2\R \|h\|_\L1\R\quad\text{per }f \in \L2\R$$
-			-
+			- $$\|f * h\|_\L1\R \le \|f\|_\L1\R \|h\|_\L1\R\quad\text{per }f \in \L1\R$$
 -

@@ -70,7 +70,8 @@ tags:: complanalisi
 		- Sia $\tau_a$ l'operatore delay definito da:
 			- $$\tau_a x(t) = x(t - a)$$
 		- Se $A$ è invariante, allora:
-			- $$A(\tau_a x) = \tau_a (Ax) \quad \forall\,x \in X, a \in \mathbb{R}$$
+			- id:: 64f0ed21-144b-46aa-876b-83e9ab89a201
+			  $$A(\tau_a x) = \tau_a (Ax) \quad \forall\,x \in X, a \in \mathbb{R}$$
 			- $$A \tau_a = \tau_a A$$
 				- Che significa che $A$ si commuta con le traslazioni.
 	- ### Continuità #card
