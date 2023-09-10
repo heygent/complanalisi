@@ -135,4 +135,5 @@ tags:: complanalisi
 	- Se $f \in L^1(\R)$ e $\hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
 		- $$f(t) = \fint e^{2πitω} \hat f(ω)$$
-		-
+			- q.o. $t \in \R$
+			-
