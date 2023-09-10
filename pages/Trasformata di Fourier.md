@@ -133,7 +133,7 @@ tags:: complanalisi
 		- <iframe src="https://www.desmos.com/calculator/g0cy2uuhrf?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
 			- $\liml_{ω \to 0} \frac{\sin(2aπω)}{2aπω} = 2a$
 	- La funzione $\sinc$ è detta **seno cardinale**
-	- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
+	- Questa trasformata è utile nell'analisi del ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale.
 - # Altre proprietà #card
 	- ### Formula di inversione
 	  logseq.order-list-type:: number
