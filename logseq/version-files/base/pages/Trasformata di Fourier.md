@@ -149,6 +149,6 @@ tags:: complanalisi
 		  logseq.order-list-type:: number
 			- Valida anche per:
 				- $f \in L^2(\R), g \in L^1(\R)$
-				- $f \in
+				- $f \in L^1(\R), g \in
 		- logseq.order-list-type:: number
 -
