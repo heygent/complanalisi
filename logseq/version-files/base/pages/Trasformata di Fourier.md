@@ -150,11 +150,11 @@ tags:: complanalisi
 		- $\widehat{fg} = \hat f * \hat g$
 		  logseq.order-list-type:: number
 			- Si nota che $f$ e $g$ appartengono a $\LiR$:
-				- $$f,g \in \LtR$$
+				- $$f,g \in \LtwoR$$
 		- $\widehat{f * g} = \hat f \hat g$
 		  logseq.order-list-type:: number
 			- Valida anche per:
 				- $f \in L^2(\R), g \in L^1(\R)$
-				- $f \in L^1(\R), g \in \LoR$
+				- $f \in L^1(\R), g \in \LoneR$
 		- logseq.order-list-type:: number
 -

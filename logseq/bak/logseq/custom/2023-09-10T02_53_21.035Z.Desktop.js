@@ -43,8 +43,8 @@ const macros = {
   "\\sinc": String.raw`\operatorname*{sinc}`,
   "\\liml": "\\lim\\limits",
   "\\suml": "\\sum\\limits",
-  "\\L1R": "{L^{1}(\\R)}",
-  "\\L2R": "{L^{2}(\\R)}",
+  "\\LoneR": "{L^{1}(\\R)}",
+  "\\LtwoR": "{L^{2}(\\R)}",
   "\\LiR": "{L^{\\infty}(\\R)}",
 }
 
