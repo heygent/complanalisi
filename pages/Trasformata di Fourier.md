@@ -137,7 +137,7 @@ tags:: complanalisi
 		- **Formula di inversione**
 			- $$f(t) = \F^{-1}[\hat f(ω)] = \fint e^{2πitω} \hat f(ω)$$
 				- q.o. $t \in \R$
-			-
+			- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione.
 				-
 	- Se $f, \hat f \in L^1(\R)$ allora:
 	  logseq.order-list-type:: number

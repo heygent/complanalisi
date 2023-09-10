@@ -135,9 +135,10 @@ tags:: complanalisi
 	- Se $f, \hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
 		- **Formula di inversione**
-		- $$f(t) = \F^{-1}[\hat f(ω)] = \fint e^{2πitω} \hat f(ω)$$
-			- q.o. $t \in \R$
+			- $$f(t) = \F^{-1}[\hat f(ω)] = \fint e^{2πitω} \hat f(ω)$$
+				- q.o. $t \in \R$
 			-
+				-
 	- Se $f, \hat f \in L^1(\R)$ allora:
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
