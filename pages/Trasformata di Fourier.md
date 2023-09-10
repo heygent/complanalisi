@@ -151,7 +151,7 @@ tags:: complanalisi
 		  logseq.order-list-type:: number
 			- Si nota che $f$ e $g$ appartengono a $\LiR$. Infatti:
 				- $$f,g \in \L2\R \Rightarrow f,g \in \L1\R \Rightarrow \widehat{fg} \in \L∞\R$$
-				- $$f,g \in \L2\R \Rightarrow f,g \in \L1\R \Rightarrow \widehat{fg} \in \L∞\R$$
+				- $$f,g \in \L2\R \Rightarrow \hat f, \hat g \in \L1\R \Rightarrow \hat f \hat g \in \L∞\R$$
 		- $\widehat{f * g} = \hat f \hat g$
 		  logseq.order-list-type:: number
 			- Valida anche per:
