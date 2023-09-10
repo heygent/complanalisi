@@ -172,6 +172,6 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 			- Quindi l'uguaglianza afferma che, per $f,g \in \L2\R$, la distribuzione $\widehat{f * g} \in S'(\R)$ è, in particolare, una funzione che coincide con la funzione $\hat f \hat g \in \L1\R$.
-			-
+	- logseq.order-list-type:: number
 		- logseq.order-list-type:: number
 -
