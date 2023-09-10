@@ -42,7 +42,7 @@ tags:: complanalisi
   card-next-schedule:: 2023-09-09T22:00:00.000Z
   card-last-reviewed:: 2023-09-08T22:05:11.650Z
   card-last-score:: 1
-	- $\F: f \rightarrow \hat f$ è lineare su tutti gli spazi vettoriali in cui è definito.
+	- $\F: f \rightarrow \hat f$ è [lineare](((64f0ed21-afb3-44dd-aee4-c6ee06624e52))) su tutti gli spazi vettoriali in cui è definito.
 		- $$
 		  \begin{aligned}
 		  \F[\lambda f_1 + \mu f_2](ω) &= \fint e^{-2πiωt}(λf_1(t) + \mu f_2(t))\,dt \\
