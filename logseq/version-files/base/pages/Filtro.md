@@ -100,21 +100,21 @@ tags:: complanalisi
 				- id:: 64f0ed21-689e-45f9-97f4-3e9ec8f97ce9
 				  $$ \|Ax\|_Y \le c \|x\|_X$$
 				- L'output non è più grande dell'input moltiplicato per una costante fissa uguale per tutti gli input.
-		- Per dimostrare che $∀ x ∃ c > 0$ tale che [*](((64f0ed21-689e-45f9-97f4-3e9ec8f97ce9))) $\rightarrow$ $A$ continuo:
-			- Suppongo  $x_n \rightarrow x$ in $X$
-				- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
-				  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
-			- Allora
-				- $$
-				  \begin{aligned}
-				  \|y_n - y\|_Y &=  \|Ax_n - Ax\|_Y \\
-				  &= \|A(x_n - x)\|_Y \\
-				  &\le c\|x_n - x\|_X \\
-				  \end{aligned}
-				  $$
-				- Per cui dalla [precedente affermazione](((64fceb95-04e2-4f32-8299-95321f9468f9))) ottengo:
-					- $$\lim_{n\to∞}\|y_n - y\|_Y = 0$$
-					- cioè $y_n \rightarrow y$ in $Y$
+			- Per dimostrare che la proprietà implica $A$ continuo:
+				- Suppongo  $x_n \rightarrow x$ in $X$
+					- id:: 64fceb95-04e2-4f32-8299-95321f9468f9
+					  $$\lim_{n\rightarrow∞}\|x_n - x\|_X = 0$$
+				- Allora
+					- $$
+					  \begin{aligned}
+					  \|y_n - y\|_Y &=  \|Ax_n - Ax\|_Y \\
+					  &= \|A(x_n - x)\|_Y \\
+					  &\le c\|x_n - x\|_X \\
+					  \end{aligned}
+					  $$
+					- Per cui dalla [precedente affermazione](((64fceb95-04e2-4f32-8299-95321f9468f9))) ottengo:
+						- $$\lim_{n\to∞}\|y_n - y\|_Y = 0$$
+						- cioè $y_n \rightarrow y$ in $Y$
 		- Se $A$ continuo e $x = \lim\limits_{n \rightarrow ∞} x_n$ in $X$
 			- Allora $y_n = Ax_n \rightarrow y = Ax$
 				- $y  = Ax = \liml_{n \to ∞} Ax_n$
