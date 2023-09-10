@@ -39,4 +39,6 @@ tags:: complanalisi
 - # Legame con [[Trasformata di Fourier]]
 	- Sia $h \in \L1\R$ e $A: f \in \L∞\R \to f*h \in \L∞\R$ il corrispondente filtro di convoluzione con funzione di trasferimento $H$. Allora $H = \hat h$
 		- Dimostrazione
-			- Poiché $λ \in \R$, si ha $
+			- Poiché $λ \in \R$, si ha $e_λ(t) = e^{2πiλt} \in \L∞\R$
+			- Dalla definizione di funzione di trasferimento si ha:
+				- $
