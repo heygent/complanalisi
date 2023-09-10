@@ -60,12 +60,12 @@ tags:: complanalisi
 			  \begin{aligned}
 			  \L1I &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^1(I)} < +\infty \} \\
 			  \L2I &= \{f: I \rightarrow \C\,\, |\,\, \|f\|_{L^2(I)} < +\infty \} \\
-			  \Li &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^\infty(I)} < +\infty \} \\
+			  \L∞I &= \{f: I \rightarrow \C \,\,|\,\, \|f\|_{L^\infty(I)} < +\infty \} \\
 			  \end{aligned}
 			  $$
 			- sottointendendo l'identificazione tra funzioni ((64fb5645-1722-4e12-8da5-946ef59cf2ab))
-		- $(\L1, \norm_\L1),  (\L2, \norm_\L2), (\Li,\norm_\Li)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
-		- Su $\L1, \L2, \Li$ rispettivamente si ha che rispettivamente $\norm_\L1, \norm_\L2, \norm_\Li$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
+		- $(\L1I, \norm_\L1I),  (\L2I, \norm_\L2I), (\L∞I,\norm_\L∞I)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
+		- Su $\L1I, \L2I, \L∞I$ rispettivamente si ha che rispettivamente $\norm_\L1!, \norm_\L2!, \norm_\L∞$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - # Spazio L2
 	- ## Spazio di Hilbert #card
 	  card-last-interval:: -1
