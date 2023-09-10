@@ -141,5 +141,8 @@ tags:: complanalisi
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
 			- q.o. $t \in \R$
-			-
+	- Se $f, g \in L^2(\R)$ allora:
+	  logseq.order-list-type:: number
+		- $\F^2[f](t) = f(-t)
+		  logseq.order-list-type:: number
 -
