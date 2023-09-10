@@ -159,7 +159,7 @@ tags:: complanalisi
 				  f,g \in \L2\R \Rightarrow \hat f, \hat g \in \L1\R \Rightarrow \hat f \hat g \in \L∞\R
 				  \end{gathered}
 				  $$
-			-
+				- Per cui l'uguaglianza si può intendere in $\L∞\R$ (oltre che in $S'(\R)$)
 		- $\widehat{f * g} = \hat f \hat g$
 		  logseq.order-list-type:: number
 			- Valida anche per:
