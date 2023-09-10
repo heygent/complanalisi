@@ -64,7 +64,7 @@ tags:: complanalisi
 			  \end{aligned}
 			  $$
 			- sottointendendo l'identificazione tra funzioni ((64fb5645-1722-4e12-8da5-946ef59cf2ab))
-		- $(\L1I, \norm_\L1I),  (\L2I, \norm_\L2I), (\L∞I,\norm_\L∞I)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
+		- $(\L1I, \norm_\L1),  (\L2I, \norm_\L2), (\L∞I,\norm_\L∞)$, sono spazi di Banach, ovvero spazi vettoriali normati completi.
 		- Su $\L1I, \L2I, \L∞I$ rispettivamente si ha che rispettivamente $\norm_\L1!, \norm_\L2!, \norm_\L∞I$ sono norme, e rispetto ad esse una successione è convergente se e solo se è di Cauchy.
 - # Spazio L2
 	- ## Spazio di Hilbert #card
