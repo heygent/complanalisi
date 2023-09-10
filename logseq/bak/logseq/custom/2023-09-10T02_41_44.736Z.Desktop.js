@@ -41,8 +41,11 @@ const macros = {
   "\\r": "\\right",
   "\\esssup": String.raw`\operatorname*{ess\,sup}`,
   "\\sinc": String.raw`\operatorname*{sinc}`,
-  "\\banana": "\\text{banana}",
   "\\liml": "\\lim\\limits",
+  "\\suml": "\\sum\\limits",
+  "\\L1R": "{L^{1}(\\R)}",
+  "\\L2R": "{L^{2}(\\R)}",
+  "\\LiR": "{L^{\\infty}(\\R)}",
 }
 
 
@@ -51,6 +54,5 @@ whenAvailable("katex", function(katex) {
     try {
       katex.__defineMacro(key, macro);
     } catch(e) {}
-    
   }
 });
