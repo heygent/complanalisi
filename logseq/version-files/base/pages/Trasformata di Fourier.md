@@ -102,7 +102,7 @@ tags:: complanalisi
 			  $$
 			- Sarà quindi la somma dei $c_k$ moltiplicati per $δ$
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
-- ## Trasformata della Funzione Caratteristica
+- ## Trasformata della Funzione Caratteristica #card
 	- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
 	- $$
 	  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
@@ -134,7 +134,7 @@ tags:: complanalisi
 			- $\liml_{ω \to 0} \frac{\sin(2aπω)}{2aπω} = 2a$
 	- La funzione $\sinc$ è detta **seno cardinale**
 	- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
-- # Altre proprietà
+- # Altre proprietà #card
 	- ### Formula di inversione
 	  logseq.order-list-type:: number
 		- Se $f, \hat f \in L^1(\R)$, allora:
