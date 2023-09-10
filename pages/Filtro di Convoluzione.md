@@ -70,3 +70,5 @@ tags:: complanalisi
 		- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
 	- Il filtro di convoluzione $f \to f * h$ è causale se e solo se
+-
+-
