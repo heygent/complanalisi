@@ -45,7 +45,7 @@ const macros = {
   "\\suml": "\\sum\\limits",
   "\\L1R": "{L^{1}(\\R)}",
   "\\L2R": "{L^{2}(\\R)}",
-  "\\LIR": "{L^{\\infty}(\\R)}",
+  "\\LiR": "{L^{\\infty}(\\R)}",
 }
 
 
