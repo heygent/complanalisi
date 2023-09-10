@@ -148,7 +148,7 @@ tags:: complanalisi
 		- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$ e vale:
 			- $$f = \F^{-1} \F[f]\quad \forall f \in S'(\R)$$
 		- Per interpretazione in teoria dei segnali vedi appendice [(i)](((64fdd17b-2e96-4e94-a7e7-953af6627a8e)))
-			-
+		-
 	- Se $f, \hat f \in L^1(\R)$ allora:
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
