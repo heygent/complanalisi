@@ -67,4 +67,5 @@ tags:: complanalisi
 			  logseq.order-list-type:: number
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
 	- Filtri di questo tipo si dicono anche **stazionari** perché  l'azione di filtraggio delle frequenze nella fase 2 avviene in modo indipendente dal tempo.
-		- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t
+		- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t_0$, e in una diversa banda dopo l'istante $t_0$.
+		- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempoi)
