@@ -50,4 +50,5 @@ tags:: complanalisi
 				  &= e_λ(t) \cdot \hat h(λ)
 				  \end{aligned}
 				  $$
+			-
 				-
