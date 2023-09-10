@@ -134,6 +134,7 @@ tags:: complanalisi
 - # Altre proprietà
 	- Se $f, \hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
+	  id:: 64fd2d1a-3c33-4838-8a7f-c0ab01452b7d
 		- **Formula di inversione**
 			- $$f(t) = \F^{-1}[\hat f(ω)] = \fint e^{2πitω} \hat f(ω)$$
 				- q.o. $t \in \R$
@@ -143,6 +144,7 @@ tags:: complanalisi
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
 			- q.o. $t \in \R$
+		- Immediata conseguenza del [punto 1](((64fd2d1a-3c33-4838-8a7f-c0ab01452b7d)))
 	- Se $f, g \in L^2(\R)$ allora:
 	  logseq.order-list-type:: number
 		- $\widehat{fg} = \hat f * \hat g$

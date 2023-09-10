@@ -144,7 +144,7 @@ tags:: complanalisi
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
 			- q.o. $t \in \R$
-		-
+		- Immediata conseguenza del [punto 1](((64fd2d1a-3c33-4838-8a7f-c0ab01452b7d)))
 	- Se $f, g \in L^2(\R)$ allora:
 	  logseq.order-list-type:: number
 		- $\widehat{fg} = \hat f * \hat g$
