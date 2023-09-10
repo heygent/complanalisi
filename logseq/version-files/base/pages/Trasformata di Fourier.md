@@ -180,6 +180,7 @@ tags:: complanalisi
 			  f, g \in \L2\R &\Rightarrow \hat f, \hat g \in \L2\R &\Rightarrow \hat f \hat g \in \L1\R
 			  \end{aligned}
 			  $$
+			- $f, g \in \L2\R \Rightarrow f*g \in \L∞\R$ può essere giustificata con [proprietà delle convoluzioni](((64fb2fc8-515d-4731-9de5-6863e8710a6b)))
 			- Quindi l'uguaglianza afferma che, per $f,g \in \L2\R$, la distribuzione $\widehat{f * g} \in S'(\R)$ è, in particolare, una funzione che coincide con la funzione $\hat f \hat g \in \L1\R$.
 	-
 		- logseq.order-list-type:: number
