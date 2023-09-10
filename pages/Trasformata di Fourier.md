@@ -166,10 +166,10 @@ tags:: complanalisi
 				- $f \in L^2(\R), g \in \L1\R$
 				- $f \in \L1\R, g \in \L1\R$
 			- $$
-			  \begin{gathered}
+			  \begin{aligned}
 			  f, g \in \L2\R \Rightarrow f * g \in \L∞\R \Rightarrow \widehat{f * g} \in S'(\R) \\
-			  f, g \in \L2\R
-			  \end{gathered}
+			  f, g \in \L2\R \Rightarrow \hat f, \hat g \in \L2\R \Rightarrow \hat f \hat g \in \L1\R
+			  \end{aligned}
 			  $$
 		- logseq.order-list-type:: number
 -
