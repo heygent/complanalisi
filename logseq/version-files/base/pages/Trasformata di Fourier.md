@@ -132,13 +132,13 @@ tags:: complanalisi
 	- La funzione $\sinc$ è detta **seno cardinale**
 	- Questa trasformata è utile nell'analisi del filtro passa-basso ideale.
 - # Altre proprietà
-	- Se $f \in L^1(\R)$ e $\hat f \in L^1(\R)$, allora:
+	- Se $f, \hat f \in L^1(\R)$, allora:
 	  logseq.order-list-type:: number
 		- **Formula di inversione**
 		- $$f(t) = \F^{-1}[\hat f(ω)] = \fint e^{2πitω} \hat f(ω)$$
 			- q.o. $t \in \R$
 			-
-	- Se $f = L^1(\R)$ e $\hat f \in L^1(\R)$, allora:
+	- Se $f, \hat f \in L^1(\R)$ allora:
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
 			- q.o. $t \in \R$
