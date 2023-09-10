@@ -8,10 +8,10 @@ tags:: complanalisi
 		- da $\L2\R$ a $\L2\R$
 		- da $\L1\R$ a $\L1\R$
 	- ## Dimostrazione
-		- ### Linearità
+		- ### ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60))
 			- Ovvia, dato che $Af$ è definito dall'integrale:
 				- ((64fb2fc8-5bd3-459c-8dd0-c676cae9bb95))
-		- ###
+		- ### ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
 			- $$A(τ_a f)(t) \stackrel{?}{=} τ_a Af(t)$$
 			- $$
 			  \begin{aligned}
@@ -23,7 +23,7 @@ tags:: complanalisi
 			  &= τ_a Af(t)
 			  \end{aligned}
 			  $$
-		- ### Continuità
+		- ### ((64f0ed21-4164-4b05-9568-8d7d172e248b))
 			- {{embed ((64f0ed21-c47f-480c-b48e-26df91decd36))}}
 			- {{embed ((64fdf0c4-2499-4334-bad4-f472476173c9))}}
 			- $$\|f * h\|_\L∞\R \le \|f\|_\L∞\R \|h\|_\L1\R\quad\text{per }f \in \L∞\R$$
