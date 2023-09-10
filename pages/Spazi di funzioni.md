@@ -275,4 +275,5 @@ tags:: complanalisi
 			  $$
 		- > La connessione tra base trigonometrica ed esponenziale è data dalla ((64eaeffe-66fa-416d-b2be-a458ea31c68c)).
 		  $$e^{2πinλt} = \cos(2πnλt) + i\sin(2πnλt)$$
-		- > Quanto visto per $L^2(0,a)$ si adatta facilmente a $L_2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
+		- > Quanto visto per $L^2(0,a)$ si adatta facilmente a $L^2(α,β)$ per ogni intervallo $(α,β) \subset \R$, tramite il cambio di variabile lineare $s = \frac{α}{β - α}(t-α)$
+-
