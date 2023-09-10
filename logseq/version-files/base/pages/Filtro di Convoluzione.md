@@ -52,4 +52,4 @@ tags:: complanalisi
 				  $$
 			- Dunque $\hat h(λ) e_λ(t) = H(λ)e_λ(t)\quad ∀t$
 			- Posto $t=0$, ho $\hat h(λ) = H(λ)$
-	-
+				-
