@@ -137,6 +137,7 @@ tags:: complanalisi
 - # Altre proprietà #card
 	- ### Formula di inversione
 	  logseq.order-list-type:: number
+	  id:: 64fd2ffa-691e-4b5f-9caf-14b06ee7b5dc
 		- Se $f, \hat f \in L^1(\R)$, allora:
 		  id:: 64fd2d1a-3c33-4838-8a7f-c0ab01452b7d
 		- $$f(t) = \F^{-1}[\hat f](ω) = \fint e^{2πitω} \hat f(ω)\,dω$$
@@ -151,7 +152,7 @@ tags:: complanalisi
 	  logseq.order-list-type:: number
 		- $\F^2[f](t) = f(-t)$
 			- q.o. $t \in \R$
-		- Immediata conseguenza del [punto 1](((64fd2d1a-3c33-4838-8a7f-c0ab01452b7d)))
+		- Immediata conseguenza del [punto 1](((64fd2ffa-691e-4b5f-9caf-14b06ee7b5dc)))
 		-
 	- Se $f, g \in L^2(\R)$ allora:
 	  logseq.order-list-type:: number
