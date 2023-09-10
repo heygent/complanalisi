@@ -22,16 +22,17 @@ tags:: complanalisi
 		  &=\|f\|_{L^1(\R)}
 		  \end{aligned}
 		  $$
+		- $$|\hat f(ω)| \le \| f \|_\L1\R$$
 	- Quindi:
-	  $$
-	   \begin{aligned}
-	   \|\hat f \|_{L^∞(\R)} &= \esssup_{ω \in \R} |\hat f(ω)| \\
-	   &\le \esssup_{ω \in \R} \|f\|_{L^1(\R)} \\
-	   &= \|f\|_{L^1(\R)}
-	   \end{aligned}
-	  $$
-	- $$\|\hat f\|_\L∞\R \le \| f \|_\L1\R$$
-		-
+		- $$
+		   \begin{aligned}
+		   \|\hat f \|_{L^∞(\R)} &= \esssup_{ω \in \R} |\hat f(ω)| \\
+		   &\le \esssup_{ω \in \R} \|f\|_{L^1(\R)} \\
+		   &= \|f\|_{L^1(\R)}
+		   \end{aligned}
+		  $$
+		- $$\|\hat f\|_\L∞\R \le \| f \|_\L1\R$$
+			-
 	- > Per $f\in L^2(\R)$ ed $f \in S'(\R)$ , l'integrale $\fint e^{-2πiωt}f(t)\,dt$ non ha in genere senso. Si può tuttavia estendere la definizione di trasformata di Fourier anche a qeusti casi.
 - ## Proprietà #card
   card-last-interval:: -1
