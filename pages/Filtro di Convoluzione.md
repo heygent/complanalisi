@@ -59,7 +59,8 @@ tags:: complanalisi
 								- Allora deve esistere un intorno del punto in cui la funzione è positiva (teorema di permanenza del segno)
 									- $\exists a, b > 0 | h(t) > 0 \forall t \in (-b, -a)$
 								- Non è restrittivo che supporre $a > 0$
-								- Ora prendo $f(t)$
+								- Ora prendo come segnale la ((63d5783c-0a5a-4449-9f80-6e80c87edbfe))
+									- $$f(t) = χ_{[0, b - a]}(t)$$
 								-
 					-
 	- ## Funzione di trasferimento
