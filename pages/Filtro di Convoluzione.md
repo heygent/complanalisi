@@ -53,7 +53,10 @@ tags:: complanalisi
 					- Per assurdo, si supponga esista un punto $t_0$ tale che $h(t_0) = 0$
 					- $h(t_0) \in \C$, per cui è scomponibile in $a + ib$.
 					- Perché non sia 0, $a \neq 0 \vee b \neq 0$
-					- Suppongo $a \neq 0$
+						- Suppongo $a \neq 0$.
+						- Suppongo inoltre $h
+							- Se $a > 0$:
+								-
 					-
 	- ## Funzione di trasferimento
 		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una ((64f19736-5f2a-413d-8e60-1a838fe63067)) $H(λ)$ tale che:
