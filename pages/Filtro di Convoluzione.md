@@ -116,6 +116,7 @@ tags:: complanalisi
 	- Infatti le seguenti uguaglianze, valide con $f \in \L2\R, \sinc_{2a} \in \L2\R$:
 		- $$
 		  \begin{aligned}
-		  f * \sinc_{2a} = \F^{-1}\F[f * \sinc_{2a}]
+		  f * \sinc_{2a} &= \F^{-1}\F[f * \sinc_{2a}] \\
+		  &= \F^{-1}[\hat f \cdot \widehat {\sinc_{2a}}]
 		  \end{aligned}
 		  $$
