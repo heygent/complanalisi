@@ -123,3 +123,9 @@ tags:: complanalisi
 		  &= \F^{-1}[\hat f \cdot χ_{[-a, a]}]
 		  \end{aligned}
 		  $$
+			- Dato che:
+				- $$
+				  \begin{aligned}
+				  \tilde[χ_{[-a, a]}] = χ_{[-a, a]}(-t) = 
+				  \end{aligned}
+				  $$
