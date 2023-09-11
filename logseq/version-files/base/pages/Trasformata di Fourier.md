@@ -103,6 +103,7 @@ tags:: complanalisi
 			- Sarà quindi la somma dei $c_k$ moltiplicati per $δ$
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
 - ## Trasformata della Funzione Caratteristica #card
+  id:: 64fb2fc8-4540-488a-8828-fe278b82f85d
 	- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
 	- $$
 	  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}
@@ -144,6 +145,7 @@ tags:: complanalisi
 			- q.o. $t \in \R$
 			- è la trasformata di Fourier stessa calcolata in $-t$ invece che $t$.
 				- $f(t) = \widehat{{\widehat{\,f}}} (-t)$
+				  id:: 64fe3e42-64de-43c2-8f60-80faf109adc3
 				-
 		- $\F: S'(\R) \to S'(\R)$ è un isomorfismo e in particolare una biiezione. Esiste quindi l'inversa $\F^{-1}$:
 			- $$f = \F^{-1} \F[f]\quad \forall f \in S'(\R)$$

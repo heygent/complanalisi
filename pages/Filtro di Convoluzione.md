@@ -129,3 +129,4 @@ tags:: complanalisi
 				  \tildeχ_{[-a, a]} = χ_{[-a, a]}(-t) = χ_{[-a, a]}(t)
 				  \end{aligned}
 				  $$
+				- ((64fe3e42-64de-43c2-8f60-80faf109adc3))
