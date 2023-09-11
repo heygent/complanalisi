@@ -120,5 +120,6 @@ tags:: complanalisi
 		  &= \F^{-1}[\hat f \cdot \widehat {\sinc_{2a}}] \\
 		  &= \F^{-1}[\hat f \cdot \widehat{\widehat{χ\,}}_{[-a, a]}] \\
 		  &= \F^{-1}[\hat f \cdot  \tilde{χ}_{[-a, a]}] \\
+		  &= \F^{-1}[\hat f \cdot χ_{[-a, a]}]
 		  \end{aligned}
 		  $$
