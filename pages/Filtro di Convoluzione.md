@@ -134,5 +134,5 @@ tags:: complanalisi
 		- ![image.png](../assets/image_1694448782996_0.png)
 			- $ω_0$, nell'intervallo $[-a, a]$, viene moltiplicata per uno e resta invariata.
 			- $ω_1$ viene moltiplicata per 0 e sparisce.
-		- Il filtro non è causale perché $\supp \sinc_{[2a]} \notsubseteq [0, +∞)$
+		- Il filtro non è causale perché $\supp \sinc_{[2a]} \nsubseteq [0, +∞)$
 			-
