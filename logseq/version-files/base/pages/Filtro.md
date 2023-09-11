@@ -7,7 +7,7 @@ tags:: complanalisi
   card-next-schedule:: 2023-09-09T22:00:00.000Z
   card-last-reviewed:: 2023-09-08T22:44:02.070Z
   card-last-score:: 1
-	- Un filtro è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
+	- Un [[Filtro]] è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
 	  id:: 64f0ed21-afb3-44dd-aee4-c6ee06624e52
 - # Proprietà
 	- Sia $A : X \rightarrow Y$
