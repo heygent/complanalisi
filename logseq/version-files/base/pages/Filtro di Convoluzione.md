@@ -52,7 +52,7 @@ tags:: complanalisi
 					- $∀ t < 0 \Rightarrow h(t) = 0$
 					- Per assurdo, si supponga esista un punto $t_0$ tale che $h(t_0) = 0$
 					- $h(t_0) \in \C$, per cui è scomponibile in $a + ib$.
-						- Suppongo $h$ continua in $t_0$. L'ipotesi non è necessaria,
+						- Suppongo $h$ continua in $t_0$. Assunzione non necessaria, ma semplifica dimostrazione (è possibile dimostrare anche il caso più generale).
 					- Perché non sia 0, $a \neq 0 \vee b \neq 0$
 						- Suppongo $a \neq 0$.
 							- Se $a > 0$:
