@@ -67,6 +67,7 @@ tags:: complanalisi
 								  &= 
 								  \end{aligned}
 								  $$
+								- Non completo, vedi ultimi sei minuti della lezione 6
 					-
 	- ## Funzione di trasferimento
 		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una ((64f19736-5f2a-413d-8e60-1a838fe63067)) $H(λ)$ tale che:
