@@ -101,11 +101,11 @@ tags:: complanalisi
 				- Per le proprietà della convoluzione, se $f \in \L2\R, h \in \L1\R \Rightarrow f * h \in \L2\R$
 				- Inoltre $f * h = \F^{-1}\F[f * h] = \F^{-1}[\hat f \hat g]$
 			- Questa proposizione si può scomporre in tre fasi:
-				- Analisi delle frequenze tramite trasformata di Fourier $f \rightarrow \hat f$
+				- **Analisi delle frequenze** tramite trasformata di Fourier $f \rightarrow \hat f$
 				  logseq.order-list-type:: number
-				- Filtraggio delle frequenze tramite moltiplicazione di $\hat f$ per $\hat h$, ovvero $H$
+				- **Filtraggio delle frequenze** tramite moltiplicazione di $\hat f$ per $\hat h$, ovvero $H$
 				  logseq.order-list-type:: number
-				- Ricostruzione del segnale filtrato tramite trasformata di Fourier inversa: $\hat f \hat h \to \F^{-1}[\hat f \hat h]$
+				- **Ricostruzione del segnale filtrato** tramite trasformata di Fourier inversa: $\hat f \hat h \to \F^{-1}[\hat f \hat h]$
 				  logseq.order-list-type:: number
 		- Filtri di questo tipo si dicono anche **stazionari** perché  l'azione di filtraggio delle frequenze nella fase 2 avviene in modo indipendente dal tempo.
 			- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t_0$, e in una diversa banda dopo l'istante $t_0$.
