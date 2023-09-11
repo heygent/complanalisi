@@ -49,7 +49,8 @@ tags:: complanalisi
 						- quindi $(f * h)(t) = 0$
 				- Dimostrazione 2:
 					- Suppongo $A: f \to f * h$ causale e dimostro che $\supp h \subseteq [0, +∞)$
-					-
+					- $∀ t < 0 \Rightarrow h(t) = 0$
+					- Si supponga esista un punto $t_0$ tale che $h(t_0) = 0$
 					-
 					-
 	- ## Funzione di trasferimento
