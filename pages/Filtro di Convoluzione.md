@@ -76,35 +76,36 @@ tags:: complanalisi
 				- $e_λ = e_λ(t) = e^{2πiλt}$
 		- Da notare che ha senso applicare $A$ ad $e_λ$ perché $e_λ \in \L∞\R$
 - # Legame con [[Trasformata di Fourier]]
-	- Sia $h \in \L1\R$ e $A: f \in \L∞\R \to f*h \in \L∞\R$ il corrispondente filtro di convoluzione con funzione di trasferimento $H$. Allora $H = \hat h$
-		- Dimostrazione
-			- Poiché $λ \in \R$, si ha $e_λ(t) = e^{2πiλt} \in \L∞\R$
-			- Dalla definizione di ((64f19736-5f2a-413d-8e60-1a838fe63067)) si ha:
-				- $(e_λ * h)(t) = H(λ)e_λ(t)$
-			- $h \in \L1\R$ può essere calcolato direttamente:
-				- $$
-				  \begin{aligned}
-				  (e_λ * h)(t) &= \fint e^{2πiλ(t-s)}h(s)\,ds \\
-				  &= e^{2πiλt} \fint e^{-2πiλs} h(s)\,ds \\
-				  &= e_λ(t) \cdot \hat h(λ)
-				  \end{aligned}
-				  $$
-			- Dunque $\hat h(λ) e_λ(t) = H(λ)e_λ(t)\quad ∀t$
-			- Posto $t=0$, ho $\hat h(λ) = H(λ)$
-				- Il valore puntuale non importa, dato che una $f(t) \in \L1\R$ non rappresenta un'unica funzione, ma una classe di funzioni che possono differire in un singolo punto e mantenere la loro uguaglianza.
-	-
-	- Sia $h \in \L1\R$ e $f \in \L2R$. Allora $A: f \in \L2\R \to f * g \in \L2\R$ e vale:
-		- $$f * h = \F^{-1}[ \hat f \hat h]$$
-		- Dimostrazione:
-			- Per le proprietà della convoluzione, se $f \in \L2\R, h \in \L1\R \Rightarrow f * h \in \L2\R$
-			- Inoltre $f * h = \F^{-1}\F[f * h] = \F^{-1}[\hat f \hat g]$
-		- Questa proposizione si può scomporre in tre fasi:
-			- Analisi delle frequenze tramite trasformata di Fourier $f \rightarrow \hat f$
-			  logseq.order-list-type:: number
-			- Filtraggio delle frequenze tramite moltiplicazione di $\hat f$ per $\hat h$, ovvero $H$
-			  logseq.order-list-type:: number
-			- Ricostruzione del segnale filtrato tramite trasformata di Fourier inversa: $\hat f \hat h \to \F^{-1}[\hat f \hat h]$
-			  logseq.order-list-type:: number
+	- ## Funzione di trasferimento
+		- Sia $h \in \L1\R$ e $A: f \in \L∞\R \to f*h \in \L∞\R$ il corrispondente filtro di convoluzione con funzione di trasferimento $H$. Allora $H = \hat h$
+			- Dimostrazione
+				- Poiché $λ \in \R$, si ha $e_λ(t) = e^{2πiλt} \in \L∞\R$
+				- Dalla definizione di ((64f19736-5f2a-413d-8e60-1a838fe63067)) si ha:
+					- $(e_λ * h)(t) = H(λ)e_λ(t)$
+				- $h \in \L1\R$ può essere calcolato direttamente:
+					- $$
+					  \begin{aligned}
+					  (e_λ * h)(t) &= \fint e^{2πiλ(t-s)}h(s)\,ds \\
+					  &= e^{2πiλt} \fint e^{-2πiλs} h(s)\,ds \\
+					  &= e_λ(t) \cdot \hat h(λ)
+					  \end{aligned}
+					  $$
+				- Dunque $\hat h(λ) e_λ(t) = H(λ)e_λ(t)\quad ∀t$
+				- Posto $t=0$, ho $\hat h(λ) = H(λ)$
+					- Il valore puntuale non importa, dato che una $f(t) \in \L1\R$ non rappresenta un'unica funzione, ma una classe di funzioni che possono differire in un singolo punto e mantenere la loro uguaglianza.
+	- ## Filtro di convoluzione come correzione del segnale
+		- Sia $h \in \L1\R$ e $f \in \L2R$. Allora $A: f \in \L2\R \to f * g \in \L2\R$ e vale:
+			- $$f * h = \F^{-1}[ \hat f \hat h]$$
+			- Dimostrazione:
+				- Per le proprietà della convoluzione, se $f \in \L2\R, h \in \L1\R \Rightarrow f * h \in \L2\R$
+				- Inoltre $f * h = \F^{-1}\F[f * h] = \F^{-1}[\hat f \hat g]$
+			- Questa proposizione si può scomporre in tre fasi:
+				- Analisi delle frequenze tramite trasformata di Fourier $f \rightarrow \hat f$
+				  logseq.order-list-type:: number
+				- Filtraggio delle frequenze tramite moltiplicazione di $\hat f$ per $\hat h$, ovvero $H$
+				  logseq.order-list-type:: number
+				- Ricostruzione del segnale filtrato tramite trasformata di Fourier inversa: $\hat f \hat h \to \F^{-1}[\hat f \hat h]$
+				  logseq.order-list-type:: number
 	- Filtri di questo tipo si dicono anche **stazionari** perché  l'azione di filtraggio delle frequenze nella fase 2 avviene in modo indipendente dal tempo.
 		- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t_0$, e in una diversa banda dopo l'istante $t_0$.
 		- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
