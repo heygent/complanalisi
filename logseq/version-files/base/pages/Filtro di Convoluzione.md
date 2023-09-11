@@ -31,6 +31,7 @@ tags:: complanalisi
 				- $$\|f * h\|_\L2\R \le \|f\|_\L2\R \|h\|_\L1\R\quad\text{per }f \in \L2\R$$
 				- $$\|f * h\|_\L1\R \le \|f\|_\L1\R \|h\|_\L1\R\quad\text{per }f \in \L1\R$$
 		- ### ((64f0ed21-ae48-441b-8daf-119dd7f5965d))
+		  id:: 64fec451-e746-4ac0-addf-14fdcacdac11
 			- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
 				- Dimostrazione 1:
 					- ((64f0ed21-a972-43f4-bc03-9d7cd6d2084e))
@@ -134,5 +135,5 @@ tags:: complanalisi
 		- ![image.png](../assets/image_1694448782996_0.png)
 			- $ω_0$, nell'intervallo $[-a, a]$, viene moltiplicata per uno e resta invariata.
 			- $ω_1$ viene moltiplicata per 0 e sparisce.
-		- Il filtro non è causale perché $\supp \sinc_{[2a]} \nsubseteq [0, +∞)$
+		- Il filtro non è [causale](((64fec451-e746-4ac0-addf-14fdcacdac11))) perché $\supp \sinc_{[2a]} \nsubseteq [0, +∞)$
 			-
