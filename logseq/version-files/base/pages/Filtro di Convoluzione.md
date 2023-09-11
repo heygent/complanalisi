@@ -46,6 +46,7 @@ tags:: complanalisi
 							- per $s \in [0, +∞)$
 					- segue $f(t - s) = 0 \quad$
 						- quindi $(f * h)(t) = 0$
+				-
 					-
 	- ## Funzione di trasferimento
 		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una ((64f19736-5f2a-413d-8e60-1a838fe63067)) $H(λ)$ tale che:
