@@ -80,6 +80,7 @@ tags:: complanalisi
 				  $$
 			- Per $t \le t_0$:
 				- $t - s \quad\le\quad t_0 - s \quad\le\quad t_0$
-			- sul dominio di integraz
+				- sul dominio di integrazione $s \ge 0$
+				-
 			-
 -
