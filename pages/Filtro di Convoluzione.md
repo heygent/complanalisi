@@ -126,6 +126,6 @@ tags:: complanalisi
 			- Dato che:
 				- $$
 				  \begin{aligned}
-				  \tilde[χ_{[-a, a]}] = χ_{[-a, a]}(-t) = 
+				  \tildeχ_{[-a, a]} = χ_{[-a, a]}(-t) = χ_{[-a, a]}(t)
 				  \end{aligned}
 				  $$
