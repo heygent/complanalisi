@@ -120,3 +120,5 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 					- $$e_λ^n = e^{2πinλt}$$
 		- ## Seno cardinale
 			- ((64fb2fc8-2728-4316-b164-26d8327ff81e))
+			- <iframe src="https://www.desmos.com/calculator/g0cy2uuhrf?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
+				- La funzione non è definita per \liml_{ω \to 0} \frac{\sin(2aπω)}{2aπω} = 2a$

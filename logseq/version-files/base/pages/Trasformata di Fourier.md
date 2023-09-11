@@ -131,8 +131,6 @@ tags:: complanalisi
 	  \end{aligned}
 	  $$
 	- $$\widehat {χ_{[-a, a]}} = \sinc_{2a}(ω)$$
-		- <iframe src="https://www.desmos.com/calculator/g0cy2uuhrf?embed" width="500" height="300" style="border: 1px solid #ccc" frameborder=0></iframe>
-			- $\liml_{ω \to 0} \frac{\sin(2aπω)}{2aπω} = 2a$
 	- La funzione $\sinc$ è detta **seno cardinale**
 	  id:: 64fb2fc8-2728-4316-b164-26d8327ff81e
 	- Questa trasformata è utile nell'analisi del ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale.
