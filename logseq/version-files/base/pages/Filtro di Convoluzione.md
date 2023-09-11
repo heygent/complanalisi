@@ -33,6 +33,7 @@ tags:: complanalisi
 		- ### ((64f0ed21-ae48-441b-8daf-119dd7f5965d))
 			- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
 				- Dimostrazione:
+					- ((64f0ed21-a972-43f4-bc03-9d7cd6d2084e))
 					- Sia $\supp h \subseteq [0, +∞)$, e sia $f(t) = 0 \,\forall t \le t_0$.
 					- Allora:
 						- $$

@@ -42,7 +42,8 @@ tags:: complanalisi
 		- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
 			- Se le due funzioni sono uguali fino a un certo punto, l'output del sistema deve essere uguale fino a quel punto.
 		- Equivalentemente:
-			- $$x(t) = 0 \;\forall\, t < t_0 \quad \Rightarrow \quad Ax(t) = 0 \;\forall\, t < t_0 \tag{b}$$
+			- id:: 64f0ed21-a972-43f4-bc03-9d7cd6d2084e
+			  $$x(t) = 0 \;\forall\, t < t_0 \quad \Rightarrow \quad Ax(t) = 0 \;\forall\, t < t_0 \tag{b}$$
 		- $\text{a} \leftrightarrow \text{b}$
 			- $\text{b}$ è un caso speciale di $\text{a}$ dove la funzione equazione è nulla.
 			- $\text{b} \rightarrow \text{a}$
