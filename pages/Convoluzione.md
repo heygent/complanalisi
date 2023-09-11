@@ -34,7 +34,7 @@ tags:: complanalisi
 		  id:: 64fb2fc8-515d-4731-9de5-6863e8710a6b
 			- Per $p\in [1, +\infty)$, si definiscono gli spazi:
 				- $$L^p(I) = \left\{f: I \rightarrow \C \bigg| \int_I |f(t)|^p\,dt < +\infty\right\}$$
-			- In cui si intendono identificate funzioni ((64fb5645-1722-4e12-8da5-946ef59cf2ab)) che differiscono su insiemi di misura di Lebesgue nulla.
+			- In cui si intendono identificate funzioni ((64fb5645-1722-4e12-8da5-946ef59cf2ab)), ovvero che differiscono su insiemi di misura di Lebesgue nulla.
 			- Su $L^p(I)$ si definisce la norma:
 				- $$\|f\|_{L^p(I)} = \left(\int_I |f(t)|^p\,dt\right)^\frac{1}{p}$$
 				- ottenendo spazi di Banach.
