@@ -80,7 +80,7 @@ tags:: complanalisi
 				  $$
 			- Per $t \le t_0$:
 				- $t - s \quad\le\quad t_0 - s \quad\le\quad t_0$
-				- sul dominio di integrazione $s \ge 0$
+				- per
 				- segue $f(t - s) = 0$ e quindi $(f * h)(t) = 0$
 			-
 -
