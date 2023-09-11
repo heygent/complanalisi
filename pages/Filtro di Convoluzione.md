@@ -63,7 +63,8 @@ tags:: complanalisi
 									- $$f(t) = χ_{[0, b - a]}(t)$$
 								- $$
 								  \begin{aligned}
-								  Af(t) = (f * h)(t) &= \fint χ_{[0, b - a]}
+								  Af(t) = (f * h)(t) &= \fint χ_{[0, b - a]}(t- s)h(s)\,ds
+								  &= 
 								  \end{aligned}
 								  $$
 					-
