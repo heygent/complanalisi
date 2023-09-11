@@ -130,4 +130,4 @@ tags:: complanalisi
 				  \end{aligned}
 				  $$
 				- ((64fe3e42-64de-43c2-8f60-80faf109adc3))
-				- Inoltre, la ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)) in $[-a, a]$
+				- Inoltre, la ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)) in $[-a, a]$ è simmetrica
