@@ -131,7 +131,7 @@ tags:: complanalisi
 	  \end{aligned}
 	  $$
 	- $$\widehat {χ_{[-a, a]}} = \sinc_{2a}(ω)$$
-	- La funzione $\sinc$ è detta **seno cardinale**
+	- Dove $\sinc$ è il ((64eaeffe-fee4-4d2c-832e-cc123d1739e9))
 	  id:: 64fb2fc8-2728-4316-b164-26d8327ff81e
 	- Questa trasformata è utile nell'analisi del ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale.
 - # Altre proprietà #card
