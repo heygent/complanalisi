@@ -38,6 +38,7 @@ tags:: complanalisi
 	  card-last-score:: 1
 	  id:: 64f0ed21-ae48-441b-8daf-119dd7f5965d
 		- Si vuole formalizzare il fatto che il sistema non anticipa i tempi e risponde al principio di causa-effetto.
+		  id:: 64f0ed21-dd00-47e7-82d9-16506a612d01
 		- Non è una proprietà obbligatoria di un filtro, ma lo rende realizzabile.
 		- $$\tag{a} x_1(t) = x_2(t) \;\forall\, t < t_0 \quad\Rightarrow \quad Ax_1(t) = Ax_2(t) \;\forall\, t < t_0$$
 			- Se le due funzioni sono uguali fino a un certo punto, l'output del sistema deve essere uguale fino a quel punto.

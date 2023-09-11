@@ -112,4 +112,5 @@ tags:: complanalisi
 			- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
 - # Filtro di convoluzione del seno cardinale
-	- Il filtro di convoluzione $f \to f * \sinc_2a$ è un ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale non (
+	- Il filtro di convoluzione $f \to f * \sinc_{2a}$ è un ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale non [causale](((64f0ed21-ae48-441b-8daf-119dd7f5965d)))
+	- Infatti le seguenti uguaglianze, valide con $f \in \L2
