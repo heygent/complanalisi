@@ -56,7 +56,9 @@ tags:: complanalisi
 						- Suppongo $a \neq 0$.
 							- Se $a > 0$:
 								- Suppongo $h$ continua in $t_0$. Assunzione non necessaria, ma semplifica dimostrazione (è possibile dimostrare anche il caso più generale).
-								- Deve esistere un intorno del punto in cui la funzione è positiva
+								- Allora deve esistere un intorno del punto in cui la funzione è positiva (teorema di permanenza del segno)
+									- $\exists a, b > 0 | h(t) > 0 \forall t \in (-b, -a)$
+									-
 								-
 					-
 	- ## Funzione di trasferimento
