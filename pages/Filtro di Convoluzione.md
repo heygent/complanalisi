@@ -48,7 +48,9 @@ tags:: complanalisi
 					- segue $f(t - s) = 0 \quad$
 						- quindi $(f * h)(t) = 0$
 				- Dimostrazione 2:
-					- Suppongo $A: f \to f * h$ causale
+					- Suppongo $A: f \to f * h$ causale e dimostro che $\supp h \subseteq [0, +∞)$
+					- $∀ t < 0 \Rightarrow h(t) = 0$
+					-
 					-
 					-
 	- ## Funzione di trasferimento

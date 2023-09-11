@@ -34,7 +34,7 @@ tags:: complanalisi
 			- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
 				- Dimostrazione 1:
 					- ((64f0ed21-a972-43f4-bc03-9d7cd6d2084e))
-					- Suppongo che $\supp h \subseteq [0, +∞)$
+					- Suppongo che $\supp h \subseteq [0, +∞)$ e dimostro $A$ causale
 					- Sia $f(t) = 0 \,\forall t \le t_0$.
 					- Allora:
 						- $$
@@ -48,7 +48,8 @@ tags:: complanalisi
 					- segue $f(t - s) = 0 \quad$
 						- quindi $(f * h)(t) = 0$
 				- Dimostrazione 2:
-					- Suppongo $A: f \to f * h$ causale
+					- Suppongo $A: f \to f * h$ causale e dimostro che $\supp h \subseteq [0, +∞)$
+					-
 					-
 					-
 	- ## Funzione di trasferimento
