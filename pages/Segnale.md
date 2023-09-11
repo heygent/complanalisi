@@ -118,4 +118,4 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 				- Più difficile da rappresentare
 				- Spesso rappresentato per convenzione come:
 					- $$e_λ^n = e^{2πinλt}$$
-			-
+	-
