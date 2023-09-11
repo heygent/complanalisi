@@ -30,6 +30,23 @@ tags:: complanalisi
 				- $$\|f * h\|_\L∞\R \le \|f\|_\L∞\R \|h\|_\L1\R\quad\text{per }f \in \L∞\R$$
 				- $$\|f * h\|_\L2\R \le \|f\|_\L2\R \|h\|_\L1\R\quad\text{per }f \in \L2\R$$
 				- $$\|f * h\|_\L1\R \le \|f\|_\L1\R \|h\|_\L1\R\quad\text{per }f \in \L1\R$$
+		- ### Causalità
+			- Il filtro
+			- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
+				- Dimostrazione:
+					- Sia $\supp h \subseteq [0, +∞)$, e sia $f(t) = 0 \,\forall t \le t_0$.
+					- Allora:
+						- $$
+						  \begin{aligned}
+						  \fint f(t-s) h(s)\,ds &= ∫_0^{+∞}f(t-s)h(s)\,ds
+						  \end{aligned}
+						  $$
+					- Per $t \le t_0$:
+						- $t - s \quad\le\quad t_0 - s \quad\le\quad t_0$
+							- per $s \in [0, +∞)$
+					- segue $f(t - s) = 0 \quad$
+						- quindi $(f * h)(t) = 0$
+					-
 	- ## Funzione di trasferimento
 		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una ((64f19736-5f2a-413d-8e60-1a838fe63067)) $H(λ)$ tale che:
 			- $$Ae_λ = H(λ)e_λ$$
@@ -69,19 +86,4 @@ tags:: complanalisi
 		- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t_0$, e in una diversa banda dopo l'istante $t_0$.
 		- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
-	- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
-		- Dimostrazione:
-			- Sia $\supp h \subseteq [0, +∞)$, e sia $f(t) = 0 \,\forall t \le t_0$.
-			- Allora:
-				- $$
-				  \begin{aligned}
-				  \fint f(t-s) h(s)\,ds &= ∫_0^{+∞}f(t-s)h(s)\,ds
-				  \end{aligned}
-				  $$
-			- Per $t \le t_0$:
-				- $t - s \quad\le\quad t_0 - s \quad\le\quad t_0$
-					- per $s \in [0, +∞)$
-			- segue $f(t - s) = 0 \quad$
-				- quindi $(f * h)(t) = 0$
-			-
 -
