@@ -117,6 +117,7 @@ tags:: complanalisi
 		- $$
 		  \begin{aligned}
 		  f * \sinc_{2a} &= \F^{-1}\F[f * \sinc_{2a}] \\
-		  &= \F^{-1}[\hat f \cdot \widehat {\sinc_{2a}}]
+		  &= \F^{-1}[\hat f \cdot \widehat {\sinc_{2a}}] \\
+		  &= \F^{-1}[\hat f \cdot \widehat \widehat{χ}}
 		  \end{aligned}
 		  $$
