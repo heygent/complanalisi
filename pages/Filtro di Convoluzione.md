@@ -78,6 +78,8 @@ tags:: complanalisi
 				  \fint f(t-s) h(s)\,ds &= ∫_0^{+∞}f(t-s)h(s)\,ds
 				  \end{aligned}
 				  $$
-			- Per $t \le t_0$ ho $t - s \le t_0 - s \le t_0$
+			- Per $t \le t_0$:
+				- $t - s \quad\le\quad t_0 - s \quad\le\quad t_0$
+			- sul dominio di integraz
 			-
 -
