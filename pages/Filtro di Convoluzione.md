@@ -62,7 +62,9 @@ tags:: complanalisi
 								- Ora prendo come segnale la ((63d5783c-0a5a-4449-9f80-6e80c87edbfe))
 									- $$f(t) = χ_{[0, b - a]}(t)$$
 								- $$
-								  
+								  \begin{aligned}
+								  Af(t) = (f * h)(t) &= \fint χ_{[0, b - a]}
+								  \end{aligned}
 								  $$
 					-
 	- ## Funzione di trasferimento

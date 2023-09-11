@@ -61,7 +61,11 @@ tags:: complanalisi
 								- Non è restrittivo che supporre $a > 0$
 								- Ora prendo come segnale la ((63d5783c-0a5a-4449-9f80-6e80c87edbfe))
 									- $$f(t) = χ_{[0, b - a]}(t)$$
-								-
+								- $$
+								  \begin{aligned}
+								  Af(t) = f * t.
+								  \end{aligned}
+								  $$
 					-
 	- ## Funzione di trasferimento
 		- Visto $A$ come filtro $A: \L∞\R \to \L∞\R$ risulta definita una ((64f19736-5f2a-413d-8e60-1a838fe63067)) $H(λ)$ tale che:
