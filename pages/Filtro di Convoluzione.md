@@ -81,6 +81,7 @@ tags:: complanalisi
 			- Per $t \le t_0$:
 				- $t - s \quad\le\quad t_0 - s \quad\le\quad t_0$
 					- per $s \in [0, +∞)$
-			- segue $f(t - s) = 0$ e quindi $(f * h)(t) = 0$
+			- segue $f(t - s) = 0 \quad$
+				- quindi $(f * h)(t) = 0$
 			-
 -
