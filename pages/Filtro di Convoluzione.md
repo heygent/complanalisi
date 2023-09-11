@@ -31,6 +31,7 @@ tags:: complanalisi
 				- $$\|f * h\|_\L2\R \le \|f\|_\L2\R \|h\|_\L1\R\quad\text{per }f \in \L2\R$$
 				- $$\|f * h\|_\L1\R \le \|f\|_\L1\R \|h\|_\L1\R\quad\text{per }f \in \L1\R$$
 		- ### ((64f0ed21-ae48-441b-8daf-119dd7f5965d))
+		  id:: 64fec451-e746-4ac0-addf-14fdcacdac11
 			- Il filtro di convoluzione $f \to f * h$ è causale se e solo se $\supp h \subseteq [0, +∞)$
 				- Dimostrazione 1:
 					- ((64f0ed21-a972-43f4-bc03-9d7cd6d2084e))
@@ -111,7 +112,7 @@ tags:: complanalisi
 			- Ad esempio non è possibile filtrare frequenze in una certa banda fino a un istante $t_0$, e in una diversa banda dopo l'istante $t_0$.
 			- Ciò è invece possibile tramite filtri di tipo diverso che usano (ad esempio) la [[Trasformata di Gabor]] invece di quella di Fourier.
 	- Le proprietà precedenti si estendono a parecchi casi in cui $h \notin \L1\R$, in particolare nel caso $h(t) = \sinc_{2a}(t)$
-- # Filtro di convoluzione del seno cardinale
+- # Filtro di convoluzione del ((64eaeffe-fee4-4d2c-832e-cc123d1739e9))
 	- Il filtro di convoluzione $f \to f * \sinc_{2a}$ è un ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale non [causale](((64f0ed21-ae48-441b-8daf-119dd7f5965d)))
 	- Infatti le seguenti uguaglianze, valide con $f \in \L2\R, \sinc_{2a} \in \L2\R$:
 		- $$
@@ -134,5 +135,5 @@ tags:: complanalisi
 		- ![image.png](../assets/image_1694448782996_0.png)
 			- $ω_0$, nell'intervallo $[-a, a]$, viene moltiplicata per uno e resta invariata.
 			- $ω_1$ viene moltiplicata per 0 e sparisce.
-		- Il filtro non è causale perché $\supp \sinc_{[2a]} \nsubseteq [0, +∞)$
+		- Il filtro non è [causale]() perché $\supp \sinc_{[2a]} \nsubseteq [0, +∞)$
 			-
