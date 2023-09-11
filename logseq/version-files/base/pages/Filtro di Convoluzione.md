@@ -132,3 +132,6 @@ tags:: complanalisi
 				- ((64fe3e42-64de-43c2-8f60-80faf109adc3))
 				- Inoltre, la ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)) in $[-a, a]$ è simmetrica
 		- ![image.png](../assets/image_1694448782996_0.png)
+			- $ω_0$, nell'intervallo $[-a, a]$, viene moltiplicata per uno e resta invariata.
+			- $ω_1$ viene moltiplicata per 0 e sparisce.
+			-
