@@ -110,6 +110,12 @@ tags:: complanalisi
 			- ((64fb2603-61fc-4c7a-ad22-52f4fef941ef))
 - ## Trasformata della Funzione Caratteristica #card
   id:: 64fb2fc8-4540-488a-8828-fe278b82f85d
+  card-last-interval:: 4
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-09-16T18:16:35.148Z
+  card-last-reviewed:: 2023-09-12T18:16:35.148Z
+  card-last-score:: 3
 	- Calcolare la trasformata di Fourier della ((63d5783c-0a5a-4449-9f80-6e80c87edbfe)):
 	- $$
 	  χ_{[-a, a]}(t) = \begin{cases} 1&\text{se } t\in [-a, a]\\0&\text{se }t\notin [-a, a] \end{cases}

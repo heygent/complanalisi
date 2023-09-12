@@ -218,6 +218,7 @@ tags:: complanalisi
 			- Allora $\forall n \in \Z: e_\lambda^n \in L^2(0,a)$:
 				- L'insieme di funzioni $\{e_\lambda^n\}_{n \in \Z}$ è una ((64fb2fc8-e70c-4e1d-a9a9-63c4996ca88a)) di $L^2(0,a)$.
 				- ### Dimostrazione
+				  collapsed:: true
 					- Bisogna provare le due condizioni:
 						- {{embed ((64fb54d4-0529-40b3-865d-11d7dd6b598c))}}
 							- Se $n = m$:
