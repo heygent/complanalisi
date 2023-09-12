@@ -54,8 +54,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-12T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T21:39:52.870Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:40.727Z
 	  card-last-score:: 1
 		- $$\chi_A(x) = \begin{cases}
 		  1 & \text{se } x \in A \\
@@ -64,10 +64,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Finestra rettangolare #card
 	  card-last-score:: 1
 	  card-repeats:: 1
-	  card-next-schedule:: 2023-09-12T22:00:00.000Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
 	  card-last-interval:: -1
 	  card-ease-factor:: 2.5
-	  card-last-reviewed:: 2023-09-12T21:50:37.283Z
+	  card-last-reviewed:: 2023-09-12T22:03:42.004Z
 		- $$r(t) = \begin{cases}
 		  1 & \text{se } |t| < a \\
 		  0 & \text{se } |t| > a
@@ -79,8 +79,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-12T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T21:55:20.953Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:42.569Z
 	  card-last-score:: 1
 		- $$x(t) = \alpha \cos(\omega t + \varphi) + c$$
 			- Il termine sinusoide descrive qualunque onda con le caratteristiche di un onda seno.

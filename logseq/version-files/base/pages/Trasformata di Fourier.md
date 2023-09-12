@@ -39,8 +39,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-12T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T21:36:41.435Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:38.018Z
   card-last-score:: 1
 	- $\F: f \rightarrow \hat f$ è [lineare](((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60))) su tutti gli spazi vettoriali in cui è definito.
 		- $$
@@ -70,8 +70,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-12T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T18:05:30.709Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:43.254Z
   card-last-score:: 1
 	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà.
 	- $∀ϕ\in S'(\R)$:
@@ -150,8 +150,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-12T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T17:20:19.017Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:39.036Z
   card-last-score:: 1
 	- ### Formula di inversione
 	  logseq.order-list-type:: number
