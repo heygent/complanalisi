@@ -13,12 +13,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- $y \in Y$ spazio di funzioni di output
 - # Esempi di sistemi
 	- ## Amplificatore ideale #card
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:37:24.598Z
-	  card-last-score:: 1
+	  card-last-interval:: 4
+	  card-repeats:: 2
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-16T21:55:53.966Z
+	  card-last-reviewed:: 2023-09-12T21:55:53.967Z
+	  card-last-score:: 5
 		- $$y(t) = kx(t)$$
 		- Per $k > 1$ amplifica, per $0 < k < 1$ smorza.
 		-
