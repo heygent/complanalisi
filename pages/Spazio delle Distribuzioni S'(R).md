@@ -1,12 +1,12 @@
 tags:: complanalisi
 
 - # Delta di Dirac #card
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:04:19.666Z
-  card-last-score:: 1
+  card-last-interval:: 4
+  card-repeats:: 2
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2023-09-16T21:07:32.334Z
+  card-last-reviewed:: 2023-09-12T21:07:32.335Z
+  card-last-score:: 3
   id:: 64fb2fc8-5728-4097-9f3b-b84a5e13e869
 	- Per rappresentare fenomeni di tipo "impulsivo" (es. una massa o carica elettrica concentrate in un punto, un urto, un'esplosione, ecc.) le funzioni non sono sufficienti.
 	- Siano $ϕ(t) \ge 0$ e che rappresentino la densità di carica lungo i punti $t$ di un filo illimitato coincidente con l'asse delle ascisse $\R_t$.
