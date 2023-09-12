@@ -71,8 +71,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:05:41.827Z
+	  card-next-schedule:: 2023-09-12T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T21:39:47.392Z
 	  card-last-score:: 1
 		- $(\L2I, \norm_\L2I)$ è uno **spazio di Hilbert**, ovvero la norma $\norm_{\L2I}$ proviene da un prodotto interno. Precisamente:
 			- $$\|f\|_{\L2I} = \sqrt{(f, f)_{\L2I}}$$
