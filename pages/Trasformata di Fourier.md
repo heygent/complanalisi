@@ -135,6 +135,12 @@ tags:: complanalisi
 	  id:: 64fb2fc8-2728-4316-b164-26d8327ff81e
 	- Questa trasformata è utile nell'analisi del ((64fb8e55-6062-41e7-83a4-953e54c1921e)) ideale.
 - # Altre proprietà #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-12T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T17:20:19.017Z
+  card-last-score:: 1
 	- ### Formula di inversione
 	  logseq.order-list-type:: number
 	  id:: 64fd2ffa-691e-4b5f-9caf-14b06ee7b5dc
