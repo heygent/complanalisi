@@ -62,8 +62,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:43:53.066Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:02:17.059Z
 	  card-last-score:: 1
 		- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 		- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
@@ -235,8 +235,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:43:49.477Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:02:11.675Z
   card-last-score:: 1
 	- Un filtro che lascia passare solo frequenze basse.
 	- Un filtro di questo tipo idealmente ha ((64f19736-5f2a-413d-8e60-1a838fe63067)) del tipo:

@@ -5,8 +5,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:44:07.484Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:01:54.741Z
   card-last-score:: 1
 	- Funzione matematica sul tempo.
 		- $x = x(t)$
@@ -38,8 +38,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:27:40.092Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:01:49.929Z
 	  card-last-score:: 1
 		- $$
 		  u(t) = \begin{cases}
