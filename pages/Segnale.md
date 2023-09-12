@@ -64,10 +64,10 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	- ## Finestra rettangolare #card
 	  card-last-score:: 1
 	  card-repeats:: 1
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
+	  card-next-schedule:: 2023-09-12T22:00:00.000Z
 	  card-last-interval:: -1
 	  card-ease-factor:: 2.5
-	  card-last-reviewed:: 2023-09-08T22:44:08.167Z
+	  card-last-reviewed:: 2023-09-12T21:50:37.283Z
 		- $$r(t) = \begin{cases}
 		  1 & \text{se } |t| < a \\
 		  0 & \text{se } |t| > a
