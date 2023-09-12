@@ -74,6 +74,7 @@ tags:: complanalisi
 			  &= \frac{1}{RC} \int_{-\infty}^t e^{\frac{-(t-s)}{RC}}x(s) \,ds
 			  \end{aligned}
 			  $$
+		- $$\frac1{RC}∫_{-∞}^t$$
 	- ## Proprietà
 		- ### Continuo
 			- Vedi ((64f15ffb-33c9-4aae-8a51-585010b6f38a))
