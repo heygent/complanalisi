@@ -174,7 +174,6 @@ tags:: complanalisi
 				- $$\|f\|_\L2I^2 = \sum\limits_n |c_n|^2$$
 				- Dove $c_n$ sono i coefficienti di Fourier.
 			- Nel caso particolare $I = \{1,2,3\}$ le funzioni $f: I \rightarrow \R$ coincidono con i vettori dello spazio $\R^3$ e l'uguaglianza di Parseval coincide con il teorema di Pitagora.
-			  collapsed:: true
 				- $$f: I = \{1,2,3\} \rightarrow \R$$
 				- $$
 				  \begin{aligned}
