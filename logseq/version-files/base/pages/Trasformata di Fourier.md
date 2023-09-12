@@ -39,8 +39,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:05:11.650Z
+  card-next-schedule:: 2023-09-12T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T21:36:41.435Z
   card-last-score:: 1
 	- $\F: f \rightarrow \hat f$ è [lineare](((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60))) su tutti gli spazi vettoriali in cui è definito.
 		- $$
