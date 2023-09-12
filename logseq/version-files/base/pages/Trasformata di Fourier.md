@@ -67,6 +67,12 @@ tags:: complanalisi
 		- in funzione delle frequenze da $\hat f(t)$
 	- È quindi lecito aspettarsi che $f$ ed $\hat f$, che rappresentano lo steso fenomeno, abbiano associata la stessa energia
 - ## Trasformata come rappresentazione del segnale #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2023-09-12T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T18:05:30.709Z
+  card-last-score:: 1
 	- L'interpretazione di $\hat f(ω)$ come rappresentazione del segnale rispetto alle frequenze si basa sulle seguenti proprietà.
 	- $∀ϕ\in S'(\R)$:
 		- $\hat 1 = δ$ e $\hat δ = 1$
