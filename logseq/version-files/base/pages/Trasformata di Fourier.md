@@ -4,8 +4,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:24:12.441Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:24.607Z
   card-last-score:: 1
 	- Sia $f: \R \rightarrow \C$, chiamiamo **trasformata di Fourier** di $f$ la funzione:
 		- $$\hat{f}(ω) = ∫_{-∞}^{+∞} e^{-2πitω}f(t)\,dt$$
@@ -57,8 +57,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:44:00.169Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:02:53.701Z
   card-last-score:: 1
 	- $$\| f \|_{L^2(\R)} = \| \hat f\|_{L^2(\R)}$$
 	- esprime "conservazione dell'energia" del segnale

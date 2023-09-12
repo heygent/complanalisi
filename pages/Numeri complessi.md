@@ -17,8 +17,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:08:08.802Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:18.266Z
   card-last-score:: 1
 	- Siano:
 		- $z_1 = x_1 + iy_1$
@@ -69,8 +69,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:44:04.234Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:29.616Z
   card-last-score:: 1
 	- id:: 64eaeffe-0fd6-4be4-9dec-30f3e085d02a
 	  $$e ^{i \Theta}  = cos \Theta + i \sin \Theta $$

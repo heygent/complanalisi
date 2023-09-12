@@ -4,8 +4,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:44:02.070Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:25.743Z
   card-last-score:: 1
 	- Un [[Filtro]] è un sistema che gode delle proprietà di ((64f0ed21-ef2f-4428-80d4-1a61c9c2fc60)), ((64f0ed21-4164-4b05-9568-8d7d172e248b)) e ((64f0ed21-ca43-460c-bd64-fcf998a8edf2))
 	  id:: 64f0ed21-afb3-44dd-aee4-c6ee06624e52
@@ -19,8 +19,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:44:03.681Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:28.704Z
 	  card-last-score:: 1
 		- $\forall\,x_1, x_2 \in X$
 		- $\forall\,\lambda, \mu \in \C$
@@ -33,8 +33,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:44:08.839Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:02:51.802Z
 	  card-last-score:: 1
 	  id:: 64f0ed21-ae48-441b-8daf-119dd7f5965d
 		- Si vuole formalizzare il fatto che il sistema non anticipa i tempi e risponde al principio di causa-effetto.
@@ -81,8 +81,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:14:08.986Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:19.853Z
 	  card-last-score:: 1
 		- $x_n \rightarrow x \Rightarrow Ax_n \rightarrow Ax$
 		-
@@ -176,8 +176,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-09T22:00:00.000Z
-  card-last-reviewed:: 2023-09-08T22:18:33.551Z
+  card-next-schedule:: 2023-09-13T22:00:00.000Z
+  card-last-reviewed:: 2023-09-12T22:03:22.051Z
   card-last-score:: 1
 	- Sia $e_\lambda^n(t)$ la frequenza pura $\lambda n$
 		- Per comodità si definisce $e_\lambda(t) = e^{2\pi i \lambda t}$

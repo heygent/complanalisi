@@ -34,8 +34,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:44:05.507Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:31.910Z
 	  card-last-score:: 1
 		- $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
 		- Ad esempio se $I = \R$ e:
@@ -52,8 +52,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:44:06.129Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:32.853Z
 	  card-last-score:: 1
 		- Si pongono:
 			- $$
@@ -71,8 +71,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-12T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T21:39:47.392Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:40.018Z
 	  card-last-score:: 1
 		- $(\L2I, \norm_\L2I)$ è uno **spazio di Hilbert**, ovvero la norma $\norm_{\L2I}$ proviene da un prodotto interno. Precisamente:
 			- $$\|f\|_{\L2I} = \sqrt{(f, f)_{\L2I}}$$
@@ -85,8 +85,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:44:02.904Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:27.788Z
 	  card-last-score:: 1
 	  id:: 64fb2fc8-5427-4733-b971-33f818818961
 		- $$\int_I |f(t)| |g(t) | \,dt \le \|f\|_\L2I \|g\|_{\L2I}$$
@@ -126,8 +126,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-09T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-08T22:44:04.905Z
+	  card-next-schedule:: 2023-09-13T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-12T22:03:30.444Z
 	  card-last-score:: 1
 		- ### Definizione
 			- Siano $\phi_n \in \L2I$ con $n \in \Z$.
@@ -166,8 +166,8 @@ tags:: complanalisi
 		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.5
-		  card-next-schedule:: 2023-09-12T22:00:00.000Z
-		  card-last-reviewed:: 2023-09-12T21:01:32.993Z
+		  card-next-schedule:: 2023-09-13T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-12T22:03:36.346Z
 		  card-last-score:: 1
 			- Sia $\{\phi_n\}$ con $n \in \Z$ (o $n \in \N$) una base ortonormale di $\L2I$.
 			- $\forall f \in \L2I$ si ha:
@@ -206,8 +206,8 @@ tags:: complanalisi
 		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.5
-		  card-next-schedule:: 2023-09-12T22:00:00.000Z
-		  card-last-reviewed:: 2023-09-12T21:50:07.747Z
+		  card-next-schedule:: 2023-09-13T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-12T22:03:41.338Z
 		  card-last-score:: 1
 			- Sia $I = (0,a)$ con $a > 0$ fissato.
 			- Pongo:
@@ -259,8 +259,8 @@ tags:: complanalisi
 		  card-last-interval:: -1
 		  card-repeats:: 1
 		  card-ease-factor:: 2.5
-		  card-next-schedule:: 2023-09-09T22:00:00.000Z
-		  card-last-reviewed:: 2023-09-08T22:19:52.300Z
+		  card-next-schedule:: 2023-09-13T22:00:00.000Z
+		  card-last-reviewed:: 2023-09-12T22:03:23.219Z
 		  card-last-score:: 1
 			- Posto $λ = \frac{1}{a}$ si ha che:
 				- $$\{\sqrt{λ}\} \cup \{\sqrt{2λ}\cos(2πnλt)\}_{n = 1}^{+\infty} \cup \{\sqrt{2λ}\sin(2πnλt)\}_{n = 1}^{+\infty}$$
