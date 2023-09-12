@@ -184,7 +184,8 @@ tags:: complanalisi
 				  $$
 				- Le funzioni in in $I$ possono essere fatte coincidere con un vettore in $\R^3$:
 					- $x = (x_1, x_2, x_3) \in \R^3$
-				- $$\|x\|_\L2I^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
+				- collapsed:: true
+				  $$\|x\|_\L2I^2 = \sum\limits_{n=1}^3|c_n|^2 = |x_1|^2 + |x_2|^2 + |x_3|^2$$
 					- $$
 					  \begin{aligned}
 					  \phi_1 &= e_1 = (1, 0, 0) \\
