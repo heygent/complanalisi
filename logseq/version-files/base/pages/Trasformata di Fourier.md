@@ -169,6 +169,7 @@ tags:: complanalisi
 				  \end{gathered}
 				  $$
 					- Primo passaggio viene da ((64fb2fc8-5427-4733-b971-33f818818961))
+					- $\|f\|_{L^{1}}=\int _{\mathbb {R} ^{n}}|f(x)|\mathrm {d} x<\infty$
 				- Per cui l'uguaglianza si può intendere in $\L∞\R$ (oltre che in $S'(\R)$)
 		- $\widehat{f * g} = \hat f \hat g$
 		  logseq.order-list-type:: number
