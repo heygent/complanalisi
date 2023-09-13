@@ -50,11 +50,11 @@ tags:: complanalisi
 			- sono considerate uguali perché differiscono solo nell'insieme finito $\{0\}$.
 	- ## Spazi di Banach #card
 	  card-last-interval:: -1
-	  card-repeats:: 1
+	  card-repeats:: 0
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:03:32.853Z
-	  card-last-score:: 1
+	  card-next-schedule:: nil
+	  card-last-reviewed:: nil
+	  card-last-score:: nil
 		- Si pongono:
 			- $$
 			  \begin{aligned}
