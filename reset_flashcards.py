@@ -19,7 +19,7 @@ for file_path in folder_path.glob('**/*.md'):
             for line in lines:
                 # Use compiled regex to find and replace the date portion
                 modified_line = pattern.sub(replacement, line)
-                print(modified_line)
+                print(modified_line, end="")
                 # file.write(modified_line)
 
 print("Date replacement completed.")
