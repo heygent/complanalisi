@@ -1,0 +1,66 @@
+file:: [trasf_fourier_filtri.pdf](../assets/trasf_fourier_filtri.pdf)
+file-path:: ../assets/trasf_fourier_filtri.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 64a4ab5c-5868-41a6-b80b-7c930b300497
+  hl-type:: area
+  hl-stamp:: 1688513371367
+- [:span]
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 64a4b157-6b9b-46d7-874d-59b7f79f835f
+  hl-type:: area
+  hl-stamp:: 1688514901599
+- [:span]
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 64fb2603-61fc-4c7a-ad22-52f4fef941ef
+  hl-type:: area
+  hl-stamp:: 1694180871233
+- [:span]
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 64fb2882-fd36-4d9d-935f-0b2b20bb3f73
+  hl-type:: area
+  hl-stamp:: 1694181521395
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64fb296b-1892-4162-a79e-f4cb196b9be0
+  hl-type:: area
+  hl-stamp:: 1694181743152
+- [:span]
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 64fb2ac3-3a37-4c5f-8cc6-8b79facc4bde
+  hl-type:: area
+  hl-stamp:: 1694182082234
+- [:span]
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64fdd17b-2e96-4e94-a7e7-953af6627a8e
+  hl-type:: area
+  hl-stamp:: 1694355884043
+- [:span]
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: purple
+  id:: 64fdd7b2-ab64-48bf-8068-e52d167122cd
+  hl-type:: area
+  hl-stamp:: 1694357424394
+- [:span]
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: yellow
+  id:: 64fde326-7e0d-40d1-b9d4-15d51aec5571
+  hl-type:: area
+  hl-stamp:: 1694360357335
