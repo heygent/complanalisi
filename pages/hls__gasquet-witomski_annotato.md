@@ -1,0 +1,38 @@
+file:: [gasquet-witomski_annotato.pdf](../assets/gasquet-witomski_annotato.pdf)
+file-path:: ../assets/gasquet-witomski_annotato.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 649d49b9-23c9-40b0-87be-2b307806b067
+  hl-type:: area
+  hl-stamp:: 1688029624293
+- [:span]
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 64a4b94d-0070-4a2d-af85-c19e2a770d3c
+  hl-type:: area
+  hl-stamp:: 1688516953497
+- [:span]
+  ls-type:: annotation
+  hl-page:: 7
+  hl-color:: yellow
+  id:: 64a4b989-67f4-48b4-b67b-66bd259e071b
+  hl-type:: area
+  hl-stamp:: 1688517000287
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64ee5717-cb9b-40d9-9b66-a586754311c9
+  hl-type:: area
+  hl-stamp:: 1693341462010
+- [:span]
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 64ee91dc-fea6-4d55-a816-25a91ba9ba46
+  hl-type:: area
+  hl-stamp:: 1693356528184

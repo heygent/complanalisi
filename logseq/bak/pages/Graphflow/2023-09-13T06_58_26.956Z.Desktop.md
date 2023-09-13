@@ -1,2 +1,0 @@
-- Traverse the graph. Assign value of previous node -1 to next node in path. Find path of least resistance
-- After getting adjacency matrix with flow numbers, look for properties in the matrix to exploit.

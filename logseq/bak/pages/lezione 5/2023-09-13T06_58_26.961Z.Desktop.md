@@ -1,3 +1,0 @@
-- ![image.png](../assets/image_1688500846422_0.png)
-- ![image.png](../assets/image_1688505959853_0.png)
-	- lez 5 51:00
