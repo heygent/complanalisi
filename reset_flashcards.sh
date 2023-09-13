@@ -17,4 +17,6 @@ replace_dates_with_awk() {
 }
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Find and process files in the specified folder
-find $SCRIPT_DIR/pages -type f -name "*.md" -exec bash -c 'replace_dates_with_awk "$0"' {} \;
+# find -type f -name "*.md" -exec bash -c 'replace_dates_with_awk "$0"' {} \;
+
+find $SCRIPT_DIR/pages -type f -name "*.md" -exec bash -c 'replace_dates_with_awk "{}"' \;
