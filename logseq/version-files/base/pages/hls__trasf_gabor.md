@@ -15,3 +15,10 @@ file-path:: ../assets/trasf_gabor.pdf
   id:: 64a505f3-937d-43c0-b9af-e6d900f68c49
   hl-type:: area
   hl-stamp:: 1688536562189
+- [:span]
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: yellow
+  id:: 65020c76-7b6b-44d5-80bf-5f438d137ed6
+  hl-type:: area
+  hl-stamp:: 1694633076260
