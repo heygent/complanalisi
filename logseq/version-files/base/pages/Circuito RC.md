@@ -45,7 +45,7 @@ tags:: complanalisi
 			- $$
 			  \begin{aligned}
 			  v(t) &\coloneqq w(t)e^{\frac{-t}{RC}}\\
-			  w(t) &= e^{\frac{-t}{RC}} \cdot v(t) \\
+			  w(t) &= e^{\frac{t}{RC}} \cdot v(t) \\
 			  v' &= w' e^{\frac{-t}{RC}} + w e^\frac{-t}{RC}\cdot -\frac{1}{RC}
 			  \end{aligned}
 			  $$

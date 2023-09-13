@@ -44,8 +44,8 @@ tags:: complanalisi
 		- Per risolverla ridefinisco variabile:
 			- $$
 			  \begin{aligned}
+			  w(t) &\coloneqq e^{\frac{t}{RC}} \cdot v(t) \\
 			  v(t) &\coloneqq w(t)e^{\frac{-t}{RC}}\\
-			  w(t) &= e^{\frac{-t}{RC}} \cdot v(t) \\
 			  v' &= w' e^{\frac{-t}{RC}} + w e^\frac{-t}{RC}\cdot -\frac{1}{RC}
 			  \end{aligned}
 			  $$
