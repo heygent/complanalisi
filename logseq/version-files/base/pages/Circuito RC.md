@@ -4,8 +4,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-13T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T22:03:04.129Z
+  card-next-schedule:: 2023-09-14T22:00:00.000Z
+  card-last-reviewed:: 2023-09-14T06:00:03.265Z
   card-last-score:: 1
 	- ((64ee5717-cb9b-40d9-9b66-a586754311c9))
 	- ## Grandezze fisiche di interesse

@@ -19,8 +19,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:03:28.704Z
+	  card-next-schedule:: 2023-09-14T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-14T05:59:58.609Z
 	  card-last-score:: 1
 		- $\forall\,x_1, x_2 \in X$
 		- $\forall\,\lambda, \mu \in \C$
