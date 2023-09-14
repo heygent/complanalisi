@@ -4,8 +4,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-13T22:00:00.000Z
-  card-last-reviewed:: 2023-09-13T19:39:01.316Z
+  card-next-schedule:: 2023-09-14T22:00:00.000Z
+  card-last-reviewed:: 2023-09-14T05:18:08.820Z
   card-last-score:: 1
 	- ((64a504ea-8996-48b7-8ff6-2ff957969c4d))
 - # Principio di indeterminazione di Heisenberg

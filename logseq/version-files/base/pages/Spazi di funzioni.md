@@ -52,8 +52,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-13T19:45:44.864Z
+	  card-next-schedule:: 2023-09-14T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-14T05:18:14.933Z
 	  card-last-score:: 1
 		- Si pongono:
 			- $$
