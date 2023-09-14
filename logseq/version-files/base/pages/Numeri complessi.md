@@ -17,8 +17,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-13T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T22:03:18.266Z
+  card-next-schedule:: 2023-09-14T22:00:00.000Z
+  card-last-reviewed:: 2023-09-14T06:03:06.439Z
   card-last-score:: 1
 	- Siano:
 		- $z_1 = x_1 + iy_1$

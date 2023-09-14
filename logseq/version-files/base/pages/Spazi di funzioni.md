@@ -34,8 +34,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:03:31.910Z
+	  card-next-schedule:: 2023-09-14T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-14T06:02:54.624Z
 	  card-last-score:: 1
 		- $\|f\|_{L^1(I)}, \|f\|_{L^2(I)}, \|f\|_{L^\infty(I)}$ non sono norme.
 		- Ad esempio se $I = \R$ e:
