@@ -33,12 +33,12 @@ tags:: complanalisi
 		- Si scrive anche $δ_a(t) = (τ_aδ)(t)$
 			- $τ_a$ operatore di traslazione già usato per funzioni.
 - # Spazio delle distribuzioni $S'(\R)$ #card
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-13T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T22:02:07.407Z
-  card-last-score:: 1
+  card-last-interval:: 4
+  card-repeats:: 2
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2023-09-18T06:10:51.687Z
+  card-last-reviewed:: 2023-09-14T06:10:51.687Z
+  card-last-score:: 5
 	- Spazio $S'(\R)$ delle **distribuzioni temperate**.
 	- Come oggetti matematici gli elementi di $S'(\R)$, cioè le distribuzioni temperate, sono "funzionali lineari continui".
 	- $S'(\R)$ contiene:
