@@ -62,8 +62,8 @@ tags:: complanalisi
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:02:17.059Z
+	  card-next-schedule:: 2023-09-14T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-14T06:12:59.292Z
 	  card-last-score:: 1
 		- $$x(t) \rightarrow y(t) \quad \Rightarrow \quad x(t- a) \rightarrow y(t-a)$$
 		- Una traslazione nel tempo dell'input porta alla stessa traslazione dell'input.
