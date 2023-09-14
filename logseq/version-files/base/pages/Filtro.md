@@ -30,12 +30,12 @@ tags:: complanalisi
 			- Allora quando $A(\lambda x_1 + \mu x_2) = \lambda y_1 + \mu y_2$ dico che il sistema è lineare.
 		- Dal punto di vista fisico corrisponde alla sovrapposizione degli effetti.
 	- ### Causalità #card
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:02:51.802Z
-	  card-last-score:: 1
+	  card-last-interval:: 4
+	  card-repeats:: 2
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2023-09-18T05:47:22.002Z
+	  card-last-reviewed:: 2023-09-14T05:47:22.002Z
+	  card-last-score:: 3
 	  id:: 64f0ed21-ae48-441b-8daf-119dd7f5965d
 		- Si vuole formalizzare il fatto che il sistema non anticipa i tempi e risponde al principio di causa-effetto.
 		  id:: 64f0ed21-dd00-47e7-82d9-16506a612d01
