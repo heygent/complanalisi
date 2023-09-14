@@ -93,8 +93,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-13T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T22:02:40.835Z
+  card-next-schedule:: 2023-09-14T22:00:00.000Z
+  card-last-reviewed:: 2023-09-14T05:42:14.230Z
   card-last-score:: 1
 	- {{renderer excalidraw, excalidraw-2023-06-28-12-16-07}}
 	- $$\begin{cases}
