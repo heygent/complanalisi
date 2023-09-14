@@ -51,12 +51,12 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 			- O funzione segno indefinita su 0.
 	- ## Funzione caratteristica #card
 	  id:: 63d5783c-0a5a-4449-9f80-6e80c87edbfe
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:03:40.727Z
-	  card-last-score:: 1
+	  card-last-interval:: 4
+	  card-repeats:: 2
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2023-09-18T05:40:13.159Z
+	  card-last-reviewed:: 2023-09-14T05:40:13.159Z
+	  card-last-score:: 5
 		- $$\chi_A(x) = \begin{cases}
 		  1 & \text{se } x \in A \\
 		  0 & \text{se } x \notin A
