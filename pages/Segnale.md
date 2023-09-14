@@ -80,8 +80,8 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2023-09-13T22:00:00.000Z
-	  card-last-reviewed:: 2023-09-12T22:03:42.569Z
+	  card-next-schedule:: 2023-09-14T22:00:00.000Z
+	  card-last-reviewed:: 2023-09-14T05:25:06.782Z
 	  card-last-score:: 1
 		- $$x(t) = \alpha \cos(\omega t + \varphi) + c$$
 			- Il termine sinusoide descrive qualunque onda con le caratteristiche di un onda seno.

@@ -4,8 +4,8 @@ tags:: complanalisi
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2023-09-13T22:00:00.000Z
-  card-last-reviewed:: 2023-09-12T22:03:34.611Z
+  card-next-schedule:: 2023-09-14T22:00:00.000Z
+  card-last-reviewed:: 2023-09-14T05:25:04.274Z
   card-last-score:: 1
 	- Siano $f, g: \R \rightarrow \R$ oppure $\C$. Definisco la convoluzione di $f$ e $g$ come:
 	- id:: 64fb2fc8-5bd3-459c-8dd0-c676cae9bb95
