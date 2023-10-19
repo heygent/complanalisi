@@ -25,7 +25,7 @@ icon:: ∫
 		- [[Trasformata di Fourier]]
 		- [[Convoluzione]]
 		- [[Filtro di Convoluzione]]
-	- Trasformata di Gabor
+	- [[Trasformata di Gabor]]
 	  logseq.order-list-type:: number
 - # Flashcard
   collapsed:: true
