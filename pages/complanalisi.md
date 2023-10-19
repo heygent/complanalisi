@@ -28,10 +28,8 @@ icon:: ∫
 	- [[Trasformata di Gabor]]
 	  logseq.order-list-type:: number
 - # Flashcard
-  collapsed:: true
 	- {{cards (and (page-tags complanalisi) [[card]])}}
 - # Materiale
-  collapsed:: true
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
 		- Lezione 2: tutto eccetto par. 2.5
