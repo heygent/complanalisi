@@ -6,7 +6,7 @@ moodle:: https://informatica.i-learn.unito.it/course/view.php?id=2522
 icon:: ∫
 
 - # Indice
-  collapsed:: true
+  id:: 650162df-418a-424f-8489-c155e8838c96
 	- [[Segnale]] e [[Sistema]]
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]
@@ -16,7 +16,6 @@ icon:: ∫
 		- funzioni in [[Spazi di funzioni]] normati.
 		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
 		- {{embed ((64f0ed21-afb3-44dd-aee4-c6ee06624e52))}}
-			-
 		- Siano $e_\lambda \in X$, $A$ filtro, allora
 			- ((64f19736-5f2a-413d-8e60-1a838fe63067)) : $Ae_\lambda = H(\lambda)e_\lambda$
 		- ((64fb8e55-6062-41e7-83a4-953e54c1921e)) e [[Circuito RC]]
@@ -44,8 +43,3 @@ icon:: ∫
 	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
 	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
 	- ![Appunti](../assets/appunti.pdf)
--
-- Screenshot
-	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
-	- ![image.png](../assets/image_1688499834986_0.png){:height 737, :width 302}
-	- ((64a504ea-8996-48b7-8ff6-2ff957969c4d))
