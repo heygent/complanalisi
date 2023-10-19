@@ -26,6 +26,7 @@ icon:: ∫
 - # Indice
 	- [[Segnale]] e [[Sistema]]
 	  logseq.order-list-type:: number
+		- [[Numeri complessi]]
 		- Siano
 			- $x = x(t) \in X$
 			- $y = y(t) \in Y$
