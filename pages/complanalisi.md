@@ -34,8 +34,9 @@ icon:: ∫
 		- Siano $e_\lambda \in X$, $A$ filtro, allora
 			- ((64f19736-5f2a-413d-8e60-1a838fe63067)) : $Ae_\lambda = H(\lambda)e_\lambda$
 		- ((64fb8e55-6062-41e7-83a4-953e54c1921e)) e [[Circuito RC]]
-	- [[Trasformata di Fourier]]
+	- Trasformata di Fourier
 		- [[Spazio delle Distribuzioni S'(R)]]
+	- Trasformata di Gabor
 -
 - Screenshot
 	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
