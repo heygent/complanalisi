@@ -22,6 +22,9 @@ icon:: ∫
 	- Trasformata di Fourier
 	  logseq.order-list-type:: number
 		- [[Spazio delle Distribuzioni S'(R)]]
+		- [[Trasformata di Fourier]]
+		- [[Convoluzione]]
+		- [[Filtro di Convoluzione]]
 	- Trasformata di Gabor
 	  logseq.order-list-type:: number
 - # Flashcard
