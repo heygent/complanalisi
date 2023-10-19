@@ -68,7 +68,6 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
 	  card-last-interval:: -1
 	  card-ease-factor:: 2.5
 	  card-last-reviewed:: 2023-09-14T05:49:26.631Z
-	  collapsed:: true
 		- $$r(t) = \begin{cases}
 		  1 & \text{se } |t| < a \\
 		  0 & \text{se } |t| > a
