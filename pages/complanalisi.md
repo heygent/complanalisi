@@ -5,25 +5,8 @@ banner:: https://images.unsplash.com/photo-1664581742527-b96b9e9a9783?ixlib=rb-4
 moodle:: https://informatica.i-learn.unito.it/course/view.php?id=2522
 icon:: ∫
 
-- # Flashcard
-	- {{cards (and (page-tags complanalisi) [[card]])}}
-- # Materiale
-  collapsed:: true
-	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
-		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
-		- Lezione 2: tutto eccetto par. 2.5
-	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/trasf_fourier_filtri.pdf)
-		- tutto (facoltative le appendici)
-	- ![Trasformata di Gabor](../assets/trasf_gabor.pdf)
-		- tutto
-	- ![Numeri complessi - dispense](../assets/num_complessi_dispense.pdf)
-	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
-	- ![Appunti Filtro RC](../assets/Appunti220928.pdf)
-	- ![Appunti Principio di Indeterminazione di Heisenberg](../assets/Appunti221011.pdf)
-	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
-	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
-	- ![Appunti](../assets/appunti.pdf)
 - # Indice
+  collapsed:: true
 	- [[Segnale]] e [[Sistema]]
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]
@@ -42,6 +25,25 @@ icon:: ∫
 		- [[Spazio delle Distribuzioni S'(R)]]
 	- Trasformata di Gabor
 	  logseq.order-list-type:: number
+- # Flashcard
+  collapsed:: true
+	- {{cards (and (page-tags complanalisi) [[card]])}}
+- # Materiale
+  collapsed:: true
+	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
+		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
+		- Lezione 2: tutto eccetto par. 2.5
+	- ![Note su Trasformata di Fourier e Filtri di Segnali](../assets/trasf_fourier_filtri.pdf)
+		- tutto (facoltative le appendici)
+	- ![Trasformata di Gabor](../assets/trasf_gabor.pdf)
+		- tutto
+	- ![Numeri complessi - dispense](../assets/num_complessi_dispense.pdf)
+	- ![Numeri complessi - appunti](../assets/num_complessi_appunti.pdf)
+	- ![Appunti Filtro RC](../assets/Appunti220928.pdf)
+	- ![Appunti Principio di Indeterminazione di Heisenberg](../assets/Appunti221011.pdf)
+	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
+	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
+	- ![Appunti](../assets/appunti.pdf)
 -
 - Screenshot
 	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
