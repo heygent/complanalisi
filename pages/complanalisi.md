@@ -23,8 +23,9 @@ icon:: ∫
 	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
 	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
 	- ![Appunti](../assets/appunti.pdf)
-- # Parti #.ol
+- # Indice
 	- [[Segnale]] e [[Sistema]]
+	  logseq.order-list-type:: number
 		- Siano
 			- $x = x(t) \in X$
 			- $y = y(t) \in Y$
@@ -36,8 +37,10 @@ icon:: ∫
 			- ((64f19736-5f2a-413d-8e60-1a838fe63067)) : $Ae_\lambda = H(\lambda)e_\lambda$
 		- ((64fb8e55-6062-41e7-83a4-953e54c1921e)) e [[Circuito RC]]
 	- Trasformata di Fourier
+	  logseq.order-list-type:: number
 		- [[Spazio delle Distribuzioni S'(R)]]
 	- Trasformata di Gabor
+	  logseq.order-list-type:: number
 -
 - Screenshot
 	- ![image.png](../assets/image_1688498520498_0.png){:height 822, :width 778}
