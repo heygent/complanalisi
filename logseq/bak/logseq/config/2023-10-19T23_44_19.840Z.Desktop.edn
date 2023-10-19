@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -50,7 +50,7 @@
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
- :ui/auto-expand-block-refs? true
+ :ui/auto-expand-block-refs? false
 
  ;; Enable Block timestamps.
  ;; Default value: false
@@ -63,7 +63,7 @@
 
  ;; Enable journals.
  ;; Default value: true
- ;; :feature/enable-journals? true
+ :feature/enable-journals? false
 
  ;; Enable flashcards.
  ;; Default value: true
@@ -71,7 +71,7 @@
 
  ;; Enable whiteboards.
  ;; Default value: true
- ;; :feature/enable-whiteboards? true
+:feature/enable-whiteboards? false
 
  ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
  ;; Default value: false
@@ -133,7 +133,7 @@
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
  ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
-  :default-home {:page "complanalisi", :sidebar "complanalisi"}
+:default-home {:page "complanalisi", :sidebar "complanalisi"}
 
  ;; Set the default location for storing notes.
  ;; Default value: "pages"
@@ -293,7 +293,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["complanalisi"]
 
  ;; Set flashcards interval.
  ;; Expected value:
