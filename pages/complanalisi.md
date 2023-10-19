@@ -44,3 +44,4 @@ icon:: ∫
 	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
 	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
 	- ![Appunti](../assets/appunti.pdf)
+-
