@@ -5,7 +5,7 @@ banner:: https://images.unsplash.com/photo-1664581742527-b96b9e9a9783?ixlib=rb-4
 moodle:: https://informatica.i-learn.unito.it/course/view.php?id=2522
 icon:: ∫
 
--
+- Per scaricare gli appunti in locale apri il repo con Logseq
 - # Indice
   id:: 650162df-418a-424f-8489-c155e8838c96
 	- [[Segnale]] e [[Sistema]]
