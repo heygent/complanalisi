@@ -63,7 +63,7 @@
 
  ;; Enable journals.
  ;; Default value: true
- ;; :feature/enable-journals? true
+ :feature/enable-journals? false
 
  ;; Enable flashcards.
  ;; Default value: true
