@@ -8,11 +8,15 @@ tags:: complprob
   card-last-reviewed:: 2023-02-07T23:15:31.482Z
   card-last-score:: 1
 	- Conta il numero di eventi fino al tempo $t \in \mathbb{R}^+$.
-	- Un [processo]([[Processo stocastico]]) si dice processo di conteggio se: #.ol
+	- Un [processo]([[Processo stocastico]]) si dice processo di conteggio se:
 		- $N(t) \ge 0$
+		  logseq.order-list-type:: number
 		- $N(t) \in \mathbb{N} \quad\quad t \ge 0$
+		  logseq.order-list-type:: number
 		- Se $s < t$ allora $N(s) \le N(t)$
+		  logseq.order-list-type:: number
 		- Se $s < t$ allora $N(t) - N(s)$ conta il numero di eventi in $(s, t]$
+		  logseq.order-list-type:: number
 - # Incremento del processo
 	- Dati due istanti $s, t$ con $s < t$ si dice **incremento** del processo la quantità $N(t) - N(s)$.
 	  collapsed:: true
