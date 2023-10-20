@@ -1,7 +1,5 @@
-- Usa [Logseq](https://logseq.com/) per aprire gli appunti in locale
-	- https://github.com/heygent/complanalisi
-- # Indice
-  id:: 650162df-418a-424f-8489-c155e8838c96
+# Indice
+id:: 650162df-418a-424f-8489-c155e8838c96
 	- [[Segnale]] e [[Sistema]]
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]

@@ -1,2 +1,4 @@
+- Usa [Logseq](https://logseq.com/) per aprire gli appunti in locale
+	- https://github.com/heygent/complanalisi
 - [[complanalisi]]
-- {{embed ((650162df-418a-424f-8489-c155e8838c96))}}
+- [[complprob]]
