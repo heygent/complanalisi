@@ -24,7 +24,7 @@
 	  logseq.order-list-type:: number
 - # Flashcard
 	- {{cards (and (page-tags complanalisi) [[card]])}}
-- # Materiale
+- # Materiale (solo locale)
   collapsed:: true
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
