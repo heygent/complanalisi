@@ -73,6 +73,7 @@ icon:: 
 - # Flashcard
 	- {{cards (and (page-tags complprob) [[card]])}}
 - # Materiale (solo locale)
+  collapsed:: true
 	- ![complprob-lav-1.pdf](../assets/complprob-lav-1_1666590288391_0.pdf)
 	- ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
 	- ![complprob-lav-3.pdf](../assets/complprob-lav-3_1667325081357_0.pdf)
@@ -81,4 +82,4 @@ icon:: 
 	- ![complprob-lav-6.pdf](../assets/complprob-lav-6_1669321357965_0.pdf)
 	- ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
 	- ![complprob-lav-8.pdf](../assets/complprob-lav-8_1669321370188_0.pdf)
-	- ![introduction-to-prob-models-11th-edition_1669215647562_0](../assets/introduction-to-prob-models-11th-edition_1669215647562_0.)
+	- ![introduction-to-prob-models-11th-edition.pdf](../assets/introduction-to-prob-models-11th-edition_1669215647562_0.pdf)
