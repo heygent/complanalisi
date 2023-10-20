@@ -9,7 +9,6 @@ tags:: complprob
   card-next-schedule:: 2023-02-08T23:00:00.000Z
   card-last-reviewed:: 2023-02-07T23:04:04.680Z
   card-last-score:: 1
-  collapsed:: true
 	- [[VA Discreta]]:
 		- $$\sum_k e^{tk} p_X(k)$$
 	- [[VA Continua]]:
