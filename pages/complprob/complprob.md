@@ -81,3 +81,4 @@ icon:: 
 	- ![complprob-lav-6.pdf](../assets/complprob-lav-6_1669321357965_0.pdf)
 	- ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
 	- ![complprob-lav-8.pdf](../assets/complprob-lav-8_1669321370188_0.pdf)
+	- ![introduction-to-prob-models-11th-edition_1669215647562_0](../assets/introduction-to-prob-models-11th-edition_1669215647562_0.)
