@@ -143,4 +143,3 @@ tags:: complprob
 		- Arrivi esponenziali, partenze esponenziali, un servitore
 	- ## Coda M/M/s
 		- s servitori
-	-
