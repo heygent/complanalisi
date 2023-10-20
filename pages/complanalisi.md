@@ -25,6 +25,7 @@
 - # Flashcard
 	- {{cards (and (page-tags complanalisi) [[card]])}}
 - # Materiale
+  collapsed:: true
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
 		- Lezione 1: tutto eccetto par 1.3.6 ed 1.3.7
 		- Lezione 2: tutto eccetto par. 2.5
@@ -39,4 +40,3 @@
 	- ![Appunti Filtri di Convoluzione Causali](../assets/Appunti221013.pdf)
 	- ![Appunti Spazi Normati](../assets/AppuntiSpaziNormati.pdf)
 	- ![Appunti](../assets/appunti.pdf)
--
