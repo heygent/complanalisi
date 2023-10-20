@@ -359,10 +359,12 @@ alias:: Processo di Markov
 	  card-next-schedule:: 2023-02-08T23:00:00.000Z
 	  card-last-reviewed:: 2023-02-07T23:08:12.274Z
 	  card-last-score:: 1
-		- In una catena di Markov irriducibile ed ergodica: #.ol
+		- In una catena di Markov irriducibile ed ergodica:
 			- Esiste ed è indipendente da $i$:
+			  logseq.order-list-type:: number
 				- $$\lim_{n\rightarrow\infty} P_{ij}^n = \pi_j$$
 			- $\pi_j$ è l'unica soluzione non negativa del sistema:
+			  logseq.order-list-type:: number
 				- id:: 63d5783b-9aef-4f59-81b1-6406350108b1
 				  $$\begin{dcases}
 				  \pi_j = \sum_{i} \pi_i P_{ij} \\

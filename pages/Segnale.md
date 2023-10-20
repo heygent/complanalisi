@@ -10,20 +10,27 @@ material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf
   card-last-score:: 1
 	- Funzione matematica sul tempo.
 		- $x = x(t)$
-	- Ci sono diversi modi di pensare a un segnale: #.ol
+	- Ci sono diversi modi di pensare a un segnale:
 		- Può essere modellato:
+		  logseq.order-list-type:: number
 			- **deterministicamente**
+			  logseq.order-list-type:: number
 				- il punto di vista deterministico è l'unico usato qui.
 			- **statisticamente**
+			  logseq.order-list-type:: number
 		- Il segnale può essere:
+		  logseq.order-list-type:: number
 			- **analogico**
 			  id:: 634529dc-9a41-4c1f-86ce-c5ee18719fb0
+			  logseq.order-list-type:: number
 				- la variabile $x = x(t)$ con $t \in \mathbb{R}$ è continua
 			- **discreto**
 			  id:: 63452a0b-2973-4b91-b2d8-ac38d386dfde
+			  logseq.order-list-type:: number
 				- la variabile $x = x_n$ con $n \in \mathbb{N}$ è discreta
 				- un segnale discreto è molto spesso risultato del *campionamento* (o *discretizzazione*) di un segnale analogico
 		- **quantizzazione**
+		  logseq.order-list-type:: number
 			- I valori di un segnale $x = x(t)$ (numeri esattamente reali o complessi) vengono memorizzati in qualche forma finita, ad esempio come multiplo di una quantità elementare $q$.
 				- necessario per l'elaborazione di calcolatori
 			- **segnale digitale**

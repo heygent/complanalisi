@@ -34,11 +34,14 @@ tags:: complprob
   card-next-schedule:: 2023-02-08T23:00:00.000Z
   card-last-reviewed:: 2023-02-07T23:08:15.659Z
   card-last-score:: 1
-	- Considerato un evento $E$: #.ol
+	- Considerato un evento $E$:
 		- $0 \le P(E) \le 1$
+		  logseq.order-list-type:: number
 		- $P(S) = 1$
+		  logseq.order-list-type:: number
 		- Per ogni sequenza di eventi $\{E_{n\ge1}\}$ con $E_i \cap E_j = \varnothing$ (se gli eventi sono incompatibili):
 		  id:: 63c03f33-48d2-4e93-a169-9b774ebd3a5c
+		  logseq.order-list-type:: number
 			- $$P\left(\bigcup_{i=1}^\infty E_i \right) = \sum_{i=1}^\infty P(E_i)$$
 				- Se gli eventi non fossero incompatibili:
 					- $$P\left(\bigcup_{i=1}^\infty E_i \right) < \sum_{i=1}^\infty P(E_i)$$
