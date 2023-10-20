@@ -22,8 +22,6 @@
 		- [[Filtro di Convoluzione]]
 	- [[Trasformata di Gabor]]
 	  logseq.order-list-type:: number
-- # Flashcard
-	- {{cards (and (page-tags complanalisi) [[card]])}}
 - # Materiale (solo locale)
   collapsed:: true
 	- ![Gasquet-Witomski](../assets/gasquet-witomski_annotato.pdf)
