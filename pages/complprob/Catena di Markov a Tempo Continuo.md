@@ -44,10 +44,13 @@ tags:: complprob
   card-next-schedule:: 2023-02-08T23:00:00.000Z
   card-last-reviewed:: 2023-02-08T02:07:09.793Z
   card-last-score:: 1
-	- Un processo stocastico è una catena di Markov a tempo continuo se: #.ol
+	- Un processo stocastico è una catena di Markov a tempo continuo se:
 		- Ogni volta che il processo entra nello stato $i$, vi rimane per un tempo [esponenziale]([[Distribuzione Esponenziale]]) con media $\frac{1}{v_i}$.
+		  logseq.order-list-type:: number
 			- I tempi in ciascuno stato sono indipendenti, come conseguenza dell'assenza di memoria.
+			  logseq.order-list-type:: number
 		- Se il processo lascia lo stato $i$, esso entra in uno stato $j$ con probabilità $P_{ij}$, con:
+		  logseq.order-list-type:: number
 			- \begin{dcases}
 			  P_{ij} \ge 0 \\
 			  \sum_j P_{ij} = 1

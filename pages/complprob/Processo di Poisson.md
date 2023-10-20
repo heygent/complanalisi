@@ -10,10 +10,13 @@ tags:: complprob
   card-last-reviewed:: 2023-02-07T19:33:12.800Z
   card-last-score:: 3
 	- ## Definizione 1
-		- Un processo di conteggio si dice di Poisson se: #.ol
+		- Un processo di conteggio si dice di Poisson se:
 			- $N(0) = 0$
+			  logseq.order-list-type:: number
 			- Ha ((638369c7-cefd-42b2-9eb1-03830899aade))
+			  logseq.order-list-type:: number
 			- Il numero di eventi che si verificano in un intervallo $(s, t]$, $\forall s, t > 0$ è una [VA di Poisson]([[Distribuzione di Poisson]]) di parametro $\lambda(t - s)$
+			  logseq.order-list-type:: number
 				- $$
 				  P(N(t) - N(s) = k) = \frac{\lambda(t - s)^k e^{-\lambda(t - s)}}{k!}
 				  $$
@@ -23,11 +26,15 @@ tags:: complprob
 			- È difficile dire che $N(t) - N(s) \sim \text{Poisson}$ per ogni possibile $t$ ed $s$.
 			- Si può controllare per una specifica coppia di $t$ ed $s$, ma non per tutte.
 	- ## Definizione 2
-		- Il processo ${N(t)}$ è un processo di Poisson se: #.ol
+		- Il processo ${N(t)}$ è un processo di Poisson se:
 			- $N(0) = 0$
+			  logseq.order-list-type:: number
 			- Ha ((638369c7-cefd-42b2-9eb1-03830899aade)) e [stazionari](((63836a0f-daaf-4c4c-8a19-c290ba8816e4)))
+			  logseq.order-list-type:: number
 			- $P(N(h) = 1) = \lambda h + o(h)$
+			  logseq.order-list-type:: number
 			- $P(N(h) \ge 2) = o(h)$
+			  logseq.order-list-type:: number
 				- Dove $o(h)$[^1] significa:
 					- $$\lim_{h\rightarrow 0} \frac{f(h)}{h} = 0$$
 		- Questa definizione stabilisce che, in un intervallo piccolo, la probabilità che due eventi avvengano nello stesso momento è trascurabile.

@@ -52,9 +52,11 @@ alias:: Processo di Markov
 		- $$P(X_n = j | X_{n-1} = i) = p_{ij}$$
 	- Ovvero, la probabilità di passare da uno stato $i$ a $j$ non dipende dal tempo.
 		- tutte le $X_n$ seguono la stessa legge di probabilità a prescindere dal tempo.
-	- Si noti che: #.ol
+	- Si noti che:
 		- $p_{ij} \ge 0$
+		  logseq.order-list-type:: number
 		- $\sum_j p_{ij} = 1$
+		  logseq.order-list-type:: number
 	- ### Matrice di transizione
 		- Gli elementi $p_{ij}$ possono essere disposti in una matrice $P$ detta matrice di transizione.
 			- $$
@@ -245,8 +247,11 @@ alias:: Processo di Markov
 		- ### Proprietà di comunicazione #.ol
 		  id:: 63c03f32-9ee0-4a21-bb96-01ae901d8d23
 			- Lo stato $i$ comunica con lo stato $i$, $\forall i \ge 0$
+			  logseq.order-list-type:: number
 			- Se $i \leftrightarrow j$, allora $j \leftrightarrow i$
+			  logseq.order-list-type:: number
 			- Se $i \leftrightarrow j$, e $j \leftrightarrow k$, allora $i \leftrightarrow k$
+			  logseq.order-list-type:: number
 		- ### Classe
 		  id:: 63c03f32-0936-4bc8-91ce-34ecb9057989
 			- Due stati che comunicano si dicono appartenenti alla stessa classe.
