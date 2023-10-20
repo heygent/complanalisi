@@ -12,8 +12,8 @@ icon:: 🎼
 			- Siano $e_\lambda \in X$, $A$ filtro, allora
 				- ((64f19736-5f2a-413d-8e60-1a838fe63067)) : $Ae_\lambda = H(\lambda)e_\lambda$
 			- ((64fb8e55-6062-41e7-83a4-953e54c1921e))
-		-
-		- [[Spazi di funzioni]]
+		- [[Norma]] di funzioni
+		- [[Spazi di funzioni]] normati
 		- [[Circuito RC]]
 	- ## Trasformata di Fourier
 	  logseq.order-list-type:: number
