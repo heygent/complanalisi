@@ -1,32 +1,16 @@
-/* .tag[data-ref="card"]{ */
-/*   font-size: 0px; */
-/* } */
-/* .tag[data-ref="card"]::after{ */
-/*   content: "🃏"; */
-/*   margin-left: .25em; */
-/*   marign-right: .25em; */
-/*   font-size: large; */
-/* } */
+@import url('https://logseq.catppuccin.com/ctp-mocha.css');
 
-.block-ref .tag {
+.tag[data-ref="card"]{
+  font-size: 0px;
+}
+.tag[data-ref="card"]::after{
+  content: "🃏";
+  margin-left: .25em;
+  marign-right: .25em;
+  font-size: large;
+}
+
+.cp__footer {
   display: none;
 }
 
-/* canary */
-
-/* .inline { */
-/*   color: red; */
-/* } */
-
-.image-resize:has(.center), .asset-container:has(.center) {
-  display: block;
-  margin: 0 auto;
-}
-
-.bg-white {
-  background-color: white;
-}
-
-.invert {
-  filter: invert(70%);
-}
