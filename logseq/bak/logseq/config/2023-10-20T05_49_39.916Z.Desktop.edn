@@ -71,7 +71,7 @@
 
  ;; Enable whiteboards.
  ;; Default value: true
-:feature/enable-whiteboards? false
+ ;; :feature/enable-whiteboards? true
 
  ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
  ;; Default value: false
@@ -116,7 +116,7 @@
  ;; Publish all pages within the Graph
  ;; Regardless of whether individual pages have been marked as public.
  ;; Default value: false
- ;; :publishing/all-pages-public? false
+:publishing/all-pages-public? true
 
  ;; Define the default home page and sidebar status.
  ;; If unspecified, the journal page will be loaded on startup and the right sidebar will stay hidden.
@@ -282,7 +282,7 @@
 
  ;; Configure the threshold for linked references before collapsing.
  ;; Default value: 100
- :ref/linked-references-collapsed-threshold 50
+ :ref/linked-references-collapsed-threshold 10
 
  ;; Graph view configuration.
  ;; Example usage:
@@ -293,7 +293,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["complanalisi"]
+ :favorites ["complanalisi" "complprob"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -312,7 +312,7 @@
 
  ;; Create a page for all properties.
  ;; Default value: true
- :property-pages/enabled? true
+ :property-pages/enabled? false
 
  ;; Properties to exclude from having property pages
  ;; Example usage:
