@@ -4,10 +4,12 @@ tags:: complprob
 	- $$P(X = x_i| Y = y_i) = \frac{P(X = x_i, Y = y_i)}{P(Y = y_i)}$$
 	- ## Verifica che si tratti di una distribuzione
 	  id:: 63c4461e-c223-4ae1-8a84-51d8e011a727
-		- Questa probabilità è una distribuzione. Per verificarlo devono essere dimostrate due proprietà: #.ol
-			- $$P(X = x_i | Y = y_i) \ge 0$$
+		- Questa probabilità è una distribuzione. Per verificarlo devono essere dimostrate due proprietà:
+			- logseq.order-list-type:: number
+			  $$P(X = x_i | Y = y_i) \ge 0$$
 				- Verificata sempre assumendo che gli eventi siano compatibili
-			- $$\sum_i P(X_i) = 1$$
+			- logseq.order-list-type:: number
+			  $$\sum_i P(X_i) = 1$$
 				- Per verificarlo si può osservare che:
 					- $$\sum_x \frac{P(X = x_i, Y = y_i)}{P(Y = y_i)} = \frac{P(Y = y_i)}{P(Y = y_i)} = 1$$
 - ## [[Attesa]] condizionata

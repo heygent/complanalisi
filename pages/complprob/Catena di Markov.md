@@ -244,7 +244,7 @@ alias:: Processo di Markov
 		- $i \leftrightarrow j$
 		- Ogni stato per definizione comunica con se stesso:
 			- $$P^0_{ii} = P(X_0=i | X_0 = i) = 1$$
-		- ### Proprietà di comunicazione #.ol
+		- ### Proprietà di comunicazione
 		  id:: 63c03f32-9ee0-4a21-bb96-01ae901d8d23
 			- Lo stato $i$ comunica con lo stato $i$, $\forall i \ge 0$
 			  logseq.order-list-type:: number
