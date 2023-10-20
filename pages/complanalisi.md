@@ -2,16 +2,18 @@ icon:: 🎼
 
 - # Indice
   id:: 650162df-418a-424f-8489-c155e8838c96
-	- [[Segnale]] e [[Sistema]]
+	- ## Segnali e sistemi
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]
+		- [[Segnale]]
 		- [[Spazi di funzioni]]
-		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
+		- [[Sistema]]
+		- [[Filtro]]
 		- {{embed ((64f0ed21-afb3-44dd-aee4-c6ee06624e52))}}
 		- Siano $e_\lambda \in X$, $A$ filtro, allora
 			- ((64f19736-5f2a-413d-8e60-1a838fe63067)) : $Ae_\lambda = H(\lambda)e_\lambda$
 		- ((64fb8e55-6062-41e7-83a4-953e54c1921e)) e [[Circuito RC]]
-	- Trasformata di Fourier
+	- ## Trasformata di Fourier
 	  logseq.order-list-type:: number
 		- [[Spazio delle Distribuzioni S'(R)]]
 		- [[Trasformata di Fourier]]
