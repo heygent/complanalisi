@@ -114,4 +114,3 @@ tags:: complprob
 		- [^1]: ((63870e97-fa61-41af-973c-7d80eb73eee8))
 		- [^2]: ((6387121a-79e5-4e12-8ff2-17d11e8ccbf7))
 	- ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
-		-
