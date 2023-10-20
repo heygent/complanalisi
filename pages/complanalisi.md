@@ -1,4 +1,5 @@
-- icon
+icon:: ℱ
+
 - # Indice
   id:: 650162df-418a-424f-8489-c155e8838c96
 	- [[Segnale]] e [[Sistema]]
