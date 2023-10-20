@@ -1,4 +1,4 @@
-icon:: 
+icon:: 🎲
 
 - # Programma
 	- ## Lezione 1
