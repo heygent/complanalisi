@@ -1,4 +1,5 @@
 - Usa [Logseq](https://logseq.com/) per aprire gli appunti in locale
 	- https://github.com/heygent/complanalisi
-- [[complanalisi]]
-- [[complprob]]
+- Shift+Click per aprire un link nella barra laterale:
+	- [[complanalisi]]
+	- [[complprob]]
