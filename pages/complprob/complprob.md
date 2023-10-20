@@ -3,7 +3,6 @@ icon:: 
 - # Programma
 	- ## Lezione 1
 	  heading:: 2
-		- ![complprob-lav-1.pdf](../assets/complprob-lav-1_1666590288391_0.pdf)
 		- [[Probabilità - Ripasso]]
 			- Spazio campione
 			- ((63c03f33-cd9b-4bac-8317-ca4b38765040))
@@ -18,7 +17,6 @@ icon:: 
 		- Simulazione di v.a. discrete
 	- ## Lezione 2
 	  heading:: 2
-		- ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
 		- [[Variabile aleatoria continua]]
 		- [[Funzione generatrice dei momenti]] e ((63c408be-9f67-46c9-b11a-a5b7ecfd3b4c))
 		- Simulazione di v.a. continue
@@ -64,7 +62,7 @@ icon:: 
 		- ((63d5783b-d6f3-4a34-a106-712e2b007fb1))
 	- ## Lezione 7
 	  heading:: 2
-		- [[2022-11-15]] ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
+		- ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
 		- [[Distribuzione esponenziale]] e proprietà di ((63833964-6561-46f6-8dc0-e2d738686ec3))
 			- ((63c03f33-ee56-4e37-af54-a2ef4014f52e))
 		- [[Processo di Poisson]]: 3 definizioni
@@ -72,7 +70,7 @@ icon:: 
 			- Proprietà del processo di Poisson
 	- ## Lezione 8
 	  heading:: 2
-		- [[2022-11-16]] ![complprob-lav-8.pdf](../assets/complprob-lav-8_1669321370188_0.pdf)
+		- ![complprob-lav-8.pdf](../assets/complprob-lav-8_1669321370188_0.pdf)
 		- Simulazione del processo di Poisson
 		- [[Catena di Markov a Tempo Continuo]]
 		- Processi di nascita e morte, calcolo del valore atteso del processo e dell'attesa del tempo per passare da $i$ a $(i+1)$
@@ -80,3 +78,6 @@ icon:: 
 		- Distribuzione limite e equazioni di bilanciamento
 - # Flashcard
 	- {{cards (and (page-tags complprob) [[card]])}}
+- # Materiale (solo locale)
+	- ![complprob-lav-1.pdf](../assets/complprob-lav-1_1666590288391_0.pdf)
+	- ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
