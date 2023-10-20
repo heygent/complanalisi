@@ -1,5 +1,6 @@
 tags:: complprob
 
+- ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
 - https://www.youtube.com/watch?v=dVRWBmykncQ
 - $\phi_X(t) = \mathbb{E}[e^{tX}] =$ #card
   card-last-interval:: -1
@@ -8,6 +9,7 @@ tags:: complprob
   card-next-schedule:: 2023-02-08T23:00:00.000Z
   card-last-reviewed:: 2023-02-07T23:04:04.680Z
   card-last-score:: 1
+  collapsed:: true
 	- [[VA Discreta]]:
 		- $$\sum_k e^{tk} p_X(k)$$
 	- [[VA Continua]]:

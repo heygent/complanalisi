@@ -1,6 +1,8 @@
 tags:: complprob
 alias:: Processo di Markov
 
+- ((637e5388-fc61-45f1-ba74-6dd3bfc9efd7))
+- ![complprob-lav-5.pdf](../assets/complprob-lav-5_1669321347044_0.pdf)
 - ## [[Distribuzione Congiunta]] dei valori precedenti di un [[Processo stocastico]]
 	- Problema: trovare $P(X_n = i)$ (la probabilità che il processo sia allo stato $i$ al tempo $n$)
 		- Es. il valore di un'azione tra 30 giorni
