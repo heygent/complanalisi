@@ -1,5 +1,4 @@
 tags:: complanalisi
-material::  ![GasquetWitomski.pdf](../assets/GasquetWitomski_1665475774594_0.pdf)
 
 - # Definizione #card
   card-last-interval:: -1
