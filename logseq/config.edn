@@ -293,7 +293,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["complanalisi"]
+ :favorites ["complanalisi" "complprob"]
 
  ;; Set flashcards interval.
  ;; Expected value:
