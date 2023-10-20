@@ -3,7 +3,7 @@ icon:: 
 - # Programma
 	- ## Lezione 1
 	  heading:: 2
-		- [[2022-10-18]] ![complprob-lav-1.pdf](../assets/complprob-lav-1_1666590288391_0.pdf)
+		- ![complprob-lav-1.pdf](../assets/complprob-lav-1_1666590288391_0.pdf)
 		- [[Probabilità - Ripasso]]
 			- Spazio campione
 			- ((63c03f33-cd9b-4bac-8317-ca4b38765040))
@@ -18,7 +18,7 @@ icon:: 
 		- Simulazione di v.a. discrete
 	- ## Lezione 2
 	  heading:: 2
-		- [[2022-10-19]] ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
+		- ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
 		- [[Variabile aleatoria continua]]
 		- [[Funzione generatrice dei momenti]] e ((63c408be-9f67-46c9-b11a-a5b7ecfd3b4c))
 		- Simulazione di v.a. continue
@@ -29,20 +29,20 @@ icon:: 
 		- V.a Gaussiane bivariate non correlate e quindi indipendenti
 	- ## Lezione 3
 	  heading:: 2
-		- [[2022-10-25]] ![complprob-lav-3.pdf](../assets/complprob-lav-3_1667325081357_0.pdf)
+		- ![complprob-lav-3.pdf](../assets/complprob-lav-3_1667325081357_0.pdf)
 		- Utilizzo del condizionamento per studiare somme di v.a.
 		- [[Distribuzione condizionata]], ((63c4461e-c223-4ae1-8a84-51d8e011a727))
 		- ((626e53dd-a8ec-451d-8360-12d0f8802dbc)) $E(X|Y=y)$ e $E(X|Y)$
 		- ((63628cd4-13d5-4532-8200-6db4dfe9f530))
 	- ## Lezione 4
 	  heading:: 2
-		- [[2022-10-26]] ![complprob-lav-4.pdf](../assets/complprob-lav-4_1674395522306_0.pdf)
+		- ![complprob-lav-4.pdf](../assets/complprob-lav-4_1674395522306_0.pdf)
 		- Esempi di utilizzo dell'attesa condizionata: somme di v.a. con un numero aleatorio di addendi
 		- Calcolo della varianza utilizzando il condizionamento
 		- [[Processo stocastico]]
 	- ## Lezione 5
 	  heading:: 2
-		- [[2022-11-08]] ![complprob-lav-5.pdf](../assets/complprob-lav-5_1669321347044_0.pdf)
+		- ![complprob-lav-5.pdf](../assets/complprob-lav-5_1669321347044_0.pdf)
 		- [[Catena di Markov]]
 			- ((63c448c6-475c-48e3-a3f9-ddd9a7c2d5ca))
 			- [Distribuzioni congiunte di una catena di Markov](((63cc502f-cf0f-4113-88bc-233053cfa25f))): ottenibili conoscendo la matrice di transizione e la distribuzione iniziale
@@ -51,7 +51,7 @@ icon:: 
 			- ((63c469fc-e571-4ef9-a17b-53be353fcb09))
 	- ## Lezione 6
 	  heading:: 2
-		- [[2022-11-09]] ![complprob-lav-6.pdf](../assets/complprob-lav-6_1669321357965_0.pdf)
+		- ![complprob-lav-6.pdf](../assets/complprob-lav-6_1669321357965_0.pdf)
 		- ((63c03f32-1e0d-4f48-8da7-5a2815da2196)):
 			- ((637f3cd1-b875-418f-b286-e27df4219b01))
 			- ((63c03f32-b4b1-4e7b-9b7e-1a7931ddf98f))
