@@ -5,10 +5,7 @@ icon:: 🎼
 	- [[Segnale]] e [[Sistema]]
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]
-		- Siano
-			- $x = x(t) \in X$
-			- $y = y(t) \in Y$
-		- funzioni in [[Spazi di funzioni]] normati.
+		- [[Spazi di funzioni]]
 		- Un sistema è un operatore $A: x(t) \rightarrow y(t)$
 		- {{embed ((64f0ed21-afb3-44dd-aee4-c6ee06624e52))}}
 		- Siano $e_\lambda \in X$, $A$ filtro, allora
