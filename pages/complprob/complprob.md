@@ -1,7 +1,4 @@
-banner:: https://images.unsplash.com/photo-1605870445919-838d190e8e1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80
 icon:: 
-color:: "#00FFFF"
-moodle:: https://informatica.i-learn.unito.it/course/view.php?id=2522
 
 - # Flashcard
 	- {{cards (and (page-tags complprob) [[card]])}}

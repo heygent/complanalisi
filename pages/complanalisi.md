@@ -1,5 +1,6 @@
-# Indice
-id:: 650162df-418a-424f-8489-c155e8838c96
+- icon
+- # Indice
+  id:: 650162df-418a-424f-8489-c155e8838c96
 	- [[Segnale]] e [[Sistema]]
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]
