@@ -27,20 +27,17 @@ icon:: 
 		- V.a Gaussiane bivariate non correlate e quindi indipendenti
 	- ## Lezione 3
 	  heading:: 2
-		- ![complprob-lav-3.pdf](../assets/complprob-lav-3_1667325081357_0.pdf)
 		- Utilizzo del condizionamento per studiare somme di v.a.
 		- [[Distribuzione condizionata]], ((63c4461e-c223-4ae1-8a84-51d8e011a727))
 		- ((626e53dd-a8ec-451d-8360-12d0f8802dbc)) $E(X|Y=y)$ e $E(X|Y)$
 		- ((63628cd4-13d5-4532-8200-6db4dfe9f530))
 	- ## Lezione 4
 	  heading:: 2
-		- ![complprob-lav-4.pdf](../assets/complprob-lav-4_1674395522306_0.pdf)
 		- Esempi di utilizzo dell'attesa condizionata: somme di v.a. con un numero aleatorio di addendi
 		- Calcolo della varianza utilizzando il condizionamento
 		- [[Processo stocastico]]
 	- ## Lezione 5
 	  heading:: 2
-		- ![complprob-lav-5.pdf](../assets/complprob-lav-5_1669321347044_0.pdf)
 		- [[Catena di Markov]]
 			- ((63c448c6-475c-48e3-a3f9-ddd9a7c2d5ca))
 			- [Distribuzioni congiunte di una catena di Markov](((63cc502f-cf0f-4113-88bc-233053cfa25f))): ottenibili conoscendo la matrice di transizione e la distribuzione iniziale
@@ -49,7 +46,6 @@ icon:: 
 			- ((63c469fc-e571-4ef9-a17b-53be353fcb09))
 	- ## Lezione 6
 	  heading:: 2
-		- ![complprob-lav-6.pdf](../assets/complprob-lav-6_1669321357965_0.pdf)
 		- ((63c03f32-1e0d-4f48-8da7-5a2815da2196)):
 			- ((637f3cd1-b875-418f-b286-e27df4219b01))
 			- ((63c03f32-b4b1-4e7b-9b7e-1a7931ddf98f))
@@ -62,7 +58,6 @@ icon:: 
 		- ((63d5783b-d6f3-4a34-a106-712e2b007fb1))
 	- ## Lezione 7
 	  heading:: 2
-		- ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
 		- [[Distribuzione esponenziale]] e proprietà di ((63833964-6561-46f6-8dc0-e2d738686ec3))
 			- ((63c03f33-ee56-4e37-af54-a2ef4014f52e))
 		- [[Processo di Poisson]]: 3 definizioni
@@ -70,7 +65,6 @@ icon:: 
 			- Proprietà del processo di Poisson
 	- ## Lezione 8
 	  heading:: 2
-		- ![complprob-lav-8.pdf](../assets/complprob-lav-8_1669321370188_0.pdf)
 		- Simulazione del processo di Poisson
 		- [[Catena di Markov a Tempo Continuo]]
 		- Processi di nascita e morte, calcolo del valore atteso del processo e dell'attesa del tempo per passare da $i$ a $(i+1)$
@@ -81,3 +75,9 @@ icon:: 
 - # Materiale (solo locale)
 	- ![complprob-lav-1.pdf](../assets/complprob-lav-1_1666590288391_0.pdf)
 	- ![complprob-lav-2.pdf](../assets/complprob-lav-2_1666590319355_0.pdf)
+	- ![complprob-lav-3.pdf](../assets/complprob-lav-3_1667325081357_0.pdf)
+	- ![complprob-lav-4.pdf](../assets/complprob-lav-4_1674395522306_0.pdf)
+	- ![complprob-lav-5.pdf](../assets/complprob-lav-5_1669321347044_0.pdf)
+	- ![complprob-lav-6.pdf](../assets/complprob-lav-6_1669321357965_0.pdf)
+	- ![complprob-lav-7.pdf](../assets/complprob-lav-7_1669321364079_0.pdf)
+	- ![complprob-lav-8.pdf](../assets/complprob-lav-8_1669321370188_0.pdf)
