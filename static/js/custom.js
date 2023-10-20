@@ -47,6 +47,8 @@ const macros = {
   "\\LoR": "{L^{1}(\\R)}",
   "\\LtR": "{L^{2}(\\R)}",
   "\\LiR": "{L^{\\infty}(\\R)}",
+   "\\E": "\\mathbb{E}",
+   "\\Var": "\\text{Var}",
 }
 
 
