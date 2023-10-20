@@ -6,13 +6,14 @@ icon:: 🎼
 	  logseq.order-list-type:: number
 		- [[Numeri complessi]]
 		- [[Segnale]]
-		- [[Spazi di funzioni]]
 		- [[Sistema]]
 		- [[Filtro]]
 			- {{embed ((64f0ed21-afb3-44dd-aee4-c6ee06624e52))}}
 			- Siano $e_\lambda \in X$, $A$ filtro, allora
 				- ((64f19736-5f2a-413d-8e60-1a838fe63067)) : $Ae_\lambda = H(\lambda)e_\lambda$
 			- ((64fb8e55-6062-41e7-83a4-953e54c1921e))
+		-
+		- [[Spazi di funzioni]]
 		- [[Circuito RC]]
 	- ## Trasformata di Fourier
 	  logseq.order-list-type:: number
