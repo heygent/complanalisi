@@ -80,9 +80,3 @@ icon:: 
 		- Distribuzione limite e equazioni di bilanciamento
 - # Flashcard
 	- {{cards (and (page-tags complprob) [[card]])}}
-		- Summary: 1 items, 1 review counts [[2023-02-07]]
-			- Remembered:   1 (100%)
-			- Forgotten :   0 (0%)
-- # Materiale (solo locale)
-	- ![introduction-to-prob-models-11th-edition.PDF](../assets/introduction-to-prob-models-11th-edition_1669215647562_0.PDF)
-	- ![Alfano_2017-2018.pdf](../assets/Alfano_2017-2018_1673562509452_0.pdf)
